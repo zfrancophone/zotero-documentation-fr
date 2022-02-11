@@ -1,0 +1,41 @@
+====== Recherche ======
+
+~~NOTOC~~
+
+Pour des informations concernant l'utilisation des fonctions de recherche de Zotero, reportez-vous à la page [[:searching|Rechercher]]. La présente page décrit les paramétrages du volet "Recherche" des préférences de Zotero.
+
+Le volet "Recherche" des préférences est utilisé pour configurer et gérer la fonction d'[[:searching#indexation_du_texte_integral_des_PDF|indexation du texte intégral des PDF]] de Zotero.
+
+{{:preferences_search.png?nolink&w=600|}}
+
+==== Index du texte intégral ====
+
+Zotero crée un index permettant de lancer des recherches dans tout le contenu des fichiers joints aux formats PDF et texte simple, grâce à la recherche rapide (option "Partout") et à la recherche avancée (par "Contenu de la pièce jointe").
+
+**Note:** A l'heure actuelle, seul le contenu des fichiers aux formats PDF et texte simple peut être indexé par Zotero. Les autres types de fichier (par exemple, .docx, .odt, .epub) ne peuvent pas être indexés par Zotero.
+
+Cette section inclut les options pour gérer votre index de texte intégral.
+
+  * **Reconstruire l'index...** : recréer l'index de texte intégral pour tous les documents à partir de zéro. Cette option peut s'avérer utile si vous utilisez la reconnaissance de texte OCR sur un grand nombre de pièces jointes ou si vous trouvez que la recherche sur "Partout" ou "Contenu de la pièce jointe" ne ramène pas les bons résultats.
+    *  Avant d'utiliser cette option, vérifiez que le document comporte du texte pouvant être recherché, et que ce texte est correctement stocké dans le PDF (par exemple, essayez de copier le texte du document et assurez-vous qu'il est de haute qualité).
+    * Vous pouvez réindexer individuellement des fichiers PDF de votre bibliothèque en cliquant avec le bouton droit de la souris sur la pièce jointe PDF dans votre bibliothèque et en choisissant "Réindexer le document".
+    * Si vous rencontrez des difficultés persistantes après avoir réindexé un document, veuillez soumettre la question sur le [[/forum|forum Zotero]].
+  * **Effacer l'index...** : supprimer l'index de texte intégral. Utilisez cette option si vous avez l'intention de désactiver l'indexation en texte intégral et souhaitez réduire la taille de votre base de données Zotero (notez que l'index de texte intégral occupe généralement un espace de stockage relativement restreint sur votre ordinateur).
+  * **Nombre maximum de caractères à indexer par fichier** : nombre de caractères à indexer dans les fichiers aux formats PDF et texte simple (valeur par défaut : 500 000, soit environ 100 000 mots ou 180 à 200 pages de contenu). Réglez cette valeur à 0 pour désactiver l'indexation en texte intégral.
+
+==== Indexation des PDF ====
+
+Zotero utilise deux extensions open source, ''pdftotext'' et ''pdfinfo'', pour indexer le contenu des fichiers PDF. Ces outils sont installés avec Zotero.
+
+Vous pouvez également définir le nombre maximum de pages à indexer par fichier PDF  (valeur par défaut : 100 pages).
+
+==== Statistiques d'indexation ====
+
+Cette section fournit des détails sur la taille de l'index de texte intégral de votre base de données Zotero. Les statistiques rapportées le sont les suivantes.
+
+  * **Indexés** : nombre total de fichiers indexés entièrement.
+  * **Partiellement** : nombre de fichiers indexés partiellement.
+  * **Non indexés** : nombre de fichiers non encore indexés.
+  * **Mots** : nombre total de mots inclus dans l'index de texte intégral de votre bibliothèque.
+
+{{tag>pref}}

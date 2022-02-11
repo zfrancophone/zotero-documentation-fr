@@ -1,0 +1,66 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+~~NOTOC~~
+
+====== Raccourcis clavier ======
+
+
+{{ http://www.zotero.org/static/images/support/shortcut_pref.png?350nocache&nolink}}
+
+Cet onglet permet de modifier les raccourcis clavier par défaut de Zotero.
+
+**Ouvrir/Fermer le Panneau Zotero** - Affiche/masque Zotero
+
+**Basculer du mode plein écran** - Détermine si Zotero occupe la totalité de la fenêtre du navigateur, ou seulement une partie.
+
+**Bibliothèque** - Met en valeur la bibliothèque Zotero. 
+
+**Recherche rapide** - Met en valeur la zone de recherche. 
+
+**Créer un nouvel élément** - Crée un nouvel item vierge dans la collection en cours. 
+
+**Créer une nouvelle Note** - Crée une nouvelle note indépendante dans la collection en cours. 
+
+**Bascule du sélecteur de marqueurs** - Affiche ou masque le sélecteur de marqueurs
+
+**Copier les citations de l'élément sélectionné dans le Presse-Papiers** - Copie une citation de l'élément sélectionné dans le presse-papier. En fonction du style, elle peut être longue et détaillée, ou, si le style appelle des notes, un simple nombre.  
+
+**Copier les éléments sélectionnés dans le Presse-Papiers** - Copie la citation bibliographique complète dans le Presse-Papier.
+
+**Essayer de gérer les conflits de raccourcis** - D'autres plugins Firefox peuvent essayer d'utiliser les mêmes raccourcis claviers que Zotero. Cette fonctionnalité peut vous éviter de devoir rechercher et désactiver le raccourci clavier dans l'autre plugin, en supposant que cela puisse même être envisagé (Zotero est évidemment bien plus important !). 
+
+Tous les changements apportés sur cette page ne prennent effet qu'à l'ouverture d'une nouvelle fenêtre du navigateur. 
+
+
+
+=====Windows : raccourcis par défaut=====
+^Function^Command^
+|Ouvrir/Fermer le Panneau Zotero| Ctrl-Shift-Z  |
+|Bascule du mode plein écran| Ctrl-Shift-F|
+|Bibliothèque| Ctrl-Shift-L|
+|Recherche rapide|Ctrl-Shift-K|
+|Créer un nouvel élément|Ctrl-Shift-N|
+|Créer une nouvelle note note|Ctrl-Shift-O|
+|Bascule du sélecteur de marqueurs| Ctrl-Shift-T|
+|Copier les citations de l'élément Sélectionné dans le presse-papier|Ctrl-Shift-A|
+|Copier les éléments sélectionnés dans le presse-papier|Ctrl-Shift-C|
+
+
+=====MacOS : raccourcis par défaut=====
+
+^Function^Command^
+|Ouvrir/Fermer le Panneau Zotero| Cmd-Shift-Z|
+|Bascule du mode plein écran| Cmd-Shift-F|
+|Bibliothèque|Cmd-Shift-L|
+|Recherche rapide|Cmd-Shift-K|
+|Créer un nouvel élément|Cmd-Shift-N|
+|Créer une nouvelle note|Cmd-Shift-O|
+|Bascule du sélecteur de marqueurs|Cmd-Shift-T|
+|Copier les citations de l'élément Sélectionné dans le presse-papier|Cmd-Shift-A|
+|Copier les éléments sélectionnés dans le presse-papier|Cmd-Shift-C|
+
+{{tag>pref}}

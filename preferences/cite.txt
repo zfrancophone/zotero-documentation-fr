@@ -1,0 +1,36 @@
+====== Citer ======
+
+~~NOTOC~~
+
+Le volet “Citer” comporte deux onglets : "Styles" et "Traitements de texte".
+
+===== Les styles =====
+
+{{:fr:preferences:preferences_cite_styles_fr.png?nolink&w=600|}}
+
+=== Le gestionnaire de styles ===
+
+Le gestionnaire de styles affiche les styles actuellement installés et la date à laquelle ils ont été mis à jour. Vous pouvez  télécharger des styles supplémentaires directement depuis [[http://zotero.org/styles|l'entrepôt des styles Zotero]], en cliquant sur le lien “Obtenir d'autres styles…”. Vous pouvez également installer un fichier de style CSL ([[http://citationstyles.org/|Citation Style Language]]) local en cliquant sur le bouton '+', puis en trouvant  le fichier de style sur votre ordinateur. Pour retirer un style, sélectionnez le style et cliquez sur le bouton "-".
+
+Si vous avez des incertitudes concernant le style dont vous avez besoin, vous pouvez effectuer une [[http://editor.citationstyles.org/searchByExample/|recherche par exemple]] pour trouver un style adéquat. Notez que cet outil vous demande de formater les données de référence affichées sur la page, pas n'importe quel exemple de référence.
+
+=== Options de citation ===
+
+  * **Inclure les adresses URL des articles de journaux dans les références :** Quand cette option est désactivée, Zotero inclut les adresses URL dans la citation des articles de revue, magazine et journaux seulement si l'article ne précise pas les numéros de page.
+
+=== Outils ===
+
+  * **Editeur de style :** Ouvre la [[/support/fr/dev/citation_styles/reference_test_pane|fenêtre de l'éditeur de style]] de Zotero, pour éditer et tester des styles CSL. Vous pouvez également éditer des styles en utilisant un éditeur de texte installé sur votre ordinateur (i. e., Notepad, Text Edit) ou [[http://editor.citationstyles.org/visualEditor/|l'éditeur visuel CSL]].
+  * **Aperçu des styles :** Ouvre la [[/support/fr/dev/citation_styles/preview_pane|fenêtre de l'aperçu des styles]], pour comparer tout ou partie des styles que vous avez installés, en générant des appels de citation et une bibliographie à partir d’éléments sélectionnés dans votre bibliothèque.
+
+===== Traitements de texte =====
+
+{{:fr:preferences:preferences_cite_processors_fr.png?nolink&w=600|}}
+
+Les [[/support/fr/word_processor_integration|modules de traitement de texte de Zotero]] permettent une intégration dans Microsoft Word ou LibreOffice. Zotero installera automatiquement les modules dans Word et LibreOffice lorsque vous installerez Zotero. Vous pouvez réinstaller ces modules depuis cet onglet. Réinstaller le module LibreOffice peut être utile si la mise à jour de LibreOffice modifie le chemin d'accès aux fichiers du programme LibreOffice.
+
+Si l'un des boutons d'installation est désactivé, vérifiez que le module de traitement de texte correspondant est installé et activé dans la fenêtre des extensions de Zotero (cliquez sur "Outils -> Extensions").
+
+  * **Utiliser la fenêtre classique d'ajout de citation:** Par défaut, les modules de traitement de texte de Zotero vont utiliser une [[:fr/word_processor_plugin_usage#citing|interface de citation rapide]], qui vous permet de rechercher intuitivement des documents dans toutes vos bibliothèques, d'ajouter plusieurs documents à la même citation, et d'ajouter facilement des numéros de page, des préfixes et des suffixes. Pour chercher un élément en parcourant vos bibliothèques et collections, cliquez sur le "Z" à gauche de la fenêtre afin de basculer vers la   [[/support/word_processor_plugin_usage_classic|"fenêtre classique"]] d'ajout de citation. Cochez cette option pour basculer l'interface par défaut vers la fenêtre classique. Notez que certaines fonctions ne sont pas prises en charge dans la vue classique.
+
+{{tag>fr:pref}}

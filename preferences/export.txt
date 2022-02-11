@@ -1,0 +1,27 @@
+======== Exportation =========
+
+~~NOTOC~~
+
+Le volet "Exportation" des préférences permet de choisir un style ou un format de données bibliographique par défaut et de configurer d'autres paramètres pour exporter des données depuis Zotero.
+
+Pour plus d'informations sur l'ajout et la suppression de styles bibliographiques dans Zotero, reportez-vous aux pages [[:styles|Les styles bibliographiques]] et [[preferences/cite|Préférences > Citer]].
+
+{{:preferences_export.png?nolink&w=600|}}}
+
+===== Copie rapide =====
+
+La copie rapide vous permet d'exporter rapidement des documents dans le format spécifié. Vous pouvez définir comme **Format par défaut** pour la copie rapide un style bibliographique, tel que Chicago Manual of Style (note), ou un format de données, tel que BibLaTeX ou Zotero RDF. Appuyez sur ''Ctrl/Cmd+Maj+C'' pour copier la référence complète dans le presse-papiers. Vous pouvez également faire glisser le document dans la zone de texte d'un autre logiciel. Si vous choisissez un style bibliographique comme format par défaut, appuyez sur ''Ctrl/Cmd+Maj+A'' ou maintenez la touche Maj enfoncée lors du glisser-déposer pour copier la citation ou la note de bas de page dans le texte.
+
+Outre le format par défaut, vous pouvez également modifier les paramêtres suivants de copie rapide.
+  * **Langue**: Quelles langues devraient-elles être utilisées pour les bibliographies et les citations créées par la copie rapide ?
+  * **Copier en HTML**: Copier les citations en texte normal (option par défaut, généralement recommandée) ou en HTML (utile pour coller dans des pages Web).
+  * **Paramètres spécifiques au site**: Ces paramètres peuvent changer le format de copie rapide par défaut lorsqu'un site Web spécifique est ouvert. Cela nécessite que le [[/download|connecteur Zotero]] soit installé dans votre navigateur Web. Par exemple, vous pouvez définir le style d'exportation par défaut sur Wikipedia Citation Templates lorsque vous copiez des références à insérer dans des articles Wikipedia. Cette fonction facilite l'utilisation de styles et de formats bibliographiques différents en focntion du contexte.
+  * Voir [[kb/zotero_and_wikipedia|Zotero et Wikipedia (en anglais)]] pour plus d'informations.
+  * Vous pouvez également associer des raccourcis clavier à différents styles bibliographiques ou formats d'exportation en utilisant le  [[https://github.com/willsALMANJ/Zutilo/releases|module complémentaire Zutilo]].
+  * **Désactiver la copie rapide lorsqu'on fait glisser plus de ... documents**: Le réglage de cette option (par défaut : 50) peut empêcher Zotero de ralentir lorsque vous faites glisser un très grand nombre de documents.
+
+===== Codage de caractères =====
+
+  * **Importer le codage de caractères**: Par défaut, Zotero détecte automatiquement le codage de caractères approprié lorsque vous importez des données bibliographiques. Si cela ne fonctionne pas correctement pour un fichier, vous pouvez spécifier ici le codage de caractères correct.
+
+{{tag>pref}}

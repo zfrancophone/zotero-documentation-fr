@@ -1,0 +1,110 @@
+﻿======== Avancées =========
+Le volet "Avancées" comporte quatre onglets : "Générales", "Fichiers et dossiers", "Raccourcis clavier" et "Flux".
+
+======= Générales =========
+
+{{:preferences_advanced_general.png?nolink&w=600}}
+
+==== Langue ====
+
+Définissez la langue de l'interface Zotero.
+
+==== OpenURL ====
+
+Vous pouvez spécifier ici le résolveur de liens utilisé par la fonctionnalité [[/support/locate#library_lookup|Recherche dans la bibliothèque]] de Zotero.
+
+Si vous êtes sur le réseau d'une institution, vous pouvez cliquer sur le bouton "Chercher des résolveurs de liens". Si Zotero trouve un résolveur de liens appartenant à votre institution, vous pouvez le sélectionner dans le menu déroulant "Personnaliser...".
+
+Vous pouvez également saisir manuellement une URL OpenURL dans le champ "Résolveur de liens". La plupart des résolveurs utilisent OpenURL version 1.0, mais la version 0.1 est toujours utilisée. Demandez plus d'informations à votre bibliothécaire ou consultez notre propre [[/support/locate/openurl_resolvers|liste de résolveurs de liens]].
+
+==== Configuration avancée ====
+
+Cliquez sur le bouton "Editeur de configuration" pour configurer les [[/support/hidden_prefs|préférences cachées de Zotero]].
+
+===== Fichiers et dossiers =====
+
+{{:preferences_advanced_files.png?nolink&w=600}}
+
+==== Répertoire de base pour les pièces jointes liées ====
+
+//Si vous stockez les fichiers joints dans Zotero - le fonctionnement par défaut - ce paramètre ne vous affecte pas. Il ne s'applique qu'aux fichiers// liés.
+
+Ce paramètre vous permet de spécifier un répertoire de base pour les fichiers liés, afin que les liens soient fonctionnels sur deux ordinateurs ayant des structures de dossiers et de fichiers différentes (par exemple, lorsqu'un dossier avec des fichiers liés est synchronisé via un service comme Dropbox). Par exemple, si le dossier contenant vos fichiers liés se trouve à l'emplacement ''/home/laptop/sync'' sur votre ordinateur portable et à ''/home/work/sync'' sur votre ordinateur professionnel, définissez respectivement ces chemins comme répertoire de base sur chacune des machines. Zotero ne stocke alors que les liens relatifs à ce répertoire de base, de façon à ce que les mêmes liens "relatifs" fonctionnent sur les deux ordinateurs.
+
+==== Emplacement du répertoire de données ====
+
+Par défaut, Zotero stocke votre [[:zotero_data|répertoire de données]] (qui contient la base de données de votre bibliothèque, les fichiers joints et plusieurs autres fichiers) dans votre répertoire personnel d'utilisateur sur votre ordinateur. C'est le meilleur emplacement pour la plupart des utilisateurs, mais il est possible de le changer. Lorsque l'emplacement du répertoire de données a été changé, Zotero stocke dans ce nouvel emplacement les nouvelles données créées.
+
+Notez toutefois que Zotero ne copiera pas les données existantes vers le nouvel emplacement. Si vous voulez conserver vos données, vous devez déplacer les fichiers manuellement. Cliquez sur le bouton "Ouvrir le répertoire de données" pour ouvrir le répertoire Zotero dans le navigateur de fichiers de votre ordinateur. Vous devrez déplacer l'ensemble du dossier "Zotero" (y compris "zotero.sqlite", "storage", "styles", et tous les autres fichiers) dans le nouveau répertoire.
+
+Si vous utilisez la synchronisation automatique, vous pouvez la désactiver temporairement dans le volet "Synchronisation" des préférences de Zotero avant de modifier le répertoire de données. Sinon, si vous démarrez Zotero accidentellement avec le mauvais répertoire de données ou avant de déplacer les données, Zotero tentera de copier l'ensemble de votre bibliothèque depuis le serveur.
+
+== Emplacements risqués pour votre répertoire de données ==
+
+Plusieurs emplacements de répertoire de données sont potentiellement risqués et **susceptibles d'entraîner la corruption de la base de données ou même la perte de données**. Si vous utilisez l'une de ces configurations, assurez-vous de [[:zotero_data|sauvegarder vos données Zotero]] fréquemment .
+
+  * **Dossiers synchronisés en ligne** : Stocker votre répertoire de données Zotero dans un dossier de synchronisation en ligne (par exemple, Dropbox, Google Drive, ou d'autres services de synchronisation de dossiers similaires) est extrêmement risqué et entraînera presque certainement une corruption de la base de données et potentiellement une perte de données. Le forum contient [[http://forums.zotero.org/discussion/13359/|de nombreuses]] [[http://forums.zotero.org/discussion/27900/synching-to-dropbox/|discussions]] [[http://forums.zotero.org/discussion/6128/dropbox-and-zotero-15-case-conflicts/|concernant]] [[http://forums.zotero.org/discussion/24593/backing-up-a-large-database-without-corrupting-it/|les difficultés]] auxquelles les utilisateurs ont eu à faire face avec des configurations basées sur Dropbox ou Google Drive. Consultez la rubrique [[https://www.zotero.org/support/fr/sync#|solutions_alternatives_de_synchronisation|solutions alternatives de synchronisation]] pour des méthodes potentielles sûres d'utilisation de services de synchronisation en ligne pour synchroniser les fichiers joints Zotero.
+  * **Lecteurs réseau** : Si vous stockez votre répertoire de données Zotero sur un lecteur réseau et que vous y accédez depuis plusieurs ordinateurs en même temps, vous risquez fort d'être confronté à une corruption de votre base de données. Par exemple, si vous laissez Zotero ouvert sur votre ordinateur portable, puis ouvrez la même base de données Zotero sur le lecteur réseau à partir de votre ordinateur de travail, votre base de données sera probablement corrompue. Vous ne devriez jamais utiliser un lecteur réseau pour permettre à plusieurs utilisateurs d'accéder à la même base de données Zotero sur différentes machines (utilisez [[:groups| les groupes]] ou [[sync|la synchronisation Zotero]] pour cela).
+  * **Machines virtuelles** : Comme pour les lecteurs réseau, il peut être dangereux d'utiliser le même fichier de base de données Zotero depuis une machine virtuelle et le système d'exploitation hôte de l'ordinateur (ou une autre machine virtuelle). Si on accède à la même base de données Zotero depuis deux emplacements en même temps (par exemple, si Zotero est ouvert à la fois sur la machine virtuelle et sur le système d'exploitation hôte), la corruption est probable. Si vous voulez utiliser Zotero dans une machine virtuelle, il est préférable de configurer un répertoire de données Zotero séparé dans la machine virtuelle et de le maintenir à jour en utilisant [[sync|la synchronisation Zotero]].
+
+=== Maintenance de la base de données ===
+
+  * **Vérifier l'intégrité de la base de données** : Cette fonction vérifie que votre base de données Zotero n'est pas corrompue. La corruption de la base de données est rare. Dans la plupart des cas, elle est causée par le stockage de votre répertoire de données à un  [[#emplacements_risqués_pour_votre_répertoire_de_données|emplacement peu sûr]]. La vérification de l'intégrité de la base de données peut prendre beaucoup de temps si votre base de données est très volumineuse. Si votre base de données est corrompue, vous pouvez utiliser les [[/utils/dbfix/|outils de réparation de base données]] pour réparer la corruption.
+  * **Réinitialiser les convertisseurs...** : Réinitialiser les convertisseurs web et d'import/export aux valeurs par défaut de Zotero en cours, en utilisant les dernières versions du serveur Zotero.
+  * **Réinitialiser les styles...** : Réinitialiser les styles bibliographiques aux valeurs par défaut de Zotero en cours, en utilisant les dernières versions du serveur Zotero.
+
+
+======= Raccourcis clavier =======
+
+{{:preferences_advanced_shortcuts.png?nolink&w=600}}
+
+Cet onglet vous permet de modifier les raccourcis clavier par défaut de Zotero.
+
+  * **Créer un nouveau document**: Crée un nouveau document vide dans la collection en cours.
+  * **Créer une nouvelle note**: Crée une nouvelle note indépendante dans la collection en cours.
+  * **Placer le curseur dans le volet de gauche (bibliothèques)**: Place le curseur dans le volet de gauche de Zotero (bibliothèques, collections et flux).
+  * **Recherche rapide**: Place le curseur dans la boîte de [[:searching|recherche rapide]]. ''Ctrl/Cmd''+''F'' aura le même effet.
+  * **Copier dans le presse-papiers les documents sélectionnés, comme des citations**: Copie dans le presse-papiers les documents sélectionnés en tant que citations. (Selon le style, cela peut être long et détaillé ou, si le style exige des notes de bas de page, simplement un chiffre.)
+  * **Copier dans le presse-papiers les documents sélectionnés, comme une bibliographie**:  Copie dans le presse-papiers les documents sélectionnés sus la forme d'une bibliographie.
+  * **Afficher / cacher le sélecteur de marqueurs** : Affiche / cache le sélecteur de marqueurs.
+  * **Marquer tous les documents de flux comme lus / non lus**: Marque tous les documents dans le [[:feeds|flux]] sélectionné comme lus / non lus.
+
+Toute modification apportée à cette page ne prendra effet qu'après le redémarrage de Zotero.
+
+=== Valeurs par défaut de Windows ===
+
+^Fonction^Commande^
+|Créer un nouveau document|Ctrl+Maj+N|
+|Créer une nouvelle note|Ctrl+Maj+O|
+|Placer le curseur dans le volet de gauche (bibliothèques)| Ctrl+Maj+L|
+|Recherche rapide|Ctrl+Maj+K|
+|Copier dans le presse-papiers les documents sélectionnés, comme des citations|Ctrl+Maj+A|
+|Copier dans le presse-papiers les documents sélectionnés, comme une bibliographie|Ctrl+Maj+C|
+|Afficher / cacher le sélecteur de marqueurs|Ctrl+Maj+T|
+|Marquer tous les documents de flux comme lus / non lus|Ctrl+Maj+R|
+
+
+==== Mac OS X par défaut ====
+
+
+^Fonction^Commande^
+|Créer un nouveau document|Cmd+Maj+N|
+|Créer une nouvelle note|Cmd+Maj+O|
+|Placer le curseur dans le volet de gauche (bibliothèques)|Cmd+Maj+L|
+|Recherche rapide|Cmd+Maj+K|
+|Copier dans le presse-papiers les documents sélectionnés, comme des citations|Cmd+Maj+A|
+|Copier dans le presse-papiers les documents sélectionnés, comme une bibliographie|Cmd+Maj+C|
+|Afficher / cacher le sélecteur de marqueurs|Cmd+Maj+T|
+|Marquer tous les documents de flux comme lus / non lus|Cmd+Maj+R|
+
+======= Flux ========
+
+{{:preferences_advanced_feeds.png?nolink&w=600}}
+
+Cet onglet contient les préférences pour la fonctionnalité de Zotero [[:feeds|Flux RSS]].
+
+  * **Classement** : Change l'ordre de classement des documents des plus récents ou des plus anciens en premier.
+  * **Paramètres par défaut des flux** : Modifie la fréquence de mise à jour des flux et la durée pendant laquelle les documents lus et non lus sont conservés dans votre base de données avant d'être retirés.
+
+
+{{tag>pref}}

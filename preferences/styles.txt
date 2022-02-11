@@ -1,0 +1,22 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+~~NOTOC~~
+
+====== Styles ======
+
+===== Gestionnaire de styles=====
+
+{{ :pref_panes:preferences-styles-2.0.9.png?350nocache&nolink}}
+
+Des milliers de styles sont disponibles pour les utilisateurs de Zotero 2.0, et c'est ici que vous pourrez en trouver de nouveaux et vous assurer qu'ils sont à jour. Le Gestionnaire de styles ("Style Manager") affiche tous les styles bibliographiques installés, ainsi que la date de leur dernière mise à jour. C'est également là que vous pourrez installer ou supprimer des styles. 
+Les styles peuvent être ajoutés manuellement en utilisant le bouton "+", ou automatiquement via le lien "Obtenir des styles supplémentaires" ("Get additional styles..."), qui pointe vers  [[http://zotero.org/styles]]. Le  bouton "-" supprime le style sélectionné.
+
+===== Options de citation=====
+
+**Inclure les adresses URL des articles de journaux dans les références** – Quand cette option est désactivée, Zotero inclut les adresses URL dans la citation des articles de revue, magazine, et journal seulement si l'article ne précise pas les numéros de pages.
+
+{{tag>pref}}

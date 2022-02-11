@@ -1,0 +1,44 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+~~NOTOC~~
+
+====== Général ======
+=====Interface Utilisateur=====
+
+{{ http://www.zotero.org/static/images/support/general_pref.png?350nocache&nolink}}
+
+Cette partie permet aux utilisateurs de personnaliser l'apparence de Zotero.
+
+La première option permet de décider si l'onglet est placé au dessus ou en bas de la fenêtre du navigateur lorque Zotero n'est pas en mode plein écran.
+
+**Taille de Police** – Servez-vous de cette préférence pour agrandir la taille du texte dans votre volet Zotero. Choisissez entre petit, moyen ou grand. 
+
+**Icône de la barre d'état** – Change l'apparence de l'icône Zotero dans la barre d'état. Vous pouvez aussi accéder à Zotero grâce à un bouton que vous pouvez ajouter à la barre d'outils principale, ou grâce à un raccourci clavier. 
+
+=====Divers=====
+
+**Rechercher automatiquement des mises à jour de traducteurs** – Permet à Zotero de télécharger et de mettre à jour régulièrement les traducteurs, c'ets à dire les modules qui lui permettent de détecter et de sauvegarder les données bibliographiques de différents sites. En cliquant sur le bouton associé, cette fonction est lancée immédiatement. 
+
+**Signaler un traducteur de site non fonctionnel** – Informe les développeurs de Zotero lorsqu'un traducteur non fonctionnel est découvert. Cette information est transmise de façon anonyme. 
+
+**Permettre à zotero.org de personnaliser le contenu sur la base de la version actuelle de Zotero** – Activer cette option permet à zotero.org d'utiliser les informations issues du client zotero pour créer une expérience plus riche et mieux personnalisée aux utilisateurs. De nouvelles fonctionnalités en cours de développement vont permettre une meilleure intégration entre Zotero et zotero.org, donc gardez l'œil ouvert. 
+
+**Utiliser Zotero pour les fichiers RIS/Refer** – Certains sites permettent à leurs utilisateurs d'exporter des données bibliographiques sous forme de fichiers RIF ou Refer. Si cette option est activée, lorsque vous cliquerez pour récupérer un tel fichier, Zotero l'interceptera et importera les informations.
+
+**Prendre automatiquement un aperçu en créant des items à partir de pages web** – Par defaut, Lorsque vous cliquez sur le bouton "Créer un nouvel item à partir de la page actuelle", Zotero crée un item dans votre bibliothèque et lui rattachera un aperçu de la page. En décochant cette option, seul l'item de bibliothèque sera créé. 
+
+**Relier Automatiquement les PDF et les autres fichiers en enregistrant un item** – Certain sites (par exemple, JSTOR) associent des fichiers, comme des PDF, aux listings d'articles, de documents, etc... souvent un abstract/résumé ou le texte intégral de l'annonce. Si cette option est sélectionnée, Zotero enregistre ces fichiers en tant que pièce jointes à l'item que vous enregistrez. Cette fonctionnalité n'est pas activée par défaut, car elle peut augmenter de façon spectaculaire l'espace disque occupé par votre bibliothèque. 
+
+**Marquer automatiquement les items avec les mots-clés ou les sujets (subject headings)** – Certains sites utilisent d'ores et déjà des termes-étiquettes pour organiser leurs ressources. On peut prendre pour exemple les "subject headings" du catalogue de la Library of Congress et les mots-clés de la version en ligne du New York Times. Cocher cette option fait automatiquement de ces mots-clés des étiquettes que vous pourrez utiliser pour naviguer dans votre bibliothèque. 
+
+=====OpenURL=====
+
+OpenURL est un standard qui permet de localiser un exemplaire physique d'un élément de votre bibliothèque Zotero. Beaucoup de bibliothèques possèdent leur propre logiciel OpenURL, qui analysent les métadonnées issues de requêtes provenant de programmes comme Zotero, et donnent la localisation physique d'une publication ou d'un document particulier. Par défaut, Zotero utilise le système WorldCat, capable de rechercher dans un grand nombre de bibliothèques et d'en trouver une près de vous. Si votre institution dispose de son propre système, remplacer le système WorldCat par ce système est très simple : il suffit de renseigner l'URL de votre système (que pourra vous fournir votre bibliothécaire), et assurez-vous que Zotero et ce sysytème utilisent bien le même du standard OpenURL. Il est probable qu'il s'agisse de la version 1.0, mais certains d'entre eux utilisent encore la version 0.1. 
+
+Une fois ces réglages effectués, pour trouver une copie papier d'un item de votre bibliothèque Zotero, il vous suffit de sélectionner un item et de cliquer sur le bouton Localiser / Locate sous l'onglet Info pour qu'une page de navigateur contenant toutes les informations nécessaires s'ouvre.
+
+{{tag>pref}}

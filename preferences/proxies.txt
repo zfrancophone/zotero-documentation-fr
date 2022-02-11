@@ -1,0 +1,22 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+~~NOTOC~~
+
+====== Serveurs mandataires ======
+
+
+{{ http://www.zotero.org/static/images/support/proxies_pref.png?350nocache&nolink}}
+
+La recherche en ligne peut être plus facile lorsqu'on travaille dans une institution disposant de ressources importantes. Les bases de données en ligne sont particulièrement utiles, mais peuvent être d'usage malaisé en dehors du site, du fait de la nécessité de s'identifier via un système de proxy. Zotero peut fluidifer l'ensemble de ce processus en manageant le processus complexe de la réécriture des URL utilisées. Lorsque Zotero détecte que vous utilisez le proxy d'une institution pour accéder à un site en particulier, il vous demandera si vous voulez l'enregistrer pour un usage futur. A partir du moment où vous acceptez, Zotero utilisera automatiquement le proxy pour les URL correspondantes. Vous serez redirigé vers le site d'identification du proxy si vous n'êtes pas encore identifié, puis vous pourrez accéder à la base de données comme vous en avez l'habitude. 
+
+Les utilisateurs de Zotero doivent pouvoir avoir une utilisation complète de ces fonctions sans avoir à s'intéresser à cet onglet de préférences. Par défaut, Zotero va vous proposer d'enregistrer ce proxy, puis vous conduire à travers ce proxy sans que vous ayez à entrer de nouvelles informations. 
+
+**Retenir automatiquement les ressources atteintes par l'entremise d'un serveur mandataire** - Décocher cette case empêchera Zotero de vous proposer d'enregistrer les proxies qu'il détecte. 
+
+Les proxies peuvent être ajoutés manuellement en cliquant sur le bouton "+". D'ici, vous pouvez spécifier l'URL de la base de donnée, dans la colonne Hostname and le régime (scheme) du proxy. Si vous sélectionnez l'option Multi-sites, vous pouvez rediriger de multiples sites/bases de données via un unique proxy. 
+
+{{tag>pref}}
