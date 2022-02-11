@@ -1,0 +1,18 @@
+===== L'éditeur de style Zotero =====
+
+//Cette fenêtre est aussi appelée panneau de test de référence Zotero, éditeur CSL Zotero, ou csledit.xul.//
+
+L'éditeur de style Zotero est un outil pour éditer les styles CSL. Il peut être ouvert en cliquant sur le bouton "Editeur de style" en bas de l'[[/support/fr/preferences/cite|onglet Citer]] des préférences de Zotero.
+
+{{ :preferences_cite_csl_editor.png?nolink&800 |}}
+
+L'éditeur de style permet le traitement instantané d'un style CSL, en utilisant des éléments sélectionnés dans votre bibliothèque Zotero locale. La fenêtre de l'éditeur de style est divisée en deux parties. La partie supérieure de la fenêtre affiche le code du style CSL. Vous pouvez charger un style installé en le sélectionnant dans le menu déroulant en haut à droite. Vous pouvez également coller le code du style CSL depuis votre presse-papiers. La partie inférieure de la fenêtre de l'éditeur de style affiche les citations et les références bibliographiques mises en forme selon le style que vous modifiez. Choisissez les éléments à mettre en forme en sélectionnant un ou plusieurs éléments dans votre bibliothèque Zotero locale et en cliquant sur le bouton "Actualiser".
+
+
+Vous pouvez prévisualiser le comportement du style pour plusieurs types de modifications de citation. Un localisateur (numéro de page, chapitre, verset, etc.) peut être spécifié à l'aide du menu déroulant et de la zone de texte adjacente à gauche de la barre d'outils, pour obtenir par exemple  "(Doe 2002, p.52)". L'option "Supprimer l'auteur" peut être cochée, pour qu'une citation "(Doe 2002)" soit affichée comme "(2002)". Enfin, la position des citations peut être modifiée, afin qu'il soit possible de voir comment les citations d'éléments précédemment cités sont affichées,  par exemple si une citation doit être affichée "(Doe, Jones, & Smith, 2002)" la première fois, mais "(Doe et al., 2002)" pour ses occurrences suivantes. Vous pouvez également modifier la langue des citations et de la bibliographie mises en forme.
+
+Lorsque vous modifiez le code CSL dans la fenêtre supérieure, les citations et les entrées bibliographiques dans la fenêtre inférieure se mettent automatiquement à jour. L'éditeur de style affiche une erreur si le code CSL n'est pas XML valide. Si le code est XML valide mais non CSL valide, vous pouvez repérer une erreur, ou l'aperçu dans la fenêtre inférieure arrêtera de se mettre à jour. Après avoir édité un style, veillez à toujours [[https://github.com/citation-style-language/styles/wiki/Validation|valider]] votre style.
+
+**Important** Lorsque vous fermez l'éditeur de style ou lorsque vous sélectionnez un style dans le menu déroulant, toutes les modifications que vous avez effectuées auparavant sont perdues. Si vous apportez des modifications importantes à un style CSL, enregistrez fréquemment votre code édité.
+
+

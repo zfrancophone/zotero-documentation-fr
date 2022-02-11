@@ -1,0 +1,173 @@
+======Editer des styles CSL - Guide pas à pas======
+
+
+=====L'éditeur visuel CSL=====
+
+Une collaboration entre la bibliothèque de l'université de Columbia et Mendeley a permis le développement d'un éditeur visuel CSL open source. Vous pouvez trouver l'éditeur [[http://editor.citationstyles.org/about/|ici]] et son guide d'utilisation
+[[https://github.com/citation-style-editor/csl-editor/wiki/User-guide-for-the-CSL-Editor|ici]]. Si vous rencontrez toutefois des difficultés pour éditez des styles, vous pouvez demander de l'aide sur les forums Zotero. Vous pouvez rapporter les bogues [[https://github.com/citation-style-editor/csl-editor/issues|ici]] - assurez-vous de rapporter des erreurs reproductibles. Le traqueur de problèmes GitHub n'est pas le lieu où poser des questions.
+
+=====Editer manuellement les styles CSL=====
+Dans de nombreux cas, vous pouvez toujours vouloir éditer manuellement les styles CSL. Le présent guide fournit les étapes, faciles à suivre, pour ce faire.
+
+==== 1 - Commencez avec le bon style ====
+
+Commencez par vérifier l'[[/styles|entrepôt des styles Zotero]]. Si vous voulez améliorer un style CSL existant, assurez-vous que vous partez de sa version la plus récente (l'entrepôt indique pour chaque style la date et l'heure de sa dernière mise à jour).  Si vous voulez créer un nouveau style, trouvez le style qui correspond le mieux à vos besoins en utilisant les prévisualisations dans l'entrepôt des styles.
+Généralement, la meilleure façon de trouver un style très similaire est d'utiliser la fonction "[[http://editor.citationstyles.org/searchByExample/|Search by Example]]" (recherche par l'exemple) de l'éditeur visuel.
+
+==== 2 - Editez le style ====
+
+Téléchargez le style que vous souhaitez modifier sur votre ordinateur, et ouvrez le avec un (simple) éditeur de texte comme le Bloc-Notes sous Windows, TextEdit sous Mac OS X (veillez alors à choisir "Convertir au format texte"  dans le menu "Format"), ou gedit sous Linux.
+Les autres possibilités sont [[http://notepad-plus-plus.org/|Notepad++]] pour Windows, [[http://www.barebones.com/products/TextWrangler/|TextWrangler]] pour Mac OS X, [[http://www.oxygenxml.com/|oXygen XML Editor]], [[http://www.thaiopensource.com/nxml-mode/|Emacs en mode nXML]], et [[http://www.jedit.org/|jEdit]], qui prennent tous en charge la mise en surbrillance de la syntaxe XML (CSL est un langage de type XML) et dans certains cas également la [[https://github.com/citation-style-language/styles/wiki/Validation|validation conformément au schéma CSL]] en temps réel.
+
+Collez le code du style dans l' [[/support/fr/dev/citation_styles/reference_test_pane|éditeur de style Zotero]], afin de visualiser instantanément l'effet des modifications du code sur la mise en forme produite par le style. Si vous éditez le style  directement dans le panneau d'édition, sauvegardez vos modifications régulièrement en utilisant votre éditeur de texte ou le bouton "Enregistrer sous..." {{:dev/citation_styles/csledit-save.png}}, car les changements effectués dans le panneau d'édition peuvent facilement être perdus.
+
+Consultez la [[http://citationstyles.org/citation-style-language/documentation/|page de documentation]] du site du projet CSL pour plus d'informations sur les posibilités d'édition CSL (en particulier, assurez-vous de jetez un coup d'œil attentif à la [[http://citationstyles.org/downloads/specification.html|spécification CSL]]. Nous présentons plus bas quelques modifications de style simples et courantes pour vous aider à démarrer.
+
+=== Modifier le titre et l'identifiant du style ===
+
+**Important:** Avant d'installer votre style édité, vous devez changer son titre et son identifiant au début du code du style. Si vous ne les changez pas, votre style modifié sera écrasé à la prochaine mise à jour du style original dont il est dérivé.
+
+Le titre et l'identifiant du style sont stockés dans les éléments ''<title/>'' et ''<id/>'', au début du code. Par exemple,
+
+<code><title>American Psychological Association 6th edition</title>
+<title-short>APA</title-short>
+<id>http://www.zotero.org/styles/apa</id></code>
+
+peut être changé en
+
+<code><title>American Psychological Association 6th edition Modified</title>
+<title-short>APA</title-short>
+<id>http://www.zotero.org/styles/apa-modified</id></code>
+
+Il n'est pas nécessaire que les URLs que vous insérez comme identifiants existent : vous pouvez utiliser un identifiant de type zotero.org/style/mystyle même si le style ne sera pas publié dans l'entrepôt Zotero
+
+=== Validation ===
+
+Avant d'installer un style modifié, assurez-vous toujours de sa validité XML et CSL en le [[https://github.com/citation-style-language/styles/wiki/Validation|validant conformément au schéma CSL]].
+
+
+=== Exemples de modifications ====
+
+==Changer la ponctuation==
+
+Dans cet exemple, nous voulons afficher l'éditeur ("CSHL Press") et le lieu de publication ("Cold Spring Harbor, NY") dans une entrée bibliographique. Bien que cela puisse être réalisé avec le code :
+
+<code>
+<text variable="publisher"/>
+<text variable="publisher-place"/>
+</code>
+
+cela aurait pour résultat: "CSHL PressCold Spring Harbor, NY". Heureusement, nous pouvons ajouter des signes de ponctuation grâce aux attributs ''prefix'', ''suffix'' et ''delimiter''. Imaginons que nous voulons séparer l'éditeur (''publisher'') et le lieu de publication (''publisher-place'') par une virgule et un espace, puis mettre l'ensemble entre parenthèses, c'est-à-dire "(CSHL Press, Cold Spring Harbor, NY)". Cela peut être obtenu avec :
+
+<code>
+<group delimiter=", " prefix="(" suffix=")">
+  <text variable="publisher"/>
+  <text variable="publisher-place"/>
+</group>
+</code>
+
+L'avantage de l'utilisation d'un élément ''group'' est que lorsqu'une référence comporte un éditeur (''publisher'') mais non un lieu de publication (''publisher-place''),vous ne vous retrouvez pas avec une ponctuation incorrecte : le résultat deviendra "(CSHL Press)". Alors que si vous ajoutiez directement la ponctuation dans les éléments "text", ainsi :
+
+<code xml>
+<text variable="publisher" prefix="("/>
+<text variable="publisher-place" prefix=", " suffix=")"/>
+</code>
+
+vous perdriez la parenthèse fermante en l'absence de lieu de publication, c'est-à-dire que s'afficherait : "(CSHL Press".
+
+== Modifier l'abréviation et-al ==
+
+Il y a deux paramètres principaux pour l'abréviation et-al, c'est-à-dire pour afficher les noms "Doe, Smith & Johnson" sous la forme "Doe et al.". Le nombre minimum de noms pour activer l'abréviation et-al, d'une part, et le nombre de noms affichés avant "et al." d'autre part.
+
+Dans CSL, ces paramètres peuvent apparaître dans les éléments "style", "citation", "bibliography" ou "names" sous la forme des attributs "et-al-min" et "et-al-use-first". Il est possible de définir des paramètres séparés pour les références qui ont déjà été citées en utilisant les attributs "et-al-subsequent-min" et "et-al-subsequent-use-first".
+
+Par exemple,
+
+<code xml>
+<citation et-al-min="3" et-al-use-first="1">
+  ...
+</citation>
+</code>
+
+affichera une liste de noms du type : "Doe", "Doe & Smith" et, s'il y a trois noms ou plus, "Doe et al.". Essayez de changer ces nombres et observez l'effet.
+
+==Modifier les options de désambigüisation==
+
+CSL offre de multiples méthodes  pour désambiguïser les citations ou les noms. Par exemple, un style peut normalement afficher uniquement le nom de famille, par exemple "(Doe 1999, Doe 2002)". Si les auteurs sont Jane Doe et Thomas Doe, ces noms seront désambiguïsés par l'ajout de l'initiale ou du prénom complet, par exemple "(J. Doe 1999, T. Doe 2002)").
+
+Les méthodes de désambigüisation sont sélectionnées au niveau de l'élément ''citation''. Par exemple, pour désactiver la [[fr/kb/given_name_disambiguation|désambiguïsation des prénoms]], supprimez l'attribut ''disambiguate-add-givenname'', c'est-à-dire transformez
+
+<code xml>
+<citation disambiguate-add-givenname="true">
+  ...
+</citation>
+</code>
+
+en
+
+<code xml>
+<citation>
+  ...
+</citation>
+</code>
+
+==Séparation des auteurs==
+
+Par défaut, plusieurs auteurs sont séparés par un délimiteur ", " et le mot ''et''. Ces paramètres peuvent être modifiés, par exemple pour utiliser le symbole "&" à la place de "et" :
+
+<code xml>
+<names variable="author">
+  <name form="short" and="symbol" delimiter=", "/>
+  ...
+</names>
+</code>
+
+ou pour ne pas utiliser du tout ''et'', mais utiliser uniquement le délimiteur ''/'':
+
+<code xml>
+<names variable="author">
+  <name form="short" delimiter="/"/>
+  ..
+</names>
+</code>
+
+== Mise en forme conditionnelle (style avec notes de bas de page complètes) ==
+
+L'apparence des citations dans les styles avec notes de bas de page (complètes) peut dépendre de leur position dans le document. Si la même source est citée deux fois, une version abrégée peut être utilisée dans la deuxième citation (et dans toutes les suivantes). Pour gérer cette distinction, on peut utiliser la  [[http://citationstyles.org/downloads/specification.html#choose|mise en forme conditionnelle fondée sur la position]] de la citation. Une structure générique pourrait alors ressembler à ce qui suit.
+
+<code xml>
+<citation>
+  <layout>
+    <choose>
+      <if position="ibid-with-locator">
+        ...
+      </if>
+      <else-if position="ibid">
+        ...
+      </else-if>
+      <else-if position="subsequent">
+        ...
+      </else-if>
+      <else>
+        ...
+      </else>
+    </citation>
+  </layout>
+</citation>
+</code>
+
+Si un cas manque dans votre style, vous pouvez l'ajouter et indiquer quelles informations doivent être affichées et comment elles doivent l'être dans ce cas  ([[https://www.zotero.org/styles/chicago-fullnote-bibliography?source=1|exemple d'un tel style avec notes de bas de page complètes]]).
+
+==== 3 - Installez votre style édité dans Zotero ====
+
+Voir la page de la documentation générale [[/support/styles|Les styles bibliographiques]].
+
+Enregistrez le style avec une extension de fichier ".csl" (vous pouvez généralement faire cela en tapant simplement ".csl" après le nom de votre fichier). Allez ensuite dans le [[/support/fr/preferences/cite|volet "Citer"]] des [[/support/fr/preferences|Préférences Zotero]]. Cliquez sur le signe "+" en-dessous de la liste des styles installés. Dans la boîte de dialogue de sélection de fichier qui s'ouvre, naviguez jusqu'au fichier .csl que vous venez de créer et ouvrez-le. Cela installera votre nouveau style.
+
+==== 4 - Partagez des styles ====
+
+Si vous pensez que votre style modifié peut être utile à d'autres, envisagez de le [[https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md|soumettre]] à l'[[/styles|entrepôt des styles Zotero]].
+
+==== Obtenir de l'aide ====
+
+Si vous êtes bloqué, publiez une question sur les [[/forum/|forums Zotero]].
