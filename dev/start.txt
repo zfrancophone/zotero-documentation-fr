@@ -1,0 +1,60 @@
+
+~~NOTOC~~
+
+====== Documentation pour les développeurs ======
+
+Zotero est un outil open source, et nous accueillons toute personne qui souhaite y contribuer. Une expérience dans la programmation n'est pas nécessairement requise! Nous indiquons ci-dessous les différents éléments de l'écosystème de Zotero, et nous précisons le degré de difficulté et les compétences nécessaires pour contribuer. Chaque domaine a sa propre page de départ avec plus de détails.
+
+Si vous avez  des questions sur le développement pour lesquelles vous ne trouvez pas de réponses ici, ou si vous souhaitez discuter du développement avec les développeurs de Zotero, vous pouvez consulter et publier des messages sur la [[https://groups.google.com/forum/#!forum/zotero-dev|liste de diffusion zotero-dev]]. Veuillez ne pas utiliser cette liste de diffusion pour [[/support/getting_help|obtenir de l'assistance]]. Les questions concernant l'API Zotero doivent toutefois toujours être adressées à zotero-dev.
+
+\\
+
+|< 100% 12% >|
+^ [[dev/Web API]]  ^^
+| Apprenez comment accéder aux bibliothèques Zotero en ligne grâce à l'API Zotero. ||
+^ Difficulté  | faible à élevée  |
+^ Compétences   | HTTP/REST, JSON  |
+
+
+|< 100% 12% >|
+^ [[dev/Client Coding]]  ^^
+| Apprenez à programmer pour le client Zotero.Cette section couvre également les dépôts de code Zotero et le suivi des problèmes, ainsi que des informations pour le développement de modules complémentaires pour Zotero. ||
+^ Difficulté  | modérée à élevée  |
+^ Compétences | JavaScript, CSS, Technologies Mozilla (XPCOM, XULRunner, XUL, etc.), Git  |
+
+|< 100% 12% >|
+^ [[dev/Translators|Convertisseurs]]  ^^
+| Apprenez à développer les convertisseurs Zotero. Ces fichiers JavaScript permettent à Zotero d'enregistrer des documents à partir de pages Web, d'importer et d'exporter des documents dans divers formats de fichier (par exemple BibTeX, RIS, etc.), et de rechercher des documents pour un identifiant donné (par exemple DOI ou PubMed ID). Comme les convertisseurs sont "sandboxed", partagent une structure similaire et sont des morceaux de code relativement courts, ils conviennent parfaitement aux codeurs JavaScript débutants. ||
+^ Difficulté  | faible à modérée  |
+^ Compétences   | JavaScript, HTML/XML, DOM, expressions régulières, XPath  |
+
+|< 100% 12% >|
+^ [[fr/dev/citation_styles|Styles bibliographiques]]  ^^
+| Apprenez à créer ou à modifier les styles CSL (Citation Style Language) que Zotero utilise afin de mettre en forme les citations et bibliographies. Dans cette section, nous allons aussi discuter du processeur citeproc-js que Zotero utilise pour traiter les styles CSL, et de citeproc-node, une adaptation de citeproc-js pour une utilisation en ligne.  ||
+^ Difficulté | faible à modérée |
+^ Compétences| XML, JavaScript |
+
+
+|< 100% 12% >|
+^ [[dev/Documentation]]  ^^
+| Apprenez comment vous pouvez contribuer à la documentation wiki de Zotero pour assurer qu'elle soit complète, à jour et de qualité. Facilitez l'apprentissage de l'utilisation de Zotero par les utilisateurs, la découverte de nouvelles fonctionnalités et la recherche de solutions aux problèmes, et permettez aux développeurs d'obtenir les informations dont ils ont besoin.||
+^ Difficulté  | faible  |
+^ Compétences | écrire et éditer, édition de wiki  |
+
+|< 100% 12% >|
+^ [[dev/Localization|Localisation]]  ^^
+| Apprenez comment vous pouvez aider à traduire les différentes parties de l'écosystème Zotero (le client Zotero, la documentation wiki, et les styles bibliographiques CSL) dans d'autres langues. ||
+^ Difficulté  | faible  |
+^ Compétences      | connaissance de l'anglais et d'au moins une autre langue  |
+
+|< 100% 12% >|
+^ Faites en sorte que votre site web prenne en charge Zotero  ^^
+| Vous pouvez rendre votre site accessible à Zotero en utilisant des normes ouvertes. Apprenez comment:\\ [[dev/exposing_metadata|Exposer vos métadonnées]] \\ [[dev/creating_locate_engines_using_opensearch|Créer un moteur de recherche OpenSearch Lookup Engine]] ||
+
+===== Ressources supplémentaires =====
+
+^ [[dev/workshops|Developer Workshops]]  ^^
+| Utilisez cette section du wiki pour chercher ou ajouter des informations sur l'un des ateliers de développement de Zotero.||
+
+^ [[dev/Project Ideas]]  ^^
+| Alors que l'équipe de développement de Zotero est constamment occupée à ajouter de nouvelles fonctionnalités à Zotero, ses ressources sont limitées. Par conséquent, certaines des idées de projets, bien que bonnes, ne reçoivent pas l'attention qu'elles méritent. Si vous cherchez un projet Zotero intéressant sur lequel travailler, regardez ici pour trouver des idées. Dans cette section, nous suivons également l'avancement des projets.||
