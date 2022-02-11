@@ -1,0 +1,13 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+=== Comment savoir combien de documents y a-t-il dans ma bibliothèque Zotero ? ===
+
+Cliquez sur un document dans le panneau du milieu et Sélectionnez les tous (touches Command+A sous Mac OS X ou Ctrl+A sous Windows). Un décompte des éléments sélectionnés apparaîtra alors dans le panneau de droite.
+
+Pour déterminer le nombre total de documents, en incluant les pièces jointes et les notes enfants, cliquez sur un document et appuyez sur la touche + (plus) pour afficher tous les documents enfants, puis utilisez Sélectionner tout. Vous pouvez appuyer sur la touche - (moins) ensuite pour replier tous les documents.
+
+{{tag>kb-fr organizing-fr}}
