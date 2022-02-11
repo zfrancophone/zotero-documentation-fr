@@ -1,0 +1,12 @@
+===== L'aperçu des styles Zotero =====
+
+//Cette fenêtre est aussi appelée panneau d'aperçu Zotero, aperçu CSL Zotero, ou cslpreview.xul.//
+
+L'aperçu des styles Zotero est un outil pour prévisualiuser des styles CSL. Il peut être ouvert en cliquant sur le bouton "Aperçu des styles" en bas de l'[[/support/fr/preferences/cite|onglet Citer]] des préférences de Zotero.
+
+{{ :preferences_cite_csl_preview.png?nolink&800 |}}
+
+La fenêtre de l'aperçu des styles affiche les citations et les entrées de bibliographie pour tous les styles CSL que vous avez installés, en utilisant des éléments sélectionnés dans votre bibliothèque Zotero locale. 
+
+Vous pouvez filtrer les styles installés en fonction du type de mise en forme qu'ils effectuent (par exemple, auteur-date ou numérique), ainsi que modifier la langue des citations et bibliographies mises en forme.
+
