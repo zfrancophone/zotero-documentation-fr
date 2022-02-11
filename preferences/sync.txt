@@ -1,0 +1,56 @@
+======Synchronisation======
+
+~~NOTOC~~
+
+Pour des informations sur la configuration et l'utilisation des fonctions de synchronisation de Zotero, reportez-vous à la page [[:sync|Synchronisation]]. La présente page décrit les paramétrages du volet "Synchronisation" des préférences de Zotero.
+
+Le volet "Synchronisation" comporte deux onglets : "Paramètres" et "Réinitialisation".
+
+===== Paramètres  =====
+
+{{:preferences_sync_empty.png?nolink&w=600|}}
+
+Pour paramétrer la synchronisation Zotero, vous devez d'abord configurer la synchronisation des données (pour les métadonnées des documents, les notes et l'index de texte intégral), en saisissant le nom d'utilisateur et  le mot de passe de votre compte créé sur [[/|zotero.org]]. Après avoir associé votre compte Zotero à votre client Zotero, vous  accèderez aux paramètres pour gérer la synchronisation des données et la synchronisation des fichiers.
+
+{{:preferences_sync_settings_user.png?nolink&w=600|}}
+
+=== Synchronisation des données ===
+
+  * **Dissocier le compte...** : dissocie votre client Zotero de votre compte Zotero. Cela empêchera la synchronisation.
+  Vous aurez la possibilité de supprimer les données locales de Zotero ou de les conserver. Si vous associez ultérieurement ce même client Zotero avec un autre nom d'utilisateur, la bibliothèque locale sera remplacée par la bibliothèque de ce nouveau nom d'utilisateur à partir du serveur [[/|zotero.org]].
+  * **Choisir les bibliothqèues...**. Cette option vous permet de sélectionner les [[:groups|bibliothèques de groupe]] dont vous êtes membre à synchroniser automatiquement avec les serveurs Zotero. Si vous décochez une bibliothèque présente dans votre client Zotero local, vous pourrez toujours synchroniser manuellement cette bibliothèque en cliquant avec le bouton droit de la souris sur celle-ci dans le volet gauche de Zotero et en choisissant "Synchroniser". Il n'est actuellement pas possible de supprimer du client Zotero local une bibliothèque non synchronisée.
+  * **Synchroniser automatiquement**. Lorsque cette option est cochée, Zotero lance une synchronisation à chaque fois que vous apportez une modification à votre bibliothèque. Vous pouvez lancer  une synchronisation manuellement en cliquant sur le bouton de synchronisation (flèche verte circulaire) dans le coin supérieur droit de la fenêtre Zotero.
+  * **Synchroniser le texte intégral des pièces jointes liées indexées**. Lorsque cette option est cochée, Zotero synchronisera le contenu de l'index de texte intégral, ce qui vous permettra de rechercher dans cet index sur tous les ordinateurs et dans la bibliothèque Web sur [[/|zotero.org]].
+
+Reportez-vous à [[:sync#synchronisation_des_donnees|la rubrique "Synchronisation des données" de la page "Synchronisation"]] pour plus d'informations.
+
+=== Synchronisation des fichiers ===
+
+  * **Synchroniser les fichiers joints de Ma bibliothèque en utilisant...** : activer/désactive la synchronisation des fichiers pour votre bibliothèque Zotero personnelle.
+    * **Zotero:**
+      * Synchroniser les fichiers joints en utilisant [[/support/sync#le_ stockage_de_Zotero|le stockage de Zotero]].
+    * **WebDAV:**
+      * Synchroniser les  fichiers joints en utilisant [[/support/sync#webdav|un stockage WebDAV]].
+      * Entrez l'URL de votre serveur WebDAV (notez que ''/zotero'' est ajouté automatiquement à la fin de l'URL), votre nom d'utilisateur et votre mot de passe.
+      * Cliquez sur "Tester la connexion au serveur" pour vérifier si Zotero peut se connecter au serveur pour synchroniser les fichiers.
+
+{{ :préférences_sync_webdav.png?nolink&w=400 }}
+
+  * **Synchroniser les fichiers joints dans les bibliothèques de groupe en utilisant le stockage de Zotero**:
+    * active/désactive la synchronisation des fichiers pour vos bibliothèques de groupe ;
+    * seul [[/support/sync#le_ stockage_de_Zotero|le stockage de Zotero]] est pris en charge pour les bibliothèques de groupe.
+  * **Télécharger les fichiers**:
+     * **lors de la synchronisation** : télécharger tous les fichiers joints qui ne se trouvent pas déjà dans le stockage local de Zotero sur votre ordinateur à chaque fois que Zotero se synchronise.
+    * **à la demande**: télécharger les fichiers joints uniquement lorsque l'utilisateur tente d'ouvrir le fichier. Utile pour réduire l'espace disque utilisé par Zotero pour les pièces jointes.
+
+Reportez-vous à [[:sync#synchronisation_des_fichiers|la rubrique "Synchronisation des fichiers" de la page "Synchronisation"]] pour plus d'informations.
+
+===== Réinitialisation=====
+
+{{:preferences:preferences_sync_reset.png?nolink&600|}}
+
+
+Les options de cet onglet vous permettent de réinitialiser l'historique de synchronisation des fichiers de Zotero avec [[/|zotero.org]]. Ces options ne sont pas destinées au dépannage régulier et ne doivent pas être utilisées à moins qu'elles ne vous soient explicitement indiquées sur le [[/forum|forum Zotero]]. Pour plus d'informations, reportez-vous à la page [[kb/sync_reset_options|Options de réinitialisation de la synchronisation]].
+
+
+{{tag>pref}}
