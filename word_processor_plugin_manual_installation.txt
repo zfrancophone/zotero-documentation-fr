@@ -1,0 +1,75 @@
+====== Installer manuellement les modules pour logiciel de traitement de texte de Zotero  ======
+
+===== Word pour Windows =====
+
+  - Ouvrez le dossier d'installation de Zotero (généralement C:\Program Files (x86)\Zotero).
+  - Dans le dossier d'installation, ouvrez  extensions \zoteroWinWordIntegration@zotero.org\install, où vous trouverez une copie du fichier Zotero.dotm (pour Word pour Windows 2007 et supérieur) ou Zotero.dot (pour les versions antérieures de Word). Si le dossier est vide, le fichier a été supprimé d'une manière ou d'une autre - peut-être par un logiciel de sécurité - et vous devez réinstaller Zotero. Si vous voyez deux fichiers "Zotero" sans extension de fichier, votre ordinateur est réglé pour ne pas afficher les extensions de fichier. Vous pouvez déterminer lequel est Zotero.dotm en cliquant avec le bouton droit de la souris sur chaque fichier et en sélectionnant "Propriétés".
+  - Trouvez votre dossier de démarrage Word en utilisant les [[#word_2007_ ou_superieur_pour_Windows|instructions ci-dessous]]. Vous devriez maintenant avoir deux dossiers ouverts : le dossier de démarrage de Word et le dossier "install" contenant Zotero.dotm.
+  - Copiez le fichier Zotero.dotm dans votre dossier de démarrage de Word. (Veillez à copier le fichier plutôt que de le déplacer).
+  - Démarrez (ou redémarrez) Microsoft Word pour commencer à utiliser le module.
+
+
+===== Word pour Mac 2016 et 2019 =====
+
+  - Dans Finder, appuyez sur Cmd-Shift-G et naviguez jusqu'à <code>/Applications/Zotero.app/Contents/Resources/extensions/zoteroMacWordIntegration@zotero.org/install</code> où vous trouverez une copie du fichier Zotero.dotm. Si le dossier est vide, le fichier a été supprimé d'une manière ou d'une autre - peut-être par un logiciel de sécurité - et vous devez réinstaller Zotero.
+  - Trouvez votre dossier de démarrage Word en suivant les [[#word_2016_et_2019_pour_mac|instructions ci-dessous]]. Vous devriez maintenant avoir deux dossiers ouverts : le dossier de démarrage de Word et le dossier "install" contenant Zotero.dotm.
+  - Copiez le fichier Zotero.dotm dans votre dossier de démarrage de Word. (Veillez à copier le fichier plutôt que de le déplacer).
+  - Démarrez (ou redémarrez) Microsoft Word pour commencer à utiliser le module.
+
+
+===== Word pour Mac 2011 =====
+
+  - Téléchargez [[https://download.zotero.org/integration/macword/dot/Zotero.dot-5.0.5.zip|Zotero.dot.zip]] et double-cliquez dessus pour extraire le fichier Zotero.dot. (Remarque : le fichier doit être extrait dans le Finder, et non via la ligne de commande).
+  - Trouvez votre dossier de démarrage Word en suivant les [[#word_2011_pour_mac|instructions ci-dessous]].
+  - Déplacez le fichier Zotero.dot dans votre dossier de démarrage Word.
+    - **Si vous avez une version non anglaise d'Office**, vous devrez peut-être déplacer le fichier Zotero.dot dans le répertoire "Word" dans l'équivalent de "Startup" dans votre langue ("Démarrage" en français). Le chemin d'accès correct doit être indiqué dans Word, dans Outils -> Modèles et compléments.
+    - **Si vous utilisez un compte utilisateur macOS non administrateur**, vous devrez installer le module Word à partir d'un compte administrateur, ou accorder un accès en écriture pour le répertoire de démarrage au compte non administrateur, afin de lui permettre d'installer Zotero.dot.
+  - Démarrez (ou redémarrez) Microsoft Word pour commencer à utiliser le module.
+  - Supprimez le fichier ZIP téléchargé.
+
+===== LibreOffice =====
+
+  - Accédez aux fichiers d'application de Zotero.
+    * Mac : Dans le Finder, appuyez sur Cmd-Shift-G et collez <code>/Applications/Zotero.app/Contents/Resources/extensions/zoteroOpenOfficeIntegration@zotero.org/install</code>
+    * Windows : Ouvrez le dossier <code>C:\Program Files (x86)\Zotero\extensions\zoteroOpenOfficeIntegration@zotero.org/install</code>
+    * Linux : Allez dans le répertoire où Zotero est installé et ouvrez <code>extensions/zoteroOpenOfficeIntegration@zotero.org/install</code>
+  - Double-cliquez sur le fichier Zotero_OpenOffice_Integration.oxt pour l'installer.
+
+
+===== Localiser votre dossier de démarrage Word =====
+
+Le dossier correct peut souvent être trouvé dans les préférences de Word.
+
+===Word 2007 ou supérieur pour Windows ===
+
+Cliquez sur l'onglet "Fichier" dans le ruban de Word, puis sur "Options". Dans les options de Word, cliquez sur "Options avancées". Sous "Général", cliquez sur "Emplacements des fichiers...". L'emplacement des "Fichiers de démarrage" doit y être répertorié. Sélectionnez-le et cliquez sur "Modifier". En plaçant le curseur dans la barre d'adresse en haut de la fenêtre, vous pourrez copier le chemin d'accès complet au dossier de démarrage. Cliquez sur "Annuler" pour fermer la boîte de dialogue
+
+
+===Word 2016 et 2019 pour Mac===
+
+Dans Word, ouvrez le menu "Word" en haut à gauche de l'écran et sélectionnez "Préférences". Cliquez sur "Emplacements des fichiers" sous "Paramètres personnels" et cliquez sur "Démarrage" en bas de la liste. Ceci peut indiquer l'emplacement de votre dossier de démarrage.
+
+Si aucun emplacement n'est indiqué, l'emplacement par défaut est  ~/Library/Group Containers/UBF8T346G9.Office/User Content/Startup/Word (c'est-à-dire le dossier Bibliothèque dans votre répertoire d'origine). Le dossier ~/Library est caché par défaut, mais vous pouvez l'ouvrir à partir du Finder en maintenant la touche Option enfoncée, en cliquant sur le menu "Go" et en sélectionnant Bibliothèque. Vous pouvez également appuyer sur Cmd-Shift-G dans le Finder et copier l'emplacement par défaut pour naviguer vers ce dossier.
+
+
+===Word 2011 pour Mac===
+
+L'emplacement par défaut du dossier de démarrage est /Applications/Microsoft Office 2011/Office/Startup/Word. Vous pouvez l'ouvrir à partir du Finder en appuyant sur Cmd-Shift-G et en copiant le chemin d'accès ou en y accédant par navigation.
+
+Si les modifications que vous apportez au dossier de démarrage ne prennent pas effet, vous pouvez confirmer que Word n'est pas localisé à un autre emplacement. Dans Word, ouvrez le menu "Word" en haut à gauche de l'écran et sélectionnez "Préférences". Cliquez sur "Emplacements des fichiers" sous "Paramètres personnels" et cliquez sur "Démarrage" en bas de la liste.
+
+====Emplacements par défaut===
+
+Sur les systèmes non anglophones ou dans certaines configurations personnalisées, ces emplacements peuvent être différents.
+
+**Word 2000, 2002 (XP), 2003, 2007, et 2010, 2013 sous Windows Vista, Windows 7 & 8**
+  * C:\Users\::username::\AppData\Roaming\Microsoft\Word\Startup (::username:: est le nom d'utilisateur de l'utilisateur actuellement connecté)
+
+**Word 2000, 2002 (XP), 2003, 2007 et 2010 sous Windows 2000 ou XP**
+  * C:\Documents and Settings\::username::\Application Data\Microsoft\Word\Startup (::username:: est le nom d'utilisateur de l'utilisateur actuellement connecté)
+
+**Word 2016 et 2019 pour Mac**
+  * ~/Library/Group Containers/UBF8T346G9.Office/User Content/Startup/Word
+
+**Word 2011 pour Mac**
+  * /Applications/Microsoft Office 2011/Office/Startup/Word

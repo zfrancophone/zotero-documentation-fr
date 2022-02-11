@@ -1,0 +1,26 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+====Première question : que voulez-vous fournir à vos utilisateurs ?====
+
+Avant de se pencher sur les différentes options pour exposer vos données sur Zotero, posez-vous la question : « est-ce que je veux que les utilisateurs récupèrent des données à propos des pages individuelles de mon site, ou bien est-ce que je veux qu'ils puissent récupérer des données sur une ressource, ou plusieurs ressources, mentionnées sur ces pages ? »
+
+Clarifions les choses avec 2 exemples. Prenons un article dans un journal en ligne et une notice bibliographique dans un catalogue de bibliothèque. Dans le premier cas, on a besoin d'informations sur la page que l'utilisateur est en train de consulter, c'est à dire sur cet article spécifique. Dans le second cas, la notice d'un catalogue de bibliothèque, la page en elle-même n'a aucun intérêt : ce dont l'utilisateur a besoin, c'est d'informations au sujet de la ressource décrite sur la page, et pas sur la page en elle-même.
+Plusieurs des stratégies présentées ci-dessous peuvent convenir pour l'un ou l'autre cas ; ce qui est important, c'est que vous ayez bien identifié le type de données que vous voulez que les utilisateurs de Zotero puissent extraire de votre site.
+
+==== 3 solutions, par ordre croissant de complexité et de flexibilité ====
+
+   * **Utilisez une application web compatible avec Zotero :** nous donnons des instructions pour [[dev/exposing your metadata|exposer vos métadonnées]] dans différentes applications web. Cela peut être un CMS, un catalogue de bibliothèque, ou un autre type de logiciel qui fonctionne nativement avec Zotero (ou avec un minimum de paramétrage ou d'extensions). Si l'une de ces plateformes convient à vos besoins, ce sera l'option la plus simple et la plus rapide, requérant le moins de compétences techniques.
+
+   * **Exposez vos métadonnées en utilisant un standard ouvert :** si les solutions de gestion de contenu mentionnées plus haut ne vous conviennent pas, vous pouvez ajouter un ou plusieurs standards pour permettre à Zotero (et à d'autre logiciels) d'utiliser vos données. Pour un site dynamique, il est possible qu'une bibliothèque de codes ou d'exemples existe déjà, qu'il ne vous reste qu'à implémenter (par exemple [[http://blog.reciprocallattice.com/2007/12/add-unapi-support-in-rails-application.html|UnAPI pour Ruby]] et [[http://refbase.svn.sourceforge.net/svnroot/refbase/trunk/includes/openurl.inc.php|COinS pour PHP]]). Si ce n'est pas le cas, vous pouvez implémenter [[http://www.unapi.info|unAPI]] ou [[dev/making coins|OpenURL COinS]] avec une modeste expertise en programmation web. Pour des pages statiques, vous pouvez [[http://generator.ocoins.info/|générer des COinS]].
+
+   * **Fabriquez un traducteur Zotero spécifique pour votre site :** cette option est un peu plus complexe, et est nécessaire uniquement quand les options d'inclusion de métadonnées sont limitées. Elle demande une maîtrise solide de javascript et du fonctionnement des traducteurs Zotero. Si vous voulez que tous les utilisateurs de Zotero puissent utiliser ce traducteur avec votre site, il vous faudra aussi prendre contact avec la communauté des développeurs de Zotero pour qu'elle rende disponible votre traducteur sur toutes les versions de Zotero.
+
+====Les 2 meilleures options pour intégrer des métadonnées ====
+
+   * **[[http://www.unapi.info|unAPI]]:** Comme il est décrit sur le site d'unAPI, il s'agit « d'une petite API HTTP pour gérer les quelques opérations basiques nécessaire à la copie de contenus identifiés depuis n'importe quel type d'application web ». Pour ce qui nous intéresse, unAPI vous permet de présenter des informations bibliographiques dans un grand nombre de formats bibliographiques à Zotero pour qu'il les intègre automatiquement. [[http://www.loc.gov/standards/mods/|MODS XML]], développé par la Bibliothèque du Congrès, est sans doute le format standard le plus riche existant. Le format MARC, plus ancien, est également supporté, et peut être utilisé si votre application en génère déjà. Le clone RDF-Dublin Core à la sauce Zotero est supporté aussi ; Zotero peut importer la majeure partie des informations générées en RDF, mais l'ontologie doit encore subir des changements, et n'a pas encore été adoptée par d'autres. D'autres formats « historiques » ([[http://www.bibtex.org/|BibTeX]], [[http://www.refman.com/support/risformat_intro.asp|RIS]], et [[http://auditorymodels.org/jba/bibs/NetBib/Tools/bp-0.2.97/doc/endnote.html|Bibix/EndNote(R)/Refer]]) offrent des possibilités d'import plus limitées, mais la bibliothèque de codes est bien fournie et il est plus facile de les générer.
+
+   * **[[ dev/making coins|COinS]]:** D'après le site officiel de COinS, « (ContextObjects in Spans) est une spécification simple, issue d'une communauté ad hoc, pour publier des références OpenURL en HTML ». Si les catégories de métadonnées quelque peu limitées et rigides disponibles dans OpenURL vous vont, l'utilisation des COinS est peut-être une façon simple et légère de rendre vos données compatibles avec Zotero.

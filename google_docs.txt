@@ -1,0 +1,27 @@
+====== Zotero et Google Documents ======
+
+Zotero permet d'ajouter des citations et des bibliographies facilement dans les documents Google.
+
+Pour citer des références dans des documents Google, vous devez avoir le connecteur Zotero et le logiciel Zotero doit être ouvert sur votre poste. 
+
+Zotero fonctionne aussi avec [[word_processor_plugin_usage|Word]] et  [[libreoffice_writer_plugin_usage|LibreOffice]].
+
+===== Interface =====
+Le connecteur Zotero ajoute un nouveau menu "Zotero" dans Google Documents :
+
+{{::google-docs-menu.png?nolink&400}}
+
+Un bouton Zotero s'ajoute également à la barre d'outils pour l'ajout facile de citations :
+
+{{::google-docs-toolbar.png?nolink&300}}
+
+Les options suivantes se trouvent dans le menu Zotero menu :
+|< 100% 27% >|
+^ Add/Edit Citation | Ajoute une nouvelle citation ou modifie une citation existante dans votre document, à l'endroit où se trouve votre curseur. |
+^ Add/Edit Bibliography | Insère une bibliographie à l'endroit où se trouve votre curseur ou modifie la bibliographie existante. |
+^ Preferences | Ouvre la fenêtre des préférences, ce qui permet entre autres de changer le style bibliographique. |
+^ Refresh | Met à jour toutes les citations et la bibliographie, en fonction des modificaionts aux métadonnées modifiées dans la bibliothèque Zotero. |
+^ Unlink Citations | Supprime les codes de champ Zotero du document. Supprimer les codes de champ Zotero empêche toute nouvelle mise à jour des références et bibliographies. Supprimer les codes de champ est **irréversible**, et ne devrait être effectué qu'à la toute fin de votre travail et dans une copie de votre document. |
+
+
+

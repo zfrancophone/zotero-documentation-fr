@@ -1,0 +1,33 @@
+======Flux RSS======
+
+{{ :feeds.png?nolink&200|}}
+
+Les flux RSS sont un excellent moyen de découvrir de nouvelles thématiques. Grâce aux flux, vous pouvez vous abonner aux mises à jour d'une revue, d'un site web, d'un éditeur, d'une institution, d'un groupe de recherche ou de toute autre source et trouver rapidement de nouveaux articles ou travaux. Si vous trouvez un article dans le flux d'une publication que vous souhaitez enregistrer et lire plus tard, vous pouvez l'ajouter à votre bibliothèque Zotero en un clic.
+
+\\
+\\
+==== S'abonner à des flux ====
+
+{{:add_feed.png?nolink&150 |}}
+
+Pour vous abonner à un flux, cliquez sur le bouton nouveau Flux au-dessus du volet de gauche dans la fenêtre Zotero. Vous pouvez ajouter des flux de deux façons. Tout d'abord, vous pouvez ajouter un flux en utilisant l'URL fournie sur le site web de la revue (ou d'une autre source). Pour les revues, ces flux sont généralement disponibles à partir de la page d'accueil de la revue. Cherchez l'icône RSS ({{:rss-icon.png?nolink&15|}}) ou cherchez le nom de la revue et "flux RSS" dans un moteur de recherche. De nombreux éditeurs placent l'icône RSS à côté des icônes de médias sociaux ou des liens d'alerte par courriel.
+
+^Liens RSS sur ScienceDirect       ^ Icône RSS pour Sage Journals^
+|{{:rss_elsevier.png?nolink&350|}}|{{:rss_sage.png?nolink&150|}}|
+
+
+Une fois que vous avez trouvé l'URL du flux RSS de votre source, cliquez sur le menu Nouveau flux, puis choisissez "A partir de l'URL...". La fenêtre des Paramètres du flux s'ouvrira. Collez l'URL du flux RSS dans le champ URL. Si l'URL est celle d'un flux valide, vous pourrez afficher et modifier son titre et cliquer sur "Enregistrer". Vous pouvez cliquer sur "Options avancées" pour ajuster la fréquence de mise à jour du flux et pour définir la durée pendant laquelle les éléments lus et non lus sont conservés dans un flux avant d'être supprimés.
+
+{{ :add_feed_url.png?nolink  |}}
+
+Vous pouvez également importer un ensemble de flux à l'aide d'un fichier OPML (par exemple à partir d'une liste d'abonnements exportée de Feedly ou d'autres services de lecteurs RSS). Pour importer un fichier OPML, choisissez "A partir d'un fichier OPML..." dans le menu Nouveau flux.
+
+==== Lire des flux ====
+
+{{ :feed_window.png?nolink&600 |}}
+
+Les flux auxquels vous êtes abonné apparaîtront en bas du volet gauche de la fenêtre Zotero, sous Ma bibliothèque et vos Bibliothèques de groupe, et au-dessus du sélecteur de marqueurs. Cliquez sur un flux pour voir les articles actuellement disponibles dans ce dernier. Cliquez avec le bouton droit de la souris sur un flux pour l'actualiser manuellement, marquer tous les éléments du flux comme lus, modifier les paramètres ou vous désabonner du flux.
+
+Lors de la consultation d'un flux, les éléments non lus sont affichés en gras, tandis que les éléments lus sont affichés en texte normal. Lorsque vous sélectionnez un article dans le flux, vous pouvez le marquer comme lu ou non lu en cliquant sur "Marquer comme non lu/lu". Enregistrez l'article dans votre bibliothèque Zotero en cliquant sur "Ajouter à Ma bibliothèque" ou en appuyant sur Ctrl/Alt-Maj-S. Vous pouvez enregistrer un article de flux dans une bibliothèque de groupe en cliquant sur la flèche déroulante à droite du bouton "Enregistrer dans ma bibliothèque" et en choisissant la bibliothèque correspondante.
+
+//Notez que l'état lu/non lu des éléments n'est pas synchronisé entre les ordinateurs lorsque vous utilisez la synchronisation Zotero.//

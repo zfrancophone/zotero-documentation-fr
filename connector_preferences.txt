@@ -1,0 +1,61 @@
+====== Les préférences du connecteur Zotero ======
+
+Les extensions de navigateur du connecteur Zotero vous permettent d'ajouter des documents à votre bibliothèque Zotero  [[adding_items_to_zotero#via_votre_navigateur_web|d'un seul clic]] dans Firefox, Chrome ou Safari. Cette page décrit les préférences pour les connecteurs Zotero. Vous pouvez accéder aux préférences en faisant un clic droit (Firefox/Chrome) ou en maintenant un clic continu (Safari) sur le bouton "Enregistrer dans Zotero" et en choisissant "Preferences".
+
+===== Préférences générales =====
+
+{{ https://www.zotero.org/support/_media/connector_preferences_general.png?
+w=700&tok=ccc8d1 }}
+
+  * **Zotero Status**
+    * Indique si le connecteur Zotero peut se connecter au client de bureau Zotero. Si le connecteur signale que Zotero est indisponible, consultez la page [[fr/kb/connector_zotero_unavailable|Zotero est indisponible]].
+  * **Save to Zotero.org**
+    * Lorsque le client de bureau Zotero est fermé, le connecteur Zotero enregistre directement sur les serveurs [[/|zotero.org]]. Ces paramètres vous permettent d'autoriser à nouveau votre navigateur à enregistrer sur votre compte zotero.org ou d'effacer les informations d'identification de votre compte. Vous pouvez également contrôler si les pièces jointes au format PDF et les [[attaching_files#captures_de_pages_web|captures de page web]] sont automatiquement enregistrées lors de l'importation vers zotero.org.
+  * **Automatic File Importing**
+    * Par défaut, le connecteur Zotero proposera d'importer les fichiers bibliographiques RIS, BibTeX et Refer/BibIX lorsque vous les ouvrirez dans votre navigateur. Vous pouvez désactiver cette fonction ou gérer les sites à partir desquels les données sont importées ici.
+
+===== Préférences pour les serveurs mandataires =====
+
+{{ https://www.zotero.org/support/_media/connector_preferences_proxies.png?w=700&tok=3cda17 }}
+
+De nombreuses institutions exigent que vous vous authentifiiez par le biais d'un serveur mandataire (proxy) pour accéder aux ressources électroniques lorsque vous êtes en dehors du campus. Le connecteur Zotero peut rendre cela plus pratique. Lorsqu'il détecte que vous utilisez un serveur mandataire institutionnel pour accéder à un site particulier, il vous demandera si vous souhaitez vous en souvenir à l'avenir. Si vous acceptez, Zotero utilisera automatiquement le serveur mandataire pour les URL correspondantes à l'avenir. Si vous n'êtes pas encore connecté, vous devez passer par le site d'authentification du serveur mandataire pour accéder ensuite à la base de données comme vous le feriez normalement.
+
+Les utilisateurs de Zotero peuvent utiliser la fonction de serveur mandataire sans jamais avoir à consulter cet onglet de préférences. Par défaut, Zotero vous demandera de stocker le serveur mandataire et vous fera ensuite passer par le serveur mandataire automatiquement, et sans autre saisie.
+
+La redirection par serveur mandataire Zotero n'est pas disponible dans Safari.
+
+Les préférences de serveur mandataire vous permettent de régler les options suivantes.
+
+  * **Enable proxy redirection**
+    * La redirection par serveur mandataire de Zotero est activée par défaut. Décochez cette option pour désactiver la redirection par serveur mandataire. Vous pouvez le faire temporairement et vos paramètres de serveur mandataire resteront enregistrés. //N'utilisez pas// cette option si vous n'avez plus accès aux serveurs mandataires enregistrés. Dans ce cas, supprimez ces paramètres en les sélectionnant dans la boîte "Configured Proxies" et en appuyant sur le bouton moins (-) situé en dessous.
+  * **Show a notification when redirecting through a proxy**
+    *  Par défaut, Zotero affichera une bannière temporaire en haut de votre navigateur lorsqu'il redirige vers un serveur mandataire enregistré. Décochez cette case pour désactiver cette notification.
+  *  **Automatically detect new proxies**
+    *  Par défaut, Zotero détectera automatiquement lorsque vous visitez une page par l'intermédiaire d'un serveur mandataire institutionnel et vous proposera de vous souvenir du serveur mandataire pour vos prochaines visites de ce site web. Décochez cette case pour empêcher Zotero de vous demander de stocker les serveurs mandataires qu'il détecte.
+  * **Disable proxy redirection when domain name contains**
+      * En général, vous n'aurez pas besoin d'utiliser un serveur mandataire lorsque vous êtes connecté à l'internet par le réseau de votre institution. Cette option désactive automatiquement la redirection du serveur mandataire de Zotero lorsque le domaine de votre fournisseur d'accès à l'internet contient la chaîne renseignée. Aux États-Unis, ".edu" (le paramètre par défaut) fonctionne généralement. Dans les autres pays, vous devrez trouver le nom de domaine de votre institution.
+      * Cette option est désactivée par défaut. Cette option n'est disponible que lorsque le client de bureau Zotero est ouvert.
+
+== Serveurs mandataires configurés ==
+
+Lorsque Zotero détecte et enregistre automatiquement les serveurs mandataires institutionnels, ces derniers sont stockés ici. Vous pouvez supprimer les serveurs mandataires stockés en cliquant sur le bouton moins (-) en dessous de la liste. Si vous rencontrez des problèmes avec un serveur mandataire, essayez de le supprimer de la liste et de l'ajouter à nouveau en vous rendant sur le site et en laissant Zotero détecter à nouveau automatiquement les paramètres du serveur mandataire.
+
+Vous pouvez ajouter manuellement des serveurs mandataires en cliquant sur le bouton plus (+). De là, vous pouvez spécifier l'URL de la base de données à laquelle vous accédez dans la boîte "Hostname" et le schéma URL du serveur mandataire dans le champ "Scheme". Vous pouvez ajouter/supprimer des URL supplémentaires pour rediriger vers un seul serveur mandataire en cliquant sur les boutons plus (+) et moins (-) sous la liste des noms d'hôte. Vous pouvez également activer/désactiver l'association automatique des nouvelles URL de nom d'hôte avec un serveur mandataire.
+
+Certains serveurs mandataires exigent que les traits d'union dans les URL de nom d'hôte qu'ils utilisent soient convertis en points. Cochez la case "Automatically convert between dots and hyphens in proxied hostnames"  correspondant à cette option si c'est le cas pour votre serveur mandataire.
+
+Si vous rencontrez des difficultés pour accéder à un site en raison de la fonctionnalité de redirection par serveur mandataire de Zotero, consultez la page [[fr/kb/proxy_troubleshooting|Dépannage de serveur mandataire]].
+
+===== Préférences avancées =====
+
+{{ https://www.zotero.org/support/_media/connector_preferences_advanced.png?w=700&tok=d8ad72 }}
+
+Ces préférences sont utilisées pour signaler les erreurs et les informations de dépannage aux développeurs de Zotero.
+
+  * **Report Errors:** Si vous rencontrez un problème en utilisant le connecteur Zotero, utilisez ce bouton pour soumettre un ID de rapport d'erreur à Zotero, puis publiez un message sur les [[/forum|forums Zotero]]. Consultez les [[reporting_problems|procédures de signalement des problèmes]] pour des instructions sur la façon de soumettre des rapports d'erreur utiles.
+  * **Debug Output Logging:** Pour aider à diagnostiquer un problème, les développeurs de Zotero peuvent vous demander de soumettre un ID de journal de débogage. Celui-ci est différent de l'ID de rapport d'erreur ci-dessus. Pour soumettre un journal de débogage, cochez "Enable Logging", puis effectuez la séquence d'étapes nécessaire pour produire votre erreur. Ensuite, cliquez sur "Submit Output" et publiez le numéro d'ID de débogage sur le [[/forum|Zotero forums]]. Essayez d'éviter d'effectuer des actions sans rapport avec votre problème lors de la création d'un journal de débogage.
+  * **Translators:** Zotero vérifiera et installera automatiquement les convertisseurs mis à jour. Vous pouvez vérifier manuellement les mises à jour ici. Par défaut, le connecteur Zotero signalera les convertisseurs de sites défectueux à zotero.org. Cela permet à Zotero d'assurer le bon fonctionnement du processus d'importation de Zotero à partir des sites du Web.
+  * **Advanced Configuration:** Les options de l'éditeur de configuration ne sont pas utiles pour le dépannage général et ne doivent être utilisées que si les développeurs de Zotero le demandent.
+
+
+{{tag>pref-fr}}

@@ -1,0 +1,35 @@
+====== Les styles bibliographiques ======
+
+Zotero est livré avec plusieurs styles bibliographiques couramment utilisés pour [[fr/creating_bibliographies|créer des citations et des bibliographies]], et on trouve plus de 8100 styles supplémentaires dans [[/styles|l'entrepôt des styles Zotero]]. Tous ces styles sont écrits en langage CSL ([[http://citationstyles.org/|Citation Style Language]] ), un format également supporté par Mendeley, Papers, et bien d'autres applications.
+
+===== Installer des styles supplémentaires =====
+
+==== L'entrepôt des styles Zotero ====
+
+Vous pouvez installer des styles à partir de [[/styles|l'entrepôt des styles Zotero]] en cliquant sur le lien "Obtenir d'autres styles…" du [[fr/preferences/cite|gestionnaire de styles Zotero]] (dans le volet "Citer" des préférences de Zotero). Cherchez le style que vous souhaitez et cliquez sur l'intitulé du style pour l'installer dans Zotero. En utilisant un navigateur Firefox ou Chrome équipé du  connecteur Zotero, vous pouvez aussi installer directement les styles dans Zotero  à partir de la page web de [[/styles|l'entrepôt des styles Zotero]].
+
+L'entrepôt vous permet d'effectuer une recherche par intitulé de style, et de filtrer par type de style et par champ disciplinaire. En cochant la case "Show only unique styles", vous masquerez les styles dupliqués qui partagent exactement la même mise en forme (i.e. pour les styles propres à chaque revue de "Nature", "Nature Biotechnology", "Nature Chemistry", etc., seul le style //independent// "Nature" est affiché).
+
+==== Méthodes d'installation alternatives ====
+
+Vous pouvez aussi installer des styles CSL (avec une extension “.csl”) à partir de fichiers enregistrés localement sur votre ordinateur (i. e. des styles que vous éditez vous-même ou que vous téléchargez à partir d'un autre site web). Dans le [[fr/preferences/cite|gestionnaire de styles Zotero]], cliquez sur le bouton '+', puis trouvez le fichier de style sur votre ordinateur.
+
+===== Gérer et éditer les styles =====
+
+Vous pouvez retirer des styles installés en cliquant sur le bouton '-' dans le [[fr/preferences/cite|gestionnaire de styles Zotero]]. A partir de cet onglet, vous pouvez aussi prévisualiser le résultat de la mise en forme effectuée par les styles sur des éléments sélectionnés de votre bibliothèque Zotero et [[fr/dev/citation_styles|éditer des styles installés]].
+
+
+===== Signaler des erreurs de style =====
+
+Si un style ne produit pas le résultat attendu, vérifiez tout d'abord que vous exécutez la dernière version (stable) de Zotero, et que vous avez bien la version la plus récente du style, installée à partir de [[/styles|l'entrepôt des styles Zotero]]. Une fois que vous vous êtes assuré que le style s'éloigne du guide du style, des instructions aux auteurs, ou d'exemples publiés, signalez l'erreur sur le [[/forum|forum Zotero]]. Pour votre billet, utilisez le titre "Style Error: [Name of style]",  et fournissez une référence au guide du style (lien vers ou extrait de) qui montre que le style CSL n'est pas correct. Vous pouvez également  [[fr/dev/citation_styles/style_editing_step-by-step|éditer le style]] vous-même.
+
+===== Demandez de nouveaux styles =====
+
+Si vous ne trouvez pas le style que vous cherchez dans [[/styles|l'entrepôt des styles Zotero]], n'hésitez pas à [[https://github.com/citation-style-language/styles/wiki/Requesting-Styles|demander un style]]. Lorsque vous demandez des styles, merci de fournir des références mises en forme pour l'article Campbell/Pedersen et le chapitre Mares mentionnés sur la page en lien. Merci de fournir aussi un lien vers un article accessible gratuitement utilisant le style (si un tel article est disponible). Vous pouvez également [[fr/dev/citation_styles|créer le style]] vous-même.
+
+===== Questions =====
+
+Vous avez encore des interrogations? Consultez les entrées suivantes de la FAQ, ou, si ces dernières n'apportent pas de réponse à votre question, recourez au [[/forum/|forum Zotero]].
+
+{{topic>kb +styles&nouser&nodate}}
+{{topic>fr:kb +styles&nouser&nodate}}

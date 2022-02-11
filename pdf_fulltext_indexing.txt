@@ -1,0 +1,25 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+====== Indexation du texte intégral des PDF ======
+
+Zotero est capable d'indexer le texte intégral des documents PDF. Cette fonction nécessite l'utilisation d'un programme tiers pour convertir le texte inclus dans un document PDF en texte brut qui sera utilisé par les documents en cache. Par défaut, Zotero utilise l'utilitaire pdftotext du projet [[http://www.foolabs.com/xpdf/|Xpdf]], qui est une visionneuse de PDF libre et multi-plateforme. D'autres fonctions sont disponible grâce à un autre utilitaire, pdfinfo.
+
+====== Installation basique ======
+
+Des versions personnalisées et adaptées à votre plateforme de pdftotext et pdfinfo peuvent être téléchargées et installées automatiquement via les préférences de Zotero.
+
+Après avoir installé ces outils, les nouveaux documents PDF seront indexés automatiquement lorsque vous les ajouterez à votre bibliothèque. Les documents préexistants peuvent être ajoutés via les préférences Zotero. 
+
+Merci de noter que l'indexation des PDF ne fonctionne pas avec les documents ne contenant que des images, bien que certain de ces documents incluent une couche cachée de texte recherchable.
+((As of March 28, 2007, [[http://www.jstor.org|JSTOR]] is [[http://www.jstor.org/about/newfeatures.html|including an embedded text layer in its PDFs]].))
+
+
+====== Installation avancée ======
+
+Sous Windows, Zotero nécessite des fichiers d'installations personnalisés de pdftotext et de pdfinfo (pour éviter que la fenêtre d'invite de commande apparaisse en cours d'indexation) ainsi que, pour toutes les plate-formes, une version personnalisée de pdfinfo qui permet d'écrir dans un document texte, dont le code source est disponible [[https://www.zotero.org/trac/browser/tools/xpdf/pdfinfo.cc|ici]].
+
+Les utilisateurs qui désirent installer les outils Xpdf manuellement (ou ceux qui utilisent des plate-formes pour lesquelles nous n'avons pas produit de versions personnalisée ) peuvent le faire en construisant ces outils, puis en plaçant les binaries directement dans le répertoire de données Zotero (Zotero data directory) ou plaçant un lien les reliant depuis cet emplacement. Quelque soit la méthode retenue, un document dédié à la plateforme doit être placé dans le répertoire de données Zotero, en se conformant à la syntaxe suivante :  "pdftotext-''{platform}''", où ''{platform}'' est à remplacer par "Win32", "MacIntel", "MacPPC", "Linux-i686", selon les cas. Si vous ignorez quelle est votre plateforme, tapez ''javascript:alert(navigator.platform)'' dans la barre d'adresse de Firefox puis validez par Entrée.  La version Windows nécessite l'extension .exe, ce qui donne "pdftotext-Win32.exe". Vous pouvez aussi créer un document texte contenant le numéro de version installée en respectant le format suivant : pdftotext-{platform}.version.

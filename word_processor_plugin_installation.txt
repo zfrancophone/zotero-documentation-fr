@@ -1,0 +1,7 @@
+======Installer les modules pour logiciel de traitement de texte de Zotero =====
+
+Les [[word_processor_integration|modules pour logiciel de traitement de texte]] sont fournis avec Zotero et doivent être installés automatiquement pour chaque [[:system_requirements#word_processors|logiciel de traitement de texte pris en charge (page en anglais)]] installé sur votre ordinateur lorsque vous démarrez Zotero pour la première fois.
+
+Vous pouvez réinstaller ultérieurement ces modules depuis l'onglet Citer -> Traitements de texte dans les préférences de Zotero. Si vous rencontrez des difficultés, consultez les pages [[word_processor_plugin_manual_installation|Installer manuellement les modules pour logiciel de traitement de texte de Zotero]] ou [[Word Processor Plugin Troubleshooting|Dépannage des modules pour logiciel de traitement de texte]].
+
+Si vous avez déjà installé les versions Firefox des modules pour logiciel de de traitement de texte dans Zotero 5.0 ou Zotero Standalone 4.0, vous devez les désinstaller à partir de Outils -> Extensions.

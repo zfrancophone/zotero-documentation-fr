@@ -1,0 +1,36 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+Zotero File Storage est une solution de stockage en ligne des PDF, images, captures d'écran Web, et de tous les fichiers rattachés à vos bibliothèques personnelles ou de groupe. Zotero File Storage vous permet d'accéder à vos fichiers depuis n'importe quel ordinateur équipé d'un navigateur Web, et vous pouvez synchroniser ces fichiers avec n'importe quel ordinateur équipé de Zotero. Reportez-vous aux [[storage FAQ]] pour plus d'information.
+
+Chaque utilisateur de Zotero se voit attribuer gratuitement 100 MO d'espace de stockage pour ses fichiers joints. 
+
+
+===== Zotero File Storage pour votre bibliothèque =====
+  - Pour configurer votre bibliothèque pour le stockage en ligne, vous devez utiliser Zotero 2.0b7 ou une version plus récente.
+  - Ouvrez les Préférences Zotero, et cliquez sur l'onglet Synchronisation. 
+  - Réglez vos préférences de synchronisation des fichiers sur Synchroniser les fichiers joints de ma bibliothèque en utilisant Zotero.
+
+{{http://www.zotero.org//static/images/support/zotero_storage_pref.png}}
+
+Vous pouvez retrouver la proportion utilisée de votre espace dans la page[[/settings/storage|Storage Settings]].
+
+===== Zotero File Storage pour vos groupes =====
+
+Vous pouvez également synchroniser des fichiers de groupe. Le stockage du groupe est décompté du quota d'espace du propriétaire du groupe. 
+
+Pour configurer vos groupes pour le stockage, vous devrez régler vos préférence de stockage de fichiers dans les préférences de Zotero. 
+
+Vous pourriez aussi vouloir modifier vos préférences de modification de fichier sur vos pages de réglage de votre bibliothèque de groupe. 
+
+Les groupes publics ouverts ne peuvent pas avoir d'espace de stockage ; seuls les groupes publics fermés et les groupes privés peuvent utiliser Zotero File Storage.
+
+
+===== Quelles sont les différences entre Zotero File Storage et le serveur Zotero ? =====
+
+Le serveur Zotero permet la synchronisation, la collaboration de groupe, et le service d'accès au Web pour les métadonnées de la bibliothèque Zotero (c'est à dire la recherche d'informations bibliographiques), les notes et les marqueurs. L'ouverture d'un compte sur les serveurs Zotero est gratuite. 
+
+Zotero File Storage est un service optionnel qui y ajoute la prise en charge des fichiers reliés, comme les documents PDF , les images, et las captures d'écran Web. En fonction de la quantité de fichiers rattachés à vos bibliothèques Zotero, ce service peut devenir payant ; vous disposez d'un espace gratuit de 300 Mo.

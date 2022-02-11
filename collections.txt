@@ -1,0 +1,43 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+=====Organiser sa bibliothèque=====
+Cliquez sur l'image ci dessous pour visionner la vidéocapture :
+|[[http://www.zotero.org/support/screencast_tutorials/collections|{{http://www.zotero.org/support/_media/collections_200x148.gif?nocache|}}]]| 
+^Gérer vos collections (vidéo en anglais)^
+
+=====Ma bibliothèque=====
+**Ma bibliothèque** {{:fr:box.png|}} est une collection spéciale. 
+  * Elle ne peut être renommée ou supprimée.
+  * Tout élément téléchargé sera déversé dans ce dossier (en plus de la collection en cours d’utilisation).
+  * Elle ne peut accepter plus d’une fois le même élément (pas de doublons).
+
+==Attention==
+Supprimer un élément de Ma bibliothèque a pour conséquence de supprimer également cet élément dans la ou les collections où il a été enregistré.
+
+=====Les collections=====
+Ce sont les dossiers {{:fr:folder.png|}} et sous dossiers que vous créez pour ranger vos éléments :
+  * Pour créer une nouvelle collection, utilisez le bouton **Nouvelle collection** {{:fr:folder_add.png|}}. Indiquez le titre de votre collection.
+
+  * Pour créer une sous collection, il suffit de déplacer (glisser-déposer) un dossier dans un autre et de créer ainsi une arborescence.
+
+  * Pour renommer ou supprimer une collection, utilisez le menu contextuel (clic-droit de la souris)
+
+  * Les collections ne peuvent contenir plus d’une fois le même élément (pas de doublons).
+  * Un élément supprimé dans une collection est toujours disponible dans **Ma bibliothèque** {{:fr:box.png|}}.
+
+  * Un élément peut être classé dans plusieurs collections différentes.
+
+=====Classer et déplacer=====
+  * Pour classer / déplacer vos éléments, placez-vous sur **Ma bibliothèque** ou sur une collection.
+ 
+  * Sélectionnez dans la colonne du milieu les éléments que vous souhaitez déplacer.
+
+  * Cliquez sur la sélection et faites la glisser dans la collection de votre choix.
+
+=====Pour information=====
+Déplacer, repositionner une collection ou un élément… se réalise par glisser-déposer (drag-and-drop).
+Si l’élément que vous tentez de glisser dans un dossier s’y trouve déjà, un petit symbole « interdit » {{:fr:interdit.gif|}} apparaît à la place de la souris vous indiquant que l’élément ne sera pas déplacé.

@@ -1,0 +1,88 @@
+====== Les groupes Zotero ======
+
+Les groupes Zotero fournissent un moyen puissant pour partager des collections avec une classe, travailler étroitement avec des collègues sur un projet, suivre plus généralement les conversations dans votre domaine, et garder un oeil sur ce sur quoi les autres membres de votre institution ou de votre département travaillent. Il n'y a pas de limite quant au nombre de membres qui peuvent rejoindre vos groupes, et votre abonnement de stockage entier est toujours disponible pour vos bibliothèques personnelle et de groupe.
+
+Les bibliothèques de groupes sont séparées de votre bibliothèque personnelle "Ma bibliothèque", vous pouvez donc également utiliser les groupes Zotero pour conserver des bibliothèques distinctes dans un même profil Zotero.
+
+===== Créer des Groupes =====
+
+Il existe deux manières de créer des groupes avec Zotero.
+  - Vous pouvez cliquer sur l'icône "Nouvelle bibliothèque..." située à coté de l'icône "Nouvelle Collection" dans le coin supérieur gauche de Zotero, et choisir "Nouveau groupe...".
+  {{:z5_collection_group_icons.png?direct}}
+  - Vous pouvez aussi cliquer sur le lien "Create a New Group" sur la [[/groups|page des groupes]] sur le site zotero.org.
+
+===== Les types de groupes =====
+==== Les groupes privés (Private Membership) ====
+
+  * Les groupes privés constituent un moyen de collaborer entre membres d'un groupe sans créer une quelconque exposition publique en ligne du groupe.
+  * Seuls les membres du groupe et les utilisateurs invités à rejoindre le groupe peuvent voir la page du groupe.
+  * Les groupes privés sont totalement cachés des recherches de groupe. Ils ne sont pas visibles sur la page de profil publique des membres, et n'apparaîtront pas dans les résultats des moteurs de recherche.
+  * Si les administrateurs activent le partage de fichiers, les membres du groupe peuvent accéder à et partager des fichiers joints (PDF, etc.) en plus des références.
+
+==== Les groupes publics, à participation restreinte (Public, Closed Membership)====
+
+  * Les groupes à participation restreinte sont utiles pour créer un environnement de groupe contrôlé avec une présence publique. Cela permet à un groupe de présenter publiquement son travail et ses sources, ou d'accroître le nombre de ses participants d'une manière contrôlée.
+  * Tout le monde peut voir la page du groupe, mais le seul moyen de rejoindre le groupe est de recevoir ou de solliciter une invitation.
+  * Si le groupe alimente une bibliothèque, les administrateurs peuvent choisir de montrer ou de cacher aux non-membres la bibliothèque.
+  * Si les administrateurs activent le partage de fichiers, les membres du groupe peuvent accéder à et partager des fichiers joints (PDF, etc.) en plus des références.
+
+==== Les groupes publics, à participation ouverte (Public, Open Membership) ====
+
+  * Les groupes publics à participation ouverte sont utiles pour les discussions et les collaborations les plus larges.
+  * La page du groupes est publique, et tout le monde peut devenir membre instantanément.
+  *  Si le groupe alimente une bibliothèque, les administrateurs peuvent choisir de montrer ou de cacher aux non-membres la bibliothèque.
+  * Il n'est pas possible de partager des fichiers joints dans les groupes publics à participation ouverte.
+
+===== Paramètres des groupes =====
+
+==== Paramètres du profil de groupe ====
+
+Cette page vous permet de changer le nom du groupe, sa description, sa discipline académique et son type (privé/public, ouvert/restreint). Vous pouvez également ajouter une image de profil, indiquer l'URL d'une page web concernant  le groupe et activer/désactiver les commentaires.
+
+Pour transférer la propriété du groupe à un autre utilisateur, utilisez l'option "Transférer la propriété" à partir de cette page. Seul le propriétaire du groupe peut initier un transfert de propriété. Si le membre proposé accepte la propriété, il deviendra le nouveau propriétaire du groupe (et tout stockage de fichiers de groupe commencera à être décompté de son quota de stockage).
+
+Les propriétaires de groupe peuvent également supprimer le groupe à partir de cette page.
+
+
+==== Paramètres des membres ====
+
+Il existe trois rôles pour les utilisateurs des groupes : membres, administrateurs et propriétaires de groupe. Les administrateurs peuvent modifier le statut public/privé du groupe, les rôles des membres et les paramétrages de la bibliothèque du groupe. Les propriétaires de groupe possèdent les mêmes privilèges que les administrateurs, mais peuvent aussi supprimer le groupe ou transférer sa propriété à un autre membre.
+
+Si le stockage de fichiers est activé pour le groupe, il sera décompté sur le quota de stockage du propriétaire. Les quotas de stockage des autres membres du groupe ne seront pas affectés par les fichiers du groupe.
+
+S'il s'agit d'un groupe pour une équipe, un laboratoire ou une organisation, nous recommandons de créer un compte séparé pour que l'équipe puisse fonctionner comme propriétaire du groupe, avec au moins deux personnes connaissant les informations de connexion. De cette façon, vous ne serez pas exclu du groupe si le propriétaire du groupe quitte l'équipe ou l'organisation.
+
+Pour inviter de nouveaux membres, cliquez sur le lien "Send More Invitations" au bas de cette page. Les invitations en attente peuvent également être annulées à partir de cette page.
+
+
+==== Paramètres de la bibliothèque ====
+
+**Type de groupe**
+Le type de groupe (privé/public, ouvert/restreint) peut être changé à partir de cette page.
+\\
+\\
+**Lecture de la bibliothèque** (Qui peut voir les éléments de cette bibliothèque de groupe?)
+  * Tout le monde sur internet
+  * Tous les membres du groupe
+\\
+**Édition de la Bibliothèque** (Qui peut ajouter, éditer, et supprimer des éléments dans cette bibliothèque de groupe?)
+  * Tous les membres du groupe
+  * Seulement les administrateurs du groupe
+\\
+**Édition des fichiers** (Qui peut travailler avec les fichiers stockés dans le groupe? Les groupes publics à participation ouverte ne peuvent pas activer le stockage de fichiers.)
+  * Tous les membres du groupe
+  * Seulement les administrateurs du groupe
+  * Il n'y a pas de stockage de fichier
+
+===== Interagir avec des groupes par le biais du logiciel Zotero =====
+
+Si vous avez [[sync#data_syncing|activé la synchronisation des données]] et si vous êtes membre d'un groupe dont la bibliothèque est activée, la bibliothèque de groupe apparaîtra dans Zotero dans la colonne de gauche. Les éléments peuvent être glissés/déposés dans un groupe à partir de "Ma bibliothèque" et visualisés et édités par les autres membres du groupe, si les autorisations ont été accordées. Pour créer une collection cliquez droit sur une bibliothèque de groupe et sélectionnez "Nouvelle collection..." ou "Nouvelle recherche enregistrée...".
+
+Notez que les bibliothèques de groupes sont complètement séparées de "Ma bibliothèque". Tout élément glissé/déposé dans une bibliothèque de groupe est une copie séparée et les modifications apportées à cet élément ne seront pas répercutées dans votre propre copie tant que vous ne l'aurez pas glissée/déposée dans l'autre sens vers "Ma bibliothèque".
+
+Vous trouverez ci-dessous une copie d'écran de plusieurs groupes avec des collections.
+
+{{:group_library.png?direct}}
+
+===== Interagir avec des groupes par le biais du site web =====
+Chaque groupe possède sa propre page web. Pour les groupes publics, cette page joue le rôle d'un portail public pour le travail collaboratif du groupe. Pour les groupes privés, la page propose un moyen pour les membres du groupe d'interagir avec la bibliothèque du groupe depuis n'importe où. Notez qu'il n'est actuellement pas possible de déplacer des éléments entre des groupes ou entre "Ma bibliothèque" et un groupe en utilisant la bibliothèque web zotero.org.

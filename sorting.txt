@@ -1,0 +1,17 @@
+====== Tri ======
+
+Dans le panneau central, les éléments peuvent être classés en fonction de certaines de leurs caractéristiques, tels que leur titre, leur créateur ou leur date d'ajout dans votre bibliothèque. Pour une vue d'ensemble rapide, regardez [[screencast_tutorials:sorting|la vidéo "Tri"]].
+
+{{ https://www.zotero.org/support/_media/sorting_sorting.png?nolink&nocache}}
+
+Pour modifier le critère de tri des éléments, cliquez sur l'un des en-têtes de colonne en haut du panneau central. Si vous cliquez par exemple sur //Titre//, tous vos articles seront triés par ordre alphabétique de titre. Cliquer plusieurs fois sur un en-tête permet de basculer d'un tri ascendant à un tri descendant (l'en-tête affichera une flèche respectivement vers le haut et vers le bas).
+
+Par défaut, Zotero affiche dans le panneau central les colonnes //Titre//, //Créateur// et //Fichiers joints//. Vous pouvez modifier les caractéristiques affichées en cliquant sur l'icône de tri  ({{sorting/sorticon.png?nolink&nocache}}), située à droite des en-têtes de colonne. Cocher les caractéristiques dans le menu déroulant les ajoute à la colonne centrale, tandis que les décocher les en retire.
+
+
+{{https://www.zotero.org/support/_media/sorting_dropdown.png?nolink&nocache }}
+
+
+Pour chaque colonne, vous pouvez également sélectionner le champ //Tri secondaire// ; ce champ est utilisé lorsque le critère de tri principal ne permet pas de classer deux éléments.
+
+Les caractéristiques sont disposées par défaut de gauche à droite du panneau central, dans l'ordre dans lequel elles sont affichées dans le menu déroulant. Vous pouvez les réorganiser en faisant glisser-déposer les en-têtes. Pour réinitialiser l'ordre, sélectionnez //Restore Column Order// dans le menu déroulant.

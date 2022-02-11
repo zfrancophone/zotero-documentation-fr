@@ -1,0 +1,23 @@
+====== Langues ======
+
+De par sa conformité à [[http://fr.wikipedia.org/wiki/Unicode|Unicode]], Zotero peut importer, sauvegarder, et citer des documents en n'importe quelle langue. Vous pouvez également changer la langue de l'interface de Zotero et des références et bibliographies. Grâce aux efforts de la communauté, environ 40 langues sont disponibles.
+
+Zotero s'installera automatiquement dans la lange de votre système d'exploitation. Si Zotero n'est pas disponible dans la langue de votre système d'exploitation, son interface sera en anglais, la langue par défaut.  
+
+====== Changer de langue ======
+
+==== Zotero ====
+Dans Zotero, la langue correspond automatiquement à celle de votre système d'exploitation. Pour sélectionner une autre langue, dans le menu Édition (Windows/Linux) ou le menu Zotero (Mac), sélectionnez Préférences, puis l'onglet Avancées. Utilisez le menu déroulant pour sélectionner la langue désirée. Zotero devra être redémarrer pour effectuer le changement.
+
+==== Références et bibliographies ====
+
+Pour sélectionner une langue différente de celle de Zotero pour les références et bibliographies, sélectionnez celle-ci à l'endroit approprié selon le contexte : 
+  * La boîte de dialogue "Créer une citation/bibliographie" accessible via le menu contextuel
+  * La boîte de dialogue "Zotero-Préférences du document" dans votre logiciel de traitement de texte
+  * Les options de copie rapide dans l'onglet Exportation des Préférences de Zotero
+
+====== Apporter votre aide ======
+
+  * **Vous avez trouvé des erreurs dans la traduction de Zotero ?** Les erreurs de traduction peuvent être signalées sur les [[http://forums.zotero.org/categories/|forums de Zotero]].
+
+  * **Vous voulez aider à la traduction ?** Si vous désirez traduire de l'anglais vers une autre langue, vous pouvez vous référer à [[/support/dev/localization|l'aide pour la traduction]].

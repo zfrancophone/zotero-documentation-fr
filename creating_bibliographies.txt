@@ -1,0 +1,33 @@
+====== Créer des bibliographies ======
+
+===== Modules de traitement de texte =====
+
+Vous utilisez Microsoft Word ou LibreOffice?  [[fr/word_processor_integration|Les modules de traitement de texte de Zotero]] vous permettent d'ajouter des citations et des bibliographies directement depuis votre traitement de texte.
+
+=====Copie rapide =====
+
+{{quick_start/rtf-bib_450x480.png?252x288 }}
+
+Si vous souhaitez simplement ajouter rapidement des références à un article, un courriel ou un billet de blog, la copie rapide de Zotero est la façon la plus simple de procéder. Sélectionnez simplement les éléments dans la colonne centrale et faites-les glisser dans n'importe quel champ de texte. Zotero créera automatiquement une bibliographie mise en forme pour vous. Pour copier des citations au lieu de références, maintenez la touche Maj enfoncée au début du glisser-déposer.
+
+Pour paramétrer vos préférences de copie rapide, ouvrez les [[fr:kb:preferences|préférences]] de Zotero et sélectionnez [[fr/preferences/export|Exportation]].
+Depuis cet onglet vous pouvez :
+
+  * définir le format d'export par défaut,
+  * définir des paramètres spécifiques à un site,
+  * choisir si vous voulez que Zotero inclue des balises HTML lors de la copie.
+
+Vous pouvez également utiliser les [[fr:kb:keyboard_shortcuts|raccourcis clavier]] de la copie rapide pour copier des citations et des bibliographies dans le presse-papiers de votre système, puis les coller dans des documents. Les raccourcis par défaut sont Ctrl/Cmd-Maj-C (bibliographie) et Ctrl/Cmd-Maj-A (citations).
+
+===== Menu contextuel pour créer une  citation/bibliographie  =====
+
+Pour créer une bibliographie ou une liste de citations dans Zotero, mettez en surbrillance une ou plusieurs références, puis cliquez avec le bouton droit de la souris (ou contrôle-cliquez sur Mac) pour sélectionner "Créer une bibliographie à partir du (des) document(s)...". Sélectionnez ensuite un style bibliographique pour la mise en forme de votre citation/bibliographie et choisissez soit de créer une liste de //Citations/Notes// soit une //Bibliographie//. Choisissez ensuite l'une des quatre méthodes de création suivantes pour créer votre citation/bibliographie.
+
+  * //Enregistrer au format RTF// vous permettra d'enregistrer votre bibliographie en tant que fichier de texte riche.
+  * //Enregistrer au format HTML// vous permettra d'enregistrer la bibliographie en tant que fichier HTML pour l'afficher dans un navigateur web. Ce format intègrera également des métadonnées permettant aux autres utilisateurs de Zotero affichant le document d'en capturer les informations bibliographiques.
+  * //Copier dans le presse-papiers// vous permettra d'enregistrer la bibliographie dans votre presse-papiers pour la coller dans n'importe quel champ texte.
+  * //Imprimer// enverra votre bibliographie directement à une imprimante .
+
+===== Analyse RTF =====
+
+Avec l'[[fr/RTF Scan|analyse RTF]], vous pouvez écrire en texte simple et utiliser Zotero pour finaliser vos citations et bibliographies dans le style de votre choix.

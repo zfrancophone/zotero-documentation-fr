@@ -1,0 +1,32 @@
+**Toutes les pages de la base de connaissance ne sont pas traduites en français : cliquez sur ''en'' en haut de la page pour afficher la version complète de la base de connaissance, en anglais.**
+
+====== Base de connaissances ======
+
+===== Utilisation de base de Zotero 5.0 et dépannage =====
+
+{{topic>kb-fr +basics-fr&nouser&nodate}}
+
+===== Alimenter votre bibliothèque =====
+
+{{topic>kb-fr +entry-fr&nouser&nodate}}
+
+===== Organiser votre bibliothèque =====
+
+{{topic>kb-fr +organizing-fr&nouser&nodate}}
+
+===== Synchronisation =====
+
+{{topic>kb-fr +sync-fr&nouser&nodate}}
+
+===== Modules de traitement de texte =====
+
+{{topic>kb-fr +word_processors-fr&nouser&nodate}}
+
+===== Création de bibliographies =====
+
+{{topic>kb-fr +styles-fr&nouser&nodate}}
+
+===== Autres sujets =====
+
+{{topic>kb-fr -styles-fr -sync-fr -organizing-fr -entry-fr -word_processors-fr -basics-fr&nouser&nodate-fr}}
+

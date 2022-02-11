@@ -1,0 +1,21 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+**Janvier 2013: CONTENU PÉRIMÉ.**
+
+
+Zotero est un logiciel Nomade. En plus de pouvoir l'utiliser sur différents ordinateurs, il vous permet de partager vos informations avec vos collègues. En fonction de vos besoins, l'une des solutions suivante est possible:
+
+  * [[ /Using Portable Firefox on a USB Drive|Utilisez une version nomade de Firefox sur clé USB]]
+
+**Les solutions suivantes ne sont plus préconisées depuis l'arrivée de Zotero 2.0**. Nous encourageons fortement les utilisateurs de Zotero à recourir prioritairement aux fonctionnalités de synchronisation, de collaboration et de sauvegarde de la nouvelle version.
+
+  * [[ /Zotero over a Network| Zotero en réseau]]
+
+  * [[ /Using a folder synchronization service | Utilisez la fonctionnalité de synchronisation des dossiers]] or Rsync (over SSH) to manage your Zotero library across computers
+
+
+N.B. N'oubliez pas qu'il est toujours utile de [[ /zotero_data | sauvegarder ]] vos données.

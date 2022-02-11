@@ -1,0 +1,19 @@
+====== Modules pour logiciel de traitement de texte ======
+
+Parmi les différentes façons de [[creating_bibliographies|créer des bibliographies]] (ainsi que des citations dans le texte et des notes de bas de page) automatiquement, les modules pour logiciel de traitement de texte, faciles à utiliser, sont les plus puissants. Ces modules, disponibles pour Microsoft Word et LibreOffice, créent des bibliographies dynamiques : insérez une nouvelle citation dans le texte de votre manuscrit, et la bibliographie sera automatiquement mise à jour pour inclure le document cité. Corrigez le titre d'un élément dans votre bibliothèque Zotero, et d'un simple clic le changement sera répercuté dans vos documents.
+
+Consultez les liens suivants pour débuter avec ces modules.
+
+  *  [[Word Processor Plugin Usage|Utiliser le module Zotero pour Word]]
+
+  *  [[LibreOffice Writer Plugin Usage|Utiliser le module Zotero pour LibreOffice]]
+
+  *  [[google_docs|Utiliser Zotero avec Google Docs]]
+
+  *  [[Word Processor Plugin Troubleshooting|Dépannage des modules pour logiciel de traitement de texte]]
+
+[[plugins#word_processor_and_writing_integration|Des extensions tierces]] sont également disponibles pour intégrer Zotero à d'autres systèmes de traitement de texte et d'écriture.
+
+======= Guide vidéo ========
+
+Vous pouvez également avoir un avant-goût du fonctionnement de ces modules en regardant les vidéocaptures d'écran de [[http://www.youtube.com/watch?v=RuRF8zxkxIo#!|Zotero et Word]] (par Hannah Rempel, utilisant l'interface de citation rapide) et de [[http://www.youtube.com/watch?v=JFkWoBAJY5c|Zotero et OpenOffice]]] (par Ryan Guy, utilisant la fenêtre classique d'ajout de citation). Notez que ces vidéos ont été réalisées à partir d'anciennes versions de Zotero ; les boutons du module Zotero Word ont une apparence légèrement différente dans les versions plus récentes.

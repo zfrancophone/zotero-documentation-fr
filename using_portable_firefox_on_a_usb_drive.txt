@@ -1,0 +1,38 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+===== Instructions élémentaires=====
+
+
+Afin d'utiliser Zotero via Portable Firefox installé sur un disque externe, il vous faudra :
+
+  - Installer Portable Firefox et Zotero sur ce disque externe (clé USB, disque dur...)
+  - Déplacer votre bibliothèque Zotero sur ce disque externe
+  - Indiquer à Zotero dans quel dossier se trouve votre bibliothèque
+
+
+
+===== Instructions détaillées =====
+
+
+=== 1. Installer Portable Firefox et Zotero ===
+
+Installez Portable Firefox pour[[http://portableapps.com/apps/internet/firefox_portable | Windows]] ou [[http://www.macupdate.com/info.php/id/20395 | Mac]] according to the directions.  Puis, lancez Portable Firefox et installez Zotero.  (La dernière version de Zotero est disponible sur la [[/ |page d'accueil]].)
+
+=== 2. Déplacer votre bibliothèque Zotero ===
+
+Zotero enregistre vos données dans un sous-dossier du dossier correspondant à votre profil Firefox.
+
+Vous pouvez localiser ce sous-dossier en allant dans le sous-menu "Préférences" du menu Actions, accessible en cliquant sur l'icône représentant une roue dentée{{start:gearicon2.jpg?nolink}}. Après avoir sélectionné l'onglet [[fr:preferences/advanced|"Avancés"]], vous cliquerez sur le bouton "Affichez le répertoire contenant les données".
+
+Une fois Firefox __complètement fermé__, copiez l'intégralité du répertoire 'zotero' (identifié précédemment) sur votre disque externe. Souvenez-vous de l'endroit sur le disque externe où vous copiez ce répertoire (pour l'étape suivante).
+
+=== 3. Indiquer à Zotero dans quel dossier se trouve votre bibliothèque===
+
+Ouvrez le menu Préférences dans Zotero via Portable Firefox.  Vous pouvez accéder à ce menu Préférences en cliquant sur la roue dentée {{start:gearicon2.jpg?nolink}} dans Zotero ou en sélectionnant "Modules complémentaires" dans le menu "Outils" de Firefox, puis sélectionner Zotero et cliquer sur le bouton "Options".
+
+  * Cliquez sur "Avancées" dans le menu Préférences \\ {{  start:zotero-advanced4.jpg?nolink }}
+  * Cliquez sur "Personnalisé" sous "Emplacement du répertoire contenant les données" pour indiquer où se trouve votre bibliothèque Zotero sur votre disque externe. Une fenêtre s'ouvre alors: choisissez le répertoire retenu à la fin de l'étape 2. Une fois cela fait, Zotero redémarrera Portable Firefox avec le contenu de votre librairie.

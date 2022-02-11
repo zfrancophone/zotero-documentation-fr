@@ -1,0 +1,116 @@
+====== Signaler des problèmes avec Zotero ======
+
+Quelque chose dans Zotero ne fonctionne pas correctement pour vous ? Voici les informations que vous devrez fournir sur les [[/forum|forums Zotero]] pour permettre aux développeurs de Zotero et à d'autres personnes de vous aider le plus efficacement possible.
+
+** Merci de fournir à la fois #1 et #2 listés ci-dessous. **
+
+==== 1. Fournissez un ID report (identifiant de rapport) ====
+
+=== Zotero ===
+
+Si vous rencontrez un problème, ouvrez le menu "Aide" dans Zotero et sélectionnez "Rapport d'erreurs...", avant de redémarrer Zotero.
+
+Dans la fenêtre qui s'ouvre, soumettez le rapport d'erreurs, puis copiez l'identifiant numérique du rapport (et non son contenu) et collez-le dans votre fil de discussion sur les forums Zotero. Les rapports d'erreur ne sont pas examinés, sauf s'ils sont mentionnés sur les forums, car ces rapports ne sont généralement pas utiles sans contexte et/ou suivi.
+
+Si vous n'êtes pas en mesure de fournir un identifiant de rapport, assurez-vous de mentionner votre système d'exploitation et votre  [[kb:zotero version|version de Zotero]] dans votre message sur les forums.
+
+=== Connecteurs Zotero ===
+
+Si vous rencontrez un problème, ouvrez les préférences du Connecteur Zotero, avant de redémarrer le navigateur.
+
+  * **Chrome:** Faites un clic droit sur le bouton "Enregistrer dans Zotero" et cliquez sur "Préférences", ou tapez %%chrome://extensions%% dans la barre d'adresse, appuyez sur "Entrée", cliquez sur "Détails" sous "Zotero Connector", puis cliquez sur "Options de l'extension".
+  * **Safari:** Faites un clic droit n'importe où sur une page web et sélectionnez "Préférences de Zotero..."
+  * **Firefox:** Tapez about:addons dans la barre d'adresse, appuyez sur "Entrée", et cliquez sur le bouton "Options" à côté de l'entrée pour "Zotero Connector". Cliquez sur l'onglet "Advanced".
+
+Dans la section "Report Errors", cliquez sur "Submit Report". Une boîte de dialogue contenant un identifiant de rapport devrait s'afficher. Publiez l'identifiant du rapport sur les forums Zotero.
+
+Si vous ne pouvez pas fournir d'identifiant de rapport, assurez-vous de mentionner votre [[kb:zotero version|version de Zotero]], la version de votre connecteur Zotero, votre navigateur et votre système d'exploitation dans votre message sur les forums.
+
+
+==== 2. Fournissez les étapes à reproduire ====
+
+La meilleure façon de nous aider à résoudre un problème est de nous expliquer exactement ce qui se passe et comment reproduire de façon systématique ce problème. Si vous pouvez faire cela, nous pourrons presque certainement résoudre votre problème rapidement ou vous dire comment le résoudre. Notez que lorsqu'un problème s'est produit, d'autres choses dans Zotero peuvent tomber en panne temporairement. Il est donc important de redémarrer Zotero et d'essayer de répéter ce que vous avez fait avant que le problème ne se produise.
+
+Si vous n'êtes pas en mesure de reproduire le problème, expliquez ce qui s'est passé et ce que vous faisiez au moment où il s'est produit.
+
+Publiez un message sur les forums avec les informations suivantes.
+
+  - Les étapes exactes que vous avez effectuées pour reproduire le problème - ou, si vous n'y parvenez pas, ce que vous faisiez lorsque le problème s'est produit - y compris les boutons ou autres éléments d'interface sur lesquels vous avez cliqué.
+  - Ce qui s'est passé, y compris **les messages d'erreur exacts** ou tout autre texte pertinent que vous voyez à l'écran.
+  - Ce que vous vous attendiez à voir se produire (sauf si vous signalez un message d'erreur clair).
+
+
+=== Mauvais: ===
+
+>Zotero n'arrête pas de planter pendant que je l'utilise ! A L'AIDE !
+
+=== Bon: ===
+
+>Report ID: 1892199645
+>
+>Lorsque je fais glisser un document de la liste "Non classés" dans une autre collection et qu'un marqueur est sélectionné en bas à gauche, Zotero me dit qu'il doit être redémarré.
+>
+>Etapes à reproduire :
+>
+>1. Démarrer Zotero.
+>2. Cliquer sur "Non classés" dans le volet de gauche.
+>3. Cliquer sur un marqueur dans le sélecteur de marqueurs.
+>4. Faire glisser un document vers une autre collection.
+>
+>Zotero affiche le message  'Une erreur s'est produite. Veuillez redémarrer Zotero.' dans le volet central.
+
+=== Mauvais: ===
+
+>Je n'arrive pas à comprendre comment ajouter une page web à Zotero.
+
+=== Bon: ===
+
+>Report ID: 19672347
+>
+>Je n'arrive pas à comprendre comment ajouter une page web à Zotero.
+>
+>Etapes à reproduire :
+>
+>1. Cliquer sur le bouton le plus à gauche de la barre d'outils au-dessus du volet central dans Zotero, avec un plus blanc à l'intérieur d'un cercle vert.
+>2. Ouvrir le menu "Plus".
+>
+>Je m'attendais à voir "Page web" dans ce menu. Je vois "Illustration", "Enregistrement audio", "Acte juridique", etc., mais rien concernant l'ajout d'une page web. Comment puis-je ajouter une page web?
+
+
+===== Signaler des erreurs de démarrage =====
+
+Pour les problèmes graves qui vous empêchent d'utiliser l'assistant de signalement --- tels que le fait que Zotero ne s'ouvre pas du tout --- nous pouvons avoir besoin de plus d'informations.
+
+1. Tout d'abord, assurez-vous que vous avez essayé de redémarrer votre ordinateur. De nombreuses erreurs de démarrage disparaissent après un redémarrage de l'ordinateur.
+
+2a. Si vous pouvez accéder au menu d'aide de Zotero, allez dans "Aide -> Journal de débogage -> Redémarrer avec le journal activé".
+
+2b. Si vous ne pouvez pas accéder au menu d'aide, ou si le problème ne survient pas lors d'un redémarrage, lancez Zotero via la ligne de commande. Les étapes pour ce faire dépendent de votre plate-forme.
+
+
+== macOS ==
+
+    - Ouvrez "Terminal" via Spotlight ou depuis /Applications/Utilities.
+    - Allez dans le menu de "Terminal" et ouvrez les "Préférences". Dans Paramètres->Fenêtre, assurez-vous que le défilement vers l'arrière est réglé sur "Limiter à la mémoire disponible".
+    - Collez ce qui suit dans le terminal et appuyez sur retour. <code>/Applications/Zotero.app/Contenu/MacOS/zotero -ZoteroDebug</code>
+
+== Windows ==
+
+    - Appuyez sur Windows-R ou cherchez "exécuter" pour ouvrir la boîte de dialogue Exécuter.
+    - Cliquez sur "Parcourir... " et localisez le répertoire de l'application Zotero. Il s'agit généralement de %%"%%C:\Program Files (x86)\Zotero\%%%"%%.
+    - Sélectionnez le fichier %%"%%zotero.exe%%"%% et cliquez sur "Ouvrir".
+    - Le chemin d'accès complet au fichier %%"%%zotero.exe%%"%% sera affiché dans la zone de texte. Ajoutez %%"%% -ZoteroDebug%%"%% à la fin, après les guillemets fermants, avec un espace avant le trait d'union. Par exemple : <code> "C:\Program Files (x86)\Zotero\zotero.exe" -ZoteroDebug</code>
+    - Cliquez sur OK.
+
+== Linux ==
+
+  * Depuis une fenêtre de terminal, lancez './zotero -ZoteroDebug' dans le répertoire de l'application Zotero.
+\\
+3a. Si vous avez utilisé "Redémarrer avec le journal activé", vous devriez pouvoir revenir au menu d'aide, soumettre la sortie, et copier l'ID de débogage fourni dans votre message sur les forums.
+
+3b. Si vous avez utilisé la ligne de commande, Zotero devrait commencer avec une fenêtre de sortie de débogage séparée. Une fois qu'il a cessé d'enregistrer l'activité, cliquez sur "Soumettre..." dans la section supérieure, cliquez sur l'icône du presse-papiers pour copier l'ID de débogage dans le presse-papiers, puis collez l'ID de débogage dans votre message sur les forums.
+
+
+=== Alternative : la console d'erreurs ===
+
+Si les étapes ci-dessus ne fonctionnent pas, répétez les étapes ci-dessus en remplaçant "-ZoteroDebug" par "-jsconsole". Zotero devrait s'ouvrir avec une fenêtre séparée de la console d'erreurs indiquant les erreurs qui se sont produites. Faites un clic droit sur les lignes sur fond rose, sélectionnez "Copier" et collez-les dans votre message sur les forums.

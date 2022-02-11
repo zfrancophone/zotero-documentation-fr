@@ -1,0 +1,55 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+====== Rechercher et trier ======
+Zotero propose de nombreuses fonctionnalités vous permettant de retrouver rapidement les références dont vous avez besoin. Nous allons aborder les trois fonctionnalités principalement utilisées pour fouiller votre base de donnée: le tris, le moteur de recherche et les marqueurs.
+Vous pouvez également découvrir ces fonctionnalités en visionnant les [[:screencast tutorials|vidéocaptures et démonstrations]] (en anglais). 
+
+===== Trier les éléments =====
+La fonctionnalité de tri de Zotero facilite la recherche d'éléments dans votre bibliothèque et collections. Cette fonctionnalité est décrite dans la vidéocapture [[:sorting_screencast|sorting screencast]] (en anglais).
+
+{{sorting/sorting.png?nolink&nocache}}
+
+Pour trier les éléments d'une collection, cliquez sur le libellé de la catégorie d'information, en haut de la colonne du milieu. Par exemple, si vous cliquez sur "Titre", les éléments seront triés alphabétiquement en fonction de la première lettre du titre. Cliquer une seconde fois sur le même libellé inverse l'ordre de tri. De la même manière, vous pouvez cliquer sur le libellé "Auteur" pour trier vos éléments par nom d'auteur... et ainsi de suite.
+Pour ajouter d'autres options de tri (et donc afficher d'autres catégories d'information dans la colonne du milieu), utilisez le bouton {{:sorting/sorticon.png?nolink&nocache}} en haut à droite de la colonne du milieu.
+L'activation du bouton ouvre un menu supplémentaire proposant une liste de critères. Cocher un critère, ajoute une catégorie d'information utilisable pour le tri.
+
+{{sorting/sort_dropdown.png?nolink&nocache}}
+
+=====Recherche=====
+
+====Recherche simple====
+Elle est accessible directement depuis la barre d’outils **[1]**. Le moteur fouille alors toutes les zones de la notice, les marqueurs associés ainsi que les PDF ci ceux-ci sont indexés. Les résultats sont présentés dans la colonne du milieu **[2]**.
+Pour cette recherche la troncature (*) et l’opérateur booléen (AND / ET) sont implicites.
+
+{{:fr:recherche_simple.jpg|}}
+
+====Recherche avancée====
+Le bouton Recherche avancée ({{:advanced_search:fetch.php.gif|}}) ouvre la fenêtre de recherche.
+
+{{:fr:recherche_avancee.jpg|}}
+
+Les critères de recherche sont nombreux et correspondent à l’ensemble des données de la notice. Vous pouvez ajouter ou supprimer des champs de recherche avec les signes (+) et (-) **[1]**. Les options de recherche **[2]** sont utiles : Ne montrer que les objets de niveau supérieur apporte par exemple un véritable confort de lecture des résultats.
+Il est également possible d’enregistrer la recherche **[3]**.
+
+====Recherche enregistrée : les collections dynamiques====
+Enregistrer une équation de recherche crée une nouvelle collection ({{:advanced_search:saved_search_icon.png|}}) dans votre arborescence de gauche. Cette collection comprend toutes les références qui correspondent au résultat de votre recherche. Cette collection s’actualise à chaque fois que vous la consultez. Ainsi, une référence ajoutée dans votre bibliothèque apparaîtra également dans votre collection dynamique si elle correspond aux critères de recherche utilisés.
+
+
+====Recherche par les marqeurs====
+Il est possible d’effectuer une recherche à partir de la fenêtre générale des marqueurs. Pour plus de détails, voir la section [[tags#rechercher_des_elements_par_les_marqeurs| Marqueurs et mots-clés libres]].
+
+====Indexation Texte Intégrale====
+
+====Conseils sur les modes de recherche====
+La recherche (simple ou avancée) se fait sans considération de casse (unesco = UNESCO = UnEsCo)
+
+Dans une recherche simple la troncature (*) est implicite alors que dans la recherche avancée, elle correspond à l’option « contient » appliquée à chaque champ.
+
+Dans la recherche avancée, chaque champ de recherche ne doit contenir qu’une seule chaîne de caractère.
+
+Dans la recherche avancée, l’opérateur booléen qui s’applique à l’ensemble des conditions de recherche dépend de l’option choisie dans le menu déroulant : "à toutes les" (Opérateur ET) ou "au moins à une" (opérateur OU).
+

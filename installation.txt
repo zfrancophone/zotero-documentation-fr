@@ -1,0 +1,32 @@
+===== Instructions d'installation =====
+
+==== Où télécharger Zotero ? ====
+
+Vous pouvez télécharger Zotero depuis [[/download/|la page de téléchargement]] (en anglais). Assurez-vous d'installer aussi un connecteur Zotero adapté à votre navigateur.
+
+
+==== Comment installer Zotero ? ====
+
+=== Mac ===
+
+Ouvrez le fichier .dmg que vous avez téléchargé et déposez Zotero dans le dossier Applications. Vous pouvez ensuite lancer Zotero depuis Spotlight, Launchpad ou le dossier Applications, et l'ajouter à votre Dock comme n'importe quel programme.
+
+=== Windows ===
+
+Ouvrez le programme d'installation (setup) que vous avez téléchargé.
+
+=== Linux ===
+
+Téléchargez le tarball, dézippez-le et ouvrez "zotero" depuis le répertoire afin de démarrer Zotero.
+
+Pour Ubuntu, le tarball inclut un fichier .desktop qui peut être utilisé pour ajouter Zotero au lanceur. Déplacez le répertoire dézippé vers un emplacement de votre choix (par exemple ''/opt/zotero''), exécutez le script ''set_launcher_icon'' afin de mettre à jour le fichier .desktop pour cet emplacement, et créez un lien symbolique (symlink) de ''zotero.desktop'' vers ''~/.local/share/applications/'' (par exemple ''ln -s /opt/zotero/zotero.desktop ~/.local/share/applications/zotero.desktop''). Zotero devrait alors apparaître dans votre lanceur.
+
+
+Les utilisateurs de Linux peuvent préférer utiliser un paquet pour leur distribution plutôt que d'utiliser directement le tarball. Notez que de tels paquets sont construits par des tiers, et nous ne pouvons fournir de support que pour le tarball officiel.
+
+==== Comment mettre à jour Zotero vers une nouvelle version ? ====
+
+Zotero devrait se mettre à jour automatiquement, mais vous pouvez aussi le faire manuellement en allant dans le menu Aide et en choisissant "Vérifier les mises à jour…". Il est également toujours possible d'installer manuellement une nouvelle version de Zotero par-dessus votre version existante sans perdre de données.
+
+Si vous utilisez actuellement Zotero 4.0 pour Firefox et souhaitez mettre à jour vers Zotero 5.0, il vous faut installer Zotero 5.0 depuis [[/download|la page de téléchargement]] et installer ensuite le nouveau connecteur Zotero pour Firefox. Pour plus d'informations sur ce changement majeur, consultez le billet [[/blog/a-unified-zotero-experience/|A unified Zotero experience]] (en anglais sur le blog Zotero).
+

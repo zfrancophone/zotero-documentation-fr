@@ -1,0 +1,46 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+Ce document permet de répondre aux questions suivantes :
+
+   * Comment faire si Zotero ne propose pas le style bibliographique dont j'ai besoin ?
+   * Comment faire une demande de nouveau style ?
+
+Les autres questions éventuelles pourront trouver des réponses dans la FAQ sur les styles.
+
+======Les styles bibliographiques dans Zotero======
+
+Chaque installation de Zotero est fournie avec une petite sélection de styles bibliographiques populaires. Et on peut trouver des milliers de styles supplémentaires sur le Zotero style repository.
+Vous pouvez cependant ne pas trouver le style qui vous corresponde. Ou bien le style qui vous intéresse est bien disponible, mais il contient des erreurs ou il est incomplet. Cette page vous explique ce que vous pouvez faire pour aider au développement de nouveaux styles bibliographiques et à l'amélioration de styles existants. 
+
+Zotero utilise un nouveau langage basé sur XML, le [[http://citationstyles.org/|Citation Style Language (CSL)]], pour configurer le formatage des citations. Il a été conçu comme un standard ouvert, robuste et internationalisé, indépendant de toute application, format de document ou langage de programmation. Bien qu'il ait mûri de façon significative, la présence dans CSL d'outils automatisés pour développer et modifier des styles bibliographiques reste limitée.
+
+Si vous êtes à l'aise techniquement, et si vous n'avez pas peur d'éditer du XML à la main, allez voir les instructions sur la [[dev:creating citation styles|création de styles]], ou le [[csl_simple_edits|guide pas-à-pas]]. Si au contraire vous hésitez à écrire votre propre style CSL, vous pouvez toujours aider au développement du style. Il y a de bonnes chances pour qu'un membre de la communauté Zotero plus à l'aise techniquement vous donne un coup de main si vous vous investissez pour lancer le travail.
+
+======Les étapes pour demander de nouveaux styles bibliographiques======
+
+Attention : si vous ne suivez pas les étapes détaillées ci-dessous, la réponse à votre demande vous renverra vraisemblablement à cette page.
+
+=====1) Rejoignez la conversation=====
+Cherchez dans le [[/styles|style repository]] ou dans les [[/forum|forums Zotero]] si votre style y est, ou s'il existe déjà une conversation à son sujet. Si c'est le cas, vous pouvez peut-être apporter au débat des informations importantes qui permettront à un membre de la communauté de terminer le style. Dans certains cas, il peut aussi y avoir des raisons techniques pour lesquelles le style ne peut pas être supporté.
+Si vous ne trouvez pas votre style dans le repository ni dans les forums, démarrez une nouvelle conversation dans la rubrique [[/forum/11/|Citation Styles]] des forums de Zotero. Intitulez la « Style request : [nom du style] ». Assurez-vous de bien inclure les informations qui suivent.
+
+=====2) Définissez le détail de votre style=====
+
+   * **Style similaire** : Quel style est le plus proche de ce dont vous avez besoin ? Jetez un oeil à la liste des styles du repository et décochez la case « Montrer les styles dépendants ». Vous pouvez survoler les liens du style avec la souris pour prévisualiser les références dans chacun des styles. Vous pouvez aussi coller la commande <nowiki>chrome://zotero/content/tools/cslpreview.xul</nowiki> dans la barre d'adresse de Firefox pour lancer une prévisualisation des éléments sélectionnés dans votre bibliothèque Zotero dans tous les styles que vous avez installés actuellement. Sélectionnez celui qui est le plus proche de ce que vous voulez – il s'agit souvent d'un style qui émane de la même discipline que la vôtre : par exemple les styles des revues médicales ressemblent souvent au style Vancouver/AMA, ceux des revues en sciences de l'ingénieur à celui d'IEEE, et les styles avec notes de bas de page, comme ceux qu'utilisent de nombreuses disciplines en SHS, sont souvent proches du style Chicago, etc. Du reste les instructions aux auteurs de certaines revues indiquent fréquemment que « pour des indications complémentaires, veuillez vous référer à » tel ou tel style.
+
+   * **Différences d'avec un style similaire** : La prochaine étape est l'établissement d'une liste des différences précises à prendre en compte pour transformer le style existant en votre style. Cette étape va accélérer le démarrage des opérations pour votre style. En effet, la partie la plus chronophage de la création d'un style n'est pas la partie technique, mais la compréhension du fonctionnement d'un style, et de ses différences avec les styles existants. Il vous faut au minimum comparer l'affichage en sortie du style similaire pour les livres, les chapitres de livre, les articles de revue, et les sites web avec le style que vous demandez. Portez une grande attention aux questions de ponctuation, d'abréviations (comme pp., eds., et les titres abrégés), le formatage (italique, gras), l'utilisation de « et al. » dans le texte et dans la bibliographie (après combien d'auteurs ? Combien d'auteurs faut-il afficher ?), la façon exacte de citer une URL (faut-il mentionner la date d'accès ? Quelle est la formulation choisie « accédé le » ou « consulté le » ?), etc. Faire ce travail correctement, cela signifie que votre style sera plus rapide à fabriquer, et que donc vous mobiliserez moins de temps de travail des bénévoles de la communauté.
+
+   * **Lien vers une source de référence sur le style** : Trouvez une page web qui décrit votre style, et mettez un lien vers celle-ci dans votre demande. S'il n'y a pas de lien valide, contactez l'organisme censé fournir la référence, et demandez-lui une meilleure documentation. Mettez également si possible un lien vers un exemple librement accessible utilisant le style en question : cela permet souvent de clarifier des problèmes qui ne sont pas forcément abordés par la source de référence. Vous pouvez en général trouver un pdf disponible gratuitement en cherchant avec Google Scholar un article récent de la revue dont vous voulez obtenir le style (sur le site web de l'auteur par exemple). 
+
+=====3) Suivez la conversation=====
+
+Abonnez-vous au système de notification pour la conversation que vous avez lancée. Si un membre de la communauté a le temps de vous aider pour votre demande, il est possible que l'on vous demande des informations complémentaires.
+
+=====Styles dépendants et styles indépendants=====
+
+Il est assez banal de voir plusieurs publications partager le même style (la revue Nature Biotechnology utilise le même style bibliographique que la revue Nature, par exemple). Pour éviter d'avoir de nombreux doublons dans le [[/styles|Zotero Style Repository]], qu'il faudrait maintenir individuellement, Zotero accepte les styles dépendants.
+Un style dépendant (que l'on appellera par exemple « Nature Biotechnology ») pointe simplement vers le style indépendant « générique » plus proche, utilisant le même formatage (« Nature » dans ce cas). Comme il est plus rapide de créer un style dépendant qu'un style indépendant, mentionnez dans votre demande si le style existe déjà dans le [[/styles|Style Repository]] sous un autre nom.

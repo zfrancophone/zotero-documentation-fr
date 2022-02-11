@@ -1,0 +1,149 @@
+====== Le répertoire de données Zotero ======
+
+===== Localiser vos données Zotero =====
+
+La méthode la plus simple et la plus fiable pour trouver vos données Zotero est de cliquer sur le bouton "Ouvrir le répertoire de données" dans l'onglet [[fr/preferences/advanced|Avancées]] de la fenêtre des [[fr/preferences|Préférences]] de Zotero.
+Cela affichera le répertoire de votre ordinateur qui contient votre base de données Zotero et les fichiers joints.
+
+==== Emplacements par défaut ====
+
+=== Zotero 5 ===
+
+A moins que vous n'ayez sélectionné un répertoire de données personnalisé dans les  [[fr/preferences/advanced|préférences avancées]] de Zotero, vos données Zotero sont stockées à l'intérieur de l'un des répertoires suivants, en fonction de votre système d'exploitation.
+
+|**Mac**|<code>/Users/<nom_d_utilisateur>/Zotero</code>|
+|**Windows 7 et versions ultérieures**|<code>C:\Users\<nom_d_utilisateur>\Zotero</code>|
+|**Windows XP/2000**|<code>C:\Documents and Settings\<nom_d_utilisateur>\Zotero</code>|
+|**Linux**|<code>~/Zotero</code>|
+
+=== Zotero 4 pour Firefox (2017 et avant) ===
+
+|**Mac**|<code>/Users/<nom_d_utilisateur>/Bibliotheque/Application Support/Firefox/Profiles/<caracteres_aleatoires>/zotero</code> <html><small>Note : Le répertoire /Users/&lt;nom_d_utilisateur&gt;/Bibliotheque est caché par défaut. Pour y accéder, cliquez sur votre bureau, maintenez la touche Option (Alt) enfoncée, cliquez sur le menu "Aller" du Finder, puis sélectionnez "Bibliothèque" dans le menu.</small></html>|
+|**Windows 7 et versions ultérieures**|<code>C:\Users\<nom_d_utilisateur>\AppData\Roaming\Mozilla\Firefox\Profiles\<caracteres_aleatoires>\zotero</code>|
+|**Windows XP/2000**|<code>C:\Documents and Settings\<nom_d_utilisateur>\Application Data\Mozilla\Firefox\Profiles\<caracteres_aleatoires>\zotero</code>|
+|**Linux (pour la plupart des distributions)**|<code>~/.mozilla/firefox/Profiles/<caracteres_aleatoires>/zotero</code>|
+
+=== Zotero 4 Standalone (2017 et avant) ===
+
+|**Mac**|<code>/Users/<nom_d_utilisateur>/Bibliotheque/Application Support/Zotero/Profiles/<caracteres_aleatoires>/zotero</code> <html><small>Note : Le répertoire /Users/&lt;nom_d_utilisateur&gt;/Bibliotheque est caché par défaut. Pour y accéder, cliquez sur votre bureau, maintenez la touche Option (Alt) enfoncée, cliquez sur le menu "Aller" du Finder, puis sélectionnez "Bibliothèque" dans le menu.</small></html>|
+|**Windows 7 et versions ultérieures**|<code>C:\Users\<nom_d_utilisateur>\AppData\Roaming\Zotero\Zotero\Profiles\<caracteres_aleatoires>\zotero</code>|
+|**Windows XP/2000**|<code>C:\Documents and Settings\<nom_d_utilisateur>\Application Data\Zotero\Profiles\<caracteres_aleatoires>\zotero</code>|
+|**Linux (pour la plupart des distributions)**|<code>~/.zotero/Profiles/<caracteres_aleatoires>/zotero</code>|
+
+Le bouton "Ouvrir le répertoire de données" affichera toujours le répertoire de données en cours d'utilisation ; c'est la méthode recommandée pour trouver votre répertoire de données. Si vous ne pouvez pas accéder aux préférences de Zotero, une recherche par nom de fichier 'zotero.sqlite' peut aussi vous aider à localiser le répertoire de données Zotero.
+
+===== Contenu du répertoire de données =====
+
+Le fichier le plus important dans le répertoire de données est le fichier zotero.sqlite, qui contient la majorité de vos données : métadonnées des documents, notes, marqueurs, etc. Le répertoire contient également un sous-répertoire ''storage'', contenant toutes vos pièces jointes, telles que les fichiers PDF, les captures de pages web, les fichiers audio ou tout autre fichier que vous avez importé (notez que les fichiers qui sont [[fr/attaching_files|liés]] ne sont pas copiés dans ce sous-répertoire).
+
+Votre répertoire 'zotero' contiendra probablement plusieurs autres fichiers. Il peut s'agir des fichiers zotero.sqlite.bak (sauvegarde automatique de zotero.sqlite mise à jour lorsque vous quittez Zotero et que le fichier zotero.sqlite.bak existant n'a pas été mis à jour dans les 12 dernières heures) et zotero.sqlite.[nombre].bak (sauvegardes automatiques de zotero.sqlite créées durant certaines mises à jour de zeroero).
+
+**Attention** : Avant de copier, supprimer ou déplacer l'un de ces fichiers, assurez-vous que Zotero est fermé. Ne pas le faire avant de déplacer les fichiers peut endommager vos données.
+
+===== Sauvegarder votre bibliothèque Zotero =====
+
+Nous vous recommandons fortement de sauvegarder régulièrement votre bibliothèque Zotero. La synchronisation n'est pas un bon substitut à la sauvegarde : les serveurs Zotero ne stockent que la version la plus récente de votre bibliothèque, et il suffit d'une seule synchronisation (éventuellement automatique) pour modifier la copie du serveur.
+
+Plutôt que de sauvegarder uniquement votre bibliothèque Zotero, nous vous recommandons d'utiliser un utilitaire de sauvegarde qui sauvegarde automatiquement et régulièrement  l'ensemble de votre disque dur sur un périphérique externe. La plupart des systèmes d'exploitation modernes offrent cette fonctionnalité (par exemple Time Machine sur Mac).
+
+Si vous souhaitez sauvegarder spécifiquement vos données Zotero, [[#localiser_vos_donnees_zotero|localisez vos données Zotero]], fermez Zotero, et copiez votre répertoire de données (le //répertoire entier//, incluant ''zotero.sqlite'', ''storage'' et les autres sous-répertoires) à un emplacement de sauvegarde, de préférence sur un autre périphérique de stockage. Comme pour toutes les données importantes, il est judicieux de sauvegarder fréquemment vos données Zotero.
+
+**Attention** : Zotero vous permet d'exporter votre bibliothèque Zotero au format Zotero RDF. Cependant, exporter et importer votre bibliothèque via  RDF n'aboutira pas à une copie exacte de votre bibliothèque ; cela n'est pas recommandée comme stratégie de sauvegarde.
+
+===== Restaurer votre bibliothèque Zotero à partir d'une sauvegarde =====
+
+Entre les sauvegardes manuelles, les sauvegardes automatiques et les données synchronisées, il est souvent possible de restaurer une bibliothèque Zotero perdue ou de restaurer des données qui ont été accidentellement supprimées.
+
+Avant de suivre ces étapes, assurez-vous que [[#localiser_des_donnees_Zotero_manquantes|Zotero cherche vos données au bon endroit]].
+
+
+==== Restaurer votre bibliothèque Zotero en utilisant la synchronisation Zotero ====
+
+Si vous utilisez la synchronisation Zotero et que vous avez une bibliothèque locale vide, vous pouvez probablement restaurer vos données simplement en synchronisant avec votre bibliothèque en ligne. Après avoir vérifié que votre bibliothèque est correcte sur zotero.org, entrez simplement à nouveau votre nom d'utilisateur et votre mot de passe dans le volet "Synchronisation" des préférences de Zotero et cliquez sur le bouton "Synchroniser avec zotero.org" dans la barre d'outils. (Zotero ne synchronise que les suppressions explicites, aussi synchroniser une bibliothèque vide n'écrasera pas les données du serveur **à moins que vous ne supprimiez les documents manuellement**).
+
+Si vous souhaitez écraser une bibliothèque Zotero locale, fermez Zotero et supprimez l'ancien [[#localiser_vos_donnees_zotero|répertoire de données Zotero]] avant de synchroniser. Synchroniser votre base de données avec un compte Zotero différent vous invitera également à supprimer la base de données locale existante.
+
+
+==== Restaurer votre bibliothèque Zotero à partir d'une sauvegarde ====
+
+Si vous n'utilisiez pas la synchronisation Zotero (ou si vous ne voulez pas effectuer une synchronisation complète) et que vous disposez d'une sauvegarde de votre répertoire de données Zotero, vous pouvez restaurer votre bibliothèque en remplaçant votre répertoire de données actif par votre répertoire de données sauvegardé.
+
+Ouvrez le volet "Avancées" des préférences de Zotero et notez le chemin spécifié sous "Emplacement du répertoire de données". (Par défaut, ce sera "Zotero" dans votre répertoire principal.) Cliquez sur "Ouvrir le répertoire de données", ce qui devrait afficher votre répertoire de données actif contenant zotero.sqlite et éventuellement un sous-répertoire ''storage''. Fermez Zotero, montez d'un niveau dans le système de fichiers (Cmd + flèche vers le haut sous Mac, Alt + flèche vers le haut sous Windows), et renommez le répertoire en "Zotero-Old". Ensuite, copiez le répertoire de données de votre sauvegarde à l'emplacement d'origine, par exemple "Zotero".
+
+Lorsque vous rouvrez Zotero, vous devriez voir vos données Zotero restaurées.
+
+Une fois vos données restaurées avec succès, vous pouvez supprimer le dossier "Zotero-Old", mais c'est une bonne idée de le conserver un certain temps, jusqu'à ce que vous soyez sûr de l'exactitude de vos données.
+
+Notez que si vous utilisiez la synchronisation Zotero, toutes les modifications que vous avez apportées à votre bibliothèque depuis la sauvegarde et que vous avez ensuite synchronisées avec votre bibliothèque en ligne seront appliquées à votre base de données restaurée dès que vous aurez effectué une nouvelle synchronisation. Si vous ne voulez pas que cela se produise, consultez la section suivante.
+
+==== Restaurer votre bibliothèque Zotero à partir d'une sauvegarde et écraser les modifications synchronisées ======
+
+Si vous ou quelqu'un d'autre avez apporté des modifications indésirables à votre bibliothèque Zotero et synchronisé ces modifications avec votre bibliothèque en ligne, vous pouvez restaurer les données en utilisant une sauvegarde locale de votre répertoire de données Zotero.
+
+  - Désactivez temporairement la synchronisation automatique dans le volet "Synchronisation" des préférences de Zotero.
+  - Suivez les étapes de la section précédente pour restaurer votre bibliothèque à partir d'une sauvegarde de votre répertoire de données Zotero.
+  - A ce stade, vous voyez vos données restaurées :  si vous synchronisiez à nouveau, les données les plus récentes de la bibliothèque en ligne remplaceraient les données que vous venez juste de restaurer.
+    - Si vous essayez de restaurer un petit nombre de documents ou de notes supprimés, vous pouvez simplement dupliquer ces documents — en cliquant avec le bouton droit de la souris et en choisissant "Dupliquer le(s) document(s)" —  afin que les nouvelles copies restent même après la synchronisation.
+    - Si vous essayez de restaurer des collections supprimées, vous pouvez dupliquer ces collections en les créant à nouveau et faire glisser les documents des anciennes collections vers les nouvelles. Lors de la synchronisation, les anciennes collections seront supprimées mais les nouvelles resteront.
+    - Si de nombreux documents ont été affectés ou que des collections ont été supprimées, vous pouvez utiliser [[fr/kb/sync_reset_options#remplacer_la_bibliotheque_en_ligne|Remplacer la bibliothèque en ligne]] pour forcer Zotero à télécharger la version locale de la bibliothèque et écraser les modifications synchronisées précédemment.
+
+Si vous êtes satisfait du résultat, vous pouvez réactiver la synchronisation automatique et continuer à travailler.
+
+==== Restaurer à partir de la dernière sauvegarde automatique =====
+
+Si vous faites une erreur critique en utilisant Zotero — par exemple, si vous supprimez accidentellement un grand nombre de documents —, vous pourrez peut-être revenir à la dernière sauvegarde automatique.  Notez que les sauvegardes automatiques ne contiennent que des données, et non des fichiers.
+
+  - Tout d'abord, assurez-vous que Zotero fonctionne, car la sauvegarde automatique pourrait être écrasée lorsque vous quittez l'application.
+  - Si vous utilisez la synchronisation, désactivez temporairement la synchronisation automatique dans le volet "Synchronisation" des préférences de Zotero.
+  - [[#localiser_vos_donnees_zotero|Localisez vos données Zotero]] et faites une copie de n'importe quel fichier zotero.sqlite.bak. Les horodatages des fichiers peuvent vous aider à déterminer quel fichier contiendrait les données que vous essayez de restaurer.
+  - Fermez Zotero. Dans votre répertoire de données, renommez zotero.sqlite en zotero.sqlite.old, renommez en zotero.sqlite une des copies .bak que vous avez faites, et redémarrez Zotero. Vous devriez maintenant voir la version sauvegardée de votre bibliothèque.
+  - Si vous utilisiez la synchronisation et que les modifications non souhaitées étaient déjà synchronisées, synchroniser à présent entraînerait le remplacement des données que vous venez juste de restaurer par les données les plus récentes de la bibliothèque en ligne .
+    - Si vous essayez de restaurer un petit nombre de documents ou de notes supprimés, vous pouvez simplement dupliquer ces documents — en cliquant avec le bouton droit de la souris et en choisissant "Dupliquer le(s) document(s)" —  afin que les nouvelles copies restent même après la synchronisation.
+    - Si vous essayez de restaurer des collections supprimées, vous pouvez dupliquer ces collections en les créant à nouveau et faire glisser les documents des anciennes collections vers les nouvelles. Lors de la synchronisation, les anciennes collections seront supprimées mais les nouvelles resteront.
+    - Si de nombreux documents ont été affectés ou que des collections ont été supprimées, vous pouvez utiliser [[fr/kb/sync_reset_options#remplacer_la_bibliotheque_en_ligne|Remplacer la bibliothèque en ligne]] pour forcer Zotero à télécharger la version locale de la bibliothèque et écraser les modifications synchronisées précédemment.
+
+
+Si vous êtes satisfait du résultat, vous pouvez réactiver la synchronisation automatique et continuer à travailler. Conservez zotero.sqlite.old jusqu'à ce que vous soyez sûr que toutes vos données sont intactes et synchronisées sur tous vos ordinateurs.
+
+
+
+==== Restaurer à partir de la dernière sauvegarde de mise à niveau =====
+
+Lorsque vous passez à une nouvelle version majeure de Zotero, Zotero met automatiquement à jour votre base de données pour qu'elle fonctionne avec la nouvelle version. Si vous souhaitez revenir à une version précédente de Zotero ultérieurement, vous devrez remplacer manuellement votre base de données par la sauvegarde automatique de Zotero effectuée lors de la mise à niveau. Dans la plupart des cas, il s'agit du fichier "zotero.sqlite.[num].bak" le plus élevé de votre répertoire de données Zotero.
+
+Il est judicieux d'effectuer une sauvegarde de l'ensemble de votre répertoire de données Zotero avant toute modification.
+
+Si vous avez synchronisé vos données avec les serveurs Zotero, revenir à une version précédente est aussi simple que de réinstaller la version précédente, fermer Zotero, remplacer "zotero.sqlite" dans votre répertoire de données Zotero par "zotero.sqlite.[plus grand nombre].bak", et relancer Zotero. (Notez que si vous essayez d'ouvrir une base de données mise à jour dans une version antérieure, Zotero affichera une erreur. Fermez simplement Zotero et remplacez le fichier .sqlite.) Zotero synchronisera ensuite à partir de la bibliothèque en ligne tous les changements effectués depuis votre dernière utilisation de l'ancienne base de données.
+
+Si vous n'utilisiez pas la synchronisation, vous pouvez exporter vers Zotero RDF tous les documents ajoutés depuis la mise à niveau de la base de données, puis les réimporter dans la version précédente. [[fr/sorting|Trier]] votre bibliothèque par date d'ajout peut vous aider à trouver ces documents.
+
+Gardez à l'esprit que les documents de traitement de texte utilisés avec les versions ultérieures de Zotero peuvent ne pas être utilisables avec les versions antérieures, et que les développeurs de Zotero et les membres de la communauté ne fourniront qu'un support limité pour les versions antérieures (principalement pour recommander une mise à niveau vers la version la plus actuelle).
+
+===== Localiser des données Zotero manquantes =====
+
+**Veillez à fermer Zotero avant d'apporter des modifications au répertoire de données Zotero.**
+
+Si vous ouvrez Zotero et découvrez que votre bibliothèque est vide ou qu'il manque beaucoup de données, ne paniquez pas. Zotero est très probablement simplement en train de chercher les données au mauvais endroit. Vous devez vous assurer que Zotero recherche vos fichiers Zotero au bon emplacement et que les bons fichiers sont à cet endroit.
+
+Si vous avez récemment mis à jour Zotero 5 et qu'il vous manque des données, consultez la page [[kb/data_missing_after_zotero_5_upgrade|Missing Data After Zotero 5 Upgrade]]. Zotero 5 a été publié en 2017, aussi pour la plupart des gens cela ne s'applique plus.
+
+Si vous utilisez un ordinateur différent de celui sur lequel vous avez créé les données manquantes, et que vos données sont également manquantes dans votre bibliothèque en ligne, vos données n'ont tout simplement pas été synchronisées à partir de l'ordinateur sur lequel vous les avez créées. Voir [[fr/kb/Changes Not Syncing|Pourquoi les changements que je fais ne sont-ils pas synchronisés entre plusieurs ordinateurs et/ou zotero.org ?]].
+
+Si vous utilisez l'ordinateur sur lequel vous avez créé à l'origine les données manquantes, vous devrez localiser vos données Zotero sur cet ordinateur. Utilisez le bouton "Ouvrir le répertoire de données" dans le volet [[fr/preferences/advanced|Avancées]] des préférences Zotero pour afficher le répertoire de données en cours d'utilisation. Prenez note des nom, taille et date des fichiers zotero.sqlite* de ce dossier : il s'agit de votre base de données Zotero et des sauvegardes automatiques de cette base de données. Une base de données Zotero vide fera environ 1 Mo (~1 000 Ko) ou 5 Mo.
+
+Si vous ne voyez que des fichiers zotero.sqlite de 1 Mo ou 5 Mo, cherchez dans le dossier "storage" (s'il existe) les dossiers dont les dates correspondent à votre utilisation précédente de Zotero. Si vous les voyez, il s'agit probablement du répertoire de données Zotero que vous utilisiez précédemment, mais quelque chose est arrivé à la base de données zotero.sqlite. Vous devrez donc peut-être [[#restaurer_votre_bibliotheque_zotero_a_partir_d_une_sauvegarde1|restaurer un fichier zotero.sqlite à partir d'une sauvegarde]].
+
+Si ce n'est pas le répertoire auquel vous vous attendiez, ou si vous ne voyez pas de répertoire "storage", vous devrez localiser votre précédent répertoire de données. Ensuite, vous devrez soit modifier le répertoire de données spécifié dans les préférences, soit, après avoir fermé Zotero, renommer le répertoire de données spécifié dans les préférences (par exemple, en "Zotero-Old") et déplacer le répertoire Zotero que vous souhaitez utiliser à l'emplacement spécifié dans les préférences. Si vous n'êtes pas sûr de l'emplacement de vos données Zotero les plus récentes, il est judicieux de rechercher des versions plus volumineuses de zotero.sqlite ou zotero.sqlite.bak stockées ailleurs sur votre disque dur et de consulter les dates des dossiers dans le répertoire ''storage''.
+
+
+A moins que vous n'ayez une bonne raison d'utiliser un emplacement personnalisé pour votre répertoire de données, nous vous recommandons d'utiliser [[#emplacements_par_defaut|l'emplacement par défaut]] dans votre répertoire principal.
+
+Lorsque vous spécifiez un emplacement personnalisé pour votre répertoire de données, gardez à l'esprit que Zotero ne déplace ni ne copie aucune donnée. Vous devez toujours copier vos données à l'emplacement spécifié. De plus, lorsque vous faites pointer l'emplacement du répertoire de données vers un répertoire existant, assurez-vous de spécifier le répertoire parent contenant zotero.sqlite et ''storage'', et non le répertoire ''storage'' lui-même.
+
+Si vous avez suivi ces étapes et que vous ne trouvez toujours pas vos données, publiez un message sur les forums Zotero avec les informations suivantes.
+
+  * Les nom, taille et date des fichiers zotero.sqlite* de votre répertoire de données actuel.
+  * S'il existe un dossier "storage" contenant des sous-dossiers dont les dates correspondent à votre utilisation précédente de Zotero.
+  * Si votre répertoire de données actuel se trouve à l'emplacement par défaut ("Zotero" dans votre dossier principal).
+  * La dernière fois que vous avez utilisé Zotero sur cet ordinateur, et ce qui s'est passé sur votre ordinateur depuis.
+  * Ce que vous avez essayé jusqu'à présent.

@@ -1,0 +1,54 @@
+====== Les rapports ======
+
+Les rapports sont de simples pages HTML qui donnent un aperçu des métadonnées, des notes et des pièces jointes des documents sélectionnés. Vous pouvez les imprimer, les publier sur le web et les envoyer par courrier électronique.
+
+{{:report.png?direct&600&nolink&|}}
+
+==== Créer des rapports ====
+
+Pour créer un rapport, cliquez avec le bouton droit de la souris (ctrl-clic sur macOS) sur un document ou une sélection de documents dans le panneau central et sélectionnez "Etablir un rapport à partir des documents...". Vous pouvez également cliquer avec le bouton droit de la souris sur une collection dans la colonne de gauche et sélectionner "Etablir un rapport à partir de la collection...".
+
+{{http://www.zotero.org/static/images/support/report_from_items.png?nocache&nolink}}
+
+==== Partager et imprimer les rapports ====
+
+Les rapports peuvent être enregistrés en sélectionnant "Fichier -> Enregistrer...", et imprimés en sélectionnant "Fichier -> Imprimer...".
+
+==== Travailler avec les rapports et rechercher dans les rapports ====
+
+Pour copier le texte d'un rapport, mettez le texte en surbrillance et tapez Ctr/Cmd-C ou sélectionnez "Copier" dans le menu "Édition". La recherche ne fonctionne pas actuellement dans le visualiseur de rapport de Zotero. Cependant, si vous enregistrez un rapport sur votre ordinateur ("Fichier -> Enregistrer..."), vous pouvez l'ouvrir dans votre navigateur et y effectuer une recherche.
+
+==== Ordre de classement====
+
+Par défaut, dans les rapports, les documents sont classés par ordre alphabétique croissant de titre. Le tri dans la fenêtre de rapport Zotero n'est pas possible actuellement (voir [[#fonctionnalites_ desactivees|ci-dessous]]). Vous pouvez toutefois personnaliser l'ordre de classement dans les rapports en les générant à partir d'une [[collections_and_tags#collections|collection]] ou d'une [[searching#recherches_enregistrees|recherche enregistrée]].
+
+Si vous faites un clic droit sur une collection ou une recherche enregistrée dans le panneau de gauche de Zotero, puis que vous choisissez "Etablir un rapport à partir de la collection/de la recherche enregistrée...", Zotero utilisera l'ordre de tri en cours dans le panneau central de Zotero pour le rapport. Pour générer un rapport pour une bibliothèque entière, faites d'abord une recherche enregistrée avec les paramètres : ''Titre'' ''contient'' ''%'', puis cliquez avec le bouton droit de la souris sur cette recherche enregistrée.
+
+==== Personnaliser les rapports ====
+
+Il n'est actuellement pas possible de personnaliser les champs inclus dans les rapports dans Zotero lui-même, mais il existe des [[:plugins#zotero_reports | options tierces]] pour ce faire.
+
+==== Usages des rapports ====
+
+=== Examen de résumés ===
+
+Si vous devez examiner un grand nombre de titres, d'auteurs et de résumés d'articles (par exemple, si vous effectuez une revue systématique en utilisant Zotero), les rapports peuvent fournir une mise en page pratique pour la lecture des résumés et la rédaction de notes dans les marges.
+
+=== Enseignement ===
+
+Les rapports peuvent également être utilisés dans l'enseignement pour suivre et évaluer les étudiants pendant le processus de collecte d'informations et de rédaction. Les rapports indiquent quand les documents ont été collectés, comment les étudiants associent leurs documents à des notes et à des marqueurs, et comment les étudiants interprètent les documents de leur recherche. Les rapports peuvent également être un outil utile pour discuter des sources avec les étudiants et guider le processus de recherche, d'organisation et de rédaction.
+
+=== Construire un plan à partir des notes ===
+
+Bien que Zotero n'ait pas été conçu pour être un outil de création de plans, vous pouvez créer les grandes lignes d'un plan à partir de vos notes. Par défaut, les rapports listent les notes filles avec leur document parent. Pour inclure les notes filles dans votre plan et les séparer de leur document parent, passez la valeur de [[preferences/hidden_preferences|la préférence cachée]] "extensions.zotero.report.combineChildItems" à "false".
+
+Ensuite, pour construire votre plan, ajoutez un numéro de section au début de chaque note que vous voulez inclure, par exemple 1.1, 1.2, 2.1. Sélectionnez les notes dans Zotero, puis faites un clic droit et générez un rapport à partir de celles-ci.
+
+Si vous travaillez avec un grand nombre de notes et que vous ne souhaitez pas sélectionner manuellement chacune d'entre elles, les marqueurs et les recherches avancées peuvent vous faciliter la vie. Commencez par ajouter à chaque note un marqueur de description, tel que "chapitre un" ou "méthodes". Ensuite, créez une recherche avancée avec les critères ''Type de document'' ''égal'' ''Note'' et ''Marqueur'' ''égal'' ''chapitre un''. Enregistrez la recherche avancée, puis cliquez avec le bouton droit de la souris sur cette recherche enregistrée et choisissez "Etablir un rapport à partir de la recherche enregistrée...". Cela créera un rapport incluant uniquement les notes ayant le marqueur "chapitre un".
+
+==== Fonctionnalités désactivées ====
+Zotero 5.0 ouvre les rapports dans une fenêtre sans barre d'adresse ni menu cliquable avec le bouton droit de la souris. Par conséquent, plusieurs fonctionnalités qui étaient auparavant disponibles dans Zotero pour Firefox sont actuellement désactivées.
+
+  * Tri (mais voir la solution de contournement [[#ordre_de_classement|ci-dessus]])
+  * Recherche (mais voir la solution de contournement  [[#travailler_avec_les_rapports_et_rechercher_dans_les_rapports|ci-dessus]])
+  * Copie à partir du menu du clic droit (mais voir les méthodes disponibles [[#travailler_avec_les_rapports_et_rechercher_dans_les_rapports|ci-dessus]])

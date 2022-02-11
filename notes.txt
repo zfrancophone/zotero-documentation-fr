@@ -1,0 +1,27 @@
+======Notes======
+
+En plus des documents et des fichiers joints, vous pouvez également stocker dans votre bibliothèque Zotero des notes  : des notes fille, qui sont attachées à un document spécifique, et des notes indépendantes. Les notes sont [[sync|synchronisées]] avec les métadonnées des documents ; elles ne comptent pas dans votre [[storage|quota de stockage de fichiers Zotero]]. Vous rechercher dans le contenue des notes. Les notes prennent en charge le formatage HTML, Zotero utilise  [[http://www.tinymce.com/|l'éditeur HTML TinyMCE]] pour l'édition des notes.
+
+==== Notes fille ====
+
+{{ :note_in_window.png?nolink&430|}}
+
+Pour créer une note fille, sélectionnez un document dans le volet central. Ensuite, cliquez sur le bouton "Nouvelle note" en haut du volet central ({{:note_add.png?nolink&|}}) et sélectionnez "Ajouter une note fille", ou allez dans l'onglet "Notes" du volet droit et cliquez sur le bouton "Ajouter". Vous pouvez également cliquer avec le bouton droit de la souris sur un document et sélectionner "Ajouter une note".
+
+Une note sera créée en pièce jointe au document et elle apparaîtra également sous l'onglet "Notes". Un éditeur de notes s'affichera dans le panneau de droite. Vous pouvez créer une fenêtre dédiée à l'éditeur de notes en cliquant sur le bouton "Modifier dans une nouvelle fenêtre" en bas de l'éditeur. Le texte des notes est sauvegardé au fur et à mesure que vous le saisissez.
+
+==== Notes indépendantes ====
+
+Les notes indépendantes fonctionnent de la même manière que les notes fille, mais ne sont pas directement liées à un document de votre bibliothèque. Les notes indépendantes apparaîtront à côté de tous les autres documents de votre bibliothèque. Pour créer une note indépendante, cliquez sur le bouton "Nouvelle note" ({{:note_add.png?nolink&|}}) et sélectionnez "Nouvelle note indépendante".
+
+==== Marqueurs et connexes ====
+
+Comme tout autre document Zotero, les notes peuvent être avoir des [[Collections and Tags|marqueurs]] et [[related|être liées]] à d'autres documents. Ces deux fonctionnalités sont accessibles en bas de l'éditeur de note.
+
+==== Recherche dans les notes ====
+
+Le contenu des notes peut être interrogé par la [[searching|recherche]] générale de Zotero. Vous pouvez rechercher du texte à l'intérieur d'une note en utilisant le bouton "Trouver et remplacer" de l'éditeur de notes ou Ctrl/Cmd+F
+
+==== Images dans les notes ====
+
+Vous pouvez intégrer des images dans des notes Zotero en les faisant glisser depuis votre système de fichiers. Notez toutefois que les images intégrées **ne sont pas officiellement prises en charge** et ne seront pas synchronisées (et peuvent potentiellement causer d'autres problèmes de synchronisation). Si vous avez besoin de synchroniser des images dans Zotero, vous devez les ajouter en tant que [[attaching_files|fichiers joints]]. Une meilleure prise en charge des images intégrées dans les notes sera ajoutée dans une prochaine version.

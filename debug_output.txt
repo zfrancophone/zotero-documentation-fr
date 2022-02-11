@@ -1,0 +1,51 @@
+====== Enregistrement des journaux de débogage ======
+
+Si on vous a demandé de fournir un "Debug ID" (qui est différent d'un [[reporting problems|"Report ID"]]) pour aider à résoudre un problème, suivez ces étapes simples.
+
+==== Zotero ====
+
+  - Dans le menu "Aide", sélectionnez "Journal de débogage" puis "Activer", ou utilisez "Redémarrer avec le journal activé" pour générer des journaux de débogage à partir du démarrage de Zotero. (Si vous n'arrivez pas à accéder au menu "Aide", reportez-vous plutôt à [[reporting_problems#reporting_startup_errors|Reporting Startup Errors]].)
+  - Effectuez immédiatement l'action qui pose problème (synchronisation, sauvegarde, importation, etc.).
+  - Avant de faire quoi que ce soit d'autre, retournez dans le menu "Aide" -> "Journal de débogage" et cliquez sur "Envoyer le journal", ce qui désactivera l'enregistrement et enverraa le journal à zotero.org. Une fenêtre contenant un Debug ID (par exemple, "D12345678") devrait apparaître. Cliquez sur "Copier dans le presse-papiers" et collez le Debug ID dans le fil de discussion que vous avez créé sur le forum.
+
+==== Connecteurs Zotero (Firefox, Chrome et Safari) ====
+  - Ouvrez les préférences du connecteur Zotero.
+    * **Firefox:** tapez %%about:addons%% dans la barre d'adresse, appuyez sur "Entrée", puis cliquez sur le bouton "Options" de l'extension "Zotero Connector".
+    * **Chrome:** tapez %%chrome://extensions%% dans la barre d'adresse, appuyez sur "Entrée", puis cliquez sur le lien "Détails" sous "Zotero Connector", puis sur "Options d'extension".
+    * **Safari:** cliquez avec le bouton droit n'importe où sur une page web et sélectionnez "Zotero Preferences...".
+  - Dans l'onglet "Avancé" des préférences du connecteur de Zotero, cochez la case "Enable logging". Ne fermez pas cette fenêtre ou cet onglet.
+  - Effectuez immédiatement toutes les actions qui posent problème (par exemple, importer un élément à partir d'une page Web).
+  - Retournez à l'onglet "Avancé" des préférences du connecteur de Zotero et cliquez sur le bouton "Submit Debug Report".
+  - Un Debug ID (par exemple, "D12345678") vous sera fourni. Veuillez poster ce Debug ID sur le forum.
+  - Décochez la case "Enable logging".
+
+
+==== Erreur d'envoi d'un journal de débogage ====
+
+Si l'envoi du journal échoue, vous pouvez retourner au menu "Journal de débogage" et sélectionner "Voir le journal", puis allez à Fichier → "Enregistrer...", choisissez Format (ou Type) : "Fichiers textes", et enregistrez le journal dans un fichier, que vous pouvez envoyer par courriel à support@zotero.org, avec un lien vers votre fil de discussion du forum. Il peut être utile de compresser le fichier avant de l'envoyer par courriel.
+
+===== Connexion à une fenêtre de terminal ======
+
+Si vous souhaitez suivre régulièrement le journal de débogage de Zotero en temps réel, il peut être préférable  de connecter Zotero à une fenêtre de terminal.
+
+==== macOS ====
+
+  * Ouvrez Terminal via Spotlight ou /Applications/Utilities.
+  * Collez ''/Applications/Zotero.app/Contents/MacOS/zotero -ZoteroDebugText'' dans la fenêtre Terminal.
+  * Appuyez sur Entrée.
+
+==== Windows ====
+
+Lancez Zotero via le terminal Cygwin (et non cmd.exe) :
+
+  * Ouvrez le terminal Cygwin
+  * Collez '''/cygdrive/c/Program Files (x86)/Zotero/zotero.exe' -ZoteroDebugText'' dans la fenêtre du terminal.
+  * Appuyez sur Entrée.
+
+==== Linux ====
+
+Lancez Zotero en ligne de commande, en ajoutant à l'invite de commande -ZoteroDebug.
+
+=== Developer Note ===
+
+Pour activer le journal de débogage de Zotero en permanence, paramétrez extensions.zotero.debug.log sur true dans l'éditeur de configuration de Zotero, accessible depuis le menu Préférences > Avancées de Zotero, puis lancez Zotero en ligne de commande.

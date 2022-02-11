@@ -1,0 +1,135 @@
+====== Premiers pas ======
+
+==== Qu'est-ce que Zotero ? ====
+
+Zotero est un logiciel de gestion de références bibliographiques libre, gratuit et multiplateforme (Windows, Linux, Mac OS). Il permet de sauvegarder des références, de les organiser, de les partager. Il permet de publier des bibliographies à partir de fichiers d'export ou directement dans un logiciel de traitement de texte. Zotero est soutenu par une très large communauté d'utilisateur.
+
+==== Comment l'installer ? ====
+
+<html>
+<a href="/download" class="button">Download Now</a>
+</html>
+
+Consultez la [[/download/|page de téléchargement]] et choisissez la version que vous voulez installer. Assurez-vous de télécharger et installer à la fois le logiciel et le connecteur pour votre navigateur.
+
+==== Comment l'utiliser ? ====
+
+Zotero doit être ouvert pour que vous puissiez accéder à vos bibliothèques de références. La fenêtre Zotero contient l'intégralité de votre collection : les références bibliographiques et l'ensemble des documents et fichiers, les notes, et les autres éléments tels que les images et les captures de pages internet. 
+
+Dans votre navigateur, cliquez sur l’icône dont l'apparence varie selon le type de document affiché pour ajouter la référence de celui-ci en 1 clic. Si le logiciel Zotero est ouvert, elle s'ajoutera dans celui-ci, sinon vous pouvez ajouter la référence à votre compte Zotero.org s'il est configuré. 
+
+==== La fenêtre principale ====
+
+  * Le panneau de gauche liste les dossiers et sous-dossiers de votre bibliothèque de références. Vous disposez, par défaut, d'un dossier "Ma bibliothèque", vous pouvez y ajouter de nouveaux dossiers et sous-dossiers (collections).
+
+  * Le panneau central correspond à la liste des références collectées dans Zotero. Vous avez ici un affichage dynamique en fonction du dossier (panneau de droite) dans lequel vous vous trouvez. Un tri des références est possible par auteurs, titres, dates, etc.
+
+  * Le panneau à droite permet d'éditer et de modifier les données correspondant à une référence sélectionnée au niveau du panneau central.
+
+{{:fr:fenetre_principale.png}}
+
+
+====== Collecter des références ======
+
+==== Collecter une référence ===
+
+[[getting stuff into your library|{{http://www.zotero.org/static/images/support/quick_start/small/capture.png?nolink }}]]
+
+En un seul clic, Zotero permet de sauvegarder des références à partir des bases de données bibliographiques et plus généralement à partir de n'importe quelle page web.
+
+Si une icône [[getting stuff into your library|capture]] apparait dans la barre d'adresse de votre navigateur, Zotero peut automatiquement créer une référence dans votre bibliothèque et récupérer les métadonnées correspondantes. Si le texte intégral est disponible en PDF, Zotero le récupère et effectue une sauvegarde.
+
+==== Collecter plusieurs références ====
+
+[[getting stuff into your library|{{http://www.zotero.org/static/images/support/quick_start/small/multiple_capture.png?nolink }}]]
+
+Si l'icône de [[getting stuff into your library|capture]] est un livre, un article, une image, etc., en cliquant dessus, cet élément va être ajouté à la collection actuelle dans Zotero. Si l'icône de capture est un dossier, la page Web contient plusieurs éléments. En cliquant dessus, vous ouvrez une boîte de dialogue à partir de laquelle les articles peuvent être sélectionnés et enregistrés dans Zotero.
+
+==== Enregistrer une page web ====
+
+[[archive the web|{{http://www.zotero.org/static/images/support/quick_start/small/archive-the-web.png?nolink }}]]
+
+Pour [[archive the web|archiver une page web]], cliquez sur "nouveau document". Cela archivera une copie de la page dans votre bibliothèque. Pour voir la page telle qu'elle était le jour où vous l’avez capturé, double-cliquez sur l'icône capture instantanée associée à l’élément.
+
+==== Ajouter un élément par son identifiant ====
+
+[[getting_stuff_into_your_library#ajouter_un_element_par_identifiant|{{http://www.zotero.org/static/images/support/quick_start/small/identifier.png?nolink }}]]
+
+Zotero peut [[getting_stuff_into_your_library#ajouter_un_element_par_identifiant|ajouter des éléments automatiquement]] en utilisant un numéro ISBN (International Standard Book Number), un DOI (Digital Object Identifier) ou un PubMed ID. Cliquez sur "Ajouter un élément par son identifiant" dans la barre d'outils Zotero, inscrivez le numéro d'identification et l'élément sera, ainsi que ses références bibliographiques, ajouté à votre bibliothèque.
+
+==== Ajouter manuellement un élément ====
+
+[[getting_stuff_into_your_library#ajouter_manuellement_un_element|{{http://www.zotero.org/static/images/support/quick_start/small/manual.png?nolink }}]]
+
+Des éléments peuvent être [[getting_stuff_into_your_library#ajouter_manuellement_un_element|ajoutés manuellement]] en cliquant sur ​​le bouton "Nouveau document" dans la barre d'outils de Zotero, puis en sélectionnant le type d'élément approprié. Les métadonnées peuvent ensuite être ajoutées manuellement dans la colonne de droite. Cette option est particulièrement adaptée pour l'ajout de sources primaires.
+
+
+====== Organiser ses références ======
+
+==== Les collections ====
+
+[[collections_and_tags#collections|{{http://www.zotero.org/static/images/support/quick_start/small/collections.png?nolink }}]]
+
+La colonne de gauche contient "Ma bibliothèque", qui contient tous les éléments. Ce dossier ne peut être ni renommé ni supprimé. Créez une nouvelle collection en cliquant sur ​​le bouton "Nouvelle collection...". Déplacer simplement vos références d'une collection à l'autre par glisser-déposer. Les collections peuvent également contenir des sous-collections. Les éléments dans les collections sont des alias, et non pas des doublons.
+
+==== Les marqueurs ====
+
+[[collections_and_tags#les_marqueurs|{{http://www.zotero.org/static/images/support/quick_start/small/tags.png?nolink }}]]
+
+Des marqueurs (tags) peuvent être placées librement sur les références. A un élément peut être attribué autant de marqueurs que nécessaire, qui seront pris en compte lors d'une recherche et par les filtres. Les marqueurs sont ajoutés ou supprimés avec le sélecteur de marqueurs en bas de la colonne de gauche ou, dans la colonne de droite, dans l'onglet "Marqueurs" de n'importe quel élément.
+
+==== Rechercher ====
+
+[[searching|{{http://www.zotero.org/static/images/support/quick_start/small/searches.png?nolink }}]]
+
+La recherche rapide est directement accessible depuis la barre d'outils Zotero. Cliquez sur l'icône loupe pour ouvrir la fenêtre "Recherche avancée" et affiner vos critères. Les recherches avancées peuvent être enregistrées dans la colonne de gauche. Les recherches sauvegardées fonctionnent comme les collections, mais sont automatiquement mises à jour avec les nouveaux articles correspondant aux critères de recherche.
+
+====== Créer des bibliographies ======
+
+==== Les styles de citation ====
+
+[[/styles|{{http://www.zotero.org/static/images/support/quick_start/small/styles.png?nolink }}]]
+
+Zotero utilise le langage style CSL (Citation Style Language) pour formater correctement les citations bibliographiques dans le respect des standards de citation. Zotero prend en charge les principaux styles (Chicago, MLA, APA, Vancouver, etc) ainsi que de très nombreux styles spécifiques (voir [[fr:styles|Les styles de citation]]).
+
+==== L'intégration aux logiciels de traitements de texte ====
+
+[[word processor integration|{{http://www.zotero.org/static/images/support/quick_start/small/word_plugin.png?nolink }}]]
+
+Les [[fr:word_processor_integration|modules complémentaires pour les logiciels de traitement de texte]] permettent d'insérer des citations de sa bibliothèque directement à partir de Word et LibreOffice.
+
+==== Bibliographies automatiques ====
+
+[[word_processor_plugin_usage|{{http://www.zotero.org/static/images/support/quick_start/small/bibliography.png?nolink }}]]
+
+Avec les modules d'extensions pour traitements de texte, il est possible de commuter les styles de citation sur l'ensemble d'un document ou de générer automatiquement une bibliographie des articles cités (voir [[fr:word_processor_integration|utilisation des modules complémentaires pour traitement de texte]]).
+
+==== Bibliographies manuelles ====
+
+[[creating bibliographies|{{http://www.zotero.org/static/images/support/quick_start/small/manual_bib.png?nolink }}]]
+
+Avec Zotero, vous pouvez insérer des citations et des bibliographies dans un champ de texte ou un programme. Il vous suffit de glisser-déposer des éléments. Le mode "Copie rapide" exporte les citations sélectionnées dans le presse-papier (voir [[fr:creating_bibliographies|créer des bibliographies]]).
+
+====== Collaborer ======
+
+==== Synchronisation ====
+
+[[sync|{{http://www.zotero.org/static/images/support/quick_start/small/sync.png?nolink }}]]
+
+Vous pouvez utiliser Zotero sur plusieurs ordinateurs et [[fr:sync|synchroniser]] votre bibliothèque. 
+
+==== Partager ====
+
+[[sync|{{http://www.zotero.org/static/images/support/quick_start/small/online.png?nolink }}]]
+
+Les [[fr:sync|références synchronisées]] sur le serveur Zotero peuvent être consultées en ligne depuis votre page profil sur zotero.org. Vous pouvez évidemment contrôler le degré de confidentialité de votre bibliothèque en ligne.
+
+==== Collaborer ====
+
+[[groups|{{http://www.zotero.org/static/images/support/quick_start/small/groups.png }}]]
+
+Les [[fr:groups|groupes]] Zotero permettent à plusieurs utilisateurs de collaborer en ligne sur une même bibliographie : partager des références, des notes, etc. Les bibliothèques partagées de groupe peuvent être privées ou publiques, avec une politique d'adhésion ouverte, ou restreinte par modération/invitation.
+
+======Pour aller plus loin ======
+
+Vous pouvez en apprendre davantage sur Zotero en plongeant dans la [[start|documentation]]. Si vous avez des questions, jetez un œil à la page de  [[frequently asked questions|questions fréquemment posées]] et si cela n’est pas suffisant pensez à consulter le [[http://forums.zotero.org/categories/|forum  de Zotero]]. Pour suivre l'actualité de Zotero, abonnez-vous au [[/blog/| blog de Zotero]] et [[http://zotero.hypotheses.org/|Zotero francophone]].

@@ -1,0 +1,28 @@
+====== Détection des doublons ======
+
+Au fur et à mesure que vous alimentez votre bibliothèque Zotero, il se peut que vous introduisiez des doublons. Par exemple, vous avez pu sauvegarder le même document deux fois à partir d'une page Web ou importer des documents déjà présents dans votre bibliothèque. Heureusement, Zotero peut vous aider à identifier les doublons potentiels et vous permettre de les fusionner.
+
+===== Identifier les doublons =====
+
+En cliquant sur la collection "Doublons" dans votre bibliothèque, vous afficherez dans le volet central les documents que Zotero suppose être des doublons. Si la collection "Doublons" est masquée, cliquez avec le bouton droit de la souris sur "Ma bibliothèque" dans le volet de gauche et sélectionnez "Afficher les doublons".
+
+{{ :duplicate_detection.png?nolink&706 |}}
+
+Zotero utilise actuellement les champs titre, DOI et ISBN pour déterminer les doublons. Si ces champs correspondent (ou sont absents), Zotero compare également les années de publication (si elles se situent à moins d'un an l'une de l'autre) et les listes des auteurs/créateurs (si au moins un nom de famille et une première initiale correspondent) pour déterminer les doublons. L'algorithme sera amélioré à l'avenir pour intégrer d'autres champs.
+
+À l'heure actuelle, il n'est pas possible de marquer les faux positifs comme non doublons. Cette fonctionnalité sera ajoutée à l'avenir.
+
+Notez que la détection des doublons ne fonctionne //qu'à l'intérieur d'une bibliothèque//. Les documents de différentes bibliothèques de groupe  sont [[groups#interagir_avec_des_groupes_par_le_biais_du_logiciel_zotero|des documents distincts]]. Ils n'apparaîtront pas dans la collection "Doublons" d'aucune des bibliothèques.
+
+
+===== Fusionner les doublons =====
+
+Vous devriez toujours résoudre les doublons en les fusionnant plutôt qu'en supprimant l'un des doublons. Les fusions conserveront toutes les collections et les marqueurs des documents fusionnés ; la suppression d'un document entraînera la perte de ces données. Les fusions sont également reconnues automatiquement par les  [[word_processor_integration|modules de traitement de texte]] et n'affectent pas les citations et les bibliographies que vous avez générées automatiquement.
+
+Pour fusionner des documents de la collection "Doublons", sélectionnez un document dans le volet central. Zotero co-sélectionnera automatiquement les autres documents qu'il considère comme des doublons. Cliquez sur le bouton "Fusionner <nombre> documents" dans le volet de droite pour fusionner les documents. Si les champs des documents ne correspondent pas complètement, vous pouvez choisir l'un des documents comme "maître" dans la liste en haut du volet de droite, puis sélectionner les versions des champs non correspondants à conserver en utilisant les icônes à droite de chaque champ.
+
+{{ :duplicate_detection_select.png?nolink&706 |}}
+
+Il peut être plus facile de voir quels documents sont sélectionnés en [[sorting|triant les documents par titre]]. Vous pouvez sélectionner un seul document dans la vue "Doublons" en maintenant la touche Alt/Option enfoncée tout en cliquant. Vous pouvez désélectionner un élément d'un ensemble de doublons en maintenant la touche Ctrl (Windows/Linux) ou Cmd (Mac) enfoncée tout en cliquant.
+
+Vous pouvez également sélectionner un groupe de deux ou plusieurs documents //du même type// n'importe où dans votre bibliothèque Zotero, cliquer avec le bouton droit de la souris, et sélectionner "Fusionner les documents..." dans le menu contextuel.

@@ -1,0 +1,13 @@
+====== Importer depuis d'autres logiciels de gestion bibliographique ======
+
+Il est possible d'importer dans Zotero les données provenant d'autres logiciels. Voici les procédures pour les logiciels les plus populaires :
+
+  * [[kb/mendeley_import|Mendeley]]
+  * [[fr/kb/importing_records_from_endnote|Endnote]]
+  * [[kb/import-from-citavi|Citavi]]
+  * [[fr/kb/importing_formatted_bibliographies|Fichiers textes (par ex. Word)]]
+  * [[fr/kb/importing_standardized_formats|Formats standardisés (tels que Bib(La)TeX ou JabRef)]]
+
+Il est aussi possible d'importer les données provenant d'autres outils, tels que Reference Manager, RefWorks, Papers, Google Scholar Library, ReadCube, etc. Il faut d'abord exporter les données dans un [[fr/kb/importing_standardized_formats|format]] tel que RIS, BibTeX, CSL JSON, puis d'importer ce fichier dans Zotero en sélectionnant Ficher → “Importer…” puis choisir "Un fichier". 
+
+Si vous souhaitez récupérer les données d'un installation de Zotero sur un autre ordinateur, consultez la page [[fr/kb/transferring_a_library|Comment puis-je transférer ma bibliothèque Zotero vers un autre ordinateur ?]].

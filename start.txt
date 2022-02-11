@@ -1,0 +1,64 @@
+<html><p style="color: red; font-weight: bold">La traduction de la documentation est en cours. Certaines pages ci-dessous sont à traduire ou à mettre à jour. Les mentions "traduction à créer" et "traduction à vérifier pour mise à jour" seront ainsi supprimées au fur et à mesure de cette entreprise.</p></html>
+
+~~NOTOC~~
+
+====Liens rapides====
+    * [[Installation]]
+    * [[Quick Start Guide|Guide de démarrage rapide]] -> traduction à vérifier pour mise à jour
+    * [[Getting Help|Obtenir de l'aide]]
+    * [[:storage|Offres de stockage Zotero]] (page en anglais)
+    * [[Frequently Asked Questions|Foire aux questions]] 
+    * [[:5.0_changelog|Historique des versions]] (page en anglais)
+    * [[:System Requirements|Configuration système requise]] (page en anglais)
+    * [[dev/start|Pour les développeurs]] 
+
+====Utiliser Zotero====
+     * **Alimenter votre bibliothèque**
+       * [[adding_items_to_zotero|Ajouter des documents à Zotero]]
+       * [[attaching_files|Ajouter des fichiers à votre bibliothèque Zotero]]
+       * [[feeds|Flux RSS]]
+       * [[Retrieve PDF Metadata|Récupérer les métadonnées des PDF]]
+       * [[moving_to_zotero|Importer depuis d'autres logiciels de gestion bibliographique]]
+
+     * **Organiser votre bibliothèque et prendre des notes**
+       * [[collections_and_tags|Collections et marqueurs]]
+       * [[Searching|Rechercher]]
+       * [[Sorting|Tri]]
+       * [[notes|Notes]]
+       * [[related|Documents connexes]]
+       * [[Duplicate Detection|Détection des doublons]]
+
+     * **Créer des bibliographies, des citations et des rapports**
+       * [[creating_bibliographies|Créer des bibliographies]]
+       * [[Word Processor Integration|Modules de traitement de texte]]
+       * [[styles|Les styles bibliographiques]]
+       * [[Reports|Rapports]]
+
+     * **Synchronisation, collaboration et sauvegarde**
+       * [[sync|Synchronisation des données et des fichiers]]
+       * [[Groups|Les groupes Zotero]]
+       * Partagez votre travail avec [[:my_publications|Mes publications]]
+       * [[zotero_data|Sauvegarde]]
+
+     * **Préférences de Zotero**
+       * [[Preferences|Préférences]]
+       * [[:connector_preferences|Préférences du connecteur Zotero]]
+       * [[:connector_preferences#preferences_pour_les_serveurs_mandataires|Serveurs mandataires (ou proxies)]] 
+       * [[supported_languages|Langues]]
+
+     * **Tirer le meilleur parti de Zotero**
+       * [[kb|Base de connaissance]]
+       * [[Locate|Localiser]] des documents dans la bibliothèque de votre institution ou dans d'autres bases de données
+       * [[:plugins|Extensions]] (page en anglais)
+       * Visualiser votre bibliothèque avec les [[Timelines|chronologies]]
+       * [[Tips and Tricks|Trucs et astuces]]
+       * [[:Third Party Documentation|Documentation des tiers]] (page en anglais)
+       * [[:mobile|Zotero pour appareil mobile]] (page en anglais)
+       *[[:screencast_tutorials|Vidéocaptures et démonstrations]] développées par la communauté (page en anglais)
+
+====Informations complémentaires====
+    * [[Contact Us|Contactez-nous]]
+    * [[:Credits and Acknowledgments|Crédits et remerciements]] (page en anglais)
+    * [[:Licensing|Licence]] (page en anglais)
+    * [[:Security|Sécurité]] (page en anglais)
+    * [[:privacy|Politique de confidentialité]] (page en anglais)

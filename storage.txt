@@ -1,0 +1,14 @@
+Zotero Storage est une solution de stockage en ligne pour vos PDF, images, captures d'écan web, et tout autre fichier rattaché à vos bibliothèques personnelle ou de groupe. Zotero Storage vous permet d'accéder à ces fichiers depuis n'importe quel ordinateur équipé d'un navigateur Web, et vous pouvez synchroniser ces fichiers avec n'importe quel ordinateur sur lequel Zotero est installé. Le service Zotero Storage est fourni par un tiers, la Corporation for Digital Scholarship. Pour obtenir de l'espace de stockage supplémentaire, rendez-vous sur votre profil et [[/settings/storage|sélectionnez une solution de stockage]].
+
+====Avantages-clés====
+  * Sauvegardez automatiquement l'intégralité de votre bibliothèque . 
+  * Accéder à vos fichiers de n'importe où avec un simple navigateur internet. 
+  * Partagez vos documents de recherche avec vos collaborateurs en toute simplicité. 
+  * Partagez facilement vos cours, images et vidéos avec une classe. 
+
+====Prix du Stockage ====
+Pour les coûts d'abonnement à du stockage supplémentaire, consultez la page [[/storage|Storage (en anglais)]].
+
+====Plus d'informations====
+
+Pour plus d'informations, consultez [[storage_faq|fr:storage_faq]]. 

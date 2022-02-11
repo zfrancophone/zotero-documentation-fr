@@ -1,0 +1,70 @@
+====== Ajouter des fichiers à votre bibliothèque Zotero ======
+
+En plus des données bibliographiques, des notes et des marqueurs, Zotero peut ausssi être utilisé comme gestionnaire de fichiers. Cette page décrit comment ajouter de différentes façons des fichiers à votre bibliothèque Zotero, et comment les fichiers ajoutés sont stockés et synchronisés.
+
+===== Fichiers enfants et fichiers indépendants =====
+
+Les fichiers peuvent être ajoutés soit comme //éléments indépendants//, soit comme //éléments enfants// de [[adding_items_to_zotero|documents bibliographiques]]. Il est généralement conseillé de travailler avec des fichiers comme éléments enfants. De nombreuses fonctionnalités Zotero ne permettent pas de travailler avec des fichiers indépendants, notamment citer, la fonctionnalité Mes publications, et la plupart des types de recherche, car ces fichiers indépendants sont dépourvus de métadonnées bibliographiques.
+
+Si vous avez des fichiers indépendants dans votre bibliothèque Zotero, vous pouvez les transformer en éléments «enfants» en les glissant sur un document Zotero standard, en utilisant la fonctionnalité  [[retrieve_PDF_metadata|Récupérer les métadonnées PDF]], ou en faisant un clic droit sur le fichier indépendant et en choisissant «Créer un document parent».
+
+===== Fichiers joints et fichiers liés =====
+
+Les fichiers peuvent être ajoutés à votre bibliothèque Zotero sous forme de fichiers joints ou de fichiers liés.
+
+Par défaut, les fichiers joints sont stockés dans le [[zotero_data|répertoire de données Zotero]], et Zotero les gère automatiquement, y compris en les supprimant si vous supprimez les documents auxquels il sont attachés dans Zotero. Si vous utilisez [[sync|la synchronisation des fichiers]], Zotero synchronisera automatiquement les fichiers joints entre vos appareils et les rendra disponibles dans votre bibliothèque en ligne sur zotero.org. Lorsque vous ajoutez un fichier joint à partir d'un fichier enregistré sur votre ordinateur, le fichier est copié dans le répertoire de données de Zotero, aussi vous pouvez souhaiter supprimer l'original pour éviter toute confusion.
+
+Dans le cas des fichiers liés, Zotero stocke uniquement un lien vers l'emplacement du fichier original sur votre ordinateur. Les fichiers liés ne sont pas synchronisés, ni supprimés si les documents auxquels ils sont attachés sont supprimés dans Zotero. Ils ne peuvent pas non plus être utilisés au sein d'une bibliothèque de groupe, car il n'y a aucune garantie que les autres membres du groupe aient accès au même emplacement de fichier. Si vous choisissez d'utiliser des fichiers liés, le module complémentaire [[http://zotfile.com/|ZotFile]] peut vous aider à mettre en place un flux de travail efficace pour les fichiers liés.
+
+Si vous synchronisez des fichiers liés en utilisant un outil externe (Dropbox, etc.) pour les utiliser sur plusieurs ordianteurs, il est conseillé de définir le [[preferences/advanced#Linked_Attachment_Base_Base_Directory|répertoire de base pour les pièces jointes liées]], afin que les fichiers puissent être trouvés par Zotero sur chaque ordinateur, même si le dossier qui les contient se trouve à un endroit différent dans le système de fichiers.
+
+Si vous souhaitez convertir des fichiers liés en fichiers joints afin de permettre à Zotero de les gérer, vous pouvez le faire à partir du menu Outils → Gérer les pièces jointes.
+
+
+===== Ajouter des fichiers =====
+
+==== Ajouter des fichiers depuis le navigateur ====
+
+Zotero peut enregistrer automatiquement des captures de pages web ou des PDF associés quand vous utilisez le [[adding_items_to_zotero#web_translators|bouton "Save to Zotero" du connecteur Zotero dans votre navigateur]]. Il est possible de désactiver cette sauvegarde automatique dans les [[preferences|préférences de Zotero]]. Ces captures et ces PDF sont stockés comme copies dans le [[zotero_data|répertoire de données Zotero]] et apparaissent comme éléments enfants du document enregistré.
+
+==== Ajouter des fichiers depuis la fenêtre Zotero ====
+
+=== Glisser et déposer ===
+
+Les fichiers peuvent être copiés dans votre bibliothèque en faisant glisser un fichier depuis votre gestionnaire de fichiers (Explorateur Windows, Finder, Nautilus, etc.) vers la fenêtre Zotero, et en le déposant soit dans une collection dans le  panneau de gauche, soit dans le panneau central. Les fichiers déposés sur un document Zotero existant dans le panneau central sont ajoutés comme éléments enfants. Les fichiers déposés dans une collection ou entre des éléments dans le panneau central sont ajoutés comme  éléments indépendants.
+
+Vous pouvez aussi glisser et déposer un fichier existant déjà comme élément indépendant sur un document Zotero pour qu'il en devienne l'élément enfant.
+
+== Ajouter des fichiers liés ==
+
+  * Par défaut, les fichiers glissés dans Zotero sont ajoutés en tant que **copies** des fichiers originaux. Pour ajouter à la place des **liens** vers les fichiers originaux, maintenez appuyées les touches ''Ctrl''+''Maj'' (Windows/Linux) or ''Cmd''+''Option'' (Mac) pendant le glisser-déposer.
+
+=== Bouton "Nouveau document" ===
+
+Les copies enregistrées d'un fichier et les liens vers un fichier peuvent être créés en cliquant sur le bouton "Nouveau document" ({{:add.png?nolink&|}}) en haut du panneau central, puis en choisissant "Stocker une copie du fichier..." ou "Lien vers un fichier...". Cela crée des éléments indépendants.
+
+=== Menu "Ajouter une pièce jointe" ===
+
+{{:paperclip_dropdown_menu.png?nolink&250 |}}
+
+Lorsque vous avez sélectionné un seul document dans le panneau central, vous pouvez cliquer sur le bouton trombone "Ajouter une pièce jointe" en haut du panneau central. Choisissez soit "Joindre une copie enregistrée d'un fichier…" soit "Joindre un lien vers un fichier..." pour ajouter des fichiers en tant que pièce jointe à ce document.
+
+Vous pouvez aussi "Joindre un lien vers un URI..." pour ajouter un lien à une page web (''<nowiki>http://</nowiki>'' ou ''<nowiki>https://</nowiki>'') ou à un autre programme de votre ordinateur (par exemple., OneNote ''<nowiki>onenote://</nowiki>'' ou Evernote ''<nowiki>evernote://</nowiki>'').
+
+Ces options sont aussi accessibles par un clic-droit sur un document, sous le menu "Ajouter une pièce jointe".
+
+===== Accéder aux fichiers =====
+
+Pour accéder aux fichiers de votre bibliothèque, double-cliquez sur le document dans le panneau central. Vous pouvez aussi cliquer avec le bouton droit sur le document et choisir "Afficher le PDF" ou "Afficher le fichier".
+
+Pour aller à l'emplacement d'un fichier joint ou d'un fichier lié,  cliquez avec le bouton droit sur le document dans le panneau Zotero et choisissez "Localiser le fichier". Les fichiersjoints sont stockés dans le [[zotero_data|répertoire de données Zotero]]. Chaque fichier a son propre sous-répertoire, nommé par une chaîne de huit caractères aléatoire (par ex: "M52J3FPU").
+
+===== Captures de pages web =====
+
+{{https://www.zotero.org/static/images/support/save_button_webpage.png?nolink&200 }}
+
+Zotero peut archiver une page Web en créant une capture, un fichier hors ligne qui reflète l'état de la page au moment où la capture a été prise. Si le connecteur Zotero ne reconnaît pas les  données d'une page, vous pouvez enregistrer la page en tant que document de type "Page Web" et lui attacher une capture en cliquant sur le bouton "Save to Zotero" dans la barre d'outils du navigateur. Vous pouvez également prendre une capture de n'importe quelle page en cliquant avec le bouton droit de la souris (click-and-hold dans Safari) sur le bouton "Save to Zotero" et en choisissant "Save to Zotero (Web Page with Snapshot)".
+
+Par défaut, Zotero fait des captures automatiques lorsque vous importez des documents à partir de pages Web. Vous pouvez désactiver ce paramètre dans les [[preferences/general|préférences générales de Zotero]].
+
+Notez que la fonction de capture automatique de Zotero peut parfois ne pas archiver correctement les pages avec un code ou des structures complexes, en particulier les pages des sites dont le contenu est produit dynamiquement (par exemple, Google Books).

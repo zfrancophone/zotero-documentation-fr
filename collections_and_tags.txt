@@ -1,0 +1,142 @@
+====== Collections et marqueurs ======
+
+Les documents des bibliothèques Zotero peuvent être organisés avec des **collections** et des **marqueurs**.
+
+Les **collections** permettent d'organiser hiérarchiquement les documents en groupes et sous-groupes. Un même document peut appartenir à plusieurs collections et sous-collections de votre bibliothèque en même temps. Les collections sont utiles pour classer les documents dans des groupes significatifs (par exemple, les documents d'un projet particulier, provenant d'une source spécifique, sur un sujet spécifique ou pour un cours déterminé). Vous pouvez importer des documents directement dans une collection déterminée ou les ajouter à vos collections après les avoir importés dans votre bibliothèque.
+
+Les **marqueurs**  (souvent appelés "mots-clés" dans d'autres contextes) permettent de caractériser de manière détaillée un document. Vous pouvez marquer les documents en fonction de leurs sujets, de leurs méthodes, de leurs statuts, de leurs classements, ou même en fonction de votre propre flux de travail (par exemple, "a_lire"). Les documents peuvent avoir autant de marqueurs que vous le souhaitez, et vous pouvez filtrer votre bibliothèque (ou une collection déterminée) pour afficher les documents ayant le même ensemble de marqueurs.
+
+Les marqueurs sont portables, mais les collections ne le sont pas. Lorsque vous copiez des documents entre des bibliothèques Zotero ("Ma bibliothèque" et des bibliothèques de groupe) leurs marqueurs seront transférés, mais non leur emplacement dans des collections. Ces deux méthodes d'organisation présentent des avantages et des caractéristiques qui leur sont propres. Expérimentez les deux pour voir ce qui fonctionne le mieux pour votre flux de travail personnel.
+
+===== Les collections =====
+
+==== Le modèle de collections de Zotero ====
+{{:collections_tree.png?nolink }}
+
+Il est important de comprendre que les documents peuvent appartenir à plusieurs collections et sous-collections. Ajouter un document à plusieurs collections **ne duplique pas** ce document. En ce sens, les collections ressemblent davantage à des listes de lecture de musique qu'aux dossiers du système de fichiers de votre ordinateur. Tout comme une même chanson peut être ajoutée à plusieurs listes de lecture, un même document d'une bibliothèque Zotero peut être ajouté à plusieurs collections.
+
+La racine de la bibliothèque - "Ma bibliothèque" pour les bibliothèques personnelles ou le nom du groupe pour les bibliothèques de groupe - affiche toujours tous les documents de la bibliothèque. Les documents sont des doublons seulement s'ils apparaissent plusieurs fois dans cette vue. 
+
+====Créer des collections====
+
+{{ :collections_right_click.png?nolink&300|}}
+
+Cliquez sur le bouton "Nouvelle collection..." ({{:quick_start:add_collection.png?nolink&15|}}) au-dessus du volet gauche de Zotero pour ajouter une nouvelle collection. Vous pouvez également cliquer avec le bouton droit de la souris sur "Ma bibliothèque" ou sur le nom d'une bibliothèque de groupe et choisir "Nouvelle collection..." pour ajouter une nouvelle collection. La nouvelle collection apparaîtra comme un dossier sous "Ma bibliothèque" ou sous la bibliothèque de groupe sélectionnée.
+
+Les sous-collections peuvent être créées en glissant et déposant une collection existante sur une autre collection ou en cliquant avec le bouton droit de la souris sur une collection et en choisissant "Nouvelle sous-collection...". Vous pouvez convertir une sous-collection en une collection de niveau supérieur en la faisant glisser hors de la collection et en la déposant dans un espace vide dans le volet gauche de Zotero.
+
+Vous pouvez faire glisser des collections entre des bibliothèques Zotero dans le panneau de gauche. Si vous disposez des droits d'édition pour la bibliothèque de destination, la collection (et tous ses documents et sous-collections) sera ajoutée à la bibliothèque de destination.
+====Ajouter des documents à des collections====
+
+Les nouveaux documents sont automatiquement enregistrés dans la collection sélectionnée à ce moment-là. Par exemple, pour enregistrer un document dans une collection déterminée lorsque vous l'importez avec le [[adding_items_to_zotero#via_votre_navigateur_web|bouton d'enregistrement Zotero]] dans votre navigateur web, sélectionnez d'abord la collection dans l'application Zotero, puis cliquez sur le bouton d'enregistrement Zotero dans votre navigateur.
+
+Pour ajouter des documents déjà présents dans votre bibliothèque à une collection, sélectionnez-les dans le volet central et faites-les glisser sur la collection dans le volet de gauche. Par défaut, les documents seront ajoutés à la nouvelle collection mais ne seront pas retirés de leur emplacement d'origine.
+
+Pour //déplacer// des documents entre des collections, maintenez la touche Cmd (Mac) ou Maj (Windows/Linux) enfoncée lorsque vous faites glisser les documents vers la nouvelle collection. N'oubliez pas que la vue "Ma bibliothèque" affiche toujours tous les documents de votre bibliothèque, vous ne pouvez donc pas "déplacer" des documents en dehors de cette vue. Pour voir uniquement les documents qui n'appartiennent à aucune collection de votre bibliothèque, ouvrez la collection spéciale [[#non_classes|Non classés]].
+
+====Renommer des collections====
+
+Faites un clic droit sur une collection et choisissez "Renommer la collection..." pour lui donner un nouveau nom. Les collections sont classées par ordre alphabétique dans votre bibliothèque. Vous pouvez utiliser des signes de ponctuation pour classer des collections en haut de la liste.
+
+====Supprimer des collections====
+
+Faites un clic droit sur une collection et choisissez "Supprimer la collection..." pour la supprimer de votre bibliothèque. La suppression d'une collection **ne supprime pas** les documents de cette collection. Les documents sont toujours accessibles en cliquant sur "Ma bibliothèque" ou sur le nom de la bibliothèque de groupe.
+
+La suppression d'une collection entraîne également la suppression de ses sous-collections, mais non des documents qu'elles contiennent.
+
+Pour supprimer à la fois la collection et ses documents, cliquez avec le bouton droit de la souris sur la collection et choisissez "Supprimer la collection et ses documents...".
+
+====Retirer des documents d'une collection====
+
+{{ :remove_from_collection_contextmenu.png?nolink&200}}
+
+Sélectionnez une collection dans le volet gauche de Zotero, puis sélectionnez dans le volet central les documents que vous souhaitez retirer de la collection. Appuyez sur la touche "Supprimer" pour retirer les documents de la collection. Vous pouvez également cliquer avec le bouton droit de la souris sur les documents sélectionnés et choisir "Retirer le(s) document(s) de la collection...". Cela retire les documents seulement de la collection sélectionnée, et non de "Ma bibliothèque" ou de toute autre collection.
+
+Pour //supprimer// un document d'une collection, sélectionnez dans la collection les documents , cliquez avec le bouton droit de la souris et choisissez "Mettre le(s) document(s) à la corbeille...". Lorsque "Ma bibliothèque" ou le nom d'une bibliothèque de groupe est sélectionné dans le volet gauche de Zotero, le fait d'appuyer sur la touche "Supprimer" permet aussi de déplacer les documents vers la corbeille. Lorsqu'une collection ou une sous-collection est sélectionnée, appuyez sur Cmd/Ctrl-Suppr pour déplacer les documents directement dans la corbeille.
+
+====Identifier les collections d'un document====
+
+Pour voir toutes les collections dans lesquelles se trouve un document, sélectionnez le document et appuyez sur la touche Option (Mac), Control (Windows) ou Alt (Linux). Maintenez la touche enfoncée. Après un bref délai, les collections contenant le document seront mises en surbrillance.
+
+====Recherches enregistrées====
+
+[[searching#recherches_enregistrees|Les recherches enregistrées]] sont comme des collections intelligentes. Elles se mettent à jour automatiquement pour inclure tous les documents de votre bibliothèque qui répondent aux critères de recherche. Par exemple, vous pouvez créer une recherche enregsitrée "A lire" avec les critères ''Marqueur'' ''n'est pas'' ''lu''. Ensuite, lorsque vous ouvrirez cette recherche enregistrée, vous afficherez tous les documents de votre bibliothèque que vous n'avez pas encore lus (c'est-à-dire ceux qui n'ont pas de marqueur "lu"). Pour marquer un document comme lu, ajoutez-lui le marqueur "lu".
+
+====Collections spéciales====
+
+===Mes publications===
+
+{{ :special_collections.png?nolink}}
+
+
+La collection spéciale [[Mes publications]] vous permet de partager publiquement avec le monde entier les travaux de recherche (y compris les articles, notes et fichiers joints) dont vous êtes auteur. Faites glisser vos publications vers cette collection pour lancer l'assistant "Mes publications", qui vous permettra de sélectionner les notes, les liens et les fichiers à partager.
+
+===Doublons===
+
+La collection spéciale [[duplicate_detection|Doublons]] affiche les documents que Zotero a identifiés comme des doublons potentiels. Vous pouvez utiliser cette collection pour passer en revue et fusionner les doublons.
+Si la collection "Doublons" n'est pas visible, cliquez avec le bouton droit de la souris sur "Ma bibliothèque" ou sur le nom de la bibliothèque de groupe et choisissez "Afficher les doublons". Pour plus de détails sur le fonctionnement de la détection des doublons et sur la manière de les fusionner, consultez la page [[duplicate_detection|Détection des doublons]].
+
+===Non classés===
+
+Les documents qui ne font partie d'aucune collection se trouvent dans la collection spéciale "Non classés" en bas de la liste des collections dans le volet gauche Zotero. Si la collection "Non classés" n'est pas visible, cliquez avec le bouton droit de la souris sur "Ma bibliothèque" ou sur le nom de la bibliothèque de groupe et choisissez "Afficher les documents sans collection".
+
+===Corbeille===
+
+Lorsque vous supprimez un document en appuyant sur la touche Suppr (Cmd/Ctrl-Suppr dans une collection) ou en cliquant avec le bouton droit de la souris et en choisissant "Mettre le(s) document(s) à la corbeille", ce document est déplacé vers la collection spéciale "Corbeille". Par défaut, les documents restent dans la corbeille pendant 30 jours avant d'être supprimés définitivement. Vous pouvez ajuster cette période dans le [[preferences/general|volet "Générales"]] des préférences de Zotero. Vous pouvez restaurer un élément de la corbeille dans votre bibliothèque en le sélectionnant dans la corbeille et en cliquant sur le bouton "Restaurer vers la bibliothèque" (ou en cliquant avec le bouton droit de la souris et en choisissant "Restaurer vers la bibliothèque"). Vous pouvez supprimer définitivement un document en cliquant sur le bouton "Supprimer définitivement..." (ou en cliquant avec le bouton droit de la souris et en choisissant "Supprimer le document...").
+
+==== Collections récursives====
+
+Par défaut, les documents ajoutés à une sous-collection n'apparaissent pas automatiquement dans la (les) collection(s) mère(s). Cela peut être modifié en sélectionnant l'option "Afficher les documents des sous-collections" dans le menu "Affichage" de Zotero. Les collections récursives ne sont pas actuellement disponibles pour la bibliothèque en ligne sur [[/|zotero.org]].
+
+=====Les marqueurs=====
+
+====Le sélecteur de marqueurs====
+
+{{:tag_selector.png?nolink&200 }}
+
+Le sélecteur de marqueurs est situé en bas du volet gauche de Zotero. Il affiche tous les marqueurs attribués aux documents en cours d'affichage dans le volet central (c'est-à-dire les documents de la collection actuellement sélectionnée, ou les documents qui correspondent à la recherche en cours). Pour afficher tous les marqueurs présents dans la bibliothèque, cliquez sur le bouton multicolore dans le coin inférieur droit du sélecteur de marqueurs et choisissez "Afficher tous les marqueurs de cette bibliothèque". Les marqueurs non attribués aux documents en cours d'affichage sont grisés. Vous pouvez filtrer les documents en fonction de leurs marqueurs en cliquant sur des marqueurs dans le sélecteur de marqueurs. Seuls les documents qui ont tous les marqueurs sélectionnées seront alors affichés dans le volet central. Lorsque vous appliquez des filtres, la liste des marqueurs dans le sélecteur de marqueurs se met à jour pour n'afficher que les marqueurs attribués aux documents visibles. Cliquer à nouveau sur un marqueur a pour effet de le désélectionner. Pour désélectionner tous les marqueurs à la fois, cliquez sur le bouton multicolore et choisissez "Tout désélectionner".
+
+{{ :tag_actions_menu.png?nolink&400}}
+
+La boîte de filtre en bas du sélecteur de marqueurs peut être utilisée pour rechercher des marqueurs. Tapez dans la boîte de recherche pour voir tous les marqueurs qui correspondent.  Pour revenir à l'affichage de tous les marqueurs de la collection, appuyez sur la touche Echap ou cliquez sur le bouton "X" à droite.
+
+\\
+\\
+
+==== Ajouter des marqueurs à des documents ====
+
+Pour ajouter un marqueur à un document, sélectionnez le document dans le volet central de Zotero, puis cliquez sur l'onglet "Marqueurs" dans le volet de droite. Cliquez sur le bouton "Ajouter", saisissez le nom du  marqueur, puis tapez Entrée/Retour. Vous pouvez renommer un  marqueur en cliquant dessus et en saisissant le nouveau nom. Supprimez les marqueurs en utilisant le bouton moins "-". Une fois que vous avez ajouté un marqueur, il apparaît également dans le sélecteur de marqueurs.
+
+Au fur et à mesure que vous tapez, une liste des  marqueurs existants correspondants s'affiche. Choisissez l'un des marqueurs suggérés en utilisant les touches  fléchées haut et bas et insérez-le en tapant Tab ou Entrée/Retour.
+
+Vous pouvez également faire glisser une sélection de documents sur un marqueur dans le sélecteur de marqueurs, pour ajouter rapidement ce marqueur à tous les documents sélectionnés.
+
+{{ :collections_and_tags:manually_adding.png?600 |Screenshot of adding a tag}}
+
+===Modifier des marqueurs par lot===
+
+{{ :tag_right_click.png?nolink}}
+
+Vous pouvez utiliser le sélecteur de marqueurs pour renommer et supprimer de façon globale des marqueurs. Pour renommer un marqueur dans tous les documents auxquels il est attribué, cliquez avec le bouton droit de la souris sur le marqueur dans le sélecteur de marqueurs et choisissez "Renommer le marqueur...". Pour supprimer un marqueur de tous les documents, cliquez avec le bouton droit de la souris sur le marqueur et choisissez "Effacer le marqueur...". Vous pouvez fusionner des marqueurs en en renommant un pour qu'il ait le même nom que l'autre.
+
+==== Marqueurs colorés ====
+
+{{:colored_tags.png?nolink&350 }}
+
+Les marqueurs colorés apparaissent sous la forme de puces colorées à côté du titre des documents dans le volet central. Les marqueurs colorés permettent de rechercher rapidement dans votre bibliothèque les documents qui ont un marqueur déterminé. Les marqueurs colorés sont affichés en haut du sélecteur de marqueurs et sont toujours visibles (même s'ils ne sont attribués à aucun document visible).
+
+Vous pouvez attribuer une couleur à un marqueur en cliquant avec le bouton droit de la souris sur ce marqueur et en choisissant "Attribuer une couleur...". Dans la fenêtre contextuelle, sélectionnez une couleur dans le menu déroulant et cliquez sur "Définir la couleur". Vous pouvez supprimer la couleur  associée à un marqueur en cliquant avec le bouton droit de la souris sur ce marqueur, puis sur "Attribuer une couleur..." et "Supprimer la couleur".
+
+{{ :assign_colored_tag.png?nolink&375 }}
+
+Un numéro est également attribué à chaque marqueur coloré, correspondant à sa position en haut du sélecteur de marqueurs. Vous pouvez rapidement ajouter ou supprimer un marqueur coloré à une sélection de documents en tapant la touche numérique correspondante sur votre clavier. Vous pouvez modifier le numéro d'un marqueur coloré en cliquant avec le bouton droit de la souris sur ce marqueur, puis sur "Attribuer une couleur...", puis en modifiant la valeur sélectionnée dans le menu déroulant "Position".
+
+Vous pouvez attribuer une couleur et un numéro à 9 marqueurs.
+
+====Marqueurs ajoutés automatiquement====
+
+{{ :tag_actions_menu.png?nolink&400}}
+
+Lorsque des documents sont enregistrés dans une bibliothèque Zotero [[adding_items_to_zotero#via_votre_navigateur_web|via le navigateur web]], des marqueurs sont parfois ajoutés automatiquement aux documents. Par exemple, les catalogues de bibliothèque en ligne fournissent des mots-matières pour leurs notices, qui sont enregistrés comme des marqueurs Zotero. Les marqueurs ajoutés automatiquement se comportent de la même manière que les marqueurs ajoutés manuellement, mais sont signalés par une étiquette rouge dans l'onglet "Marqueurs" du volet droit de Zotero (contre une étiquette bleue pour les marqueurs normaux).
+
+Les marqueurs ajoutés automatiquement peuvent être masqués du sélecteur de marqueurs en cliquant sur le bouton multicolore dans le coin inférieur droit du sélecteur de marqueurs et en décochant "Afficher les marqueurs ajoutés automatiquement". Vous pouvez supprimer tous ces marqueurs d'une bibliothèque en cliquant sur "Supprimer de cette bibliothèque les marqueurs ajoutés automatiquement". Pour empêcher Zotero d'ajouter automatiquement des marqueurs, décochez "Ajouter automatiquement aux documents des marqueurs à partir des mots-clés fournis" dans le volet [[preferences/general|le volet "Générales"]] des préférences de Zotero.

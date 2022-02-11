@@ -1,0 +1,153 @@
+====== Utiliser le module Zotero pour Word ======
+
+Voici les instructions pour utiliser le module Zotero pour Word. S'agissant des modules pour LibreOffice ou GoogleDocs, consultez la page [[word_processor_integration|Modules de traitement de texte]].
+
+===== L'onglet du module Zotero =====
+{{ :word_integration_tab.png?nolink&150|}}
+
+[[/support/word_processor_plugin_installation|Installer]] le module Zotero pour Word ajoute un onglet Zotero dans Microsoft Word. (Dans Word 2008 pour Mac le [[kb/no_toolbar_in_word_2008_plugin|menu script]] est utilisé.)
+
+\\
+\\
+L'onglet Zotero comporte les icônes suivantes.
+|< 100% 27% >|
+^ Add/Edit Citation | {{:word_integration:zotero-toolbar-word-add-edit-citation-5.png?nocache&nolink}} | Ajoutez une nouvelle citation ou éditez une citation exisante dans votre document, à l'emplacement du curseur. |
+^ Add/Edit Bibliography | {{:word_integration:zotero-toolbar-word-add-edit-bibliography-5.png?nocache&nolink}} | Insérez une bibliographie à l'emplacement du curseur ou éditez une bibliographie existante. |
+^ Document Preferences | {{
+:word_integration:zotero-toolbar-word-doc-prefs-5.png?16&nocache&nolink}} | Ouvrez la fenêtre "Préférences du document", par exemple pour changer de style bibliographique. |
+^ Refresh | {{
+:word_integration:zotero-toolbar-word-refresh-5.png?16&nocache&nolink}} | Actualisez toutes les citations et la bibliographie, en mettant à jour les métadonnées des documents modifiées dans votre bibliothèque Zotero. |
+^ Unlink Citations | {{:word_integration:zotero-toolbar-word-unlink-citations-5.png?18&nocache&nolink}} | Retirez les liens aux citations Zotero dans votre document, en supprimant les codes de champ. Cela empêche toute mise à jour automatique ultérieure des citations et de la bibliographie.\\ Notez que la suppression des codes de champ est **irréversible**, et elle ne doit être effectuée que dans une copie finale de votre document. |
+
+
+=====Citer=====
+
+Vous pouvez commencer à citer avec Zotero en cliquant sur le bouton "Add/Edit Citation" ({{:word_integration:zotero-toolbar-word-add-edit-citation-5.png?16&nocache&nolink}}). Cliquer sur ce bouton fait apparaître la boîte de dialogue "Mise en forme rapide des citations".
+
+Cette boîte de dialogue est utilisée pour sélectionner les documents dans votre bibliothèque Zotero, et créer une citation.
+
+{{ :word_integration:citation-dialog-select-5.png?294&nocache&nolink}}
+
+Commencez à taper une partie d'un titre, le nom de famille d'un ou plusieurs auteurs, et/ou une année dans la boîte de dialogue. Les documents correspondants apparaîtront instantanément sous la boîte de dialogue.
+
+Les documents correspondants seront affichés pour chaque bibliothèque de votre base de données Zotero ("Ma bibliothèque" et tous les groupes dont vous faites partie). Les documents que vous avez déjà cités dans le document seront affichés en haut de la liste sous "Cité".
+
+Sélectionnez un document en cliquant dessus ou en appuyant sur Entrée lorsqu'il est en surbrillance. Le document apparaîtra dans la boîte de dialogue dans une bulle ombrée. Appuyez de nouveau sur Entrée pour insérer la citation et fermer la boîte "Mise en forme rapide des citations".
+
+Dans la boîte de dialogue "Mise en forme rapide des citations", vous pouvez cliquer sur la bulle d'un document cité, puis sur "Ouvrir dans Ma bibliothèque (ou le nom de la bibliothèque de groupe)" pour afficher le document dans Zotero. Les documents qui sont orphelins (non connectés à des documents de votre base de données Zotero) n'auront pas de bouton "Ouvrir dans Ma bibliothèque". Des documents orphelins peuvent exister s'ils ont été insérés par un collaborateur à partir de "Ma bibliothèque" ou d'un groupe auquel vous n'avez pas accès, ou encore si vous les avez supprimés de votre bibliothèque Zotero.
+
+
+=====Bibliographie=====
+
+Cliquer sur le bouton “Add/Edit Bibliography” ({{:word_integration:zotero-toolbar-word-add-edit-bibliography-5.png?16&nocache&nolink}}) insère une bibliographie à l'emplacement du curseur.
+
+Vous pouvez éditer les documents qui apparaissent dans la bibliographie en cliquant à nouveau sur le bouton  “Add/Edit Bibliography”, ce qui ouvrira à nouveau l'éditeur de bibliographie, voir [[#editer_la_bibliographie|ci-dessous]]. Les modifications apportées manuellement à la bibliographie dans Word seront écrasées la prochaine fois que Zotero actualisera le document.
+
+=====Préférences du document=====
+
+{{ :word_integration:document-preferences-5-0.png?370&nocache&nolink}}
+
+La fenêtre "Préférences du document" vous permet de contrôler certaines options propres à un document.
+
+  - Le [[styles|style bibliographique]].
+  - La langue utilisée pour la mise en forme des citations et de la bibliographie.
+  - L'emplacement en bas de page ou en fin de document des notes, pour les styles basés sur des notes, comme le style "Chicago Manual of Style (Note)".
+    * Notez que c'est Word et non Zotero qui contrôle le style et le format des notes (de bas de page ou de fin).
+  - Le stockage des citations en tant que **Champs** ou **Signets**.
+     * A moins que vous ne deviez collaborer avec des collègues utilisant LibreOffice, vous devriez toujours choisir **Champs**.
+  - L'utilisation de la liste d'abréviations **MEDLINE** pour abréger les titres, pour les styles qui abrègent les titres de revue, comme le style "Nature".
+    * Si cette option est sélectionnées (par défaut), le contenu du champ "Abrév. de revue" dans Zotero sera ignoré.
+
+<html><div style="clear: both;"></div></html>
+
+
+=====Personnaliser les citations =====
+
+Les citations peuvent être personnalisées de différentes manières. 
+Si une citation est simplement incorrecte ou s'il manque des données, commencez par vous assurer que les métadonnées du document sont correctes et complètes dans votre bibliothèque Zotero. Cliquez ensuite sur Refresh dans le module Word pour mettre à jour votre fichier Word en prenant en compte les modifications effectuées dans votre bibliothèque Zotero. 
+D'autres personnalisations peuvent être effectuées via la boîte de dialogue de citation. Cliquez sur une citation existante, puis sur Add/edit citation pour ouvrir la boîte de dialogue de citation. Cliquez ensuite sur la bulle de la citation à modifier pour ouvrir la fenêtre des options de citation, où vous pouvez effectuer les modifications suivantes.
+
+
+==Indiquer une page précise ou un autre localisateur==
+
+{{ :word_integration:citation-dialog-affixes-5.png?350&nocache&nolink}}
+
+
+Dans certains cas, vous souhaitez citer une partie déterminée d'un document, par exemple une page précise, un intervalle de pages ou un volume. Cette informations additionnelle spécifique à une seule citation (par exemple "p. 4-7" dans la citation "Durand et al.  2001, p. 4-7") est appelé le "localisateur" (en anglais: "locator").
+
+La fenêtre des options dispose d'une liste déroulante pour les différents types de localisateur ("Page" est la valeur par défaut), et d'une zone de texte dans laquelle vous pouvez entrer la valeur du localisateur ("4-7" par exemple). Pour mentionner un localisateur autre que ceux de cette liste ("Table" par exemple), utilisez le champ suffixe.
+
+Vous pouvez également ajouter des numéros de page à partir du clavier lorsque vous insérez des citations. Recherchez un document, appuyez une fois sur Entrée pour l'ajouter à la boîte de dialogue de citation, puis, avant d'appuyer à nouveau sur Entrée pour l'insérer dans le document, tapez simplement "p.34" ou un équivalent, et le numéro de page sera ajouté à la citation.
+
+==Préfixe et suffixe==
+
+Les zones de texte "Préfixe" et "Suffixe" vous permettent de spécifier le texte qui précède ou qui suit la citation automatiquement créée. Vous pourriez ainsi vouloir "cf. Tribe 1999, voir aussi..." au lieu de "Tribe 1999" .
+
+Tout texte saisi dans les champs préfixe et suffixe peut être mis en forme avec les balises HTML <i> (pour l'italique), <b> (gras), <sup> (exposant) et <sub> (indice). Par exemple, si vous saisissez "<i>Cf</i>. l'exemple classique", il sera affiché: "//Cf//. l'exemple classique".
+
+Les préfixes et les suffixes peuvent être appliqués à chaque document d'une citation pour créer des citations complexes, par exemple : "(voir Smith 1776 pour l'exemple classique ; Marx 1867 pour une vue présente et alternative)". Pour modifier des citations, entrer du texte dans les champs préfixe et suffixe est toujours préférable à la saisie directe dans les champs Word. Les modifications manuelles empêchent la mise à jour automatique des citations par Zotero.
+
+==Supprimer le nom des auteurs: utiliser le nom des auteurs dans le texte==
+
+Avec les styles auteur-date, le nom des auteurs apparaît souvent dans le corps du texte et est  ainsi omis de la citation entre parenthèses, par exemple : "...d'après Smith (1776) la division du travail est cruciale...". Pour omettre le nom des auteurs de la citation, cocher la case "Supprimer l'auteur" (il en résultera une citation sous la forme "(1776)" au lieu de "(Smith, 1776)"), et écrivez le nom de l'auteur ("Smith") comme une partie normale du texte de votre document.
+
+===Citations multiples===
+
+{{ :word_integration:citation-dialog-select-multiple-5.png?300&nocache&nolink}}
+
+Pour créer une citation contenant plusieurs références citées (par exemple "[2,4-6]" pour les styles numériques ou "(Smith 1776, Schumpeter 1962)" pour les styles auteur-date), ajoutez les références l'une après l'autre dans la boîte "Mise en forme rapide des citations". Après avoir sélectionné le premier document, ne pressez pas la touche Entrée, mais tapez le nom de l'auteur, le titre ou l'année de la référence suivante.
+
+{{ :word_integration:citation-dialog-options-5.png?300&nocache&nolink}}
+
+Certains styles bibliographiques exigent que les documents d'une même citation soient classés soit alphabétiquement (par exemple "(Doe 2000, Grey 1994, Smith 2008)"), soient chronologiquement ("(Grey 1994, Doe 2000, Smith 2008)"). Zotero suivra automatiquement ces règles de tri.
+
+  * Pour désactiver le tri automatique des références citées dans la citation, faites glisser les citations en les réordonnant dans la boîte "Mise en forme rapide des citations". Vous pouvez également cliquer sur l'icône "Z" à gauche de la boîte de dialogue et décocher l'option "Trier les sources automatiquement". //Cette option n'apparaît que pour les styles bibliographiques qui spécifient un ordre de tri pour les citations //. Pour restaurer le tri automatique, cochez à nouveau l'option "Trier les sources automatiquement".
+
+===Basculer vers la "Vue classique"===
+
+Vous pouvez basculer vers la [[/support/fr/word_processor_plugin_usage_classic|"Vue classique"]] en cliquant  sur l'icône "Z" à gauche de la boîte de dialogue, puis en choisissant "Vue classique". Pour basculer de façon permanente vers la vue classique, cochez la case "Utiliser la fenêtre classique d'ajout de citation" de [[/support/fr/preferences/cite|l'onglet "Citer"]] des [[/support/fr/preferences|préférences]] de Zotero.
+
+===Autres modifications===
+
+Si votre citation ne s'affiche toujours pas comme vous le souhaitez, vous pouvez la modifier directement dans votre fichier Word. Notez toutefois que cela empêchera Zotero de mettre à jour automatiquement cette citation pour refléter d'autres changements effectués dans votre texte (par exemple, pour "ibid." ou la désambiguïsation du prénom). Lorsque vous effectuez une modification manuelle, Zotero vous demande de confirmer que vous souhaitez conserver cette modification et empêcher la mise à jour automatique de la citation. Il peut être préférable de noter dans le texte les modifications que vous souhaitez apporter, d'attendre que vous soyez prêt à soumettre votre texte, et d'effectuer toutes ces modifications dans une copie du fichier après avoir utilisé la fonction "Unlink Citations".
+
+Si vous pensez qu'il y a une erreur dans un style bibliographique, publiez un commentaire sur le forum Zotero afin que nous puissions enquêter et, si nécessaire, corriger le style. Si un style est mis à jour, votre fichier sera automatiquement mis à jour pour tenir compte des changements la prochaine fois que vous l'actualiserez.
+
+
+
+
+=====Éditer la bibliographie=====
+
+Après avoir inséré la bibliographie à l'aide du bouton "Add/Edit Bibliography" ({{:word_integration:zotero-toolbar-word-add-edit-bibliography-5.png?16&nocache&nolink}}), cliquez de nouveau sur ce bouton pour ouvrir la fenêtre "Modifier la bibliographie".
+
+{{ :word_processor_edit_bibliography.png?nolink&700 |}}
+
+Dans cette fenêtre, vous pouvez ajouter à votre bibliographie des sources non citées (par exemple des documents inclus dans une revue mais non cités dans le texte) ou supprimer des documents qui sont cités dans le texte mais qui ne devraient pas être inclus dans la bibliographie (par exemple des communications personnelles).
+
+Bien qu'il soit également possible de modifier le texte ou la mise en forme des références bibliographiques dans cette fenêtre, il est déconseillé de le faire. Les références éditées ici ne seront pas automatiquement mises à jour par Zotero si vous modifiez les données dans votre bibliothèque. Editer les références dans cette fenêtre peut par ailleurs se révéler  peu fiable ; plusieurs utilisateurs ont signalé que les modifications apportées ici ne persistent pas toujours lorsque Zotero indexe le document, entre autres problèmes.
+
+Si vous avez besoin d'éditer des entrées de votre bibliographie, il est préférable de le faire dans une dernière étape, juste avant de soumettre votre texte. Enregistrez tout d'abord une copie de sauvegarde de votre fichier. Cliquez ensuite sur le bouton "Unlink Citations" ({{:word_integration:zotero-toolbar-word-unlink-citations-5.png?18&nocache&nolink}}) pour déconnecter votre document de Zotero et convertir les citations et la bibliographie en texte normal. Enfin, apportez vos ajustements au texte de la bibliographie.
+
+Ce processus peut être utilisé pour une variété de modifications mineures de la bibliographie, y compris :
+  * Ajouter des astérisques * avant les références incluses dans une revue ou une méta-analyse,
+  * Appliquer une mise en forme au nom de certains auteurs (gras, italique ou majuscules),
+  * Ajouter des annotations ou des commentaires à une entrée,
+  * Ajouter des intitulés pour des sous-sections de la bibliographie (par exemple pour distinguer les sources primaires et secondaires)
+
+**Remarque:** Corriger généralement la mise en forme d'un style doit être effectuée dans le [[styles|style bibliographique CSL]], et non ici. Corriger les données des documents doit être effectué dans votre bibliothèque Zotero, et non ici.
+
+
+=====Commandes clavier=====
+
+Le module Zotero pour Word peut être utilisé avec le clavier, pour une accessibilité accrue et une plus grande la rapidité d'utilisation.
+
+  * Des [[/support/word_processor_plugin_shortcuts|raccourcis claviers]] peuvent être créés pour tous les boutons de l'onglet Zotero.
+  * Boîte de dialogue "Mise en forme rapide des citations"
+    * Utilisez les touches fléchées haut et bas pour naviguer dans les résultats de recherche. Appuyez sur Entrée pour sélectionner un document.
+    * Tapez "p.45-48" ou ":45-48" après une citation pour citer une page spécifique ou un intervalle de pages.
+    * Tapez "ibid" pour sélectionner automatiquement le dernier document cité. Cela fonctionne avec tous les styles de citation, indépendamment de l'utilisation effective d'"ibid" dans les citations. Si vous utilisez Zotero dans une langue autre que l'anglais, utilisez l'abréviation correspondant à ibid dans cette langue, par exemple "ebd." en allemand.
+    * Appuyez sur Ctrl/Cmd+↓ (flèche du bas) pour ouvrir la fenêtre des options pour la citation sélectionnée avec le curseur. Utilisez les touches Tab et Maj+tab pour naviguer entre les différents documents, utilisez les flèches haut/bas pour changer le type de localisateur dans la liste déroulante, et la barre d'espace pour cocher/décocher la case "Supprimer l'auteur".
+
+===== Résolution des problèmes =====
+
+Si vous rencontrez des problèmes alors que vous utilisez le module Zotero pour Word, consultez la page de [[word processor plugin troubleshooting|dépannage des modules de traitement de texte]] .

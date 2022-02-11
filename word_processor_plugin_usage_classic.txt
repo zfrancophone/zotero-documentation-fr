@@ -1,0 +1,63 @@
+====== Utiliser le module Zotero pour Word ======
+**Note:** Les instructions ci-dessous se réfèrent à l'interface "classique" (originale) d'ajout de citation pour les modules de traitement de texte de Zotero. Dans les versions actuelles de Zotero, une nouvelle interface plus rapide, plus flexible et plus facile à utiliser est activée par défaut. Des développements sont en cours pour améliorer les performances et ajouter de nouvelles fonctionnalités pour cette nouvelle interface, qu'il est en général recommandé d'utiliser. Des modes d'emploi sont disponibles pour [[word_processor_plugin_usage|Word]] et [[libreoffice_writer_plugin_usage|LibreOffice]].
+
+
+**Navigation:** La seule fonctionnalité de l'interface de citation classique qui n'est pas encore implémentée dans la nouvelle interface par défaut est la possibilité de naviguer dans la liste des documents et dans les collections de ses bibliothèques. Si vous avez besoin d'utiliser cette fonctionnalité de navigation, vous pouvez accéder à l'interface de citation classique à partir de l'interface par défaut en cliquant sur l'icône "Z" à gauche de la zone d'ajout de citation et en choisissant "Vue classique".
+
+
+===== Utiliser la fenêtre classique d'ajout de citation =====
+
+La fenêtre classique d'ajout de citation est divisée en deux volets. Le volet de gauche affiche les bibliothèques et les collections de votre base de données Zotero. Le volet de droite affiche les documents de la bibliothèque/collection en cours de sélection. Vous pouvez naviguer, rechercher et trier dans la boîte de dialogue de la fenêtre classique de la même manière que dans l'application principale Zotero. Sélectionnez le document que vous voulez citer et cliquez sur "OK" ou tapez Entrée/Retour pour insérer la citation.
+
+{{ :classic_addcitation.png?nolink&800 |}}
+
+=== Personnaliser les citations ===
+
+Les options pour personnaliser les citations sont disponibles en bas de la fenêtre classique d'ajout de citation.
+
+{{ :classic_customizing_cites.png?nolink&500 |}}
+
+\\
+== Page et autres localisateurs ==
+
+{{classic_locators.png?nocache&nolink&115 }}
+
+Pour ajouter un numéro de page à une citation comme dans "(Schumpeter, 1962, p. 32)", saisissez les numéros de page dans le champ "localisateur" en bas à droite de la fenêtre classique d'ajout de citation.
+
+Vous pouvez ajouter d'autres localisateurs, tels que chapitre, paragraphe, verset, etc. en sélectionnant l'intitulé depuis le menu déroulant. Zotero ajoutera l'intitulé approprié dans la citation - par exemple "(Schumpeter, 1962, ch. 1)". Pour ajouter un localisateur qui n'est pas disponible depuis le menu déroulant, utilisez le champ "Suffixe".
+
+== Préfixe et suffixe ==
+
+Les champs "Préfixe" et "Suffixe" en bas à gauche de la fenêtre classique d'ajout de citation vous permettent de spécifier du texte pour respectivement précéder et suivre la citation générée automatiquement. Par exemple, au lieu de "Tribe 1999", vous pourriez vouloir "cf. Tribe 1999, voir aussi…".
+
+Tout texte saisi dans les champs "Préfixe" et "Suffixe" peut être mis en forme avec les balises HTML <i> (pour l'italique), <b> (gras), <sup> (exposant) et <sub> (indice). Par exemple, si vous saisissez “<i>Cf</i>. l'exemple classique”, il sera affiché: “Cf. l'exemple classique”.
+
+Pour modifier les citations, il est toujours préférable de saisir du texte dans les champs "Préfixe" et "Suffixe" plutôt que dans les champs de citation de votre document ou plutôt que d'utiliser le bouton "Afficher l'éditeur..." (voir ci-dessous). Des modifications manuelles empêcheront en effet Zotero de mettre à jour automatiquement la citation.
+
+== Supprimer le nom des auteurs : utiliser le nom des auteurs dans le texte ==
+
+Avec les styles auteur-date, le nom des auteurs apparaît souvent dans le corps du texte et est ainsi omis de la citation entre parenthèses, par exemple : “…d'après Smith (1776) la division du travail est cruciale…”. Pour omettre le nom des auteurs de la citation, cocher la case “Supprimer l'auteur” (il en résultera une citation sous la forme “(1776)” au lieu de “(Smith, 1776)”), et écrivez le nom de l'auteur (“Smith”) comme une partie normale du texte de votre document.
+
+=== Utiliser des sources multiples dans une citation ===
+
+Pour inclure plusieurs sources dans une citation (par exemple “[2,4-6]” pour les styles numériques; “(Smith 1776, Schumpeter 1962)” pour les styles auteur-date; ou plusieurs travaux dans une seule note pour les styles note), cliquez sur le bouton "Sources multiples...".
+
+{{ classic_multiple_sources.png?nocache&nolink700 }}
+
+Dans la vue "Sources multiples", ajoutez une source à une citation en la sélectionnant dans le volet central et en cliquant sur le bouton flèche pointant vers le volet droit. Pour supprimer une référence de la citation, sélectionnez-la dans le volet de droite et cliquez sur le bouton flèche pointant vers la gauche en direction du volet central.
+
+== Tri pour les sources multiples ==
+
+Pour modifier l'ordre dans lequel les sources apparaissent dans une citation, sélectionnez  un document dans le volet de droite et cliquez sur l'un des boutons flèches, pointant vers le haut ou vers le bas. Certains styles bibliographiques spécifient l'ordre des sources d'une citation (par exemple, chronologiquement, alphabétiquement). Vous pouvez désactiver le tri automatique en déplaçant les documents à l'aide des boutons flèches ou en décochant la case "Trier les sources automatiquement" au-dessus du volet de droite. //Cette case n'apparaît que pour les styles bibliographiques qui spécifient un ordre de tri pour les citations.// Pour restaurer le tri automatique, cochez à nouveau la case "Trier les sources automatiquement".
+
+== Préfixe et suffixe pour les sources multiples ==
+
+Les préfixes et les suffixes peuvent être appliqués à chaque document individuel dans une citation multiple. Cela vous permet de créer des citations complexes. Par exemple : "(voir Smith 1776 pour l'exemple classique ; Marx 1867 présente une vue alternative)".
+
+Pour modifier les citations, il est toujours préférable de saisir du texte dans les champs "Préfixe" et "Suffixe" plutôt que dans les champs de citation de votre document ou plutôt que d'utiliser le bouton "Afficher l'éditeur..." (voir ci-dessous). Des modifications manuelles empêcheront en effet Zotero de mettre à jour automatiquement la citation.
+
+=== Bouton "Afficher l'éditeur..." ===
+
+Vous pouvez prévisualiser la citation en cliquant sur le bouton "Afficher l'éditeur...".
+
+Bien qu'il soit possible de modifier dans cette zone le texte de la citation (y compris ajouter/supprimer du texte ou appliquer/supprimer des caractères gras, italiques ou soulignés), il est fortement déconseillé de le faire. Modifier le texte dans le champ "Afficher l'éditeur..." empêchera Zotero de mettre à jour automatiquement la citation et peut également avoir pour conséquence que les documents n'apparaissent pas correctement dans la bibliographie.

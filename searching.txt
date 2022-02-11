@@ -1,0 +1,66 @@
+======Rechercher======
+
+=====Recherche rapide=====
+Les recherches rapides permettent de trouver rapidement des documents dans une bibliothèque ou une collection. Pour une vue d'ensemble, regardez le screencast de recherche rapide.
+
+====Réaliser une recherche rapide====
+
+{{ :fr:searching_quicksearch_fr.png?400}}
+
+Pour commencer la recherche, cliquez dans la zone de recherche en haut à droite du volet central (ou tapez Ctrl/Cmd-F) et tapez vos termes de recherche. Au fur et à mesure que vous tapez, seuls les éléments de la colonne centrale qui correspondent aux termes de recherche resteront visibles.
+
+====Options de la recherche rapide====
+
+La recherche rapide peut être utilisée dans trois modes différents :{{ :fr:zotero_searching_quicksearchoptions_fr.png?nolink&200|}}
+
+  * "Titre, Année, Créateur" - correspond à ces trois champs, ainsi qu'aux titres des publications.
+  * "Tous les champs et marqueurs" - correspond à tous les champs, ainsi qu'aux marqueurs et au texte des notes.
+  * "Tout" - correspond à tous les champs, marqeurs, texte dans les notes et texte indexé dans les PDF (cela nécessite que [[#indexation_pdf_plein_texte|l'indexation PDF]] soit activée).
+
+====Accélérer les recherches rapides====
+
+Lorsque vous avez de très grandes collections, la recherche "en cours de frappe" de la recherche rapide peut ralentir. Pour accélérer les choses, tapez un guillemet " au début de votre recherche. Ceci empêche les recherches de s'exécuter tant que vous n'avez pas saisi Entrée/Return ou un deuxième guillemet.
+
+=====Recherche avancée=====
+Les recherches avancées offrent un contrôle plus étendu et plus précis que les recherches rapides et vous permettent d'effectuer des [[#recherches_enregistrees|recherches enregistrées]].
+
+====Effectuer une recherche avancée====
+Pour ouvrir la fenêtre Recherche avancée, cliquez sur l'icône de la loupe ({{quick_start/advanced_search_icon.gif?nolink&nocache}})en haut du volet central.
+
+{{ :fr:zotero_searching_advancedsearch_fr.png?nolink&500 |}}
+
+Dans cette fenêtre, vous pouvez filtrer les éléments par le contenu de champs spécifiques ou par d'autres propriétés, comme le type de document ou la collection à laquelle un document appartient. Plusieurs filtres peuvent être configurés en cliquant sur le bouton plus.
+
+{{ :fr:zotero_searching_advancedsearchoptions_fr.png?nolink&500 |}}
+
+Paramétrez la bibliothèque dans laquelle effectuer la recherche à l'aide de l'option "Rechercher dans la bibliothèque :" en haut de la fenêtre. Il n'est actuellement pas possible d'effectuer des recherches dans plusieurs bibliothèques en même temps.
+
+Par défaut, les éléments n'apparaissent dans les résultats de recherche que s'ils répondent à tous les critères de recherche. Pour modifier la recherche de façon à ce que tous les éléments correspondant à au moins une condition soient retournés, changez l'option "à toutes en" en "à au moins une".
+
+Vous pouvez filtrer les articles par collections ou enregistrer les recherches auxquelles ils appartiennent en effectuant une recherche par "Collection". Pour inclure des articles dans des sous-collections de collections correspondantes dans les résultats de recherche, cochez "Rechercher dans les sous-collections".
+
+Pour masquer les éléments parents qui ne correspondent pas avec les éléments enfants qui correspondent aux critères de recherche, et pour réduire les éléments parents correspondants avec les éléments enfants correspondants, cochez "Ne montrez que les documents de niveau supérieur".
+
+Pour faire correspondre les critères de recherche avec les deux parents et leurs enfants, cochez "Inclure les documents parents et enfants correspondants". Si cette option est sélectionnée et que "Correspond" est réglé sur "à toutes les", les éléments parent/enfant apparaîtront toujours si seulement une partie des critères est remplie par l'élément parent et l'autre partie par un élément enfant.
+
+====Caractères génériques====
+Le signe % (pour cent) agit comme un caractère générique dans les recherches avancées, en remplaçant zéro ou plus de caractères. Par exemple, le terme de recherche "W% Shakespeare" correspond à "W Shakespeare", "W. Shakespeare" et "William Shakespeare".
+
+Pour rechercher des documents où un champ contient un contenu quelconque, recherchez uniquement le caractère % (pour cent).
+
+====Recherches enregistrées====
+Lorsque vous enregistrez une recherche avancée, elle apparaît comme une collection dans votre bibliothèque, mais avec une icône "Recherche enregistrée" {{advanced_search/saved_search_icon.png?nolink&nocache}} {{:saved_search_mac.png?direct|}}, au lieu de l'icône de collection normale. Les recherches enregistrées  sont continuellement mises à jour. Par exemple, si vous configurez une recherche enregistrée pour "Date d'ajout" "se trouve dans les 7 derniers jours, la recherche enregistrée affichera toujours les éléments qui ont été ajoutés dans les 7 derniers jours. Les recherches enregistrées ne stockent que les critères de recherche, pas les résultats de recherche.
+
+Pour enregistrer une recherche, cliquez sur le bouton "Enregistrer la recherche" dans la fenêtre Recherche avancée et donnez un nom à la recherche. Les recherches enregistrées peuvent être modifiées ou supprimées en cliquant avec le bouton droit de la souris sur la recherche enregistrée et en sélectionnant "Modifier la recherche enregistrée..." ou "Supprimer la recherche enregistrée...", respectivement.
+
+Vous pouvez également créer une recherche enregistrée dans une bibliothèque en cliquant avec le bouton droit de la souris sur "Ma bibliothèque" et en choisissant "Nouvelle recherche enregistrée...".
+
+====Critères de recherche complexe====
+Il est possible d'effectuer des recherches booléennes complexes en utilisant plusieurs recherches enregistrées. Par exemple, pour exécuter la recherche ''(a OU b) ET (c OU d)'', effectuez d'abord une recherche enregistrée appelée "Condition1" pour ''(a OU b)'', puis une recherche enregistrée appelée "Condition2" pour ''(c OU d)''. Enfin, lancez une troisième recherche avancée et recherchez ''"Collection (de Zotero)" "égal "Condition1" ET "Collection" "égal" "Condition2"''.
+
+=====Indexation du texte intégral des PDF=====
+L'indexation des PDF en texte intégral permet d'effectuer des recherches dans les PDF à l'aide de la recherche rapide (via l'option "Tout") et de la recherche avancée (via "Contenu de la pièce jointe"). Vous pouvez contrôler la quantité de texte dans un PDF qui est indexée dans  [[preferences/search|l'onglet "Recherche""]] recherche des [[preferences|préférences de Zotero]] (par défaut : 500000 caractères, 100 pages). L'indexation se fait automatiquement en arrière-plan lorsque Zotero est inactif. Vous pouvez supprimer le texte indexé à l'aide du bouton "Effacer l'index..." ou recréer l'index à partir de zéro en utilisant le bouton "Reconstruire l'index...". Vous pouvez vérifier l'état de l'index d'une pièce jointe PDF en sélectionnant l'élément pièce jointe dans la bibliothèque Zotero et en regardant le champ "Indexé :" dans le volet de droite.
+
+Si un élément n'est pas indexé (p. ex. s'il n'apparaît pas et n'apparaît pas dans une recherche rapide " Tout "), vérifiez que l'élément contient du texte interrogeable et que le texte est correctement stocké dans le PDF (p. ex. essayez de copier du texte du document et assurez-vous qu'il est de haute qualité). Si le PDF contient du texte valide, reconstruisez l'index de l'élément en cliquant dessus avec le bouton droit de la souris et en choisissant "Réindexer le document". Si vous avez encore des problèmes, n'hésitez pas à poser une question sur les [[/forum|forums Zotero]].
+
+Remarque : À l'heure actuelle, seul le contenu en texte intégral PDF (et les fichiers texte en clair) peut être indexé par Zotero. D'autres types de documents (par exemple,.docx,.odt,.epub) ne peuvent pas être indexés par Zotero.

@@ -1,0 +1,50 @@
+====== Mes publications ======
+
+La fonction "Mes publications" vous permet de créer automatiquement une bibliographie de vos recherches et de partager des copies de vos travaux sur [[/people|zotero.org]]. Pour un exemple, voir https://www.zotero.org/bwiernik
+
+{{{:special_collections.png?nolink&200 |}}
+
+Pour partager un document avec "Mes publications", faites-le glisser vers la collection spéciale "Mes publications" sous "Ma bibliothèque" dans votre client local Zotero.
+
+
+\\
+\\
+\\
+
+
+==== Partager des documents, des fichiers, des notes et des liens ====
+
+{{ :my_publications_start2.png?nolink&400 |}}
+
+Lorsque vous faites glisser un document vers la collection "Mes publications", la fenêtre d'aide "Mes publications" apparaît. Dans cette fenêtre, vous pouvez choisir de partager également les notes ou les fichiers joints attachés au document. Les liens (par exemple, vers une copie de l'article hébergée sur votre site web personnel, un dépôt institutionnel ou disciplinaire, ou le site web de l'éditeur) seront toujours partagés. Si un document n'a pas de fichier joint ou de lien, la bibliographie affichée sur [[/people/|zotero.org]] comprendra un lien tiré des champs DOI ou URL du document.
+
+Après avoir choisi de partager les fichiers et les notes, il vous sera ensuite demandé de confirmer que vous êtes auteur du travail et (le cas échéant) que vous avez les droits de distribuer publiquement les fichiers attachés. Vous ne devez utiliser "Mes publications" que pour partager les travaux que vous avez créés vous-mêmes (pour partager des documents de manière plus générale, utilisez [[groups|les groupes Zotero]]).
+
+Vous ne devez partager que les fichiers pour lesquels vous avez des droits de distribution publique. Si votre travail est publié, vérifiez les accords passés avec votre éditeur (voir également le [[http://www.sherpa.ac.uk/romeo/index.php|répertoire SHERPA/RoMEO]], qui recense les politiques de droits d'auteur et d'auto-archivage des éditeurs). Dans de nombreux cas, il est acceptable de partager la version "manuscrit soumis" ou "manuscrit accepté" d'une publication, mais vous devez le vérifier avant de partager avec "Mes publications".
+
+==== Droits de distribution ====
+
+{{ :my_publications_sharing2.png?nolink&400 |}}
+
+Si vous partagez des fichiers, on vous demandera ensuite si vous souhaitez autoriser le partage de votre travail par les autres. Les choix possibles sont les suivants.
+
+  * **Tous droits réservés :** Vous conservez tous les droits de distribution sur votre travail. Vous ne publiez votre travail que sur zotero.org et n'autorisez pas les autres à partager les fichiers.
+  * **Licences Creative Commons :**  Vous partagez votre travail sous une [[https://creativecommons.org/licenses/?lang=fr-FR/|licence Creative Commons]]. Ces licences permettent aux autres de partager votre travail à condition qu'ils vous créditent correctement, qu'ils fournissent le lien vers la licence et qu'ils indiquent si des modifications ont été apportées. Il peut y avoir des limitations concernant les modifications et les utilisations commerciales. Vous choisirez une licence spécifique dans la fenêtre suivante.
+  * **Domaine public:** Vous diffusez votre travail dans le [[https://creativecommons.org/publicdomain/zero/1.0/deed.fr|domaine public]]. Vous renoncez ainsi à tous vos droits sur l'œuvre couverts par la législation sur le droit d'auteur. Veuillez lire la FAQ de Creative Commons [[https://wiki.creativecommons.org/wiki/CC0_FAQ|CC0 FAQ (page en anglais)]] avant de placer votre œuvre dans le domaine public. Notez que cette action est irréversible, même si vous choisissez ultérieurement des conditions différentes ou si vous cessez la publication de ce travail.
+
+==== Choix d'une licence ====
+
+{{ :my_publications_license2.png?nolink&400 |}}
+
+Enfin, si vous choisissez de distribuer votre travail sous une [[https://creativecommons.org/licenses/?lang=fr-FR/|licence Creative Commons]], vous devez choisir les termes de la licence à appliquer.
+
+Tout d'abord, décidez si vous autorisez les autres à modifier et partager votre travail :
+    * Non
+    * Oui, tant que les autres le partagent selon les mêmes conditions (c'est-à-dire qu'ils appliquent la même licence Creative Commons à toute œuvre dérivée)
+    * Oui
+
+Décidez ensuite si vous autorisez des utilisations commerciales de votre travail.
+
+Sur la base de ces questions, Zotero donnera un lien vers la licence Creative Commons appropriée. Cette licence apparaîtra avec les fichiers que vous partagez avec "Mes publications".
+
+Pour plus d'informations sur les licences Creative Commons, consultez les [[https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees|Remarques spéciales pour le concédant d'une licence (page en anglais)]]. Notez que la licence Creative Commons que vous choisissez ne peut être révoqués, même si vous choisissez plus tard des conditions différentes ou si vous cessez de publier l'œuvre.

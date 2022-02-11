@@ -1,0 +1,32 @@
+======Menu Localiser======
+
+{{ :fr:menu-localiser-i-maj.png?direct&|}}
+
+Le menu Localiser propose plusieurs façons d'accéder aux fichiers de votre bibliothèque et de rechercher des documents en ligne. Le menu peut être ouvert en cliquant sur ​​la flèche droite ({{:locate:toolbar-go-arrow.png?direct&|}}) en haut à gauche de la colonne de droite de la fenêtre Zotero.
+
+Les entrées disponibles dans le menu dépendent du type des documents que vous avez sélectionnés dans la colonne du milieu. Les options possibles sont les suivantes.
+
+  * ** Afficher le fichier/le PDF/la capture ** - ouvre les fichiers/les PDFs/les captures d'écran joints aux documents
+  * ** Afficher en ligne ** - rechercher les documents en ligne en utilisant leur URL, leur DOI ou l'URL de leur élément enfant
+  * **  Localiser le fichier ** - localiser sur votre ordinateur les fichiers/les PDFs joints aux documents
+  * **  Recherche dans la bibliothèque ** - rechercher les documents disponibles dans la bibliothèque de votre choix en utilisant l'OpenURL
+  * **  CrossRef Lookup ** - interroge et résout les DOI des documents
+  * **  Gérer les moteurs de recherche... ** - Voir [[#Gérer les moteurs de recherche...]]
+
+======Recherche dans la bibliothèque======
+
+Si vous sélectionnez l'entrée "Recherche dans la bibliothèque", Zotero va essayer de localiser vos documents dans un catalogue de bibliothèque en ligne, afin que vous puissiez trouver une copie en texte intégral (physique ou en ligne) de la ressource. Par défaut, Zotero utilise le service [[http://bibliopedia.fr/w/index.php?title=OpenURL|OpenURL]]  de [[http://www.worldcat.org/|WorldCat.org]], mais vous pouvez spécifier un résolveur OpenURL différent (par exemple, le résolveur OpenURL de votre bibliothèque universitaire) dans l'onglet [[fr/preferences/advanced#openurl|Avancées]] de la fenêtre des [[fr/preferences|Préférences]] de Zotero.Vous pouvez détecter automatiquement le résolveur de liens de votre institution en cliquant sur le bouton "Chercher des résolveurs de liens".
+
+Si Zotero ne parvient pas à détecter automatiquement le résolveur de votre institution, vous pouvez entrer l'adresse manuellement. La plupart des bibliothèques universitaires fournissent le lien OpenURL de résolveur de liens sur leur site web. Une liste de liens OpenURL de résolveur de liens est également disponible [[/support/locate/openurl_resolvers|ici]].
+
+
+======Gérer les moteurs de recherche...======
+
+L'entrée "Gérer les moteurs de recherche…" ouvre le gestionnaire de moteurs de recherche, où vous pouvez activer/désactiver les moteurs de recherche, supprimer les moteurs de recherche installés ou réinitialiser les moteurs de recherche installés aux valeurs par défaut. 
+
+Il n'est actuellement pas possible d'ajouter de nouveaux moteurs de recherche par le biais de Zotero ou du connecteur Zotero de votre navigateur. Pour ajouter de nouveaux moteurs de recherche, vous devez éditer le fichier ''engines.json'' situé dans le répertoire ''locate'' de votre [[fr/zotero_data|répertoire de données Zotero]]. Des moteurs de recherche peuvent être ajoutés à ce fichier en utilisant la syntaxe JSON pour spécifier un [[/support/dev/creating_locate_engines_using_opensearch|moteur de recherche OpenSearch ]]. Une façon plus conviviale d'ajouter des moteurs de recherche sera ajoutée dans une version ultérieure.
+
+Un fichier ''engines.json'' avec divers moteurs de recherche utiles est disponible sur [[https://github.com/bwiernik/zotero-tools]]. Pour utiliser ce fichier, téléchargez-le et placez-le dans le répertoire ''locate'' de votre [[fr/zotero_data|répertoire de données Zotero]], en remplaçant la version du fichier ''engines.json'' déjà présente. Vous pouvez supprimer les moteurs indésirables à partir du menu "Gérer les moteurs de recherche..." dans le menu Localiser de Zotero.
+
+===== Moteurs de recherche de bibliothèques publiques =====
+Un entrepôt regroupant des milliers de moteurs de recherche de bibliothèques publiques (ainsi que des moteurs pour certaines universités et bases de données commerciales) est disponible sur [[http://egh.github.io/zotero-lookup-engines]].

@@ -1,0 +1,76 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+======Importer des éléments dans votre bibliothèque Zotero======
+
+Zotero propose à ses utilisateurs différentes méthodes de capture, d'import et d'archivage des éléments et fichiers.
+Cette page expose les méthodes de collecte d'informations sur les livres, articles de journaux ou les sites web. En quelques clics, collectez la notice bibliographique et les fichiers attachés comme le texte intégral en PDF, des liens, des captures d'écrans ou des images... Consultez la page sur les [[/attaching_files | Fichiers attachés]] pour plus d'information sur cette fonctionnalité.
+
+======Collecter automatiquement des informations bibliographiques depuis le Web======
+La fonctionnalité principale de Zotero est sa capacité à détecter automatiquement la présence d'éléments sur les sites web que vous consultez.
+Par exemple, lorsque vous naviguez sur un site (comme un catalogue de bibliothèque) proposant des références d'ouvrages, une icône de livre apparait dans la barre d'adresse de Firefox (là où s'affiche l'adresse du site web ou URL).
+
+{{:location_bar_3.gif?nolinknocache}}
+
+Cliquez simplement sur l'icône et Zotero sauvegardera l'ensemble des informations bibliographiques concernant le livre dans votre bibliothèque. (La fenêtre Zotero n'a pas besoin d'être active pour que cela fonctionne).
+
+Si la page que vous consultez propose plusieurs éléments (e.g. une liste de résultat d'un catalogue de bibliothèque, PubMed ou le Sudoc), l'icône de la barre d'adresse représentera un dossier. 
+
+{{:quick_start/folder_icon_locationbar520x50.gif?nolink&nocache}}
+
+Cliquer dessus ouvrira une boite de dialogue contenant la liste des éléments présents sur la page. Sélectionnez les éléments que vous souhaitez ajouter à votre bibliothèque en cochant les cases.
+
+{{:quick_start/capture_multiple_items370x300.png?nolink&nocache246x200}}
+
+Lorsque vous utilisez cette fonctionnalité, les éléments collectés sont copiés dans "Ma Bibliothèque" et classés dans la collection en cours d'utilisation (les collections sont les dossiers et sous-dossiers de la colonne de gauche sous "Ma bibliothèque").
+
+Zotero détecte les informations grâce aux //collecteurs des sites//. Les collecteurs Zotero sont déjà intégrés dans de nombreux catalogues de bibliothèques, des sites (Amazon, New York Times, Persée), des bases de données bibliographiques(PubMed) ou des archive ouverte (HAL). Pour plus d'information consultez notre [[/translators/|liste des sites compatibles]].
+
+L'équipe Zotero met à jour cette liste. Vous n'avez pas besoin de mettre à jour les collecteurs de votre installation, ils seront ajoutés automatiquement.
+
+====== Ajouter un document par son identifiant======
+Zotero peut automatiquement ajouter à votre bibliothèque un élément possédant un identifiant unique (e.g. ISBN, DOI). Cliquez sur le bouton "Ajouter un document par son identifiant" ({{http://www.zotero.org/static/images/support/identifier.png}}) dans la barre d'outils puis tapez le numéro (ISBN, DOI ou PMID). Les références bibliographiques du document seront ajoutées à votre bibliothèque.
+
+======Archiver une page Web======
+Pour archiver une page Web, sélectionnez l'icône "Créer un nouvel élément à partir de la page courante" ({{:page_add.png?nolink&nocache}}).
+La notice du nouvel élément créé contient le titre de la page, l'adresse du site et la date d'archivage. Une copie de la page est attachée à l'élément.
+
+{{:annotation/web_snapshot_356x36.png?nolink&nocache}}
+
+Pour consulter la copie d'une page, double-cliquez sur le fichier attaché ({{:fr:page_camera.gif|}}). Grace à la barre d'outils présente en haut à gauche de votre navigateur, vous pouvez [[archive_the_web|annoter et surligner]] la page copiée.
+
+//Lors de la copie d'une page, Zotero stocke localement sur votre ordinateur la page Web et tous ses éléments. Cette page est donc figée, elle ne suivra pas les mises à jour du site.//
+
+======Ajouter manuellement un élément ======
+La collecte automatique de Zotero rend aisée le travail sur les ressources disponibles sur le Web, mais toutes les ressources qui vous sont nécessaires n'y sont pas référencées.
+Il est donc possible d'en ajouter manuellement.
+
+Pour cela, utilisez le bouton "Nouvel élément" ({{:fr:add.png|}}) de la barre d'outil de Zotero. Sélectionnez le type d'élément que vous désirez créer dans le menu déroulant. Si vous ne trouvez pas de type de document correspondant à votre ressource, sélectionnez un type approchant disposant des champs bibliographiques nécessaires.
+Une fois le type sélectionné, l'élément apparait dans la colonne du milieu. Vous pouvez maintenant renseigner manuellement les champs bibliographiques de la colonne de droite.
+
+
+======Importer depuis d'autres outils bibliographiques======
+
+Beaucoup d'utilisateurs possèdent déjà d'importantes quantités de données bibliographiques dans d'autres applications lorsqu'ils adoptent Zotero. La page suivante est dédiée au passage de EndNote à Zotero, mais les mêmes étapes s'appliquent à la plupart des autres systèmes de gestion bibliographique. 
+
+
+[[fr/kb/importing_records_from_endnote|Importer des archives EndNote]]
+
+
+======Editer les informations d'un élément======
+Dans la colonne de droite de la fenêtre Zotero il est possible d'éditer les informations bibliographiques de l'élément sélectionné dans la colonne du milieu.
+Sélectionnez l'onglet "Info" de la colonne de droite pour afficher les informations bibliographiques (titre, auteurs...)
+
+{{:fr:modif_info.jpg|}}
+
+Éditez les champs en cliquant dessus (1). Dans le cas où un champ peut avoir plusieurs valeurs (comme les auteurs), utilisez le symbole (+) à droite du champ (2) pour ajouter une entrée ou le signe (-) pour le supprimer. 
+Une fois les métadonnées renseignées, vous pouvez [[attaching_files|attacher un fichier à l'élément]].
+Le champ auteur peut être raffiné (collaborateur, traducteur) peut être changé en cliquant sur le libellé du champ.
+Les autres onglets de la colonne de droite permettent d'ajouter des notes, tags, fichiers... à votre élément.
+
+======Stocker d'autres fichiers dans Zotero======
+
+En plus de stocker des informations sur les éléments, Zotero est aussi un outil performant de stockage de fichiers relatifs à votre recherche, quelque soit le type de ces fichiers. Pour ajouter un fichier à votre bibliothèque Zotero, il suffit de le faire glisser de votre bureau ou d'un dossier vers la colonne centrale de Zotero. Certain fichiers, comme les fichiers HTML et les fichiers image, sont nativement pris en charge par Firefox ; ainsi, si vous double-cliquez sur un fichier d'un de ces formats, ils seront affichés dans Firefox. S'il s'agit d'un type de fichier non pris en charge par Firefox, un double-clic sur l'élément lancera l'application que votre système est réglé pour lancer pour ce type de fichier. Par exemple, un double-clic sur un document de votre bibliothèque texte lancera Microsoft Word ou OpenOffice Writer, un double-clic sur un document tableur de votre bibliothèque lancera Microsoft Excel ou OpenOffice Calc, selon les réglages de votre système. Dans la plupart des cas, il est préférable de relier ces fichiers à un élément ; pour ce faire, il suffit de glisser le document sur l'élément auquel vous voulez le relier. 

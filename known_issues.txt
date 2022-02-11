@@ -1,0 +1,67 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+Vous avez rencontré un problème qui n'est pas mentionné ci-dessous : reportez-vous à la page [[fr:getting_help]].
+
+===== Problèmes connus dans Zotero 2.0 =====
+
+  * ** Les versions non-anglophones ne fonctionnent pas dans la version 2.0rc3 **
+    * Passez à la version 2.0rc4
+  * ** Erreur "Invalid field 'repository' in ItemFields.isBaseField()" dans la version 2.0rc4 **
+    * Passez à la version 2.0rc4
+  * ** "disk I/O error" accessing database on Ubuntu Karmic**
+    * Mettez à jour AppArmor et votre noyau Linux, vers la dernière version disponible. ([[http://forums.zotero.org/discussion/9375/disk-io-error/|détails]])
+  * Dans Firefox 3.5, la case “Accepter les cookies tiers” doit être activée dans l'onglet “Vie privée” des Préférences (ou options) de Firefox preferences pour que la sauvegarde des traducteurs fonctionne convenablement sur certains sites. Sinon, vous pouvez aussi ajouter des exceptions pour certains sites. Ce problème devrait être réglé dans la version 3.6 de Mozilla Firefox.
+  * Passer de Zotero File Storage à une solution WebDAV peut déclencher l'apparition d'une fenêtre de résolution des conflits pour tout fichier modifié lors de l'utilisation de l'autre solution.
+  * Plugin de traitement de texte
+    * Apparition du message "Cette citation n'existe plus dans votre base de données Zotero" ("This citation no longer exists in the Zotero database") lors de l'édition d'un document préalablement édité à partir d'une bibliothèque 2.0b5 jamais synchronisée qui a été ultérieurement synchronisée ([[http://forums.zotero.org/discussion/7487/this-citation-no-longer-exists-in-the-zotero-database-delete-it/#Comment_33382|détails]])
+  * Problème de stockage et de synchronisation
+    * La modification du mot de passe de stockage après une vérification réussie du serveur ne prend effet qu'après que Firefox ait été redémarré. 
+  * Problèmes de notes
+    * Les info-bulles and la vérification orthographique ne sont pas disponibles.
+    * La sauvegarde automatique ne se déclenche pas en revenant de l'éditeur HTML.
+      * Pour contourner ce problème : Cliquez ailleurs dans la note, ou faites d'autres modifications avant de cliquer ailleurs.
+  * Glisser-déposer
+    * Le glisser-déposer depuis le bureau ou d'autres applications ne fonctionne pas sous Linux. 
+  * Les annotations et le surlignage ne sont pas synchronisés. 
+
+===== Problèmes connus de la version 1.0.10 =====
+
+  * Dans Firefox 3.5, la case "Accepter les cookies tiers" doit être activée dans l'onglet "Vie privée" des Préférences (ou options) de Firefox preferences pour que la sauvegarde des traducteurs fonctionne convenablement sur certains sites. Sinon, vous pouvez aussi ajouter des exceptions pour certains sites. Ce problème devrait être réglé dans la version 3.6 de Mozilla Firefox.
+  * La fonction glisser-déposer dans des collections ne fonctionne pas dans Firefox 3.0.0 et Debian Iceweasel 3.0.4 ([[http://forums.zotero.org/discussion/5179/#Item_8|détails]]); les utilisateurs non-Debian peuvent mettre à jour vers la dernière version de Firefox 3.0.x pour régler ce problème.
+  * La fonction glisser-déposer ne fonctionne pas sous Linux. 
+
+
+===== Applications et Extensions Firefox Incompatibles  =====
+
+Les extensions Firefox et applications suivantes provoquent des erreurs de traduction "Impossible de sauvegarder cet item" ("Could Not Save Item") dans Zotero :
+
+  * Norton Internet Security --- Identity Safe feature ([[http://forums.zotero.org/discussion/5373/?Focus=23300#Comment_23300|détails]])
+  * RealPlayer Browser Record Plugin ([[http://forums.zotero.org/discussion/2928/ieee-xplore-error-permission-denied-to-get-property-htmldocumentevaluate/#Item_8|détails]])
+  * RoboForm 6.9.91 ([[http://forums.zotero.org/discussion/3910/|détails]]; pour régler ce problème, fermez totalement l'application RoboForm depuis la barre des tâches Windows, car les erreurs persistent même lorsque l'extension est désactivée).
+  * Torbutton ([[http://forums.zotero.org/discussion/6298/torbutton-compatibility/|Solution en test disponible]])
+
+Les extensions Firefox suivantes provoquent d'autres problèmes dans Zotero :
+
+  * Gliider (bibliothèque vide; [[http://forums.zotero.org/discussion/10233/#Item_6|détails]]; [[http://gliider.uservoice.com/forums/23690-general/suggestions/339809-fix-operability-with-other-addons-like-zotero?ref=title|Informations sur le site de Gliider]])
+  * InvisibleHand (impossible de redimensionner les colonnes; [[http://forums.zotero.org/discussion/10453/cant-resize-columns-in-middle-pane-but-figured-out-why/|détails]])
+  * Lazarus: Form Recovery 2.0.4 (L'espace au dessus de la fenêtre Zotero est vide ; [[http://forums.zotero.org/discussion/8511/|détails]])
+  * Megaupload ([[http://forums.zotero.org/discussion/1458/#Item_5|détails]])
+  * MinimizeToTray For FF 3.5 ([[http://forums.zotero.org/discussion/8895/solved-problems-with-word-plugin-30a1/|détails]])
+  * **Skype extension** (rapporté dans plusieurs sujets des forums, mais non reproduite par les développeurs de Zotero ; [[http://forums.zotero.org/discussion/5567/skype-40-firefox-extension-breaks-zotero-interface/#Comment_24490|détails]])
+  * Split Browser (La fenêtre Zotero ne s'ouvre pas ; [[http://forums.zotero.org/discussion/2733/#Item_13|détails]])
+  * SwitchProxy ([[http://forums.zotero.org/discussion/2147/cant-see-tag-selector-even-after-toggling/#Item_11|détails]])
+  * TotalToolbar 1.4 (L'espace au dessus de la fenêtre Zotero est vide ; [[http://forums.zotero.org/discussion/7942/|détails]])
+  * Vista-Aero theme (?v. 3.0.0.29? [[http://forums.zotero.org/discussion/6663#Item_6|détails]])
+  * Youlicit ([[http://forums.zotero.org/discussion/2840/no-icon-in-url-bar/#Item_11|détails]])
+
+===== Extensions précédemment incompatibles =====
+
+Les extensions Firefox ci-dessous provoquaient des problèmes dans Zotero, mais elles ont été corrigées afin d'être compatibles :
+
+  * Bodybuilding.com Toolbar 1.2 ([[http://forums.zotero.org/discussion/4054/|détails]]; incompatibilité corrigée dans la version 1.3)
+  * iMacros 6.0.4.1 ([[http://forums.zotero.org/discussion/2855/|détails]]; incompatibilité corrigée dans la version 6.0.5.3)
+  * NoScript 1.8.7 ([[http://forums.zotero.org/discussion/4968/translator-issues-with-noscript-187/|détails]]; incompatibilité corrigée dans la version 1.8.7.2)

@@ -1,0 +1,16 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+====== Mettre en œuvre Zotero dans votre institution ======
+
+Il existe d'innombrables façons dont Zotero peut être introduit dans les écoles ou les centres de recherche. Les étudiants de tous horizons, école primaire à diplômés, peuvent bénéficier d'un gain de temps grâce à Zotero. Les enseignants peuvent l'utiliser comme un outil pédagogique ou dans le cadre des cours de méthodologie. En installant Zotero sur tous les ordinateurs, les bibliothèques et les centres d'examen, il leur devient possible de fournir à leurs utilisateurs les outils nécessaires pour tirer le meilleur parti de leur temps. Les Centres d'excellence de l'enseignement et les groupes d'évaluation dans les écoles qui utilisent Zotero développent une méthode pratique afin de recueillir des données sur les capacités de recherche des étudiants. Bien sûr, ce ne sont que quelques-unes des façons dont Zotero peut faire la différence dans votre établissement.
+
+===== Développer Documentation spécifiques aux institutions =====
+
+N'hésitez pas à copier et réutiliser tout le contenu (texte, images, vidéos, etc) sur le site Zotero pour aider à soutenir et à promouvoir Zotero.
+
+Les meilleurs exemples de documentation propre à l'institution ont tendance à largement orienter les utilisateurs vers Zotero, offrir des informations spécifiques de l'institution, et à connecter les utilisateurs à des ateliers locaux, relatifs à la formation et au soutien de base. N'hésitez pas à signaler aux utilisateurs de la [[start|documentation]] et des <html><a href="http://forums.zotero.org/">forums</a></html> d'utilisation et questions avancées de Zotero.
+Jetez un oeil à [[http://infoguides.gmu.edu/content.php?pid=23687&sid=170427|George Mason University's]], [[http://research.library.gsu.edu/content.php?pid=24410|Georgia State University's]] et [[http://langsdale.ubalt.edu/howto/zotero.htm|University of Baltimore's]] pour quelques exemples. Le [[http://www.lib.umich.edu/exploratory/pdfs/zotero.pdf|Zotero Tutorial]] de l'Université du Michigan est également assez vaste et excellent. Plus d'informations sont disponibles dans la rubrique [[Third Party Documentation]].

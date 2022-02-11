@@ -1,0 +1,23 @@
+  * Lorsque vous avez sélectionné un document dans le panneau du milieu, vous pouvez mettre en surbrillance toutes les collections qui contiennent ce document en maintenant enfoncée la touche "Option" sous Mac OS X, "Control" sous Windows ou "Alt" sous Linux.
+
+  * Appuyez sur le "+" (plus) du clavier dans la liste des collections ou dans la liste des documents pour développer tous les nœuds, et sur le "-" (moins) pour les réduire.
+
+  * Pour connaître le nombre de documents de votre bibliothèque ou d'une collection particulière, cliquez sur son nom dans le panneau de gauche. Vous pouvez aussi obtenir le même résultat en cliquant sur un document dans le panneau du milieu, puis en sélectionnant tous les documents grâce au raccourci clavier //Tout sélectionner// (Command-A sur MacOS X ou Ctrl-A sous Windows et Linux). Le nombre de documents apparaît dans le panneau de droite ; les pièces jointes et notes sont comptés si elles sont visibles, c'est-à-dire si leur document parent est développé.
+
+  *Vous ne parvenez pas à ajuster la taille du volet Zotero vers le bas au-delà d'un certain point ? Fermez le [[collections_and_tags#marqueurs|sélecteur de marqueurs]] (par exemple en faisant glisser vers le bas le séparateur au-dessus du sélecteur de marqueurs), car il a une hauteur minimale.
+
+  * Un clic droit sur un champ de titre (y compris "Publication", "Titre de livre", etc.) fait apparaître un menu "Transformer le texte" permettant de changer la casse : "Initiales En Majuscules" ou "Lettre capitale en début de phrase".
+
+  * Les champs de date convertiront automatiquement le texte "hier", "aujourd'hui" ou "demain" en la date correspondante.
+
+  * Lorsque vous utilisez la [[creating_bibliographies#copie_rapide|copie rapide]], le fait de maintenir la touche Majuscule enfoncée tout en glissant et déposant des documents dans un document de texte permet d'insérer des citations au lieu des références bibliographiques complètes.
+
+  * Vous pouvez cliquer sur les intitulés de champ //DOI// et //URL// pour ouvrir automatiquement le lien du champs dans votre navigateur.
+
+  * Si vous ajoutez manuellement des auteurs à un document Zotero, vous pouvez presser les touches Majuscule+Entrer après chaque nom plutôt que de cliquer avec la souris sur le bouton "+".
+
+  * Vous avez besoin de plus d'une bibliothèque Zotero ?  Vous pouvez utiliser [[fr/kb/multiple_profiles|plusieurs profils]] pour garder vos bibliothèques séparées. Vous pouvez également gérer des bibliothèques séparées au sein d'un même profil en utilisant les [[groups|groupes Zotero]].
+
+  * Vous pouvez convertir les adresses URL de la bibliographie en hyperliens fonctionnels en utilisant la fonction "Correction automatique" de Microsoft Word ou de LibreOffice. Suivez les étapes suivantes.
+    - Cliquez sur le bouton "Unlink Citations" dans le menu Zotero. Cela convertit les citations Zotero en texte brut et déconnecte votre document de Zotero. Vous devez donc enregistrer une nouvelle copie de votre document et utiliser cette fonction uniquement sur la version finale.
+    - Sélectionnez votre bibliographie (ou tout le texte du document si vous le souhaitez) et appliquez la "Correction automatique" de Word/LibreOffice (le raccourci clavier est Ctrl/Cmd-Alt/Option-K dans Word).

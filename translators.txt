@@ -1,0 +1,29 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+======Convertisseurs (translators) Zotero =====
+
+Zotero détecte automatiquement les notices de bibliothèque, les données d'actualités, les articles de journaux, et les autres objets que vous pourriez vouloir sauvegarder. Zotero utilise pour cela des convertisseurs (ou, en anglais, //translators//) qui lui permettent de détecter et d'importer les données depuis les sites web. Il y a actuellement plus de 400 convertisseurs qui permettent d'importer en un clic les données de milliers de sites. 
+
+====Types de sites supportés====
+
+===Catalogues de bibliothèque===
+Zotero importe les notices de plusieurs systèmes de catalogues, permettant une importation facile à partir de plusieurs centaines de bibliothèques universitaires, de musées, ou autres. Notamment les catalogues utilisant les systèmes et logiciels suivants : Aleph, Amicus, BiblioCommons, Dynix, Encore, Mango, InnoPAC, Primo, SirsiDynix, TLC/YouSeeMore, Voyager et WorldCat.
+
+===Bases de données===
+Zotero importe les données, et dans la plupart des cas le document PDF associé, des bases de données électroniques les plus utilisées, notamment EBSCO, IEEEXplore, JSTOR, Google Scholar, ProQuest, PubMed… Il fonctionne aussi avec les sites des principaux éditeurs de revues, par exemple ceux de Cambridge University Press, Oxford University Press, Project MUSE, ScienceDirect (Elsevier), SpringerLink, Taylor and Francis, et d'autres.
+
+===Convertisseurs (translators) spécifiques===
+Zotero a également des convertisseurs spécialement dédiés pour des centaines de sites, comme Amazon (dans plusieurs versions linguistiques), le New York Times, et The Economist, ou encore Mainichi Daily News (Japon), Kommersant (Russie), Spiegel Online (Allemagne), Le Monde diplomatique, Le Figaro et beaucoup d'autres encore dans le monde entier.
+
+===Importation des métadonnées===
+Zotero détecte et importe les métadonnées intégrées dans un nombre croissant de sites web et de bases de données grâce aux formats ouverts que sont CoinS, Embedded RDF, balises meta Google/HighWire (//meta tags//), et unAPI.
+
+====Liste complète des convertisseurs (translators)====
+Vous pouvez obtenir une liste complète de tous les convertisseurs Zotero [[http://zotero-translator-tests.s3-website-us-east-1.amazonaws.com/|ici]]. La liste est créée automatiquement tous les jours et inclut des tests automatiques pour la plupart des convertisseurs, permettant aux développeurs Zotero et aux volontaires d'identifier et de régler rapidement les problèmes qui pourraient surgir.
+
+
+S'il vous arrivait de rencontrer un site que Zotero ne reconnaît pas, merci de nous en avertir sur les [[http://forums.zotero.org/|forums]]. Nous travaillons sans relâche à étendre notre compatibilité, et nous voulons savoir comment mieux répondre à vos attentes. Par ailleurs, gardez à l'esprit que Zotero vous permet aussi enregistrer n'importe quelle URL ou de réaliser une capture d'écran de n'importe quelle page web. 

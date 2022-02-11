@@ -1,0 +1,41 @@
+====== Les chronologies ======
+
+Les chronologies vous permettent de visualiser les documents d'une collection.  La chronologie Zotero intègre une technologie issue du projet du MIT [[http://simile.mit.edu/timeline/|SIMILE Timeline project (page en anglais)]].
+
+{{:timeline-z5.png?nolink&800|Zotero Timelines}}
+
+==== Créer des chronologies ====
+
+Pour créer une chronologie, il suffit de sélectionner l'option "Créer une chronologie" dans le menu "Outils" de Zotero.  Cela créera une chronologie de la collection que vous êtes en train de consulter.
+
+==== Comprendre la chronologie ====
+
+Une chronologie Zotero est organisé en trois niveaux, indiqués par des bandes grises horizontales.  Par défaut, de bas en haut, la vue de vos objets est de plus en plus granulaire. Le bloc gris clair au centre des bandes inférieure et centrale est le trou de serrure par lequel vous pouvez explorer les documents sur la chronologie ; les documents de ce cadre sont listés de façon détaillée dans la bande supérieure.
+
+==== Naviguer dans votre chronologie ====
+
+En déplaçant le pointeur de votre souris sur la chronologie, vous la transformez en main. Si vous cliquez avec la main, vous pouvez vous déplacer le long de la chronologie. Vous vous déplacerez beaucoup plus rapidement dans votre collection si vous vous déplacez dans les bandes inférieures.
+
+En plus de faire glisser votre curseur le long de la chronologie, vous pouvez également double-cliquer sur un point dans l'une des bandes pour zoomer sur ce point précis. Vous pouvez également entrer une année dans le champ "Aller à l'année", situé sous la ligne de temps, pour faire défiler immédiatement jusqu'à une année spécifique.
+
+Si la fenêtre de la bibliothèque Zotero est ouverte, vous pouvez cliquer sur un document dans la chronologie, et cela sélectionnera automatiquement le document correspondant dans votre collection Zotero.  C'est un moyen pratique de prendre des notes sur n'importe quel document tout en le comparant, dans un contexte chronologique, à d'autres documents de votre collection.
+
+==== Manipuler les chronologies ====
+
+Vous pouvez manipuler la représentation de votre chronologie de plusieurs façons avec les outils affichés ci-dessous.
+
+|  **Paramètres d'une chronologie**  |
+|  {{http://www.zotero.org/static/images/support/timeline_features.png?600nolink&nocache|Manipulating Timelines}}  |
+
+=== Filtrer les résultats ===
+Si vous souhaitez réduire le nombre de documents visibles dans votre chronologie, utilisez un filtre. Pour afficher les documents qui ne comprennent qu'un mot, un chiffre ou un caractère spécifique, il suffit d'entrer ces données dans la boîte de filtre.
+
+=== Surligner des mots-clés ====
+La fonction "Surligner" permet de voir des tendances d'un seul coup d'œil. Il suffit d'entrer un terme dans l'une des cases de surlignage. La chronologie surlignera alors le titre de chaque document contenant votre terme avec la couleur correspondante. Cela permet de visualiser rapidement des changements de terminologie dans les titres de vos articles.
+
+=== Modifier les bandes ===
+Si vous souhaitez effectuer un zoom avant pour examiner des dates de publication spécifiques, ou un zoom arrière pour voir des tendances plus larges, modifiez les paramètres de la chronologie. Pour modifier les paramètres, il suffit de sélectionner une plage de temps dans les menus déroulants Première, Deuxième et Troisième bande, dans la deuxième ligne.  Les plages de temps vont du jour au millénaire.
+
+=== Sélection des dates sources ===
+Par défaut, Zotero utilise les dates de publication de vos articles pour construire votre chronologie. Dans la plupart des cas, c'est l'information la plus utile pour explorer votre collection. Mais en sélectionnant les options dans le menu déroulant "Type de date", vous pouvez également visualiser votre collection à travers les dates d'ajout ou de modification de vos documents. Cela vous permet de voir vos schémas de recherche, par exemple les types de choses que vous avez ajoutées et quand vous les avez ajoutées.
+

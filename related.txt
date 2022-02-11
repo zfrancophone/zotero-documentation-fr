@@ -1,0 +1,23 @@
+====== Documents connexes ======
+
+
+Outre [[collections and tags|les collections et les marqueurs]], une troisième façon d'exprimer des relations entre des documents est d'établir des liens de "document connexe" entre eux. Ces liens peuvent être établis entre n'importe quelle paire de documents d'une même bibliothèque ; il n'est en revanche pas possible de lier des documents de bibliothèques différentes.
+
+Pour créer un lien, sélectionnez un document dans le volet central et allez dans l'onglet "Connexe" du volet droit. Cliquez sur le bouton "Ajouter" et sélectionnez un ou plusieurs documents de la même bibliothèque dans la fenêtre contextuelle (maintenez la touche Ctrl ou Shift [Windows/Linux] ou Cmd ou Shift [Mac] enfoncée pour sélectionner plusieurs documents), puis cliquez sur "OK". Les documents sélectionnés apparaissent alors comme des documents connexes dans l'onglet "Connexe" ; cliquer sur l'un de ces documents vous permet d'y accéder directement. 
+
+Avec le [[https://github.com/willsALMANJ/Zutilo|module complémentaire Zutilo]], vous pouvez également sélectionner plusieurs documents dans le volet central, puis faire un clic droit et choisir "Associer les documents sélectionnés" pour lier tous ces documents les uns avec les autres en un seul clic.
+
+Notez que lorsque vous liez un document A à B, B sera automatiquement lié à A. Ces relations ne sont toutefois pas [[https://fr.wikipedia.org/wiki/Relation_transitive|transitives]] : lier A à B, puis B à C, ne liera pas automatiquement A à C. 
+
+
+Voici quelques suggestions concernant la façon dont vous pourriez utiliser cette fonctionnalité.
+
+  * lier des chapitres de livre à leur volume parent
+  * lier des recensions de livre au livre recensé
+  * lier les différentes versions d'une production (par exemple, une communication de conférence qui serait devenue un article, qui serait devenu un livre)
+  * lier des documents associés de différentes collections
+  * lier des documents qui font partie d'une même production (par exemple, des articles d'une même série)
+  * lier des notes indépendantes aux documents dont elles traitent
+  * lier un document à un autre, mentionné dans les champs "Résumé" ou "Notes"
+  * lier des documents dont les les champs "Résumé" ou "Notes" partagent des similitudes
+

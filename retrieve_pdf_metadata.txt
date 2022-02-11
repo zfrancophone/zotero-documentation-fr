@@ -1,0 +1,19 @@
+====== Récupérer les métadonnées des PDF ======
+
+Les nouveaux utilisateurs de Zotero peuvent trouver la perspective d'importer toutes leurs données quelque peu décourageante. De nombreux chercheurs disposent déjà d'une importante collection de fichiers PDF qu'ils ont précédemment organisés manuellement ou à l'aide d'un autre logiciel. Zotero permet d'importer facilement  ces PDF et de récupérer les métadonnées bibliographiques complètes (pour la recherche, la citation, l'indexation et l'organisation), allégeant ainsi considérablement le travail de migration.
+
+Suivez les étapes suivantes pour utiliser la fonction "Récupérer les métadonnées des PDF".
+  - Faites glisser vos fichiers PDF existants dans votre bibliothèque Zotero ou utilisez les options "Stocker une copie du fichier..." ou "Lien vers un fichier..." dans le menu "Nouveau document" ({{:add.png?nolink&|}}).
+  - Par défaut, Zotero va [[/blog/zotero-5-0-36/|récupérer automatiquement les métadonnées des PDF]] ([[https://zotero.hypotheses.org/2130|traduction du billet sur le blog "Zotero francophone"]]) et renommer les fichiers associés. Si vous préférez, vous pouvez désactiver ces fonctions automatiques dans [[preferences/general|l'onglet "Générales"]] des préférences de Zotero.
+
+Si vous avez désactivé la récupération automatique des métadonnées ou si vous avez déjà d'autres fichiers PDF dans votre bibliothèque, vous pouvez également récupérer les métadonnées manuellement.
+  - Dans le volet central, sélectionnez les PDF pour lesquels vous souhaitez récupérer les métadonnées.
+  - Cliquez avec le bouton droit de la souris sur les PDF et choisissez "Récupérer les métadonnées des PDF".
+  - Si Zotero peut trouver une correspondance pour un document, il créera un document Zotero complet avec les données disponibles et joindra le PDF.
+  - Si Zotero ne trouve pas de métadonnées pour un document, vous pouvez cliquer dessus avec le bouton droit et choisir "Créer un document parent" pour saisir manuellement les métadonnées du document.
+
+Avec cette fonctionnalité, il ne devrait pas y avoir d'obstacles majeurs pour passer à Zotero et  profiter pleinement de ses puissantes fonctionnalités de recherche, d'indexation, d'organisation et de citation.
+
+La fonction "Récupérer les métadonnées du PDF" utilise un service Web de Zotero pour trouver les métadonnées du document. Le client Zotero envoie les premières pages du PDF au service Web, qui utilise un ensemble d'algorithmes d'extraction et de métadonnées connues de CrossRef, associés à des recherches DOI et ISBN, pour créer un document parent pour le PDF. Ce service de recherche de Zotero ne nécessite pas de compte Zotero et n'enregistre aucune donnée sur le contenu ou les résultats des recherches.
+
+//Bien que cette fonctionnalité puisse considérablement faciliter l'importation de grandes bibliothèques existantes de fichiers PDF, **ce n'est pas**, en général, la meilleure façon d'ajouter des éléments à votre bibliothèque. Les documents peuvent être importés plus rapidement à partir des sites Web des éditeurs ou de la plupart des bases de données bibliographiques, en utilisant le connecteur Zotero dans votre navigateur. Cela permet d'économiser plusieurs étapes par rapport au téléchargement manuel du PDF et à son ajout dans Zotero. Les métadonnées des documents seront aussi souvent de meilleure qualité. Voir [[adding_items_to_zotero|Ajouter des documents à Zotero]] pour les meilleurs moyens d'ajouter des documents à votre bibliothèque.//

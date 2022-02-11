@@ -1,0 +1,67 @@
+====== Synchronisation ======
+
+Tandis que Zotero stocke par défaut toutes les données en local sur votre ordinateur, la fonctionnalité de synchronisation de Zotero vous permet d'accéder à votre bibliothèque Zotero sur n'importe quel ordinateur disposant d'un accès Internet. La synchronisation Zotero se compose de deux parties : la synchronisation des données et la synchronisation des fichiers.
+
+
+===== Synchronisation des données =====
+
+La synchronisation des données fusionne les documents de la bibliothèque, les notes, les liens, les marqueurs, etc. - tout sauf les fichiers joints - entre votre ordinateur local et les serveurs Zotero, ce qui vous permet de travailler avec vos données depuis n'importe quel ordinateur sur lequel Zotero est insatllé. La synchronisation dse données vous permet également de consulter votre bibliothèque en ligne sur zotero.org. Elle est gratuite, n'a pas de limite de stockage et peut être utilisée sans la synchronisation de fichiers.
+
+La première étape pour synchroniser votre bibliothèque Zotero est de [[/user/register/|créer un compte Zotero]] ; ce compte est aussi utilisé pour les forums Zotero.
+Une fois votre compte créé, ouvrez l’onglet "Synchronisation" des [[fr:preferences|préférences]] de Zotero et entrez vos informations de connexion dans la rubrique "Synchronisation des données".
+
+{{:fr:preference-sync-options.png?direct&200|}}
+
+Par défaut, Zotero synchronisera vos données avec le serveur à chaque modification. Pour désactiver la synchronisation automatique, décochez "Synchroniser automatiquement" dans cette rubrique.
+
+{{http://www.zotero.org/static/images/support/quick_start/small/sync.png?nolink&w=160 }}
+
+En plus de la synchronisation automatique, vous pouvez synchroniser manuellement à tout moment en cliquant sur le bouton "Synchroniser avec zotero.org" sur le côté droit de la barre d'outils Zotero.
+
+Par défaut, Zotero fusionnera votre bibliothèque Zotero locale avec votre bibliothèque sur zotero.org - toutes les modifications que vous ferez à un endroit seront appliquées à l'autre et sur tous les autres ordinateurs synchronisés. Si un document a été modifié à plusieurs endroits entre les synchronisations, vous verrez s'afficher une boîte de dialogue de résolution de conflit vous demandant quelle version vous souhaitez conserver. Dans le cas rare où vous souhaiteriez écraser complètement votre bibliothèque en ligne avec le contenu de votre bibliothèque locale ou inversement, vous pouvez utiliser les  [[kb:Sync Reset Options | options de réinitialisation]].
+
+===== Synchronisation des fichiers =====
+La synchronisation des données synchronise les documents de la bibliothèque, mais ne synchronise pas les fichiers joints (PDF, fichiers audio et vidéo, images, etc.). Pour synchroniser ces fichiers, vous pouvez [[fr:preferences/sync#file_syncing|paramétrer la synchronisation des fichiers]] pour accompagner la synchronisation des données, en utilisant soit le stockage de Zotero soit WebDAV.
+
+==== Le stockage de Zotero ====
+
+Le stockage de Zotero est l'option de synchronisation des fichiers recommandée. Elle présente plusieurs avantages par rapport à la synchronisation WebDAV, tels que la synchronisation des fichiers pour les [[fr/groups | bibliothèques de groupes]], l'accès Web aux PDF et autres pièces jointes, une configuration plus facile, une compatibilité garantie et une performance de téléchargement améliorée pour certains fichiers. Chaque utilisateur de Zotero se voit attribuer 300 Mo d'espace de stockage gratuit pour les fichiers joints, avec des [[storage#storage_pricing|offres de stockage étendues]] disponibles à l'achat.
+
+Reportez-vous à la documentation [[storage|Zotero Storage]] pour plus d'informations.
+
+==== WebDAV  ====
+
+WebDAV est une extension du protocole HTTP (le protocole que le web utilise), qui détermine le transfert et le management des fichiers. Il peut être utilisé pour synchroniser les fichiers de votre bibliothèque personnelle, en revanche il ne peut pas être utilisé actuellement pour les bibliothèques de groupe. Votre employeur ou votre institution de recherche peut peut-être vous fournir un stockage WebDAV.  Il existe également de nombreux services tiers qui supportent WebDAV, gratuitement ou non -  voir la page  [[fr/kb:webdav_services|Liste des fournisseurs WebDAV connus pour fonctionner avec Zotero]] pour une liste de services compatibles.
+
+Une fois que vous disposez des informations de votre compte WebDAV, renseignez l’URL fournie par le service, votre nom d’utilisateur et votre mot de passe dans la rubrique "Synchronisation des fichiers" de l’onglet "Synchronisation" des [[fr:preferences|préférences]] de Zotero. Assurez-vous de sélectionner la valeur 'http' ou 'https' appropriée - si vous n'êtes pas sûr, essayez d'abord 'https'. Après avoir entré les informations, cliquez sur "Tester la connexion au serveur". Si Zotero vérifie avec succès le compte WebDAV, vous êtes prêt à utiliser la synchronisation de fichiers via WebDAV.
+
+La synchronisation des fichiers devrait fonctionner avec n'importe quel serveur WebDAV fonctionnant correctement. Les développeurs de Zotero ne peuvent pas fournir de support pour les serveurs WebDAV tiers.
+
+==== Fichiers joints liés ====
+
+Vous pouvez également utiliser la synchronisation des fichiers Zotero sur plusieurs ordinateurs en utilisant [[attaching_files#File_Copies_and_Links|des fichiers liés]]. Plutôt que de joindre aux documents Zotero des copies enregistrées de fichiers, vous pouvez joindre des liens à des fichiers stockés dans un répertoire de synchronisation en ligne, tel que Dropbox ou Google Drive. Lorsque vous utilisez des fichiers joints liés, vous devez configurer la fonction [[:preferences/advanced#linked_attachment_base_directory|Répertoire de base pour les pièces jointes liées]] de Zotero. Ce paramétrage permet à Zotero de retrouver vos fichiers sur chaque ordinateur, même si le chemin vers le répertoire de synchronisation en ligne est différent. Le module complémentaire [[plugins#attachment_file_management|ZotFile]] peut faciliter la gestion des pièces jointes liées en déplaçant automatiquement les fichiers joints dans un répertoire déterminé lorsque vous les importez.
+
+Voir [[#solutions_alternatives_de_synchronisation|Solutions alternatives de synchronisation]] pour plus de détails.
+
+===== La synchronisation en pratique =====
+
+Si Zotero est paramétré de façon à synchroniser automatiquement, les modifications seront synchronisées quasiment immédiatement. Autrement, vous devez lancer une synchronisation manuelle en cliquant sur le bouton de synchronisation à la droite de la barre d’outils Zotero.
+
+Si vous renseignez vos informations de compte sur plusieurs ordinateurs (onglet "Synchronisation" des préférences de Zotero), Zotero va tout synchroniser de façon transparente. Votre attention ne sera requise que si un document ou un fichier est édité de deux endroits différents avant que Zotero ne puisse les synchroniser. Dans ce cas, une fenêtre de résolution de conflit s’affichera afin que vous puissiez déterminer les changements à conserver.
+
+Si vous synchronisez depuis un seul ordinateur, vous pouvez toujours consulter votre bibliothèque en ligne sur zotero.org depuis n'importe quel ordinateur. Si quelque chose arrive à votre ordinateur ou si vous voulez commencer à utiliser Zotero sur un autre ordinateur, configurez simplement vos informations de compte sur le nouvel ordinateur. Zotero récupèrera l’intégralité de votre bibliothèque depuis le serveur.
+===== Solutions alternatives de synchronisation =====
+
+Si pour une raison quelconque vous ne pouvez pas utiliser les fonctionnalités de synchronisation de Zotero, vous pouvez transférer vos données Zotero en utilisant une autre méthode, comme un service de stockage en ligne (Dropbox, Google Drive, OneDrive, etc.), un dossier réseau ou un outil comme rsync, mais cette approche comporte des risques et des limitations importants.
+
+**Stocker le répertoire de données Zotero directement dans un répertoire de stockage en ligne est extrêmement susceptible de corrompre votre base de données Zotero et ne devrait pas être fait.** (Il en va de même pour la plupart des programmes sauvegardés dans une base de données.)
+
+Vous pouvez cependant stocker de cette façon uniquement le sous-répertoire "storage" du répertoire de données Zotero, comme expliqué ci-dessous. Après avoir fermé Zotero sur un ordinateur, vous pouvez également copier manuellement l'ensemble de votre répertoire de données dans un dossier synchronisé, puis le restaurer - toujours avec Zotero fermé - sur un autre ordinateur, comme si vous effectuiez une [[zotero_data#sauvegarder_votre_bibliothèque_Zotero|sauvegarde et une restauration]] de vos données.
+
+Voici les options possibles si vous souhaitez utiliser un service de synchronisation de fichiers externe pour synchroniser uniquement vos fichiers joints Zotero.
+
+  - La méthode la plus simple est d'utiliser des [[attaching_files#File_Copies_and_Links|fichiers liés]] plutôt que des copies enregistrées des fichiers, et de stocker vos fichiers joints dans le répertoire synchronisés. Le module complémentaire [[plugins#attachment_file_management|ZotFile]] peut faciliter cela en déplaçant automatiquement les fichiers joints dans un répertoire déterminé lorsque vous les importez. Vous devez aussi configurer la fonction [[:preferences/advanced#linked_attachment_base_directory|Répertoire de base pour les pièces jointes liées ]] de Zotero, afin que Zotero puisse retrouver vos fichiers sur chaque ordinateur, même si le chemin vers le répertoire de synchronisation en ligne est différent.
+  - Vous pouvez aussi utiliser un [[http://zotpad.uservoice.com/knowledgebase/articles/103395-what-is-a-symbolic-link-and-why-should-i-use-one-w|lien symbolique]] pour synchroniser seulement le répertoire "storage" de votre répertoire de données Zotero au moyen du service de synchronisation externe. Cela synchronisera uniquement vos fichiers joints sans toucher à la base de données Zotero principale SQLite.
+  - Enfin, vous  pouvez placer le répertoire de données entier à l'intérieur de Dropbox (ou similaire) et ensuite utiliser les [[https://www.dropbox.com/help/175/en|options de synchronisation sélectives]] pour désactiver la synchronisation du répertoire de données, puis activer la synchronisation du sous-répertoire  "storage". Si vous paramétrez cette option de manière incorrecte, vous risquez fort de perdre des données. Les forums contiennent de  [[/forum/discussion/13359/|nombreux]] [[/forum/discussion/27900/synching-to-dropbox/|fils de discussion]] [[/forum/discussion/6128/dropbox-and-zotero-15-case-conflicts/|concernant]] [[/forum/discussion/24593/backing-up-a-large-database-without-corrupting-it/|les difficultés]] que des utilisateurs ont rencontré avec des configurations fondées sur Dropbox ou Google Drive.
+
+

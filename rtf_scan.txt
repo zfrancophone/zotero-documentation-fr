@@ -1,0 +1,31 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+====== Analyse RTF ======
+
+La fonction d'analyse RTF intégrée à Zotero permet aux utilisateurs de créer un document avec les citations et bibliographie nécessaires sans jamais utiliser le [[word processor integration|module pour traitement de texte]]. Lorsque l'on se souvient du nom du créateur et de la date du travail que l'on veut citer, utiliser le module est nous ralentit. Dans ces cas là, Zotero peut tout de même mettre en forme les citations.
+
+Pour utiliser l'analyse RTF, créez un nouveau document dans ce format (RTF: Rich Text Format) et commencez à écrire. Lorsque vous souhaitez ajouter une citation, écrivez-la normalement en respectant simplement l'un de ces formats:
+
+	{Smith, 2009}
+	Smith {2009}
+	{Smith et al., 2009}
+	{John Smith, 2009}
+	{Smith, 2009, 10-14}
+	{Smith, "Title", 2009}
+	{Jones, 2005; Smith, 2009}
+
+Si vous souhaitez qu'une bibliographie apparaisse à un autre emplacement qu'à la fin du document, tapez {Bibliography} à cet emplacement.
+
+Une fois terminée l'écriture de votre document, enregistrez-la (assurez-vous qu'il est bien au format RTF) et ouvrez Zotero. Depuis le menu Action (l'icône engrenage dans la barre d'outil Zotero), choisissez "Analyse d'un fichier RTF...". Sous "Fichier en lecture", choisissez le docuement que vous venez de créer. Sous "Fichier de sortie", spécifiez le nom et l'emplacement où vous souhaitez enregistrer le nouveau fichier mis en forme. Cliquez sur Suivant.
+
+{{ http://www.zotero.org/static/images/support/rtf_scan.png?nolink}}
+
+L'écran de Vérification des documents cités vous indiquera quelles citations ont été associées correctement et lesquelles restent ambiguës. Pour réparer une association erronée, cliquez sur l'icône à sa droite et sélectionnez le bon document dans la boîte de dialogue qui s'ouvre. Zotero vous fournira des suggestions pour les citations dont il n'est pas certain. Cliquer sur l'icône avec la flèche verte à droite de la suggestion l'associera à cette citation. Une fois que toutes les citations sont correctement associées, vous pouvez cliquer sur Suivant.
+
+À l'écran suivant, choisissez le style de citation que vous désirez utiliser et cliquez sur Suivant. Zotero va alors créer votre document. Dans le fichier de sortie, toutes les citations seront mises en forme conformément au style choisi et, si le style le requiert, une bibliographie sera incluse à la fin du document, sauf si vous avez indiqué un autre emplacement.
+
+Il est important de noter que, si vous avez choisi un format de citation qui crée des notes de bas de page ou de fin, elles n'apparaitront correctement que si vous ouvrez le fichier de sortie dans un traitement de texte aux fonctionnalités complètes comme MS Word ou LibreOffice.

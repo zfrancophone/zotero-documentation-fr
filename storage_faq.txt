@@ -1,0 +1,49 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+====Comment s'inscrire ?====
+Il vous suffit d'afficher les réglages (Settings) votre profil de compte Zotero, et de cliquer sur  [[/settings/storage|l'onglet storage]].
+
+====En quoi consiste Zotero File Storage ?====
+Zotero File Storage est une solution de stockage en ligne (cloud) pour les PDF, images, captures d'écran web, et tout autre fichier relié à vos bibliothèques personnelles ou de groupe. Zotero File Storage vous permet d'accéder à vos fichiers rattachés depuis n'importe quel poste équipé d'un navigateur Web, et de synchroniser ces fichiers depuis n'importe quel ordinateur où Zotero est installé. Zotero File Storage Services est fourni par un tiers, la Corporation for Digital Scholarship.
+
+====Quelles sont les différences entre Zotero File Storage et le serveur Zotero ?====
+Le serveur Zotero permet la synchronisation, la collaboration en groupe, et le service d'accès au Web pour les métadonnées de la bibliothèque Zotero (c'est à dire la recherche d'informations bibliographiques), les notes et les marqueurs. L'ouverture d'un compte sur les serveurs Zotero est gratuite.
+
+Zotero File Storage est un service optionnel qui y ajoute la prise en charge des fichiers reliés, comme les documents PDF , les images, et las captures d'écran Web. En fonction de la quantité de fichiers rattachés à vos bibliothèques Zotero, ce service peut devenir payant ; vous diposez d'un espqce gratuit de 100 MO.  
+
+====Comment Zotero File Storage gère-t-il les bibliothèques de groupe ?====
+Les bibliothèques de groupe peuvent utiliser Zotero File Storage en autant que le propriétaire du groupe possède assez assez d'espace de stockage, et qu'il a opté pour l'utilisation de Zotero File Storage pour les fichiers du groupe. La bibliothèque Zotero personnelle et les bibliothèques des groupes qu'il possède viendront impacter l'espace de stockage dont il dispose. Le stockage des fichiers du groupe dépend toujours du compte du propriétaire du groupe, et jamais de celui des membres de ce groupe.
+
+====Puis-je toujours utiliser WebDAV pour synchroniser mes fichiers rattachés Zotero ?====
+Oui, il est toujours possible d'utiliser WebDAV à la place de Zotero File Storage pour synchroniser les fichiers rattachés à votre bibliothèque Zotero personnelle.
+
+====Combien coûte Zotero File Storage ?====
+Zotero File Storage propose des prix progressifs pour s'adapter aux besoins variables de ses utilisateurs. Notre architecture peut supporter des niveaux d'archivage de n'importe quel ordre ; donc si vous ne trouvez pas d'offre adaptée à vos besoins, informez-nous en. Nous travaillerons volontiers avec votre institution, laboratoire ou équipe de recherche pour proposer une solution adaptée et abordable à vos besoins. 
+
+^ Quota de stockage^ Coût Annuel ^
+| 300 Mo | Gratuit |
+| 2 Go | 20 $ ($1.67/mois) |
+| 6 Go | 60 $ ($5/mois) |
+| Illimité | $120 ($10/mois)  |
+
+====Pourquoi Zotero File Storage n'est-il pas gratuit pour tous ?====
+Bien que sur la base des besoins d'un unique utilisateur, le coût de Zotero File Storage reste modique, le coût total des besoins de tous les utilisateurs serait prohibitif pour le projet Zotero. Il s'agirait d'absorber le stockage de pétaoctets de données provenant des centaines de milliers d'utilisateurs. 
+Le coût associé au stockage des données et au transfert de données sont potentiellement bien supérieurs aux frais généraux associés au développement et à la maintenance du client et du serveur Zotero, qui ont toujours été et sont gratuits. Le projet Zotero n'a jamais eu le projet de rentabiliser les données des utilisateurs ou de tirer profit de ses utilisateurs, et il ne s'agit que d'un moyen de financer les coûts associés au stockage des fichiers. 
+
+====Pourquoi Zotero File Storage coûte-t-il plus cher que le service en ligne de la Foir'Fouille ?====
+
+Zotero File Storage représente plus qu'un entassement de disques durs. L'équipe de développement Zotero et la Corporation for Digital Scholarship ont construit une architecture de services dédiée aux besoins des chercheurs, permettant de déplacer les fichiers en toute transparence entre les bibliothèques personnelles et les bibliothèques de groupe, et d'accéder facilement à ces fichiers via le client Zotero ou sur zotero.org. En effet, stocker physiquement ces fichiers n'est que l'un des aspects de ce service, qui permet la synchronisation en temps réel, la distribution entre de multiples ordinateurs, ou entre des utilisateurs individuels, ou en groupe. En dépit de cette cette complexité, les prix de Zotero File Storage restent comparables aux prix de solutions plus basiques de sauvegarde en ligne. 
+
+====Qu'est-ce qui se trouve derrière Zotero File Storage ? Deux vieux IBM dans un placard à balais ?====
+Zotero File Storage implique des couches de données tournant sur des serveurs de Zotero, sous-tendus par un stockage de fichiers hébergé par Amazon's Simple Storage Service (S3). Parce que nous mesurons parfaitement quelle valeur vous accordez à vos données, nous avons choisi l'architecture de stockage la plus fiable, la plus rapide et la mieux conçue sur Terre. 
+
+
+====Quelle est la taille maximale d'un fichier stocké sur Zotero File Storage ?====
+5 To. Cette limitation est imposée par Amazon S3.
+
+====Que faites-vous de mon paiement et de mes informations de facturation  ?====
+L'ensemble des informations de paiement et de facturation sont traitées par [[https://stripe.com|Stripe]] uniquement. Ni Zotero, ni la Corporation for Digital Scholarship n'ont connaissance de votre numéro de carte de crédit ; la seule information reçue est la confirmation que votre paiement a bien été traité.

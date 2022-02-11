@@ -1,0 +1,35 @@
+======Obtenir de l'aide======
+
+Besoin d'aide? **Il y a de fortes chances que quelqu'un se soit déjà posé la même question que vous.**
+Afin de vous aider le plus rapidement possible à résoudre cotre problème, suivez les  étapes ci-dessous.
+
+====Étape 1 : Mettez à jour Zotero====
+
+[[installation|Mettez à jour Zotero]] si vous n'utilisez pas la dernière version, car votre problème a peut-être déjà été résolu dans la version la plus récente de Zotero. Vous pouvez vérifier votre version en sélectionnant "À propos de Zotero" dans le menu "Zotero" (Mac) ou dans le menu "Aide" de Zotero (Windows/Linux).
+
+
+====Étape 2 : Consultez les pages de dépannage====
+
+Si vous avez une question générale à propos de Zotero, vérifiez [[Frequently Asked Questions|la foire aux questions]]  et [[kb|la base de connaissances]].
+
+Si vous rencontrez un problème, les pages de dépannage dédiées suivantes peuvent vous aider.
+
+  * [[installation|Problèmes pour installer Zotero]]
+  * [[zotero_data |Problèmes avec vos données Zotero]] (par ex., bibliothèque manquante, restauration depuis une sauvegarde)
+  * [[troubleshooting_translator_issues |Problèmes pour enregistrer des documents à partir de sites web]]
+  * [[word_processor_plugin_troubleshooting | Problèmes avec les extensions de traitement de texte]]
+  * [[:kb/file_handling_issues|Problèmes avec la gestion des fichiers]] (par ex., PDF s'ouvrant dans le mauvais logiciel)
+  * [[:fr/kb/changes_not_syncing|Problèmes avec la synchronisation des données]] (les documents de votre bibliothèque Zotero)
+  * [[:fr/kb/files_not_syncing|Problèmes avec la synchronisation des fichiers]] (les fichiers joints aux documents de votre bibliothèque)
+
+====Etape 3 : Publiez un message sur les forums====
+
+Si vous ne parvenez pas à trouver la réponse à votre question dans la documentation, publiez un message sur les forums Zotero, où vous obtiendrez un support rapide et expert de la part à la fois des développeurs de Zotero et des membres de la communauté. Consultez la page [[zotero_support|Comment fonctionne le support Zotero]] pour plus d'informations sur la manière dont cela nous permet d'apporter le meilleur support possible.
+
+En général, veuillez lancer un nouveau fil de discussion pour votre problème. Il est préférable de lancer un nouveau fil de discussion plutôt que d'alimenter une discussion avec un problème qui peut être sans relation avec le sujet discuté. Les développeurs de Zotero ou les bénévoles qui répondent sur les forums peuvent vous indiquer un fil de discussion pertinent s'il en existe un.
+
+Si vous êtes nouveau sur les forums Zotero, veuillez lire les [[forum guidelines|lignes de conduite sur les forums Zotero]] et les [[reporting problems|procédures de signalement des problèmes]] avant de publier un message.
+
+**Note:** Vous devez [[/user/register/|créer un compte Zotero]] et vous identifier pour publier des messages sur les forums Zotero. Vous pouvez choisir un nom d'utilisateur différent pour les forums à partir des [[/settings/account|paramètres de votre compte]].
+
+<html><p style="font-size: 14px; font-weight: bold"><a href="https://forums.zotero.org">Aller sur les forums Zotero</a></p></html>

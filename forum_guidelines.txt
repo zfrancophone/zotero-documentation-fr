@@ -1,0 +1,61 @@
+====== Lignes de conduite sur les forums Zotero ======
+
+Les forums Zotero reçoivent des dizaines de milliers de messages par an. Les développeurs de Zotero et un certain nombre d'experts de Zotero qui donnent de leur temps bénévolement lisent chaque message. Pour leur permettre de répondre rapidement, efficacement et avec précision, et pour maintenir une atmosphère conviviale et aimable, veuillez suivre les recommandations ci-dessous.
+
+===== Fil existant ou nouveau fil? =====
+
+D'une façon générale, veuillez commencer un nouveau fil de discussion pour votre question. Il est préférable de lancer un nouveau fil de discussion plutôt que de contribuer à un fil de discussion portant potentiellement sur une autre question. Les développeurs Zotero ou les bénévoles des forums peuvent vous indiquer un fil de discussion pertinent s'il en existe un.
+
+Si vous le souhaitez, vous pouvez parcourir les messages les plus récents et effectuer une recherche rapide pour voir si quelqu'un a publié un message concernant la même question. Ne passez pas plus de deux minutes à chercher - les forums reçoivent un très grand nombre de messages, et vous serez volontiers orienté vers un fil de discussion pertinent s'il en existe un.
+
+Si vous trouvez un fil de discussion existant, lisez l'intégralité de la discussion - pas seulement le titre du fil - pour vous assurer qu'il est pertinent, qu'une solution, même de contournement, n'a pas déjà été fournie, et qu'un retour d'information supplémentaire est toujours nécessaire. Vous devez également vérifier la date du dernier commentaire pour vous assurer qu'il ne fait pas référence à une très ancienne question qui n'est plus d'actualité.
+
+Si vous n'êtes pas sûr que votre question est exactement la même, il est préférable de commencer un nouveau fil de discussion, et quelqu'un vous orientera vers une discussion existante si nécessaire. (Vous pouvez inclure des liens vers d'autres fils de discussion éventuellement pertinents dans votre message).
+
+**Les problèmes liés à la synchronisation et aux modules de traitement de texte nécessitent généralement un dépannage individuel et devraient presque toujours faire l'objet de nouveaux fils de discussion**.
+
+
+===== Ne créez pas des fils redondants =====
+
+Ne publiez pas de message à propos d'une même question dans plus d'un fil de discussion. Les développeurs et de nombreux membres de la communauté lisent chaque message, et le fait de publier à plusieurs endroits rend les choses plus difficiles, tant pour les personnes qui vous répondent que pour les autres personnes qui essaient de trouver des informations à propos de la même question.
+
+Cela s'applique également si vous avez déjà un fil de discussion pour un problème : n'en créez pas un nouveau pour le même problème, même si vous attendez une réponse. Si vous avez d'autres commentaires, il vous suffit de les publier sur le même fil de discussion.
+
+Si vous souhaitez changer quelque chose dans votre message d'origine, vous pouvez simplement le modifier.
+
+
+===== Fournissez suffisamment d'informations =====
+
+Consultez les [[Reporting Problems|procédures de signalement des problèmes]] pour savoir ce qu'il faut inclure dans votre message.
+
+<html><a id="be_civil"></a></html>
+
+===== Étiquette =====
+
+Nous faisons de notre mieux pour que l'atmosphère des forums reste aimable et conviviale. Vous pouvez nous aider en observant les conseils suivants.
+
+  * **Publiez quand vous êtes calme**. Dans de nombreux cas, la raison pour laquelle vous publiez sur les forums est que vous avez ressenti une certaine frustration : quelque chose ne fonctionne pas, vous êtes incapable de trouver comment faire quelque chose, ou peut-être croyez-vous avoir perdu votre travail. Prenez un peu de temps pour vous calmer avant de publier. Les forums ne sont pas le lieu pour décharger sa frustration ou sa colère.
+  * **Respectez les autres**. Ne soyez pas grossier et n'exigez pas une attention immédiate. Les développeurs de Zotero ont de nombreuses personnes à aider, et les membres de la communauté Zotero offrent bénévolement leur temps et leur expertise pour aider les autres.
+  * **Gardez un esprit ouvert.**
+    * Différentes personnes utilisent Zotero de différentes manières. Tout le monde ne partage pas vos priorités, parfois vous êtes la seule personne à rencontrer un problème particulier, ou peut-être n'avez-vous tout simplement pas découvert la meilleure façon d'accomplir une tâche. Évitez les déclarations généralisatrices du genre // "il est évident que sans cette fonctionnalité, Zotero est inutile pour tout le monde"//.
+    * Vous pouvez recevoir une courte réponse à votre question, comme un simple "oui" ou "non", ou un lien vers une discussion précédente pertinente. N'interprétez pas cela comme un rejet de votre question. Les personnes chargées de l'assistance aux utilisateurs traitent un grand nombre de messages et n'ont souvent pas le temps d'écrire des réponses détaillées. Si vous n'êtes pas satisfait d'une réponse, n'hésitez pas à demander des précisions. Il est également fréquent que la première réponse que vous receviez soit une demande d'informations complémentaires pour nous aider à mieux comprendre votre problème.
+    * Il se peut que votre fil soit fermé par un lien vers un autre fil, même si le problème n'a pas été résolu. Cela permet de garantir que toute discussion susceptible de déboucher sur une solution se déroule en un seul endroit. Cela ne signifie pas que votre demande n'est pas prise au sérieux.
+  * **ÉVITEZ LE "TOUT EN MAJ"**. N'écrivez pas tout en majuscules. Cela est interprété par beaucoup comme un cri et rend votre courrier moins lisible. Il en va de même pour l'utilisation excessive du gras ou de l'italique, ou l'utilisation de plusieurs points d'exclamation pour souligner vos remarques.
+
+Surtout, n'oubliez pas que vous et ceux qui vous répondent partagent généralement le même objectif : résoudre votre problème le plus rapidement possible.
+
+===== Soyez patient =====
+
+Les développeurs de Zotero et de nombreux membres dévoués de la communauté lisent chaque message.
+
+Si de nombreux messages du forum reçoivent une réponse en quelques minutes, d'autres peuvent ne pas recevoir de réponse avant plusieurs jours. Dans d'autres cas, en particulier pour les demandes de fonctionnalités, les développeurs peuvent attendre de voir si d'autres personnes soutiennent une idée avant de répondre.
+
+Si vous ne recevez pas de réponse immédiatement, laissez passer un peu de temps. Si vous avez un problème sérieux et que vous pensez que votre message a pu passer entre les mailles du filet, publiez une suite polie dans le même fil de discussion en demandant si quelqu'un a eu l'occasion de se pencher sur votre problème. Ne créez pas un nouveau fil de discussion pour le même problème, car il sera probablement simplement supprimé.
+
+===== Soyez réactif =====
+
+Après avoir publié sur les forums, assurez-vous de faire un suivi. Vous recevrez automatiquement une notification par courrier électronique la première fois que quelqu'un répondra à un fil de discussion auquel vous avez contribué, mais vous ne recevrez pas de notifications supplémentaires avant d'avoir consulté à nouveau le fil de discussion. Il est donc conseillé de cliquer sur le fil de discussion pour vous assurer d'être averti la prochaine fois que quelqu'un répondra. (Vous pouvez également vous abonner aux forums en utilisant un lecteur de flux RSS.) Si une solution proposée résout votre problème, publiez un commentaire sur le fil de discussion pour en informer les autres. Si ce n'est pas le cas, confirmez que vous avez essayé ce qui a été suggéré et expliquez ce qui s'est passé lorsque vous l'avez fait.
+
+Si vous résolvez un problème par vous-même, publiez une mise à jour dans le fil de discussion et dites ce que vous avez fait pour le résoudre. D'autres personnes peuvent avoir le même problème et peuvent bénéficier de votre expérience, ou vous pouvez fournir aux développeurs des informations supplémentaires pour résoudre le problème.
+
+[[/forum|Aller sur les forums Zotero]]

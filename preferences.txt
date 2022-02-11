@@ -1,0 +1,20 @@
+====== Préférences ======
+
+=== La fenêtre des préférences ===
+
+Beaucoup de fonctions de Zotero peuvent être personnalisées via la fenêtre des préférences de Zotero. Pour ouvrir les préférences, cliquez sur le menu "Édition -> Préférences" (sur Windows ou Linux) ou "Zotero -> Préférences" (sur Mac). Vous pouvez aussi utiliser le raccourci clavier  ''Ctrl/Cmd''-'',''.
+
+{{::preferences_tabs.png?nolink&w=600|}}
+
+La fenêtre de préférences est divisée en différents panneaux.
+
+  * **[[fr:preferences:general|Générales]]** - Ajuster l'apparence, les paramètres d'importation et d'autres fonctions générales.
+  * **[[fr:preferences:sync|Synchronisation]]** - Configurer la synchronisation des données et des fichiers.
+  * **[[fr:preferences:search|Recherche]]** - Activer ou désactiver l’indexation du texte intégral des fichiers PDF et visualiser les statistiques correspondantes.
+  * **[[fr:preferences:export|Exportation]]** - Définir les paramètres par défaut pour la génération des bibliographies et des citations.
+  * **[[fr:preferences:styles|Citer]]** - Ajouter, retirer, modifier et prévisualiser les styles bibliographiques, et installer les modules de traitement de texte.
+  * **[[fr:preferences:advanced|Avancées]]** - Localisation des données Zotero, rechercher dans la bibliothèque, et autres paramètres avancés.
+
+===== Préférences cachées =====
+
+En plus des préférences affichées dans la fenêtre des préférences de Zotero, il existe un certain nombre de [[preferences/hidden_preferences|préférences cachées (page en anglais)]] qui ne peuvent être modifiées que par le biais de l'Éditeur de configuration, accessible depuis l'onglet "Préférences -> Avancées -> Général".

@@ -1,0 +1,167 @@
+======Ajouter des documents à Zotero======
+
+
+Cette page décrit les différentes façons d'ajouter des documents (livres, articles de journaux, pages Web, etc.) comme documents Zotero. Pour en savoir plus sur l'ajout de fichiers (comme des PDF ou des images), veuillez consulter la page [[attaching files|Ajouter des fichiers à votre bibliothèque Zotero]].
+
+=======Via votre navigateur web==========
+
+//Pour utiliser Zotero correctement, vous devez installer le connecteur Zotero pour Chrome, Firefox ou Safari, en plus de l'application de bureau Zotero. Voir la page de téléchargement [[/download|Download]].//
+
+Le bouton d'enregistrement du connecteur Zotero est le moyen le plus pratique et le plus fiable d'ajouter des documents avec des métadonnées bibliographiques de haute qualité à votre bibliothèque Zotero. Lorsque vous naviguez sur le Web, Zotero trouvera automatiquement des informations bibliographiques sur les pages Web que vous visitez et vous permettra de les ajouter à Zotero d'un simple clic.
+
+Par exemple, si vous lisez un article de revue en ligne, le bouton d'enregistrement de Zotero se transforme en l'icône d'un article de revue (entouré en rouge) :
+
+{{:connector_firefox.png?nolink&600}}
+
+Sur une entrée de catalogue de bibliothèque pour un livre, le bouton d'enregistrement affiche une icône de livre :
+
+{{:connector_book.png?nolink&125}}
+
+Cliquez sur le bouton d'enregistrement pour créer dans Zotero un document  avec les informations que Zotero a identifiées. Sur de nombreux sites, Zotero sauvegardera également tout PDF accessible depuis la page, ou un PDF en libre accès s'il peut en trouver un correspondant pour le document enregistré.
+
+==== Pages Web génériques ====
+
+Certaines pages Web ne fournissent aucune information que Zotero puisse reconnaître. Sur ces pages, le bouton d'enregistrement affichera une icône de page Web grise. Si vous cliquez sur le bouton "Save to Zotero" sur ces pages, Zotero importera la page en tant que  document "Page Web" avec un titre, une URL et une date d'accès. Voir [[#enregistrer_des_pages_web|Enregistrer des pages Web]] ci-dessous.
+
+**Firefox:**\\
+{{:connector_webpage_firefox.png?nolink&115}}
+
+**Safari:**\\
+{{:connector_webpage_safari.png?nolink&}}
+
+==== PDF ====
+
+Si vous affichez un fichier PDF dans votre navigateur, le bouton d'enregistrement affichera une icône PDF. Lorsque vous cliquerez sur ce bouton, Zotero importera  le fichier PDF seul dans votre bibliothèque, puis il tentera automatiquement de récupérer des informations à son sujet. Bien que cela produise souvent de bons résultats, il est généralement préférable d'utiliser le bouton d'enregistrement décrit ci-dessus à partir de la page de résumé de la publication ou de l'entrée du catalogue.
+
+{{:connector_pdf.png?nolink&150}}
+
+==== Résultats multiples ====
+
+Sur certaines pages Web qui contiennent des informations concernant plusieurs documents (par exemple, une liste des résultats de la recherche Google Scholar), le bouton d'enregistrement affichera une icône de dossier. En cliquant sur cette icône de dossier, vous ouvrez une fenêtre dans laquelle vous pouvez sélectionner les documents que vous souhaitez enregistrer dans Zotero.
+
+
+{{:connector_folder.png?nolink&125}}
+
+{{:zotero-item-selector.png?nolink&|}}
+
+==== Enregistrer dans une collection ou une bibliothèque spécifique====
+
+Après avoir cliqué sur le bouton d'enregistrement, une fenêtre contextuelle apparaîtra pour indiquer dans quelle collection Zotero le document est enregistré. Si vous souhaitez enregistrer le document dans une autre collection ou dans une autre bibliothèque, vous pouvez modifier la sélection, de même que saisir les marqueurs à associer au nouveau document.
+
+==== Qualité des données et choix d'un convertisseur ====
+
+La qualité des données importées par Zotero est déterminée par les informations fournies sur la page Web. Certains sites Web fournissent des données de très haute qualité en utilisant une méthode standard pour fournir les données à Zotero (via des métadonnées intégrées). D'autres sites Web ne fournissent que des métadonnées limitées (par exemple, seulement le titre d'un article de blog) ou aucune métadonnée du tout. Pour de nombreux sites, Zotero dispose de "convertisseurs" spécifiques à ces sites Web, afin d'obtenir des métadonnées de la meilleure qualité. Zotero reconnaît presque tous les catalogues de bibliothèques, la plupart des sites de presse, les bases de données de recherche et les éditeurs scientifiques. Par défaut, les mises à jour des convertisseurs sont installées automatiquement, indépendamment des mises à jour de Zotero. La qualité des métadonnées pour un même document peut varier d'un site à l'autre. Par exemple, importer un document à partir du site Web de l'éditeur produira généralement de bien meilleures données que l'importer à partir de Google Scholar.
+
+Zotero choisira généralement automatiquement le meilleur convertisseur disponible pour chaque site. Vous pouvez choisir un autre convertisseur en cliquant avec le bouton droit de la souris sur le bouton d'enregistrement Zotero (click-and-hold dans Safari) et en choisissant une des options proposées. Si l'import depuis un site Web ne s'effectue pas correctement, veuillez le signaler sur le [[/forum|forum Zotero]] et fournir l'URL de la page Web.
+
+===== Ajouter un document par son identifiant =====
+
+{{ :add-item-by-identifier-popup.png?nolink&|}}
+
+Vous pouvez rapidement ajouter des documents à votre bibliothèque si vous connaissez déjà leur ISBN, leur identifiant DOI, PubMed ou arXiv. Pour ajouter un document via l'un de ces identifiants, cliquez sur le bouton "Ajouter un document par son identifiant" ({{:toolbar-lookup.png?nolink&|}}} en haut de la colonne centrale du volet Zotero, tapez ou collez l'identifiant, puis appuyez sur Entrée/Retour. Pour entrer plusieurs identifiants en même temps, tapez le premier identifiant, puis appuyez sur Maj+Entrée/Retour, puis tapez les autres identifiants (un sur chaque ligne). Une fois que vous avez tapé tous les identifiants, appuyez sur Maj+Entrée/Retour pour importer tous les éléments en même temps. Vous pouvez également coller une liste de plusieurs identifiants (chacun sur une ligne séparée), puis appuyer sur Maj+Entrée/Retour pour terminer.
+
+Zotero utilise les bases de données suivantes pour rechercher les métadonnées des documents : Library of Congress et [[http://www.worldcat.org/|WorldCat]]] pour les ISBN, [[http://www.crossref.org/|CrossRef]] pour les DOI, [[http://www.ncbi.nlm.nih.gov/pubmed/|NCBI PubMed]] pour les PMID et [[https://arxiv.org|arXiv]] pour les identifiants arXiv.
+
+===== Ajouter des PDF et d'autres fichiers =====
+
+Pour ajouter un fichier PDF ou tout autre fichier à partir de votre ordinateur, faites-le simplement glisser dans Zotero - vous pouvez glisser vers un document existant pour joindre le fichier, ou entre des documents pour stocker le fichier comme élément indépendant. Zotero tentera automatiquement de [[retrieve_pdf_metadata|récupérer des métadonnées bibliographiques pour ces PDF]], bien que dans certains cas cela puisse produire des métadonnées de qualité inférieure à l'importation en utilisant le bouton "Save to Zotero"de votre navigateur. Si Zotero n'est pas en mesure de récupérer des métadonnées de haute qualité pour un PDF, vous pouvez enregistrer le document d'une autre manière - en utilisant le bouton "Save to Zotero" ou "Ajouter un élément par son identifiant" - puis glisser le PDF sur ce nouveau document (si un PDF n'était pas déjà joint  automatiquement).
+
+Vous pouvez également ajouter des fichiers comme pièces jointes à des documents Zotero existants en cliquant avec le bouton droit de la souris sur le document Zotero et en choisissant "Ajouter une pièce jointe", ou en cliquant sur l'icône du trombone dans la barre d'outils Zotero. Vous pouvez également ajouter des fichiers comme éléments indépendants en utilisant les options "Stocker une copie du fichier..." ou "Lien vers un fichier..." dans le menu "Nouveau document" ({{:add.png?nolink&|}}).
+
+=====Enregistrer des pages Web=====
+
+Avec Zotero, vous pouvez créer un document à partir de n'importe quelle page Web en cliquant sur le bouton d'enregistrement dans la barre d'outils du navigateur. Si la page n'est pas reconnue par un [[#web_translators|convertisseur]], vous verrez l'icône de page Web grise. Si la page a bien un convertisseur reconnu, vous pouvez toutefois forcer Zotero à enregistrer un document de type page Web (au lieu du type reconnu par le convertisseur) en cliquant avec le bouton droit de la souris (click-and-hold dans Safari) sur le bouton d'enregistrement Zotero et en choisissant "Save to Zotero (Web Page with/without Snapshot)".
+
+**Firefox:**\\
+{{:connector_webpage_firefox.png?nolink&115}}
+
+**Safari:**\\
+{{:connector_webpage_safari.png?nolink&}}
+
+Si l'option "Faire une capture automatique de la page lors de la création de documents à partir de pages Web" est activée dans les [[preferences/general|les préférences générales]] de Zotero, une copie (ou capture) de la page Web sera enregistrée sur votre ordinateur et ajoutée comme élément enfant. Vous pouvez également enregistrer une capture avec ce paramètre désactivé en cliquant avec le bouton droit de la souris (click-and-hold dans Safari) sur le bouton d'enregistrement Zotero et en choisissant l'option pertinente. Pour afficher la copie enregistrée, double-cliquez sur l'élément ou la capture dans Zotero.
+
+{{annotation/web_snapshot_356x36.png?nolink&nocache}}
+
+Double-cliquer sur un document de type page Web sans capture  dans votre bibliothèque vous amènera à la page Web originale. Double-cliquer sur un document de  type page Web avec capture affichera à la place la capture. Vous pouvez également consulter la page web originale en cliquant sur l'intitulé "URL :" à gauche du champ ''URL'' dans le panneau de droite de Zotero.
+
+=====Importer depuis d'autres outils=====
+
+Vous voulez peut-être migrer vers Zotero, mais vous disposez déjà d'une vaste bibliothèque stockée dans d'autres logiciels de gestion bibliographiques (par exemple, Endnote, Reference Manager, Citavi, RefWorks, Mendeley, Papers). Pour importer de telles bibliothèques dans Zotero, commencez par exporter les données bibliographiques de votre autre logiciel. Ensuite, dans Zotero, choisissez l'option "Importer..." dans le menu Fichier. Naviguez jusqu'au fichier exporté, sélectionnez-le et cliquez sur le bouton "Ouvrir". Ceci devrait importer les documents exportés dans votre bibliothèque Zotero dans une collection horodatée.
+
+Pour des instructions détaillées sur la façon de passer de Mendeley à Zotero, voir [[kb/mendeley_import|Importing Records From Mendeley]].
+
+Pour des instructions détaillées sur la façon de passer de Endnote à Zotero, voir [[kb/importing_records_from_endnote|Importing Records From EndNote]].
+
+Pour des instructions détaillées sur la façon de passer de Citavi à Zotero, voir [[kb/import-from-citavi|Importing Records From Citavi]].
+
+
+L'importation à partir d'autres outils suit des étapes similaires, dans la mesure où ils peuvent exporter un format normalisé.
+
+Zotero peut importer [[kb/importing_standardized_formats|entre autres]] les formats de fichiers bibliographiques suivants :
+  * Zotero RDF
+  * CSL JSON
+  * MODS (Metadata Object Description Schema)
+  * BibTeX
+  * SIF
+  * Référence/BibIX
+  * FTR Dublin Core non qualifié
+  * Note de fin XML
+  * ContextObject XML ContextObject
+  * Web of Science Tagged
+  * MEDLINE/nbib
+
+Notez que l'importation/exportation n'est généralement pas recommandée pour [[kb:transferring_a_library|transférer des bibliothèques Zotero entières]] entre différents ordinateurs ou installations Zotero. L'importation/exportation ne vous donne généralement pas une copie exacte de votre bibliothèque Zotero. De plus, si vous utilisez les modules de traitement de texte de Zotero, tous les liens vers les documents Zotero dans les fichiers de traitement de texte existants seront perdus après avoir recréé une bibliothèque Zotero via exportation/importation. Vous pouvez plutôt utiliser les fonctions de [[sync|synchronisation]] de Zotero ou copier manuellement le  [[zotero_data|répertoire de données Zotero]]. Voir [[kb/transferring_a_library|Transferring a Library]] pour des instructions détaillées.
+
+Les données bibliographiques stockées directement dans les fichiers Word à l'aide de la fonction de bibliographie de Word ne peuvent pas être importées directement par Zotero ni par d'autres outils de gestion bibliographique. Cependant, il est possible d'importer des bibliographies Word en les formatant d'abord en BibTeX, puis en utilisant Zotero pour importer les données BibTeX. Voir [[kb/importing_formatted_bibliographies|Citations inserted using Microsoft Word's built-in citation feature]].
+
+Si vous avez des documents Word avec des citations Zotero ou Mendeley intégrées, vous pouvez les extraire et les importer dans votre bibliothèque Zotero en utilisant l'outil [[http://rintze.zelle.me/ref-extractor/|Reference Extractor]].
+===== Imports massifs depuis des bases de données =====
+
+Si vous importez un grand nombre de documents à partir de bases de données bibliographiques (par exemple, si vous menez une revus systématique), des bases de données comme Google Scholar, ProQuest, Web of Science et d'autres peuvent vous bloquer si vous utilisez le bouton d'enregistrement Zotero trop souvent ou pour un trop grand nombre de documents à la fois. Dans ce cas, il est préférable d'exporter les documents par lot dans l'un des formats standardisés listés [[#importer_depuis_d_autres_outils|ci-dessus]] (BibTeX et RIS sont par exemple des choix courants), puis d'importer ce fichier dans Zotero. Web of Science et ProQuest offrent la possibilité de sélectionner plusieurs éléments dans une liste de résultats de recherche et de les exporter par lot dans divers formats. Dans Google Scholar, vous devez d'abord enregistrer les documents dans votre bibliothèque Google Scholar (en utilisant l'icône ☆ dans les résultats de recherche), puis les sélectionner et les exporter à partir de la page "Ma bibliothèque" de Google Scholar.
+
+===== Ajouter manuellement des documents =====
+
+Pour ajouter manuellement un document à votre bibliothèque Zotero, cliquez sur le bouton vert "Nouveau document" ({{:add.png?nolink&|}}) en haut du volet central, et sélectionnez le type de document souhaité dans le menu déroulant. Le niveau supérieur du menu affiche les types de document récemment créés ; la liste complète des types de document, à l'exception de la page Web, se trouve sous la rubrique "Plus". Un document vide du type de document sélectionné apparaît alors dans la colonne centrale. Vous pouvez ensuite saisir manuellement les informations bibliographiques du document via le volet de droite.
+
+**Remarque:** Lorsque vous voulez créer un document pour une page Web, il est généralement plus facile de consulter la page dans votre navigateur et de l'enregistrer dans Zotero (voir [[#Enregistrer_des_pages_web|Enregistrer des pages web]]). Pour cette raison, le type de document Page Web n'est pas inclus dans le menu "Nouveau document". Toutefois, si vous voulez vraiment créer un document de page Web à la main, créez un document vide d'un autre type et passez le type de deocument à Page Web dans le volet de droite.
+===== Editer des documents =====
+
+Lorsque vous avez sélectionné un document dans le volet central, vous pouvez afficher et modifier ses informations bibliographiques via l'onglet Info du volet de droite. La plupart des champs peuvent être cliqués et modifiés. Les modifications sont sauvegardées automatiquement au fur et à mesure qu'elles sont effectuées. Certains champs ont des caractéristiques particulières, qui sont décrites ci-dessous.
+
+=== Noms ===
+
+Chaque document peut avoir zéro ou plusieurs créateurs, de types différents, tels que des auteurs, des éditeurs, etc. Pour modifier le type de créateur, cliquez sur l'intitulé du champ "créateur" (par exemple, ''Auteur:''). Un créateur peut être supprimé en cliquant sur le bouton "moins" à la fin du champ "créateur". Des champs "créateur" supplémentaires peuvent être ajoutés en cliquant sur le bouton "plus" à la fin du dernier champ "créateur". Les créateurs peuvent être réorganisés en cliquant sur l'intitulé d'un champ "créateur" et en sélectionnant "Descendre" ou "Remonter".
+
+Chaque champ de nom peut être basculé entre un mode à champ unique et un mode à deux champs, en cliquant sur le bouton "Afficher un champ unique" / "Afficher deux champs" à la fin du champ "créateur". Le mode à champ unique doit être utilisé pour les institutions (par exemple, lorsque l'auteur est "Société A"), tandis que le mode à deux champs (nom de famille, prénom) doit être utilisé pour les noms de personne. Si une personne n'a qu'un seul nom (par exemple "Socrate"), inscrivez-le comme nom de famille dans le mode à deux champs. Dans le mode à deux champs, vous pouvez inverser l'ordre en cliquant avec le bouton droit de la souris sur le nom et en choisissant "Inverser prénom/nom".
+
+Pour saisir rapidement d'autres créateurs, tapez Maj-Entrée/Retour pour passer immédiatement à un nouveau champ créateur.
+
+=== Titres abrégés de revue ===
+
+Les articles de revues sont souvent cités avec le titre abrégé de la revue. Zotero stocke le titre de la revue et l'abréviation du titre de la revue dans des champs séparés (respectivement "Publication" et "Abrév. de revue"). Bien que certains styles de citation exigent des abréviations différentes, la principale variation réside dans le fait que l'abréviation contienne ou non des points (par exemple, "PLoS Biol" ou "PLoS Biol."). Comme les points sont supprimés de façon plus exacte qu'ils ne sont ajoutés, nous vous recommandons de stocker les abréviations de titre dans votre bibliothèque Zotero avec les points. Zotero peut alors enlever de façon fiable les points dans les bibliographies générées lorsque le style de citation choisi l'exige.
+
+=== Titres ===
+
+En anglais, l'attribution des majuscules dans les titres se fait soit selon un mode titre, avec les initiales en majuscules (Title Cased), soit selon un mode phrase (Sentence cased), avec une lettre capitale en début de phrase (pour la distinction, voir http://blog.apastyle.org/apastyle/2012/03/title-case-and-sentence-case-capitalization-in-apa-style.html). Parce que les styles de citation diffèrent dans leurs exigences en termes de casse, et parce que la conversion automatique du mode phrase vers le mode titre est beaucoup plus exacte que l'inverse, nous vous recommandons de toujours stocker les titres en mode phrase dans votre bibliothèque Zotero. Zotero peut alors convertir les titres de façon fiable en mode titre dans les bibliographies générées lorsque le style de citation choisi l'exige.
+
+Pour aider à changer la casse des titres, les champs de titre (par exemple "Titre", "Publication", "Collection", "Titre abrégé" pour le type de document "Article de journal") peuvent être cliqués avec le bouton droit de la souris. Le menu "Transformer le texte" s'affiche, avec la possibilité de convertir le titre en mode titre (option "Initiales en Majucules") ou en mode phrase (option "Lettre capitale en début de phrase"). Zotero ne reconnaît pas les noms propres, aussi doit-on toujours contrôler d'éventuelles  erreurs de casse dans les titres transformés.
+
+Si vous avez besoin du mode phrase du style APA, avec la première lettre après les deux points également en majuscule, nous vous recommandons de stocker le titre en mode phrase (avec cette lettre en minuscule, sauf s'il s'agit d'un nom propre), d'installer l'extension [[https://github.com/Juris-M/propachi-vanilla/releases|Propahi]], et d'utiliser sa fonction "Sous-titres en Majuscules".
+
+=== Liens ===
+
+En cliquant sur l'intitulé des champs URL ("URL:") et DOI ("DOI:"), vous affichez la page Web correspondante dans votre navigateur.
+
+=== Extra ===
+
+Le champ Extra peut être utilisé pour stocker des informations  personnalisées ou des données qui n'ont pas de champ dédié dans Zotero. Si vous devez citer un document en utilisant un champ non fourni par Zotero, vous pouvez également stocker des données de ce type dans Extra. Voir [[/support/kb/item_types_and_fields#citing_fields_from_extra|Citing Fields from Extra]] pour plus de détails sur la manière de citer ces champs. Par exemple, pour ajouter un DOI à un document de type chapitre de livre , ajoutez-le au début du champ Extra : ''DOI : 10.1234/567890''
+=====Verifier et modifier vos enregistrements=====
+===Zotero importera avec précision les métadonnées sur une page Web, mais les métadonnées fournies peuvent ne pas être entièrement exactes.===
+
+Zotero importera avec précision les métadonnées fournies par la plupart des bases de données bibliographiques, catalogues de bibliothèques, sites d'éditeurs et pages Web. Il apportera même des ajustements aux métadonnées pour compenser les bizarreries connues (noms des auteurs en majuscules, etc.) dans ce que le fournisseur fournit. Cela dit, les métadonnées que Zotero reçoit sont parfois incomplètes ou incorrectes. Par exemple, un grand site de recherche universitaire fournit souvent le mauvais titre de revue avec des métadonnées par ailleurs correctes. Les métadonnées d'un autre site de recherche académique peuvent omettre certains des noms des auteurs ou les présenter dans le mauvais ordre. Même les grands éditeurs fournissent parfois les prénoms et les noms de famille des auteurs dans le mauvais ordre, et cela de façon aléatoire pour un même volume et un même numéro de la revue ou même pour un même article. Certaines métadonnées des éditeurs peuvent omettre des éléments importants (noms d'auteurs lorsqu'ils sont nombreux, ISSN des revues, DOI, etc.)
+
+Certaines métadonnées sont fournies avec seulement le nom de famille des auteurs et une ou deux initiales, alors que le nom complet des auteurs figure sur le texte intégral de l'article. Pour que les noms d'auteur soient correctement désambiguïsés dans les styles auteur-date, le nom des auteurs doit être saisi de manière cohérente et identique pour tous les documents auxquels ils ont contribué.
+
+Les éditeurs ont des conventions différentes pour la casse des titres. Aucun logiciel ne peut convertir de façon exacte et fiable le mode titre en mode phrase. Si les titres sont saisis (ou convertis) en mode phrase, Zotero peut les convertir avec précision en mode titre si le style l'exige.
+
+Les utilisateurs de Zotero doivent être conscients de ces problèmes et vérifier que les enregistrements de leur bibliothèque sont exacts et dans le bon format, afin que Zotero puisse produire des citations bien formées dans le texte et la bibliographie de votre manuscrit.

@@ -1,0 +1,61 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+=====Marqueurs : définition=====
+//Un tag (ou étiquette, marqueur, libellé) est un mot-clé (signifiant) ou terme associé ou assigné à de l'information (par exemple une image, un article, ou un clip vidéo), qui décrit ainsi l'objet et permet une classification des informations basées sur les mots-clés.//
+source: [[http://fr.wikipedia.org/wiki/Tag_(m%C3%A9tadonn%C3%A9e)|wikipedia]]
+
+Ajouter des marqueurs (tags), permet de classer les éléments grâce aux mots-clés : les marqueurs sont utilisés par le moteur de recherche de Zotero ou dans les filtres (voir le paragraphe sur la fenêtre générale des marqueurs et le chapitre consacré à la chronologie pour plus de détail sur les filtres).
+
+Pour une démonstration animée sur les Marqueurs, vous pouvez consulter ces deux vidéocaptures en cliquant sur les images ci-dessous.
+|  [[Tags Screencast|{{tags_200x149.gif?nocache|}}]]  |  [[Tag Selector Box Screencast|{{tagselector_200x149.gif?nocache|}}]]  |
+^   Marqueurs (vidéo en anglais)  ^  Fenêtre générale des Marqueurs (vidéo en anglais)  ^    
+
+=====Fenêtre générale des Marqueurs=====
+====Afficher les Tags ou Marqueurs====
+Le bouton Montrer / cacher le sélecteur de marqueurs ({{:fr:fetch2.php.gif|}}) ouvre la fenêtre générale des marqueurs (outil de gestion des marqueurs de l’ensemble de votre bibliothèque, contrairement à l’onglet Marqueurs qui ne concerne que les marqueurs liés à l’élément sélectionné). Cette fenêtre s’ouvre dans votre colonne de gauche.
+
+{{:fr:fenetre_marqueures.jpg|}}
+
+Les marqueurs qui s’affichent dans cette fenêtre correspondent aux marqueurs que vous avez ajoutés manuellement aux éléments de la collection sélectionnée. Pour afficher les marqueurs importés avec la référence, actionner la fonction Montrer automatiquement [1].
+
+{{:fr:montrer_marqueurs.jpg|}}
+
+Cocher la case Afficher tous les marqueurs [2] fait apparaître tous les marqueurs de Zotero. Dans ce cas, les mots-clés ne correspondant pas à la collection en cours de sélection sont inactifs (grisés).
+
+====Filter les Marqueurs====
+Le champ Filtre permet de restreindre la liste de vos marqueurs. La recherche se fait sur la suite de caractères saisie (les espaces sont reconnus comme des caratères : Openaccess est différent de Open Access).
+
+{{:fr:filtre_marqueurs.jpg|}}
+====Supprimer ou renommer un Marqueur====
+Le menu contextuel (clic-droit) sur un marqueur permet de le supprimer ou de le renommer (sur tous les éléments auxquels il a été rattaché).
+
+{{:fr:supprtag.jpg|}}
+====Rechercher des éléments par les marqueurs====
+Vous pouvez sélectionner un ou plusieurs marqueurs en cliquant dessus pour filtrer votre bibliothèque (ou votre collection) et réaliser ainsi une recherche.
+
+{{:fr:select_marqueurs.jpg|}}
+=====Les Marqueurs d'un élément=====
+L’onglet Marqueurs  (colonne de droite) vous permet d’ajouter [1] ou de supprimer [2] des marqueurs de l’élément préalablement sélectionné [3].
+
+{{:fr:tage_elem.jpg|}}
+=====Les connexions=====
+L’onglet Connexe (colonne de droite) : la connexion entre éléments, permet de reproduire localement le système de "related articles" (articles en relation) de bases comme PubMed. Cela est aussi utile pour relier un document original et sa traduction ou une procédure et un protocole par exemple…
+
+{{:fr:connexe.jpg|}}
+
+[1] Pour ajouter une connexion, cliquez sur Ajouter puis sélectionnez l’élément que vous désirez mettre en relation. 
+[2] Utilisez le signe (-) pour supprimer une connexion entre deux éléments.
+
+=====Pour information=====
+Pour appliquer un marqueur à plusieurs éléments en même temps : Sélectionnez un ou plusieurs éléments et déplacez la sélection sur un marqueur présent dans la fenêtre des marqueurs.
+
+{{:fr:tags.jpg|}}
+Les marqueurs déjà présents lors du chargement de la référence depuis un site (comme PubMed) sont signalés par une icône orange, les marqueurs que vous ajouterez par la suite possèderont une icône bleue.
+
+Problèmes de Tags : les marqueurs sont parfois malmenés lors des imports / exports (concaténation de plusieurs tags, problème de séparateurs, erreur dans la couleur des tags). De même, les Tags importés avec la notice ne sont pas toujours exploitables (pertinence faible, fautes d’orthographe)
+
+Attentions à ne pas abuser des Tags. En effet, ces derniers sont automatiquement exploités par le moteur de recherche de Zotero et peuvent générer du bruit documentaire s’ils sont mal appropriés.

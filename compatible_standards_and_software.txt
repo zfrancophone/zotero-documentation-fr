@@ -1,0 +1,33 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+
+
+====== Les standards compatibles ======
+
+//Il s'agit de quelques uns des standards et microformats que Zotero va rechercher sur ou près d'une page web. Cette liste est appelée à s'allonger, merci de la vérifier régulièrement.// 
+
+
+  * Embedded RDF
+  * COinS
+  * Dublin Core XML
+  * MARC
+
+
+====== Les logiciels compatibles ======
+
+//Voici une liste des OPAC (Online Public Access Catalogue) que Zotero reconnaît actuellement. La plupart des bibliothèques, des services d'archives et des musées utilisent l'un de ceux-ci pour donner accès à leurs collections sur le web. Zotero fonctionne a priori avec les sites qui utilisent ces logiciels, à moins que des modifications conséquentes y aient été apportées par l'une ou l'autre de ces organismes. Si des modifications ont été faites, il devrait être facile de "bricoler" Zotero pour qu'il marche avec ces sites.//
+
+  * Voyager (WebVoyage)
+  * InnoPAC
+  * SIRSI
+  * Aleph
+  * Dynix
+  * VTLS
+  * DRA
+  * GEAC
+  * TLC/YouSeeMore
+  * Koha
