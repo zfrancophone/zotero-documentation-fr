@@ -1,0 +1,24 @@
+====== Les styles bibliographiques ======
+
+Zotero utilise des styles écrits dans le langage [[http://citationstyles.org/|Citation Style Language]] (CSL) et le logiciel de traitement CSL [[https://bitbucket.org/fbennett/citeproc-js/wiki/Home|citeproc-js]] pour [[/support/creating_bibliographies|créer des citations et des bibliographies]].
+
+Pour plus d'informations sur l'utilisation de styles CSL existants avec Zotero, consultez la page de la documentation générale [[/support/fr/styles|Les styles bibliographiques]].
+
+===== Éditer des styles CSL =====
+
+Pour des instructions de base sur la façon d'éditer les styles CSL pour Zotero, consultez le [[fr/dev/citation_styles/style_editing_step-by-step|guide pas à pas]]. Vous trouverez plus de documentation à l'adresse http://citationstyles.org/citation-style-language/documentation/.
+
+===== Correspondance entre les variables et les types de document de Zotero et de CSL =====
+Une correspondance entre les types de document et les variables de Zotero et ceux de CSL est disponible [[https://aurimasv.github.io/z2csl/typeMap.xml|ici]]. Une extension Zotero pour créer et exporter une correspondance à partir d'une installation locale de Zotero est disponible [[https://github.com/aurimasv/z2csl|ici]]. Elle n'est toutefois pas encore compatible avec la version 5 de Zotero, voir [[https://github.com/aurimasv/z2csl/pull/17|l'issue en cours à ce sujet]].
+
+===== Soumettre des styles à l'entrepôt CSL =====
+
+Les styles bibliographiques peuvent être hébergés dans [[https://github.com/citation-style-language/styles|l'entrepôt CSL]]. Suivez [[https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md|ces instructions]] pour que votre style soit ajouté à l'entrepôt.
+
+===== Auto-héberger des styles CSL =====
+
+Si vous décidez d'héberger en ligne vous-même des styles CSL, indiquer comme type MIME “vnd.citationstyles.style+xml” permet à des applciations comme Zotero de reconnaître et d'installer automatiquement vos styles.
+
+===== citeproc-node =====
+
+[[dev/citation_styles/citeproc-node|citeproc-node]] est un adapteur de [[https://bitbucket.org/fbennett/citeproc-js/wiki/Home|citeproc-js]] côté serveur qui permet le rendu des citations et des bibliographies.
