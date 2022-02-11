@@ -1,0 +1,14 @@
+====== Pourquoi les citations ou les bibliographies Zotero sont-elles toujours surlignées en gris ou dans une autre couleur ? ======
+
+Par défaut, Zotero stocke les données des références bibliographiques pour les citations et la bibliographie dans des [[https://support.office.com/fr-fr/article/Insert-fields-in-Word-c429bbb0-8669-48a7-bd24-bab6ba6b06bb|Champs]] (Word) ou des [[https://help.libreoffice.org/6.4/fr/text/swriter/guide/fields.html?DbPAR=WRITER#bm_id3145576|Marques de référence]] (LibreOffice). Les données bibliographiques sont ainsi stockées derrière le texte mis en forme.
+
+Word et LibreOffice mettront en surbrillance les Champs/Marques de référence sur votre écran pour indiquer que le texte est généré automatiquement. Cela peut vous aider à éviter de taper manuellement dans les champs par erreur (pour modifier le texte affiché dans une citation Zotero, voir
+ [[/support/word_processor_plugin_usage#personnaliser_les_citations|Personnaliser les citations]]). Cette mise en surbrillance ne s'affiche qu'à l'écran et n'apparaît pas si vous imprimez ou enregistrez le document au format PDF.
+
+Vous pouvez modifier les paramètres de mise en surbrillance des Champs/Marques de référence dans votre traitement de texte.
+  * **[[https://helpdeskgeek.com/office-tips/show-field-shading-in-word-and-convert-the-fields-to-plain-text/|Word pour Windows (page en anglais)]]:** Dans le menu Fichier -> Options, ouvrez les "Options avancées", puis dans la rubrique "Affichage du contenu des documents" positionnez la valeur de "Champs avec trame" sur "Jamais", "Toujours" ou "Lors de la sélection".
+  * **Word pour Mac:** Ouvrez les Préférences -> Affichage et positionnez la valeur de "Champs avec trame" sur "Jamais", "Toujours" ou "Lors de la sélection".
+  * **[[https://help.libreoffice.org/6.4/fr/text/swriter/guide/fields.html?DbPAR=WRITER#bm_id3145576|LibreOffice]]:** Ouvrez Outils -> Options -> LibreOffice -> Couleurs de l'interface et cochez/décochez la case "Trame de fond des champs". Vous pouvez également contrôler la couleur utilisée pour la trame de fond des champs.
+
+
+{{tag>kb-fr word_processors-fr}}

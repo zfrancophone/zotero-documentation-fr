@@ -1,0 +1,17 @@
+====== Emplacement du répertoire de profil ======
+
+===== Zotero =====
+
+Vous pouvez trouver votre répertoire de profil Zotero à l'emplacement suivant.
+
+^Mac|<code>/Users/<username>/Library/Application Support/Zotero/Profiles/<chaîne_aléatoire></code> <html><small>Note: Le répertoire /Users/&lt;username&gt;/Library est masqué par défaut. Pour y accéder, cliquez sur votre bureau, maintenez la touche Option enfoncée, cliquez sur le menu Finder's Go, puis sélectionnez Bibliothèque dans le menu.</small></html> |
+^Windows 10/8/7/Vista|<code>C:\Users\<User Name>\AppData\Roaming\Zotero\Zotero\Profiles\<chaîne_aléatoire></code> <html><small>Note:Si AppData est masqué sur votre système, cliquez sur la barre de recherche (ou Démarrer avant Windows 10), tapez <code>%appdata%</code>, puis appuyez sur Entrée, ce qui devrait vous amener au répertoire AppData\Roaming. Vous pouvez alors ouvrir le reste du chemin.
+</small></html> |
+^Windows XP/2000|<code>C:\Documents and Settings\<username>\Application Data\Zotero\Zotero\Profiles\<chaîne_aléatoire></code>|
+^Linux|<code>~/.zotero/zotero/<chaîne_aléatoire></code>|
+
+=== Zotero 4.0 for Firefox ==
+
+Suivez [[http://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data?redirectlocale=en-US&redirectslug=Profiles|ces instructions]] pour localiser votre répertoire de profil.
+
+{{tag>kb-fr}}

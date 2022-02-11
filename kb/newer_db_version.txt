@@ -1,0 +1,25 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+=== Pourquoi obtiens-je une erreur de version de base de données (database version error) ? ===
+
+
+Après avoir réinstallé Zotero, vous voyez apparaitre un point d'exclamation jaune au-dessus de l'icône Zotero dans la barre d'état et l'un des messages suivants s'affiche lorsque vous cliquez dessus:
+
+//Zotero user database version is newer than the SQL file.//
+
+//This version of Zotero is older than the version last used with your database. Please upgrade to the latest version from zotero.org.//
+
+Ces messages apparaissent lorsque vous tentez d'utiliser une base de données (bibliographiques) Zotero d'une version plus récente du logiciel Zotero que celle installée. Par exemple, si vous aviez installé Zotero 2.0 et que vous décidez de revenir à la version 1.0 en la réinstallant dans le même profil Firefox, vous obtiendrez cette erreur. Cela vaut également pour les versions mineures: installer Zotero 2.0b7.4 à la place de Zotero 2.0b7.6 par exemple.
+
+La meilleure solution est généralement de réinstaller la même version que celle que vous utilisiez auparavant -- dans la plupart des cas, il suffit d'aller sur [[/|zotero.org]] et d'installer la dernière version disponible. (Mais si vous utilisiez une version en développement, il vous faudra installer la [[:dev_builds|dernière version en développement]].)
+
+Si vous avez une sauvegarde de votre [[:zotero data|répertoire de données Zotero]] provenant de la version précédente et que vous souhaitez revenir à cette version, vous pouvez aussi, après avoir fermé Firefox, déplacer votre répertoire de données Zotero actuel et le remplacer par votre sauvegarde.
+
+Si vous n'avez pas de données qu'il vous importe de garder, vous pouvez conserver votre version actuelle de Zotero en fermant Firefox puis en supprimant le répertoire de données Zotero de votre profil Firefox.
+
+
+{{tag>kb-fr basics-fr}}

@@ -1,0 +1,6 @@
+=== Comment ajouter un volume édité ou un chapitre de livre ? ===
+
+Un chapitre de livre d'un volume édité est saisi comme "Chapitre de livre". Cliquez sur le bouton vert "Nouveau document" et sélectionnez "Chapitre de livre". Vous verrez alors apparaître à la fois un champ "Titre" pour le titre du chapitre et un champ distinct "Titre du livre". Pour ajouter un éditeur, cliquez sur le signe + sur la ligne de l'auteur dans la colonne de droite. Cela créera une ligne supplémentaire "Auteur". Si vous cliquez sur le triangle à gauche du nouveau champ "Auteur", vous pourrez le transformer en éditeur. 
+
+
+{{tag>kb-fr entry-fr}}

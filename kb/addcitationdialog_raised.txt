@@ -1,0 +1,5 @@
+==== Puis-je empêcher la boîte de dialogue "Ajouter une citation" des modules de traitement de texte de se déplacer derrière la fenêtre du traitement de texte ? ====
+
+Oui, en modifiant la [[preferences/hidden_preferences#word_processor_plugin|préférence cachée]] extensions.zotero.integration.keepAddCitationDialogRaised.
+
+{{tag>kb-fr word_processors-fr}}

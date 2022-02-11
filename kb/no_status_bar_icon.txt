@@ -1,0 +1,37 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+====Pourquoi l'icône Zotero n'apparaît-elle pas dans la barre des modules Firefox après l'installation ou la mise à jour de Zotero pour Firefox ?====
+
+===Firefox 29 (et versions suivantes)===
+
+Mozilla a supprimé la barre des modules à partir de Firefox 29. Zotero peut désormais être ouvert grâce à une icône présente dans la barre d'outils Firefox ou dans le nouveau menu Firefox.
+
+Si vous ne voyez pas l'icône de Zotero (un "Z") dans la barre d'outils Firefox, cliquez sur le bouton "Ouvir le menu" (c'est l'icône avec trois barres horizontales) puis cliquez sur "Personnaliser". Vous devriez alors voir l'icône Zotero dans le panneau de personnalisation à gauche ou dans le menu à droite. Vous pouvez glisser-déplacer l'icône où vous souhaitez qu'elle apparaisse, par exemple directement dans la barre d'outils. Si vous utilisez Zotero rarement et préférez conserver de l'espace dans votre barre d'outils, laissez l'icône Zotero dans le menu. Dans ce cas là, pour ouvrir Zotero, il faudra à chaque fois cliquer sur le bouton du menu (les trois barres horizontales).
+
+Si vous ne voyez pas du tout l'icône "Z", assurez-vous d'avoir la dernière version de Zotero en ouvrant le Gestionnaire de modules complémentaires via Outils -> Modules complémentaires ou, sur certaines versions de Windows, en choisissant "Modules" dans le menu Firefox. Zotero doit apparaitre dans le panneau Extensions du Gestionnaire de modules, and vous devez avoir le version 4.0 (ou plus récente).
+
+Si vous ne voyez pas Zotero dans la liste des Extensions ou n'avez pas la dernière version, installez la depuis [[/|zotero.org]]. Vous devez avoir les dernières versions de Zotero et de Firefox.
+
+Si Zotero est installé, vérifiez que Zotero apparaît dans le menu Outils (le menu OUtils peut être caché par défaut avec certaines versions de Windows mais est toujours accessible via le menu Options ou en appuyant sur la touche Alt.
+
+Si Zotero apparaît dans la liste des Extensions mais que vous ne voyez pas d'icône et/ou d'option Zotero dans le menu Outils, que vous voyez le message "Ce module sera installé au prochain démarrage de Firefox" même après avoir redémarré, et/ou que vous obtenez d'autres erreurs pendant l'installation, essayez les étapes sous [[http://support.mozilla.org/fr/kb/impossible-installer-modules#w_fichiers-dextension-corrompus|Fichiers d'extension corrompus]] sur la page de dépannage des modules complémentaires de Mozilla.
+
+Vous devriez aussi essayer de désactiver toutes les autres extensions Firefox, car certaines sont [[:known_issues#incompatible_extensions_and_applications|connues comme causant des problèmes]] avec Zotero.
+
+===Firefox 28 (et versions précédentes)===
+
+D'abord, assurez-vous que Zotero est installé en cherchant l'intitulé Zotero dans le menu Outils de Firefox. Assurez-vous que vous avez la version la plus récente de Zotero et une version à jour de Firefox.
+
+Si Zotero apparaît dans le menu Outils, assurez-vous que la barre des modules elle-même est bien visible: dans le menu Affichage, vérifiez que "Barre des modules" est coché (Sous "Barre d'outils"). Vous devriez aussi pouvoir ouvrir le panneau Zotero en sélectionnant Zotero depuis le menu Outils.
+
+Si vous ne voyez pas Zotero dans le menu Outils, allez à Outils -> Modules complémentaires -> Extensions et cherchez Zotero dans la liste. Si Zotero n'apparaît pas, installez-le depuis [[/|zotero.org]]. Assurez-vous aussi d'avoir la dernière version disponible.
+
+Si Zotero est listé dans Outils -> Modules complémentaires -> Extensions mais n'apparaît pas dans le menu Outils, que vous voyez le message "Ce module sera installé au prochain démarrage de Firefox" même après avoir redémarré, et/ou que vous obtenez d'autres erreurs pendant l'installation, essayez les étapes sous [[http://support.mozilla.org/fr/kb/impossible-installer-modules#w_fichiers-dextension-corrompus|Fichiers d'extension corrompus]] sur la page de dépannage des modules complémentaires de Mozilla.
+
+Vous devriez aussi essayer de désactiver toutes les autres extensions Firefox, car certaines sont [[:known_issues#incompatible_extensions_and_applications|connues comme causant des problèmes]] avec Zotero.
+
+{{tag>kb-fr entry-fr}}

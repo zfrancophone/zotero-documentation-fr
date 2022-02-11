@@ -1,0 +1,56 @@
+====== Transférer des documents comportant des citations Zotero entre différents logiciels de traitement de texte ======
+
+Si vous utilisez le module de traitement de texte Zotero pour insérer des citations dans votre document et que vous ouvrez ensuite ce document dans un autre traitement de texte, les liens de citation Zotero seront perdus. Pour conserver les citations Zotero actives lorsque vous passez d'un logiciel à l'autre, vous pouvez utiliser le module de traitement de texte Zotero pour convertir le document dans un format temporaire qui peut être transféré en toute sécurité, puis le restaurer dans un autre traitement de texte pris en charge.
+
+===== De Word vers Google Docs =====
+
+  - Dans Word, utilisez le menu Fichier → Enregistrer sous... pour créer une copie du document en .docx avec un nouveau nom de fichier (par exemple, "Mon document - Transfert.docx").
+  - Cliquez sur "Document Preferences" dans le module Zotero et sélectionnez "Passer à un autre logiciel de traitement de texte...".
+  - Une fois le document converti, enregistrez les modifications (Fichier → Enregistrer).
+  - Utilisez le menu Fichier → Ouvrir... à partir d'un Google Doc pour télécharger le fichier.
+  - Sélectionnez "Refresh" dans le menu Zotero du Google Doc ouvert pour continuer à utiliser le document.
+
+===== De Google Docs vers Word =====
+
+  - Dans le Google Doc, utilisez le menu Fichier → Créer une copie... pour créer une copie du document.
+  - Dans le nouveau document, sélectionnez "Switch to a Different Word Processor…" dans le menu Zotero.
+  - Sélectionnez Fichier → Télécharger → Microsoft Word (.docx) et enregistrez le fichier converti.
+  - Ouvrez le fichier téléchargé dans Word et cliquez sur "Refresh" dans le module Zotero pour continuer à utiliser le document.
+
+===== De LibreOffice vers Google Docs =====
+
+  - Dans LibreOffice, utilisez le menu Fichier → Enregistrer sous... pour créer une copie du document en .odt avec un nouveau nom de fichier (par exemple, "Mon document - Transfert.odt").
+  - Cliquez sur "Document Preferences" dans le module Zotero et sélectionnez "Passer à un autre logiciel de traitement de texte...".
+  - Une fois le document converti, enregistrez les modifications (Fichier → Enregistrer).
+  - Utilisez le menu Fichier → Ouvrir... à partir d'un Google Doc pour télécharger le fichier.
+  - Sélectionnez "Refresh" dans le menu Zotero du Google Doc ouvert pour continuer à utiliser le document.
+
+===== De Google Docs vers LibreOffice =====
+
+  - Dans le Google Doc, utilisez le menu Fichier → Créer une copie... pour créer une copie du document.
+  - Dans le nouveau document, sélectionnez "Switch to a Different Word Processor…" dans le menu Zotero.
+  - Sélectionnez Fichier → Télécharger → Format OpenDocument (.odt) et enregistrez le fichier converti.
+  - Ouvrez le fichier téléchargé dans LibreOffice et cliquez sur "Refresh" dans le module Zotero pour continuer à utiliser le document.
+
+===== Word et LibreOffice =====
+
+Vous pouvez stocker les citations dans votre document d'une manière compatible à la fois avec Word et LibreOffice en cliquant sur "Document Preferences" dans le module Zotero et en sélectionnant "Signets". Cela vous permet de travailler sur le même document avec Word et LibreOffice sans passer par la procédure de conversion. Cependant, le stockage des citations en tant que signets ne fonctionne pas avec les styles générant des notes de bas de page et peut parfois conduire à la corruption des citations.
+
+Si vous n'avez pas l'intention d'utiliser à la fois Word et LibreOffice pour modifier le document, vous devriez plutôt utiliser la procédure de conversion ci-dessous.
+
+==== De Word vers LibreOffice ====
+
+  - Dans Word, utilisez le menu Fichier → Enregistrer sous... pour créer une copie du document en .odt avec un nouveau nom de fichier (par exemple, "Mon document - Transfert.odt").
+  - Cliquez sur "Document Preferences" dans le module Zotero et sélectionnez "Passer à un autre logiciel de traitement de texte...".
+  - Une fois le document converti, enregistrez les modifications (Fichier → Enregistrer).
+  - Ouvrez le fichier converti dans LibreOffice et cliquez sur "Refresh" dans le module Zotero pour continuer à utiliser le document.
+
+==== De LibreOffice vers Word ====
+
+  - Dans LibreOffice, utilisez le menu Fichier → Enregistrer sous... pour créer une copie du document en .docx avec un nouveau nom de fichier (par exemple, "Mon document - Transfert.docx").
+  - Cliquez sur "Document Preferences" dans le module Zotero et sélectionnez "Passer à un autre logiciel de traitement de texte...".
+  - Une fois le document converti, enregistrez les modifications (Fichier → Enregistrer).
+  - Ouvrez le fichier converti dans Word et cliquez sur "Refresh" dans le module Zotero pour continuer à utiliser le document.
+
+
+{{tag>kb-fr word_processors-fr}}

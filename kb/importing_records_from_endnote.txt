@@ -1,0 +1,47 @@
+====== Comment puis-je importer des données depuis EndNote ? ======
+
+Bien des personnes qui viennent vers Zotero possèdent déjà d'importantes quantités de données, stockées dans d'autres logiciels de gestion bibliographique. Si les indications ci-dessous décrivent comment passer d'EndNote à Zotero, les mêmes étapes élémentaires s'appliquent pour bien d'autres logiciels de gestion bibliographique. Pour d'autres applications, les formats BibTeX ou RIS produisent généralement de bons résultats.
+
+===== Exporter votre bibliothèque depuis EndNote  =====
+
+Zotero ne peut pas importer directement des bibliothèques EndNote au format ".enl", aussi la première étape consiste-t-elle à exporter votre bibliothèque depuis EndNote. Le meilleur format d'export pour cela est XML.
+
+Il peut être nécessaire, pour d'anciennes bibliothèques EndNote, de convertir les figures en fichiers joints avant d'exporter un fichier RIS. Il faut pour ce faire aller dans le menu References > Figure et sélectionner "Convert Figures to File Attachments..."
+
+  - Si vous souhaitez exporter un sous-ensemble de votre bibliothèque EndNote, sélectionnez les entrées que vous souhaitez exporter.
+  - Allez dans le menu File -> Export. Une boîte de dialogue s'affiche pour vous demander où sauvegarder le fichier d'export.
+  - Naviguez jusqu'à votre répertoire de données EndNote (en général, Mes Documents\endnote.Data). Ce répertoire contient un dossier 'PDF', mais vous devez vous assurer de sélectionner le répertoire de données plutôt qu'un sous-répertoire.
+   * **Ceci est important!** Zotero recherchera les fichiers joints dans un répertoire relatif à l'emplacement du fichier XML exporté. Si vous enregistrez ce fichier au mauvais endroit, les fichiers joints ne seront pas inclus lors de l'import dans Zotero.
+  - Pour "Save as type:", choisissez "XML".
+  - Si vous ne souhaitez exporter qu'un sous-ensemble de votre bibliothèque, cochez la case "Export Selected References". Sinon, assurez-vous qu'elle n'est pas cochée.
+  - Cliquez sur "Save".
+  - Fermez EndNote.
+
+===== Importer dans Zotero =====
+
+Si vous n'importez pas dans une bibliothèque vide, nous **vous recommandons vivement** de [[/support/zotero_data#sauvegarder_votre_bibliotheque_zotero|faire une sauvegarde de votre répertoire de données Zotero]]. Cela vous évitera de la frustration si la façon dont votre bibliothèque a été transférée ne vous convient pas. Dans ce cas, il suffira de [[/support/zotero_data#restaurer_votre_bibliotheque_zotero_a_partir_d_une_sauvegarde1|restaurer votre bibliothèque à partir d'une sauvegarde]].
+
+Vous devriez également désactiver temporairement la synchronisation automatique dans le volet [[preferences/sync|Synchronisation]] des préférences de Zotero. Après avoir importé votre bibliothèque et vérifié que vous êtes satisfait des données importées, vous pouvez réactiver la synchronisation automatique.
+
+Dans Zotero, cliquez sur "Importer..." dans le menu "Fichier". Une boîte de dialogue apparaîtra vous demandant de sélectionner le fichier à importer. Naviguez jusqu'à l'emplacement où vous avez exporté votre bibliothèque EndNote (si vous avez suivi les instructions ci-dessus, ce devrait être Mes Documents\endnote.Data) et sélectionnez le fichier XML. Cliquez sur "Ouvrir".
+
+La bibliothèque EndNote sera importée dans une collection séparée. Vous pouvez supprimer la collection (clic droit -> Supprimer la collection...) sans supprimer les références importées (elles resteront dans la racine de votre bibliothèque).
+
+Notez que  si Zotero rencontre dans les données Endnote XML des champs qu'il ne prend pas en charge (champs personnalisés, adresse ou affiliation de l'auteur par exemple), il ajoutera ces données à une note jointe à l'élément importé. Le marqueur "_EndnoteXML import" sera associé aux notes ainsi générées. Si l'import ajoute beaucoup de notes de ce type, la performance de Zotero peut être affectée négativement. Vous devriez passer en revue chacune de ces notes pour déterminer si les données doivent être conservées ; vous pouvez également déplacer ces données dans le champ Zotero "Extra". Toutes les notes inutiles peuvent être supprimées. En outre, vous devriez vérifier ces notes pour déterminer si des données peuvent être migrées vers des champs Zotero appropriés : ceci est particulièrement important si vous utilisiez des champs EndNote de façon non standard.
+
+Vous pouvez rapidement afficher toutes les notes générées lors de l'import en cliquant sur le marqueur "_EndnoteXML import" dans le sélecteur de marqueurs  dans le coin inférieur gauche de la fenêtre Zotero. Vous pouvez supprimer rapidement toutes ces notes en sélectionnant le marqueur dans le sélecteur de marqueurs, en cliquant dans la liste des éléments et en tapant Cmd+A (Mac) ou Ctrl+A (Windows/Linux) pour sélectionner tous les éléments correspondants, puis en choisissant "Mettre les documents à la corbeille..." dans le menu contextuel affiché par le clic droit.
+
+===== Obtenir de l'aide =====
+
+Si vous rencontrez des difficultés liées à l'import et à l'export de références, n'hésitez pas à demander de l'aide sur les [[/forums|forums Zotero]].
+
+===== Format RIS (alternative) =====
+
+Il est également possible d'exporter des éléments de EndNote en utilisant le format RIS au lieu du format Endnote XML. Le seul avantage de RIS sur XML est que l'ID de la base de données EndNote peut être conservé pour chaque élément. Si cela est nécessaire, ouvrez alors dans Zotero le volet Avancées des [[preferences|préférences de Zotero]] et cliquez sur le bouton "Editeur de configuration" dans l'onglet "Générales". Recherchez "RIS.import.keepID" et double-cliquez dessus pour définir la valeur sur **true**. Si vous voulez que les données des champs inconnus soient conservées dans des notes (comme décrit ci-dessus), recherchez également "RIS.import.ignore.unknown" et définissez la valeur sur **false**.
+
+Dans EndNote, exportez votre bibliothèque comme détaillé ci-dessus, en paramétrant "Save as type:" sur "Text file (.txt)". Réglez "Output style:" sur "RefMan (RIS)". Comme décrit précédemment, naviguez jusqu'à votre répertoire de données EndNote, enregistrez le fichier d'export, puis importez dans Zotero.
+
+Avec cette configuration, RIS conservera les ID de base de données EndNote, mais les italiques, les caractères gras ou tout autre mise en forme définie dans les champs seront perdus. XML devrait toujours être utilisé, à moins que des ID de base de données Endnote ne soient nécessaires pour une raison déterminée.
+
+
+{{tag>kb-fr entry-fr}}

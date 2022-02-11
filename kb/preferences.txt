@@ -1,0 +1,5 @@
+===Comment puis-je modifier les préférences de Zotero?===
+
+Les préférences de Zotero se trouvent dans le menu "Zotero" sur Mac et dans le menu "Édition" sur Windows et Linux.
+
+{{tag>fr:kb}}

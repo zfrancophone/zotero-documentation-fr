@@ -1,0 +1,21 @@
+====== Liste de services WebDAV ======
+
+Cette page contient une liste de services WebDAV qui proposent une offre gratuite et que des utilisateurs ont déclaré avoir utilisé avec succès avec Zotero. Les offres gratuites peuvent avoir certaines limitations. Tous les fournisseurs de services proposent également des offres payantes plus importantes et moins limitées. La liste n'est pas exhaustive. Des fournisseurs de services qui ne figurent pas dans cette liste peuvent néanmoins fonctionner avec Zotero.
+
+**Cette liste est générée par les utilisateurs et n'implique aucune approbation d'aucun des services par Zotero. Zotero fonctionne avec des serveurs WebDAV correctement spécifiés et ne peut fournir qu'une assistance minimale en cas de problèmes avec des fournisseurs WebDAV tiers.**
+
+^ Service ^ Espace gratuit ^ URL WebDAV ^ Remarques et limitations ^
+| [[http://www.4shared.com/features.jsp|4shared]] | 15 Go | %%https://webdav.4shared.com/zotero%% | (non officiel) Taille maximale de fichier : 2 Go. [[/forum/discussion/4559/2/which-webdav-service-for-zotero/#Item_23|Nombre maximum de fichiers par dossier : 5000 (≈2,500 pièces jointes Zotero)]]. |
+| [[https://www.cloudme.com/en/pricing|CloudMe]] | 3 Go | %%https://webdav.cloudme.com/{username}/xios/zotero%% | Taille maximale de fichier : 150 Mo. [[/forum/discussion/75169/webdav-error-for-a-delete-request-with-cloudme-id-1840279011| Des utilisateurs ont rapporté des erreurs de synchronisation avec le WebDAV CloudMe]] |
+| [[https://www.driveonweb.de/fuer-privatanwender/produktbeschreibung|DriveOnWeb]] | 3 Go | %%https://storage.driveonweb.de/probdav/zotero%% | La documentation est en allemand. |
+| [[https://drive.google.com|Google Drive]] | 3 Go | Nécessite de mettre en place un [[https://github.com/mikea/gdrive-webdav |pont WebDAV]] ou d'utiliser un service tiers pour fournir un accès WebDAV à Google Drive, dans la mesure où [[https://dav-pocket.appspot.com/webdav_access_to_google_docs |DAV-Pocket]] ([[/forum/discussion/68527/dav-pocket-and-google-drive |pourrait ne plus fonctionner]]). Les URL WebDAV varient en fonction des services. Certains services ne fonctionneront pas sur tous les systèmes d'exploitation. | [[ /sync#alternative_syncing_solutions | Envisagez d'utiliser des fichiers liés avec Zotfile au lieu de la synchronisation WebDAV avec Google Drive]] |
+| [[https://www.free-hidrive.com/product/hidrive-free.html | HiDrive ]] | 5 Go | %%https://webdav.hidrive.strato.com/users/{username}/zotero%% | |
+| [[https://www.idrivesync.com/pricing|iDriveSync]] | 10 Go | %%https://dav.idrivesync.com/zotero%% | [[/forum/discussion/26858/webdav-syncing-with-idrivesync-is-working/ | Certains utilisateurs ont rencontré des des difficultés avec ce service]] et la documentation [[https://www.idrivesync.com/webdav|recommande de ne pas l'utiliser à grande échelle]]. |
+| [[https://koofr.eu/blog/posts/koofr-with-zotero-via-webdav|Koofr]] | 10 Go | %%https://app.koofr.net/dav/Koofr/zotero%% | Consultez les instructions de paramétrage [[https://koofr.eu/blog/posts/koofr-with-zotero-via-webdav|ici]]. |
+| [[https://www.pcloud.com|pCloud]] | 10 Go | %%https://webdav.pcloud.com:443/zotero%% | Taille de fichier et vitesse de transfert illimitées. Un stockage supplémentaire gratuit de 10 Go est disponible par le biais de recommandations. |
+| [[http://www.storegate.com/en/home-user-usd/plans/|Storegate]] | 2 Go | %%https://webdav1.storegate.com/{username}/home/{username}/zotero%% | |
+| [[https://disk.yandex.ru|Yandex Disk]] | 10 Go | %%https://webdav.yandex.ru/zotero%% | La documentation est en russe. |
+
+Note: La partie "/zotero" à la fin de l'URL WebDAV est ajoutée automatiquement par Zotero et ne doit pas être incluse lors de la saisie de l'URL WebDAV dans les préférences de Zotero.
+
+{{tag>kb-fr sync-fr}}

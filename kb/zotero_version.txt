@@ -1,0 +1,13 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+==== Quelle est ma version de Zotero ? ====
+
+Vous pouvez connaître la version de Zotero utilisée en cliquant sur À propos de Zotero depuis le menu engrenage {{:gear.png?nolink&16|}} de la barre d'outils Zotero, ou, s'agissant de Zotero pour Firefox, via Outils -> Modules complémentaires -> Extensions.
+
+Vous pouvez mettre à jour vers la dernière version de Zotero en cliquant sur le bouton Download sur la [[/|page principale de zotero.org]].
+
+{{tag>kb-fr basics-fr}}

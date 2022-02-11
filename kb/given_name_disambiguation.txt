@@ -1,0 +1,21 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+==== Pourquoi certaines citations incluent les prénoms ou leurs initiales et comment l'empêcher ? ====
+
+Parfois, certaines citations apparaîtront sous la forme "(J. Smith 2000, J. R. Smith 2001)", alors même que votre style de citation n'affiche normalement que le nom de famille de l'auteur ("Doe 2004"). C'est que, dans ces cas, Zotero essaie de désambiguïser - distinguer - différents auteurs qu'il prend pour des homonymes. C'est généralement une bonne chose, mais la désambiguïsation est également opérée quand les nom et prénom d'un auteur sont enregistrés de manière incohérente dans votre bibliothèque Zotero. Par exemple, Zotero considère les noms:
+
+  * Jeff Smith
+  * J. Smith
+  * J. R. Smith
+
+comme des individus distincts.
+
+Dans ce cas, vous pouvez soit aller dans votre bibliothèque Zotero et changer tous les noms qui renvoient à la même personne afin qu'ils aient exactement la même forme, soit utiliser un style CSL qui ne désambiguïse pas les noms. Un guide pour désactiver la désambiguïsation dans les styles CSL est disponible [[dev/citation_styles/style_editing_step-by-step|ici]].
+
+Zotero et CSL disposent de  [[http://citationstyles.org/downloads/specification.html#disambiguation|capacités sophistiquées de désambiguïsation]]. Si un style désambiguïse de manière incorrecte, postez un message sur le [[/forum/11/|forum de Zotero]], en expliquant les règles correctes (recommandations aux auteurs disponibles en ligne, article publié dans la revue en question...). //Notez qu'un changement de style ne règlera pas le problème des auteurs enregistrés de manière incohérente.// 
+
+{{tag>kb-fr styles-fr}}

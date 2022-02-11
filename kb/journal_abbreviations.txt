@@ -1,0 +1,27 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+====== Abréviation automatique des titres de revues ======
+
+
+De nombreux styles de citation exigent que les titres des revues soient abrégés. Le champ « Abrév. de revue » permet ainsi d'enregistrer l'abréviation voulue pour les articles de revue.
+
+Mais cela nécessite de remplir systématiquement ce champ et ne règle pas le cas des revues ayant des abréviations différentes selon le style de citation à utiliser (par ex. //Proceedings of the National Academy of Sciences// peut être abrégé par //Proc. Natl. Acad. Sci. U. S. A.// ou par //PNAS//)
+
+À partir de la version 4.0 de Zotero, une fonction d'abréviation automatique des titres de revues est incluse lorsque le style CSL sélectionné prévoit de telles abréviations. Les abréviations sont pour l'instant celles du format utilisé par MEDLINE. À l'avenir, il sera possible de choisir d'autres listes d'abréviations et de créer des listes personnalisées.
+
+{{fr:kb:abb_jour_titles2.jpg}}
+ 
+Pour activer l'abréviation automatique des titres de revues, il faut cocher l'option « Abréger automatiquement les titres de revues » au moment du choix du style de citation lors de la première insertion d'une référence via l’icône {{word_integration:zotero_insert_citation.gif}} (//Insert citation//) de la [[../word_processor_plugin_usage#barre_d_outils_du_module|barre d'outils Zotero]] de votre traitement de texte.\\
+//Attention, cette option n'apparaîtra pas si le style CSL sélectionné ne prévoit pas l'abréviation des titres de revues.//
+
+Pour activer (ou désactiver) cette fonctionnalité ultérieurement, c'est-à-dire après qu'une référence a été insérée, il suffit de cliquer sur l’icône {{word_integration:zotero_set_doc_prefs.gif}} (//Set Doc Prefs//) de la [[../word_processor_plugin_usage#barre_d_outils_du_module|barre d'outils Zotero]] du traitement de texte et de cocher l'option « Abréger automatiquement les titres de revues ».
+ 
+Lorsque l'option est désactivée et que le style CSL sélectionné prévoit cependant que les titres des revues soient abrégés, Zotero se base sur le contenu du champ « Abrév. de revue » de votre bibliothèque Zotero, si celui-ci été rempli lors de l'alimentation automatique ou manuelle de votre bibliothèque.  Si ce champ est vide, le titre complet est affiché.
+
+Enfin, l'abréviation automatique ne fonctionnera pas si le module complémentaire [[http://www.citationstylist.org/abbreviations-for-zotero|Abbreviations for Zotero]] est installé et activé.
+
+{{tag>kb-fr styles-fr}}

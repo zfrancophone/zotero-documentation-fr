@@ -1,0 +1,12 @@
+
+====== Où se trouve la barre d'outils Zotero dans Word pour Mac 2008 ? ======
+
+Le [[:fr/word_processor_plugin_installation|module Zotero de traitement de texte]] pour Word 2008 pour Mac n'a pas de barre d'outils, mais à la place une entrée "Zotero" dans le menu AppleScript (l'icône d'un manuscrit à droite du menu Aide):
+
+{{:kb:word2008toolbar_new.png?direct&700|}}
+
+La plupart des commandes de menu sont aussi accessibles par des raccourcis claviers.
+
+Word pour Mac 2008 ne prend pas en charge Visual Basic for Applications (VBA), rendant impossible de créer une barre d'outils. La prise en charge de VBA a été restaurée dans Word pour Mac 2011, et le module Zotero pour Word 2011 inclut une barre d'outils en plus d'une entrée dans le menu AppleScript.
+
+{{tag>kb-fr word_processors-fr}}

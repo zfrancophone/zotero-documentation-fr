@@ -1,0 +1,31 @@
+=== Pourquoi les changements que je fais ne sont-ils pas synchronisés entre plusieurs ordinateurs et/ou zotero.org ? ===
+
+Il est très probable que, 1) vous regardiez au mauvais endroit, 2) le processus de synchronisation ne soit pas terminé, 3) vous ayez reçu une erreur de synchronisation sur l'un de vos ordinateurs, ou que 5) vous utilisiez plusieurs comptes Zotero.
+
+== 1) Vous regardez au mauvais endroit ==
+
+Dans les bibliothèques Zotero, tous les documents existants sont affichés soit à la racine de la bibliothèque, soit dans la corbeille. Assurez-vous que vous ne regardez pas dans une collection qui ne contient qu'une partie de vos documents. Si vous ne voyez pas le panneau gauche de Zotero, cliquez sur la barre située sur le bord gauche de la fenêtre pour l'afficher. Si vous ne voyez pas vos collections dans la liste, assurez-vous que le contenu de "Ma bibliothèque" est développé en cliquant sur la flèche ou le signe plus à côté de "Ma bibliothèque". Si vous ne voyez pas un groupe sur le site Zotero, assurez-vous que vous regardez dans l'onglet "Groupes" en haut de la page.
+
+== 2) Le processus de synchronisation n'est pas terminé ==
+
+Si vous êtes sûr de chercher au bon endroit, vérifiez si les données en question ont été [[:fr/sync|synchronisées]] vers votre bibliothèque en ligne sur [[/|zotero.org]].  Si vous ne voyez pas les données dans la bibliothèque en ligne, le problème se situe sur l'ordinateur d'où proviennent les données.  Vérifiez l'icône verte de synchronisation dans Zotero sur l'ordinateur concerné.  Si elle tourne toujours, le processus de synchronisation n'est pas encore terminé.  Passez la souris sur l'icône de synchronisation pour voir l'état actuel.
+
+== 3) Vous avez reçu une erreur de synchronisation ==
+
+Si vous voyez une icône d'erreur rouge à gauche de l'icône de synchronisation, cela signifie qu'une erreur s'est produite pendant la synchronisation. Cliquez sur cette icône pour afficher l'erreur. Elle peut vous donner suffisamment d'informations pour que vous puissiez résoudre le problème vous-même, ou vous pouvez le signaler et publier [[:fr/reporting_problems|l'identifiant de rapport]] sur les [[/forum|forums de Zotero]] pour obtenir une aide supplémentaire.
+
+== 4) La bibliothèque n'est pas paramétrée pour être synchronisée ==
+
+Dans le [[:fr/preferences/sync|volet "Synchronisation"]] des préférences de Zotero, cliquez sur "Choisir les bibliothèques..." et assurez-vous que la bibliothèque que vous essayez de synchroniser est cochée. Si ce n'est pas le cas, cliquez dans la colonne "Synchronisation" pour activer la synchronisation pour cette bibliothèque. Toutes les bibliothèques sont configurées pour être synchronisées par défaut.
+
+== 5) Vérifiez les détails de votre compte Zotero ==
+
+Vérifiez le [[:fr/preferences/sync|volet "Synchronisation"]] des préférences de Zotero pour vous assurer que vous utilisez le même compte que celui que vous utilisez pour vous connecter sur zotero.org, et ce sur chacun de vos ordinateurs. Si le problème concerne un groupe, assurez-vous que le compte est membre de ce groupe sur [[/groups|zotero.org]].
+
+== 6) Dépannage supplémentaire ==
+
+Si vous rencontrez toujours des difficultés, publiez un message sur les forums Zotero en indiquant un [[:fr/debug_output|Debug ID]] pour la première synchronisation lancée après une modification qui ne se synchronise pas (par exemple, une modification de la bibliothèque en ligne qui n'apparaît pas dans Zotero). Commencez l'enregistrement du journal de débogage avant d'effectuer la modification et continuez jusqu'à ce que la synchronisation soit terminée.
+
+
+
+{{tag>kb-fr sync-fr}}

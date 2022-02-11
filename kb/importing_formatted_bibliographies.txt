@@ -1,0 +1,35 @@
+===== J'ai des bibliographies dans des documents Microsoft Word, des PDF, et d'autres fichiers textes. Puis-je les importer dans ma bibliothèque Zotero ? =====
+
+==== Citations insérées à l'aide d'un logiciel de gestion bibliographique ====
+
+Pour les documents au format Microsoft Word ".docx" dans lesquels les citations ont été insérées sous la forme de champs Zotero ou Mendeley avec les modules de traitement de texte de ces logiciels, vous pouvez utiliser  [[http://rintze.zelle.me/ref-extractor/|Reference Extractor]] .
+
+Si les références sont encore dans un logiciel de gestion bibliographique, vous pouvez les exporter de ce logiciel vers un format de fichier permettant l'échange de métadonnées bibliographiques, comme RIS ou BibTeX, puis [[:fr/adding_items_to_zotero#importer_depuis_d_autres_outils|importer le fichier ainsi généré]] dans Zotero.
+
+==== Citations insérées en utilisant la fonctionnalité de citation intégrée à Microsoft worked ====
+
+Vous pouvez suivre les étapes suivantes pour formater la bibliographie en un fichier BibTeX, que Zotero peut importer.
+
+  - Téléchargez cette [[http://www.k-jahn.de/stuff/bibtex.xsl|feuille de style bibliographique Word]].
+  - Enregistrez la feuille de style dans le dossier des styles bibliographiques de Word :
+    - //Windows:// <code>C:\Program Files (x86)\Microsoft Office\<Office version>\Bibliography\Style</code>
+    - //Mac:// Allez dans le dossier des Applications. Faites un clic-droit sur Microsoft Word et choisissez "Show Package Contents". Naviguer jusqu'à: <code>Content/Resources/Style</code>
+  - Dans Word, modifiez votre style bibliographique en sélectionnant "BibTeX export" et copiez la bibliographie dans le presse-papiers.
+  - Utilisez la fonctionnalité de Zotero [[import_from_clipboard|Importer depuis le presse-papiers]].
+
+==== Citations et bibliographies en texte simple ====
+
+Si les références comportent un ISBN, un DOI, un PubMed ID ou un arXiv ID, vous pouvez utiliser la fonctionnalité de Zotero [[:fr/adding_items_to_zotero#ajouter_un_document_par_son_identifiant|Ajouter un document par son identifiant]] pour importer rapidement ces documents dans votre bibliothèque Zotero.
+
+Vous pouvez analyser les références bibliographiques en texte simple à l'aide de [[http://anystyle.io|AnyStyle]], un analyseur bibliographique en ligne écrit par un développeur de Zotero. Grâce à l'apprentissage automatique, cet analyseur peut améliorer les résultats qu'il produit. Exportez les citations analysées au format BibTeX ou CiteProc/JSON et importez-les dans Zotero. D'autres analyseurs de références bibliographiques en texte simple sont mentionnés ci-dessous.
+
+Sinon, votre meilleure option est de trouver les documents en ligne dans un dépôt ou une base bibliographique prise en charge par Zotero, ou, en dernier recours, de saisir manuellement les références.
+
+//Autres analyseurs de références bibliographiques en texte simple://
+
+  - [[https://doi.crossref.org/simpleTextQuery|Simple Text Query]]: Un outil de CrossRef qui tente de trouver les Digital Object Identifiers (DOI) des articles de revues, des livres ou des chapitres cités dans une bibliographie. Si des DOI sont trouvés, vous pouvez suivre les liens fournis vers les sites web des éditeurs et importer les documents correspondants dans Zotero.
+  - [[http://www.molspaces.com/d_cb2bib-overview.php|cb2Bib]]: Un outil qui prend les références bibliographiques mises en forme copiées dans le presse-papiers et tente de les analyser au format BibTeX, que Zotero peut importer.
+  - [[http://text2bib.economics.utoronto.ca/|text2bib]]: Un service Web du département d'économie de l'université de Toronto qui peut convertir les références bibliographiques d'un fichier texte au format BibTeX, que Zotero peut importer.
+  - [[http://freecite.library.brown.edu/welcome|FreeCite]]: Un outil open-source hébergé par l'université de Brown qui convertit des bibliographies mises en forme dans un format détectable par le connecteur Zotero de votre navigateur web. Importez les citations détectées en utilisant le bouton Zotero dans la barre d'outils de votre navigateur.
+
+{{tag>kb-fr entry-fr}}

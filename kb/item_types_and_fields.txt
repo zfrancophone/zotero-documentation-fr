@@ -1,0 +1,369 @@
+====== Les types de documents et les champs associés dans Zotero ======
+
+//Pour faciliter la mise à jour de la traduction et la mise en correspondance des termes en français avec les termes originaux en anglais, l'ordre des lignes dans les tableaux suit celui de la version originale en anglais de cette page.//
+
+Cette page décrit les types de documents Zotero et les champs associés. Ces informations peuvent être utiles pour ajouter manuellement des documents dans Zotero ou sur la manière de remplir les champs pour les types de documents moins communs.
+
+===== Types de documents =====
+
+Dans Zotero, les types de documents doivent être considérés comme des catégories larges et flexibles. Généralement, il convient de choisir le type de document d'après la manière dont ce document doit être référencé (voir la description des types de document Zotero ci-dessous). Pour des documents inhabituels, qui ne correspondent pas parfaitement à l'une des catégories prises en charge, on peut choisir un type de documents suffisamment proche, proposant un ensemble approprié de champs (''Livre'', ''Rapport'' ou ''Manuscrit'' peuvent notamment être utilisés de manière satisfaisante pour la plupart des types inhabituels de documents).
+
+Plus d'informations spécifiques sur un type de document (par exemple, un roman par opposition à un livre biographique) peuvent être indiquées dans les champs Type, Format ou Extra, ou en utilisant les [[:fr/collections_and_tags#marqueurs|marqueurs]].
+
+^ Type de document ^ Description ^
+| Illustration | Une œuvre d'art (p. ex. une peinture à l'huile, une photographie ou une sculpture). Utilisez également ce type de document pour d'autres types d'images ou de documents visuels (p. ex. un graphique ou une figure dans une publication scientifique). |
+| Enregistrement audio | Toute forme d'enregistrement audio, y compris de la musique, des paroles prononcées, des effets sonores, des archives sonores ou des données scientifiques audio. |
+| Projet/proposition de loi | Une législation projetée. |
+| Billet de blog | Un article ou un billet publié sur un site personnel de blog. Pour des articles en ligne publiés dans le cadre d'une publication en ligne de plus grande envergure (p. ex. [[http://www.nytimes.com/interactive/blogs/directory.html|les blogs du New York Times]]), les types de documents ''Article de magazine'' ou ''Article de journal'' permettent généralement d'obtenir de meilleurs résultats. |
+| Livre | Un livre ou un document semblable, publié. Pour les documents gouvernementaux, les rapports techniques, les manuels d'utilisation, etc., utilisez le type ''Rapport''. Le type ''Livre'' peut également être adapté pour référencer des documents inhabituels. |
+| Chapitre de livre | Une section d'un livre, tel que chapitres, avant-propos, préfaces, introductions, annexes, postfaces, etc. |
+| Affaire | Une affaire juridique (une cause, un procès), publiée ou non. |
+| Article de colloque | Un article présenté lors d'un colloque et publié par la suite dans des actes (sous la firme d'un livre, d'un rapport ou du numéro d'un journal). Pour les articles présentés lors d'un colloque mais qui n'ont pas été publiés par la suite, utilisez le type ''Présentation''. |
+| Article de dictionnaire | Un article publié comme partie d'un dictionnaire. |
+| Document | Un type générique de document. Ce type offre un choix restreint de champs et les styles de citation le prennent mal en charge. Il vaut généralement mieux éviter de s'en servir. |
+| Courriel | Un message envoyé par courrier électronique. Ce type de document peut aussi être utilisé pour d'autres formes de communication personnelle. |
+| Article d'encyclopédie | Un article ou un chapitre publié dans une encyclopédie. |
+| Film | Un film. Utilisez généralement ce type pour des films publiés, fictionnels, artistiques ou documentaires. Pour d'autres types de documents vidéos, utilisez ''Enregistrement vidéo''. |
+| Message de forum | Un message sur un forum de discussion en ligne. Utilisez également ce type pour des documents comme des messages Facebook ou des tweets. |
+| Audience | Une audience formelle ou un rapport de réunion d'un corps législatif. |
+| Message instantané | Un message envoyé par le biais d'une messagerie instantanée ou d'un service de chat. Ce type peut aussi être utilisé pour d'autres formes de communication personnelle. |
+| Interview | Un entretien avec une personne, y compris enregistré, transcrit ou dont une trace est conservé sous une autre forme.  |
+| Article de revue | Un article publié dans une revue académique (imprimée ou en ligne). |
+| Lettre | Une lettre envoyée entre des personnes ou des organisations. Ce type peut aussi être utilisé pour d'autres formes de communication personnelle. |
+| Article de magazine | Un article publié dans une revue non-académique, populaire, professionnelle ou spécialisée (imprimée ou en ligne). |
+| Manuscrit | Un manuscrit non publié. Utilisez ce type tant pour des documents historiques que pour des travaux modernes non publiés (par exemples des manuscrits soumis à un éditeur ou des "working papers" qui ne font pas l'objet d'une large diffusion). Ce type peut également être utilisé pour d'autres formes de documents historiques ou d'archives, ou être adapté pour référencer des documents inhabituels. |
+| Carte | Une carte. Utilisez également ce type pour des modèles géographiques. |
+| Article de journal | Un article publié dans un journal (presse quotidienne), imprimé ou en ligne. |
+| Brevet | Un brevet délivré pour une invention technique ou pour un design. |
+| Balado (Podcast) | Un épisode de [[https://fr.wikipedia.org/wiki/Podcasting|podcast]] (un programme audio ou vidéo diffusé en ligne, souvent sur abonnement). |
+| Présentation | Une présentation faite lors d'un colloque, congrès, symposium, conférence, etc. Ce type se réfère à la présentation elle-même, et non à la version écrite publiée dans les actes du colloque (pour de telles versions publiées, utilisez le type ''Article de colloque''). |
+| Émission de radio | Une émission de radio, comme une émission d'actualité ou un épisode d'une série radiophonique. Peut concerner aussi des émissions mises en ligne ou produites pour Internet (cf. ''Podcast''). |
+| Rapport | Un rapport publié par une organisation, une institution, un département gouvernement ou une entité similaire. Ce type peut être utilisé aussi pour les «working papers» et les «preprints» diffusés sur des dépôts institutionnels. Ce type peut servir aussi à référencer des documents inhabituels. |
+| Programme informatique | Un logiciel, une application ou tout autre programme informatique. |
+| Acte juridique | Une loi ou tout autre document à caractère législatif entré en vigueur.  |
+| Thèse | Une thèse ou mémoire présenté par un étudiant en vue de l'obtention d'un titre (Master, doctorat, etc), publié ou non. |
+| Émission de TV | Une émission télévisée, par exemple un épisode de série. |
+| Enregistrement vidéo | Un enregistrement vidéo. Ce type est destiné aux documents vidéo génériques qui ne correspondent pas à un des types plus spécifiques (p. ex. ''Film'' ou ''Émission de TV''). Il s'agit par exemple de vidéos YouTube ou de vidéos scientifiques. |
+| Page Web | Une page d'un site web. Si possible, il vaut mieux utiliser un des types plus spécifiques (p. ex. ''Article de magazine'', ''Billet de blog'' ou ''Rapport''). |
+|  |  |
+| Pièce jointe | Un fichier joint indépendant (p. ex. un fichier PDF, JPEG, DOCX, PPTX, XLSX ou ODT). Zotero offre des fonctionnalités limitées concernant ces fichiers indépendants (il n'est p. ex. pas possible de faire des recherches dans leur contenu). Il vaut mieux [[:fr/attaching_files#fichiers_enfants_et_fichiers_independants|rattacher les fichiers à de véritables documents Zotero]]. |
+| Note | Une note indépendante. Des notes peuvent être utilisées pour organiser et annoter dans Zotero. Si vous citez une note indépendante, Zotero en utilisera les 120 premiers signes comme titre (et considérera que la note n'a ni auteur ni date). Citer des notes n'est toutefois pas une manière fiable d'ajouter des commentaires à une bibliographie / liste de références. |
+
+Pour davantage de types de documents juridiques et historiques, se référer à  [[:kb/legal_citations|Legal Citations]].
+
+===== Champs associés dans Zotero =====
+
+Les champs disponibles pour divers types de documents dans Zotero sont décrits ci-dessous. Les champs sont organisés en catégories en fonction des types de documents auxquels ils sont le plus souvent associés. Certains champs (par exemple Volume, Collection) peuvent également être présents pour d'autres types de documents. Lorsque cela est nécessaire, les significations spécifiques d'un champ pour des types de documents déterminés sont indiquées.
+
+Les champs marqués d'un astérisque (*) ne peuvent pas être utilisés dans les citations.
+
+==== Champs généraux ====
+
+Les champs suivants existent pour plusieurs types de documents et ont la même destination pour tous (ou presque tous) les types de documents.
+
+^ Champ ^ Description ^
+| Type de documents | Le type de document général. Les types de document sont généralement déterminés sur la base de la façon dont ils devraient être cités. Reportez-vous aux descriptions des types de document de Zotero listés ci-dessus. Vous pouvez stocker plus d'informations spécifiques sur le type de document (p.ex. un roman par rapport à une biographie pour un livre) dans les champs Type de document, Format et Extra ou en utilisant les [[https://www.zotero.org/support/collections_and_tags#tags|marqueurs]]. |
+| Créateurs | Les personnes ou les institutions créant ou associées à la création de l’œuvre. Un document peut avoir plusieurs créateurs de différents types. Reportez-vous à la liste des créateurs ci-dessous. |
+| Titre | Le titre principal du document. Devrait être entré en [[https://www.zotero.org/support/fr/kb/sentence_casing|"sentence case" [sans capitale]]]. |
+| Résumé | Courte description de l’œuvre |
+| Date | Date de publication. Utilisez "Consultez le" pour la date de consultation des ressources électroniques. |
+| Titre abrégé | Forme courte du titre, souvent sans le sous-titre. Surtout utilisé dans les styles Note pour les citations d'une œuvre déjà citée. |
+| Langue | Langue de publication du document. Nous recommandons de la stocker selon le format [[https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-1|codes de langue ISO]] à deux lettres suivi du [[http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2|code du pays]] à 2 lettres (ex. en-US pour anglais américain ou de-DE pour l'allemand). Le champ Langue est utilisé pour déterminer si [[https://www.zotero.org/support/fr/kb/preventing_title_casing_for_non-english_titles|tous les mots du titre doivent commencer par une lettre capitale]]. Si les données du document stocké sont en anglais (p.ex. pour les titres traduits), entrez en-US ou en-UK, même si le contenu du document est dans une autre langue. |
+
+==== Champs pour les livres et les périodiques ====
+
+^ Champ ^ Description ^
+| Publication | Titre du périodique (revue, magazine,journal, etc.) contenant le document cité |
+| Titre du livre \\ Titre du dictionnaire \\ Titre de l'encyclopédie | Titre du livre, du dictionnaire, de l'encyclopédie dont le chapitre ou l'entrée a été publié |
+| Volume | Le volume (dans une publication en plusieurs volumes) dans lequel un article ou un chapitre a été publié. Pour les volumes numériques, entrez seulement le chiffre. Si le titre du volume doit être cité, insérez le titre dans ce champ (ex. "2: Organizational Psychology"). |
+| Numéro | Le numéro d'un périodique. En général, les numéros commencent à 1 au début de chaque année/volume. Si le périodique n'a qu'une numéro de volume, laissez ce champ vide. | 
+| Pages | Les numéros de pages du document dans une publication plus grande. Peut aussi être utilisé pour les localisateurs ou numéros d'article dans les journaux et livres électroniques. |
+| Édition | L'édition de l’œuvre. Si numérique, entrez simplement le chiffre arabe (p.ex. "2" au lieu "deuxième"). |
+| | |
+| Collection | Titre de la collection contenant plusieurs publications ou présentations (ex., "Cambridge Studies in Comparative Politics", "Special issue on Advances in Personality Assessment") |
+| N° ds la coll. | Numéro d'un document dans une collection |
+| Titre de la coll. | Titre d'une série d'article //au sein// d'un numéro d'une revue (ex. un dossier spécial ou "From the Cover"). "Titre de section" serait une dénomination plus appropriée. Voir [[https://dtd.nlm.nih.gov/publishing/tag-library/2.2/n-ihv0.html|ici]] pour de plus amples explications. Pour les citations, ce champ est équivalent à "Collection". Il est à tord utilisé à la place de "Collection" pour certains types de document (ex. Enregistrement audio, Carte). |
+| | |
+| Nb de Volumes | Nombre de volumes dans une œuvre collective |
+| Nb de Pages | Nombre de pages dans un livre |
+| Section | Section d'un journal |
+| Lieu | Lieu de publication d'un document |
+| Maison d'édition | Maison d'édition d'un document |
+| | |
+| Abrév. de revue | Titre abrégé d'une revue. Quand vous utilisez le module Zotero pour Word ou LibreOffice, Zotero peut automatiquement abréger les titres en utilisant la liste de MEDLINE. Utilisez ce champ pour entrer les abréviations basées sur d'autres systèmes ou générer des bibliographies hors d'un logiciel de traitemetn de texte. |
+| ISBN | [[https://fr.wikipedia.org/wiki/International_Standard_Book_Number|International Standard Book Number]] du livre ou d'une autre publication |
+| ISSN | [[https://fr.wikipedia.org/wiki/International_Standard_Serial_Number|International Standard Serial Number]] d'un périodique ou d'une publication en série |
+
+
+==== Champs relatifs à la date et au mode de consultation des documents ====
+^ Champ ^ Description ^
+| Consulté le | Date à laquelle une ressource électronique a été consultée. Généralement rempli automatiquement. Vous pouvez saisir "aujourd'hui", "hier" et "demain" pour entrer rapidement la date correspondante. |
+| DOI | Le [[https://fr.wikipedia.org/wiki/Digital_Object_Identifier|Digital Object Identifier]]  (littéralement « identifiant numérique d'objet ») d'un document. Pour les documents autres que les articles de revue, le DOI peut être stocké dans le champ Extra.  Voir [[#citer_des_champs_a_partir_du_champ_extra|Citer des champs à partir du champ Extra]] ci-dessous. |
+| URL | URL (adresse web) à laquelle le document complet a été consulté. N'utilisez pas ce champ pour des liens vers des notices de catalogue (par exemple, des bibliothèques ou Google Books) ou des résumés - ceux-là doivent plutôt être ajoutés en tant que liens. |
+| | |
+| Archive | Principalement pour les documents d'archives, l'archive dans laquelle un document a été trouvé. Également utilisé pour les dépôts, tels que les bases de données de rapports gouvernementaux, les dépôts institutionnels ou les dépôts thématiques. |
+| Loc. dans l'archive | L'emplacement d'un document dans une archive, tel qu'un numéro de boîte et de dossier ou d'autres informations pertinentes sur l'emplacement issues de l'instrument de recherche. Indiquez dans ce champ le numéro de sous-collection/la cote, le numéro de boîte et le numéro de dossier ensemble. Pour des conseils supplémentaires sur la citation de sources d'archives dans Zotero, voir [[https://web.archive.org/web/20150220133939/http://guides.library.harvard.edu/content.php?pid=535700&sid=4445138|la page "How to use Zotero for Archival Research" sur le site des bibliothèques d'Harvard (page en anglais)]].|
+| | |
+| Catalogue de bibl. | Le catalogue ou la base de données d'où un document a été importé. Ce champ est utilisé, par exemple, dans le style bibliographique MLA. Ce champ est utilisé plus largement que pour les seuls catalogues de bibliothèque. |
+| Cote | La cote d'un document dans une bibliothèque. Pour citer des sources d'archives incluez également la cote dans ''Loc. dans l'archive'' (si applicable). |
+
+
+==== Champs pour les rapports et les thèses ====
+
+^ Champ ^ Description ^
+|Type \\ Type de rapport | Le type de rapport (par exemple, "Rapport technique", "Dossier technique CPTO") ou de thèse (par exemple, "Thèse de doctorat", "Mémoire de maîtrise" ; le mot "thèse" ou "mémoire" doit être inclus si applicable). |
+| N° du rapport | Le numéro d'un rapport. N'incluez pas les mots "Nombre", "No.", "Nº", "№", ou équivalents ; ceux-ci seront ajoutés automatiquement par le style bibliographique. |
+| Institution \\ Université | L'institution qui publie un rapport ou l'université qui délivre le diplôme pour une thèse. |
+
+==== Champs pour les présentations et les conférences ====
+
+^ Champ ^ Description ^
+| Titre des actes | Le titre des actes de conférence dans lequel un article de conférence a été publié. |
+| Intitulé du colloque \\ Intitulé de la réunion | Le nom de la conférence ou de la réunion où un article ou une présentation a été présenté.|
+| Lieu | Pour les "présentations", le lieu où la réunion s'est tenue ou le lieu où la présentation a été faite. Pour les "Articles de colloque" (publiés dans des actes de conférence), utilisez ce champ pour le lieu de publication des actes. Si des lieux distincts sont nécessaires pour le lieu de publication et le lieu de la conférence, laissez ce champ vide et ajoutez les champs ''Event Place'' et ''Publisher Place'' dans le champ Extra (voir [[#citer_des_champs_a_partir_du_champ_extra|Citer des champs à partir du champ Extra]] ci-dessous).|
+| Type | Type ou format de la présentation (par exemple, "Poster", "Symposium", "Conférence invitée"). |
+
+
+==== Champs pour les enregistrements et les émissions ====
+
+^ Champ ^ Description ^
+| Format \\ Type de fichier | Le format d'un enregistrement audio ou vidéo (par exemple "DVD," "CD," "MP3," etc.). |
+| Durée | La durée de tout type d'enregistrement. Entrez avec l'unité (par exemple, 120 min). |
+| Titre du programme | Le titre d'une émission de radio ou de télévision dont un épisode fait partie (par exemple, "This American Life" ou "60 Minutes"). |
+| N° de l'épisode | Le numéro d'épisode d'un podcast ou d'une émission de télévision/radio. |
+| Réseau | Le réseau qui diffuse une émission de télévision ou de radio. |
+| Label | Le label d'enregistrement qui distribue un enregistrement audio sur un marché. |
+| Distributeur | L'organisation qui distribue un film sur un marché. |
+| Studio | Le studio qui produit un enregistrement vidéo. |
+| Genre| Le genre d'un film (par exemple, "horreur"). |
+
+==== Champs pour les images, les œuvres d'art et les cartes ====
+^ Champ ^ Description ^
+| Support de l'illustration | Le type d'œuvre ou de figure ou le support avec lequel elle a été créée (par exemple, "Peinture à l'aquarelle", "Sculpture sur bois", "Cristallographe à rayons X", "Nuage de points"). |
+| Taille d'illustration | Les dimensions de l’œuvre d'art ou de la figure. |
+| Échelle | L'échelle d'une carte ou d'un modèle. |
+| Type | Pour les cartes, description du type ou du genre spécifique de la carte. |
+
+==== Champs pour les sources primaires et les communications personnelles ====
+^ Champ ^ Description ^
+| Média | Pour les interviews, format dans lequel une interview a été enregistrée (par exemple, "Enregistrement audio", "Enregistrement vidéo", "Transcription"). |
+| Type | Pour les lettres, description du type ou de l'objet spécifique  de la lettre (par exemple, "Correspondance privée"). Pour les manuscrits,  description du type ou du statut du manuscrit (par exemple, "Manuscrit non publié", "Manuscrit soumis pour publication", "Working paper"). |
+| Sujet | Le titre d'un courriel. |
+
+==== Champs pour les sites web ====
+^ Champ ^ Description ^
+| Titre du site web \\ Titre du blog | Le titre du blog ou du site web contenant un article ou une page web spécifique. |
+| Titre du forum/listserv | Le forum ou le gestionnaire de liste de diffusion  sur lequel un message a été posté. |
+| Type de site web | Rarement utilisé. Décrit le genre d'une page web, comme "blog personnel" ou "intranet". |
+| Type d'article | Description du type spécifique de message de forum (par exemple, "Tweet" ou "commentaire Facebook"). |
+
+==== Champs pour les programmes informatiques ====
+^ Champ ^ Description ^
+| Version | La version d'un programme informatique. |
+| Système | Le système d'exploitation ou la plateforme pour laquelle un programme informatique est écrit. |
+| Société | L'organisation qui publie un programme informatique. |
+| Langage de programmation | Le langage de programmation dans lequel un programme informatique est écrit. |
+
+==== Champs supplémentaires ====
+^ Champ ^ Description ^
+| Autorisations* | Les conditions de copyright, la licence ou le statut de diffusion d'un document. |
+| Date d'ajout | La date et l'heure auxquelles un document a été ajouté à Zotero. Ce champ est complété automatiquement. |
+| Date de modification | La date et l'heure de la dernière modification d'un document dans Zotero. Ce champ est complété automatiquement. |
+| Extra | Champ libre pour le stockage d'informations supplémentaires. Vous pouvez également stocker des variables supplémentaires qui ne sont pas incluses dans les champs d'un document et qui peuvent être utilisées lors de la création de citations et de bibliographies. Voir [[#citer_des_champs_a_partir_du_champ_extra|Citer des champs à partir du champ Extra]] |
+
+
+==== Champs pour les documents juridiques ====
+
+Pour une prise en charge supplémentaire et plus flexible pour la citation des documents juridiques, voir [[:kb/legal_citations|Citations juridiques (page en anglais)]].
+
+== Lois et audiences ==
+^ Champ ^ Description ^
+| Nom de l'acte | Le titre complet d'une loi. |
+| N° de projet | Le numéro d'identification attribué à une proposition de loi. |
+| Code | Le nom du code dans lequel un projet de loi ou une loi est publié. |
+| Volume de code  | Le numéro de volume du code contenant un projet de loi ou une loi.|
+| N° de code | Le numéro d'identification attribué à un acte juridique dans le code dans lequel il est publié. |
+| N° officiel de l'acte | Le numéro d'identification attribué à un acte juridique promulgué. Voir [[https://www.loc.gov/law/help/statutes.php|cette page pour plus de détails concernant les statuts de législation aux Etats-Unis (page en anglais)]]. |
+| Promulgué le | La date à laquelle une loi a été promulguée. |
+| Section | La section d'un projet de loi ou d'une loi qui est cité.. |
+| Commission | La commission qui tient une audition. |
+| N° du document | Le numéro d'identification de document, attribué à la transcription ou au compte rendu publié d'une audience de commission. |
+| Pages | Les pages du volume de code contenant un projet de loi ou une loi. |
+| Corps législatif* | Le corps législatif (parlement, sénat, etc.) qui débat d'un projet de loi, tient une audience ou adopte une loi. |
+| Session | Session d'un corps législatif au cours de laquelle un projet de loi est présenté, une loi est adoptée ou une audience est tenue.  |
+| Histoire | Ressources liées à l'historique de la procédure d'un projet de loi ou d'une loi. |
+
+== Affaires ==
+^ Champ ^ Description ^
+| Histoire | Ressources liées à l'histoire procédurale d'une affaire judiciaire. |
+| Nom de l'affaire | Le titre d'une affaire judiciaire. |
+| Tribunal | Le tribunal où une affaire judiciaire a été plaidée. |
+| Date de décision | La date à laquelle une affaire judiciaire a été décidée. |
+| N° de requête | Le numéro de requête attribué à une affaire judiciaire à entendre. |
+| Recueil | Le recueil dans lequel une affaire judiciaire est publiée. |
+| Volume du recueil | Le numéro de volume du recueil dans lequel une affaire judiciaire est publiée. |
+| Première page | La première page du volume de recueil dans lequel figure une affaire. |
+
+
+== Brevets ==
+^ Champ ^ Description ^
+| Pays | Le pays qui délivre un brevet. |
+| Cessionnaire | L'entité à laquelle sont cédés les droits de propriété d'un brevet. |
+| Autorité émettrice | L'autorité ou le bureau qui examine la demande et délivre le brevet. |
+| N° de brevet | Le numéro d'identification attribué à un brevet. |
+| Date d'archivage | La date à laquelle une demande de brevet a été déposée. |
+| Date de parution | La date à laquelle un brevet est officiellement délivré. |
+| N° d'application | Le numéro d'identification attribué à une demande de brevet. |
+| Numéros de priorité | Le numéro de demande international d'un brevet, utilisé pour les revendications de droits de priorité. |
+| Références | Ressources liées à l'histoire d'un brevet. |
+| Statut légal | Le statut juridique d'un brevet ou d'une demande. |
+
+===== Créateurs des documents =====
+
+Les types de créateurs marqués d'un astérisque (*) ne peuvent pas être utilisés dans les citations.
+^Champ^Description^
+| Auteur | L'auteur ou le créateur principal d'une œuvre. Entrez les auteurs (et autres créateurs) dans l'ordre dans lequel ils doivent être cités.\\ Entrez le nom des personnes dans le mode à deux champs (Nom, Prénom). Entrez le nom des institutions ou des organisations dans le mode à un champ. |
+| Éditeur | L'éditeur d'un document ou de la publication plus large dont un document fait partie (par exemple, un livre, une revue). Si une distinction est faite entre l'éditeur textuel et le directeur de la publication, utilisez "Éditeur " pour l'éditeur textuel et entrez le directeur de la publication en tant que "Editorial Director" dans le champ "Extra". Voir [[#citer_des_champs_a_partir_du_champ_extra|Citer des champs à partir du champ Extra]] ci-dessous. |
+| Directeur de coll. | L'éditeur supervisant une série de documents. |
+| Traducteur | Le traducteur d'un document. Si une même personne est à la fois éditrice et traductrice d'une œuvre, indiquez son nom à la fois en tant qu'éditeur et en tant que traducteur dans des champs séparés.  |
+| Collaborateur* | Autres personnes ou entités associées à une œuvre qui ne doivent pas être incluses dans les citations (par exemple, les personnes figurant après "avec" sur la couverture d'un livre). Utilisé en tant qu'"auteur" pour les documents de type "Audience". |
+| Auteur recensé | Le nom de l'auteur de l’œuvre qui est recensée. |
+| | |
+| Artiste | Le créateur d'une œuvre d'art ou d'une figure. L'"auteur" pour les documents de type "Illustration". |
+| Interprète | La personne qui joue sur un enregistrement audio. L'"auteur" pour les documents de type "Enregistrement audio". |
+| Compositeur | Le compositeur de la musique dans un enregistrement audio. |
+| Paroles de* | La personne qui a écrit les paroles dans un enregistrement audio (par exemple, le parolier ou le rédacteur de discours).  |
+| Membre de la distribution* | Membre de la distribution d'une émission ou d'un spectacle. |
+| Metteur en scène | Le directeur d'une émission ou d'un enregistrement. L'"auteur" pour les documents de type "Film",  "Enregistrement vidéo", "Émission de radio" et "Émission de télévision". |
+| Producteur* | Un producteur pour un film, un enregistrement ou une émission. |
+| Scénariste* | La personne qui écrit le scénario d'un film ou d'une émission. |
+| Diffuseur | L'hébergeur d'un podcast. L'"auteur" des documents de type "Balado (Podcast)". |
+| Invité* | Un invité à un podcast, une émission de radio ou de télévision. |
+| Cartographe | Le principal créateur d'une carte. L'"auteur" des documents de type "Carte". |
+| | |
+| Programmeur | Le programmeur d'un programme informatique.  L'"auteur" des documents de type "Programme informatique". |
+| Présentateur | La personne qui fait une présentation.  L'"auteur" des documents de type "Présentation". |
+| Interviewé | La personne interrogée.  L'"auteur" des documents de type "Interview" |
+| Reporter | La personne qui pose des questions lors d'une interview. |
+| Commentateur* | Une personne qui commente un article de blog. |
+| Destinataire | La personne qui reçoit une lettre, un courriel ou un message. |
+| | |
+| Auteur | L'auteur principal d'un projet de loi ou d'un texte de loi. L'"auteur" pour les documents de type "Projet/proposition de loi" et "Acte juridique" . |
+| Co-parrain* | Co-parrains ou partisans d'un projet de loi ou d'un texte de loi. |
+| Conseiller* | L'avocat qui plaide une affaire judiciaire. |
+| Inventeur | Le créateur d'une invention. L'"auteur" pour les documents de type "Brevet". |
+| Mandataire/agent* | Le mandataire ou l'agent qui représente un inventeur lors du dépôt d'un brevet. |
+
+==== Intitulés des rôles pour les créateurs de médias ====
+
+Pour les citations de films, d'enregistrements et d'émissions, Zotero propose actuellement une prise en charge limitée au référencement des producteurs, des scénaristes et de certains autres rôles de créateurs.
+
+Pour référencer les réalisateurs, laissez le champ principal de Zotero vide (ou entrez les noms en tant que "Contributeur") et entrez le nom des réalisateurs en utilisant ''Director'' dans Extra. Voir [[#citer_des_champs_a_partir_du_champ_extra|Citer des champs à partir du champ Extra]] ci-dessous.
+
+Tous les rôles de créateur (réalisateur, producteur, scénariste, etc.) peuvent également être référencés en entrant le nom à l'aide du rôle "auteur" par défaut pour le document (//interprète// pour  un enregistrement audio, //diffuseur// pour une baladodiffusion, et // metteur en scène// pour un film, une émission de radio ou de télévision, et un enregistrement vidéo) et en ajoutant l'intitulé approprié entre parenthèses après le prénom ou le nom de famille des auteur, en fonction de votre style bibliographique , par exemple MacNaughton || Ian (Producteur) pour le style APA. Notez que les intitulés seront rendus mot pour mot dans les citations ; entrez des termes abrégés (par exemple, "Prod.") ici si nécessaire.
+
+Si le style utilise des initiales pour le prénom des auteurs plutôt que la forme complète des noms (par exemple le style APA), si l'intitulé contient plusieurs mots (par exemple, "Producteur exécutif" ou "Écrivain et réalisateur"), Zotero abrégera les mots de l'intitulé suivant le premier mot. Pour éviter cela, tapez un caractère "Word Joiner" (Unicode U+2060, affiché ici entre guillemets : "") de chaque côté de chaque espace de l'intitulé.
+
+Voir aussi [[/support/kb/media_creator_roles|Les rôles de créateur de médias (page en anglais)]].
+
+===== Types de documents et champs supplémentaires =====
+
+==== Types de documents citables non inclus dans Zotero ====
+
+Ces types de documents ne sont pas encore officiellement pris en charge dans Zotero. À des fins de citation, vous pouvez convertir un document d'un type différent en l'un de ces types en le saisissant dans le [[#citer_des_champs_a_partir_du_champ_extra|champ Extra]] au format suivant :
+
+<code>
+Type: Type CSL
+</code>
+
+Par exemple :
+
+<code>
+Type: dataset
+</code>
+
+
+^ Type de document ^ Type CSL ^ Description^
+| Jeu de données | ''dataset'' | Un jeu de données brut. |
+| Figure | ''figure'' | Une figure incluse dans un écrit scientifique ou académique. |
+| Partition musicale | ''musical_score'' | La partition écrite d'une œuvre musicale. |
+| Pamphlet | ''pamphlet'' | Un ouvrage publié de manière informelle. Généralement plus petit et moins technique qu'un rapport. |
+| Recension de livre | ''review-book'' | Une recension d'un livre. Saisissez-la en tant qu'article de revue, de magazine ou de journal, selon  son mode de publication, en indiquant un créateur de type "Auteur recensé". |
+| Traité | ''treaty'' | Un traité juridique entre deux nations.|
+
+
+==== Champs citables non inclus dans Zotero ====
+
+Ces champs ne sont pas encore officiellement pris en charge dans Zotero. À des fins de citation, vous pouvez ajouter un ou plusieurs de ces champs à un document Zotero en le(s) saisissant dans le [[#citer_des_champs_a_partir_du_champ_extra|champ Extra]] au format suivant :
+
+<code>
+Variable CSL: valeur
+</code>
+
+Par exemple :
+
+<code>
+PMID: 123456
+Statut: in press
+Date originale: 1886-04-01
+Director: Kubrick || Stanley
+</code>
+
+
+^ Champ ^ Variable CSL ^ Description
+| PMID | ''PMID'' | [[https://fr.wikipedia.org/wiki/PubMed|L'identifiant PubMed]]. |
+| PMCID | ''PMCID'' | [[https://fr.wikipedia.org/wiki/PubMed_Central#PMCID|L'identifiant PubMed Centra]]. |
+| Statut | ''status'' | Le statut de publication d'un document (par exemple, "à paraître", "sous presse", "publication en ligne anticipée"). |
+| Date de soumission | ''Submitted'' | La date à laquelle un document a été soumis pour publication. |
+| Titre recensé | ''Reviewed Title'' | Le titre d'une œuvre recensée. |
+| Numéro de chapiter | ''Chapter Number'' | Le numéro d'un chapitre à l'intérieur d'un livre. |
+| Lieu de l'archive | ''Archive Place'' | L' emplacement géographique d'une archive. |
+| Date de l'événement | ''Event Date'' | La date à laquelle un événement a eu lieu. A saisir au format ISO (année-mois-jour). |
+| Lieu de l'événement | ''Event Place'' | L' emplacement géographique d'un événement. |
+| Date originale | ''Original Date'' | La date originale à laquelle un document a été publié. A saisir au format ISO (année-mois-jour). |
+| Titre original | ''Original Title'' | Le titre original d'une œuvre (par exemple, le titre non traduit). |
+| Editeur original | ''Original Publisher'' | L'éditeur commercial de la version originale d'un document (par exemple, la version non traduite). |
+| Lieu de publication original | ''Original Publisher Place'' | L'emplacement géographique de l'éditeur commercial de la version originale d'un document (par exemple, la version non traduite). |
+| Auteur original | ''Original Author'' | Un type de créateur. Le créateur original d'une oeuvre. |
+|Metteur en scène | ''Director'' | Un type de créateur. Le réalisateur d'un film, d'un enregistrement ou d'une émission. Dans Zotero, "Metteur en scène" correspond à l'auteur en CSL. Si vous avez besoin de mentionner un intitulé pour les metteurs en scène —"(Dir.)", saisissez le nom du metteur en scène dans le champ Extra. |
+| Directeur de la publication | ''Editorial Director'' | Un type de créateur. En France, le [[https://fr.wikipedia.org/wiki/Directeur_de_la_publication|directeur de la publication]] désigne le responsable, y compris pénalement, du contenu d'une publication diffusée par voie de presse, d’audiovisuel, ou de communication numérique. |
+| Illustrateur | ''Illustrator'' | Un type de créateur. L'illustrateur d'une œuvre. |
+
+==== Citer des champs à partir du champ Extra ====
+
+Si un type de document Zotero manque de certains champs nécessaires pour les citations, il est possible d'ajouter ces champs dans le champ Extra.
+
+Saisissez chaque variable sur une ligne séparée en haut du champ Extra dans le format suivant :
+
+<code>
+Variable CSL: valeur
+</code>
+
+Par exemple:
+
+<code>
+DOI: 10.1128/AEM.02591-07
+Date originale: 1824
+PMCID: PMC3531190
+</code>
+
+À l'exception des variables pour le type de documents (CSL ''type'') et les dates (CSL ''issued'', etc.), les variables saisies dans le champ Extra ne remplaceront pas les valeurs correspondantes saisies dans les champs Zotero appropriés.
+
+=== Dates ===
+
+Les dates saisies dans le champ Extra remplaceront la date saisie dans le champ Date de Zotero. Les dates doivent être saisies au format ISO (année-mois-jour). Des plages de dates peuvent être saisies dans ce format :
+
+<code>
+Issued: 2001-12-15/2001-12-31
+</code>
+
+=== Noms ===
+
+Pour les variables de créateur, séparez les noms à deux champs (nom et prénom) saisis dans le champ Extra avec deux caractères de barre verticale ("||"), comme ceci :
+
+<code>
+Editorial Director: De Gaulle || Charles
+</code>
+
+
+{{tag>kb-fr entry-fr}}

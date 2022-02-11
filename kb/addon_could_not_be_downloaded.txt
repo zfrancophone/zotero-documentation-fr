@@ -1,0 +1,9 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+=== "Le module complémetaire n'a pas pu être téléchargé à cause de l'échec de connexion à www.zotero.org" ===
+
+See [[kb/addon_could_not_be_downloaded|English description]].

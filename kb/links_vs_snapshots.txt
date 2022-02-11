@@ -1,0 +1,13 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+===Quelle est la différence entre une capture et un lien vers la page d'un site web ?===
+
+Lorsque vous joignez un lien à un document, Zotero enregistre seulement le titre de la page web, son adresse URL et sa date d'accès: il vous faut retourner sur le site pour visionner le contenu de la page.
+
+Lorsque vous joignez une capture, Zotero enregistre une copie de la page comme elle existe à ce moment là et l'archive sur votre ordinateur. 
+
+{{tag>kb-fr basics-fr}}

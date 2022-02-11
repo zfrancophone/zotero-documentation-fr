@@ -1,0 +1,13 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+=== Comment voir dans quelles collections se trouve mon document ? ===
+
+Pour visualiser toutes les collections auxquelles un document appartient, appuyez sur la touche “Alt” sur Linux, “Option” sur les Macs ou “Ctrl”  sous Windows : les collections pertinentes seront alors surlignés.
+
+Pour voir également les sous-collections, dérouler toutes les collections en cliquant dans la colonne des collections (panneau de gauche) puis en pressant la touche "+" (plus). 
+
+{{tag>kb-fr organizing-fr}}

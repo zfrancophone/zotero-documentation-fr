@@ -1,0 +1,21 @@
+====== Zotero n'a pas la permission de contrôler Word =====
+
+A partir de macOS Mojave (10.14), Apple a mis en place de nouvelles mesures de sécurité lorsqu'un programme tente de contrôler un autre programme sur le système. Le module Word pour Mac de Zotero nécessite l'autorisation de Zotero.app pour pouvoir contrôler Word. Lorsque vous interagissez pour la première fois avec le module  Word de Zotero après la mise à jour vers MacOS Mojave, vous recevez un message vous demandant cette autorisation :
+
+{{:kb:terminal-wants-control-word.png?450|}}
+
+Si vous cliquez sur "Don't allow" (ou "Ne pas autoriser"), Zotero ne sera pas en mesure d'assurer la fonctionnalité du module Word et chaque tentative ultérieure d'utilisation du module déclenchera l'invite "Missing Permissions" (ou "Permissions manquantes"), jusqu'à ce que vous suiviez les étapes de l'invite.
+
+  - Ouvrez les Préférences système.
+  - Cliquez sur "Sécurité et confidentialité".
+  - Sélectionnez l'onglet "Vie privée".
+  - Trouvez et sélectionnez "Automatisation" sur la gauche.
+  - Cochez la case "Microsoft Word" sous "Zotero".
+  - Redémarrez Word.
+
+===== Word 2011 =====
+
+Si vous utilisez Word 2011, assurez-vous d'avoir mis à jour la dernière version, 14.7.7, pour assurer la compatibilité avec le nouveau système de permissions de Mojave.
+
+{{tag>kb-fr word_processors-fr}}
+

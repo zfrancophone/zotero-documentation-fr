@@ -1,0 +1,15 @@
+=== Pourquoi est-ce que je vois du code commençant par ADDIN ZOTERO_ITEM CSL_CITATION dans mon texte au lieu de citations mises en forme ? =====
+
+Par défaut, Zotero stocke les données bibliographiques utilisées pour les citations et la bibliographie dans des champs [[https://support.office.com/fr-fr/article/ins%C3%A9rer-modifier-et-afficher-des-champs-dans-word-c429bbb0-8669-48a7-bd24-bab6ba6b06bb|(Word)]] ou [[https://help.libreoffice.org/Writer/About_Fields/fr|(LibreOffice)]]. Dans ces champs, les données bibliographiques sont stockées de façon cachée derrière le texte mis en forme. 
+
+Si Word ou LibreOffice affiche les codes de champ au lieu du texte mis en forme, vous pouvez masquer les codes de champ en appuyant sur Alt+Option+F9 (ou Option+Fn+F9) dans Word ou Ctrl+F9 dans LibreOffice.
+
+Si vous les codes de champ s'affichent de manière répétée, vérifiez les paramètres de votre traitement de texte pour l'affichage des champs.
+
+  * Dans Word pour Windows, ouvrez Fichier -> Options Word -> Options avancées et décochez la case "Afficher les codes des champs au lieu de leurs valeurs" dans la rubrique "Affichage du contenu des documents". 
+  * Dans Word pour Mac, ouvrez Word -> Préférences -> Afficher et décochez la case "Codes des champs au lieu des valeurs" dans la zone "Afficher dans le document".
+  * Dans [[https://help.libreoffice.org/Writer/Field_Names/fr|LibreOffice]], ouvrez Outils -> Options -> LibreOffice Writer -> Affichage, et décochez la case "Noms des champs" dans la rubrique "Affichage".
+
+Lorsque vous utilisez le suivi des modifications, Word ou LibreOffice affichera parfois à la fois la versions modifiée et la version originale des codes de champs qui ont été modifiés. Si cela se produit, cliquez deux fois sur "Accepter" pour accepter rapidement les citations modifiées et masquer à nouveau les codes de champs. 
+
+{{tag>kb-fr word_processors-fr}}

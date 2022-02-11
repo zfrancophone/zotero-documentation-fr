@@ -1,0 +1,36 @@
+====== Options de réinitialisation de la synchronisation Zotero ======
+
+**Les opérations suivantes ne sont à utiliser que dans de rares et spécifiques situations et ne doivent pas être utilisées pour un dépannage général. Dans la plupart des cas, la réinitialisation ne fera que causer des problèmes supplémentaires. Si vous n'êtes pas sûr de ce que font ces options, veuillez demander de l'aide sur le [[/forum|forum Zotero]] avant de les utiliser. **
+
+**Avant d'avoir recours à l'une des options présentées sur cette page, assurez-vous en premier lieu de [[:zotero_data#sauvegarder_votre_bibliotheque_zotero|sauvegarder votre bibliotheque Zotero]].**
+
+===== Remplacer la bibliothèque en ligne =====
+
+"Remplacer la bibliothèque en ligne" vous permet d'écraser une bibliothèque Zotero en ligne avec les données de votre base de données Zotero locale. Cela peut être utile si vous avez apporté localement des modifications non souhaitées à une bibliothèque Zotero et que ces modifications ont déjà été synchronisées avec la bibliothèque en ligne, ou si des modifications ont été apportées sur un autre ordinateur et téléchargées vers la bibliothèque en ligne mais que ces modifications n'ont pas encore été synchronisées avec votre ordinateur actuel.
+
+Notez que "Remplacer la bibliothèque en ligne" n'est nécessaire que si vous souhaitez annuler des modifications déjà appliquées à la bibliothèque en ligne. Ce n'est pas nécessaire si vous avez simplement effectué des changements localement et que vous voulez synchroniser ces changements. Par exemple, si la bibliothèque en ligne est vide et que vous ajoutez de nombreux éléments localement, ces éléments seront automatiquement téléchargés - les éléments locaux ne seront pas supprimés simplement parce qu'ils n'existent pas dans la bibliothèque en ligne. De même, si vous supprimez de nombreux éléments localement, ces suppressions seront automatiquement synchronisées avec la bibliothèque en ligne sans que vous n'ayez à prendre aucune mesure particulière.
+
+
+==== Si la bibliothèque en ligne contient des modifications indésirables qui existent également dans votre base de données locale ====
+
+Désactivez temporairement la synchronisation automatique dans le volet "Synchronisation" des préférences de Zotero, restaurez vos données locales à partir de l'une de vos sauvegardes externes ou de l'une des sauvegardes automatiques du répertoire de données Zotero, puis utilisez "Remplacer la bibliothèque en ligne" pour télécharger cette version de votre bibliothèque. Voir [[:zotero_data#restaurer_votre_bibliotheque_zotero_a_partir_d_une_sauvegarde|Restaurer votre bibliothèque Zotero à partir d'une sauvegarde]] pour des instructions spécifiques à votre situation.
+
+
+==== Si la bibliothèque en ligne contient des modifications indésirables qui n'ont pas encore été synchronisées vers votre ordinateur actuel ====
+
+  - Si Zotero n'est pas encore ouvert et que vous voulez l'empêcher de se synchroniser, désactivez temporairement la connexion réseau de votre ordinateur (par exemple, en désactivant le wifi), ouvrez Zotero, puis assurez-vous que la synchronisation automatique est désactivée dans le volet "Synchronisation" des préférences deZotero.
+  - Faites une sauvegarde de votre [[:zotero_data|répertoire de données Zotero]].
+  - Assurez-vous que les autres ordinateurs sont entièrement synchronisés avec la bibliothèque en ligne. (Les données spécifiques synchronisées n'ont pas d'importance, car vous écraserez la bibliothèque en ligne avec la version locale, mais pour que la restauration s'applique aux autres ordinateurs sans conflits potentiels, ils doivent déjà être synchronisés. Il peut être judicieux de faire une sauvegarde du répertoire de données Zotero de chaque autre ordinateur avant d'effectuer la restauration.)
+  - Choisissez "Remplacer la bibliothèque en ligne" dans le volet "Synchronisation -> Réinitialisation" des préférences de Zotero. Assurez-vous de choisir la bonne bibliothèque dans le menu déroulant. Si vous devez écraser plus d'une bibliothèque en ligne, effectuez la restauration séparément pour chaque bibliothèque.
+
+Si la restauration a réussi, vous pouvez réactiver la synchronisation automatique. Conservez une sauvegarde de votre répertoire de données Zotero jusqu'à ce que tous les ordinateurs concernés aient eu la possibilité de synchroniser la version restaurée.
+
+
+===== Réinitialiser l'historique de synchronisation des fichiers =====
+
+Si les modifications apportées aux pièces jointes ne sont pas synchronisées (par exemple, modifications, annotations, suppression d'une pièce jointe, ajout d'une nouvelle pièce jointe), cette option réinitialisera l'historique de synchronisation entre votre base de données Zotero locale et votre service de stockage (soit les serveurs Zotero soit votre fournisseur WebDAV). Zotero comparera alors tous les fichiers joints de votre ordinateur local avec ceux de votre service de stockage, en apportant les modifications les plus récentes aux fichiers.
+
+La réinitialisation de l'historique de synchronisation des fichiers ne devrait pas être nécessaire, donc si vous constatez que les fichiers ne se synchronisent pas correctement, consultez la section [[Files Not Syncing | Pourquoi ai-je le message "Le fichier joint n'a pu être trouvé. Il peut avoir été effacé ou déplacé hors de Zotero." quand j'essaie d'ouvrir un fichier depuis un ordinateur synchronisé?]] pour obtenir de l'aide sur le dépannage et signaler le problème.
+
+
+{{tag>kb-fr sync-fr}}

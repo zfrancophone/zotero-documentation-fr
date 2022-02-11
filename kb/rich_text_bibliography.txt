@@ -1,0 +1,22 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+==== Comment puis-je mettre en forme certains mots d'un titre: par ex. en italique, en exposant ou en indice ? ====
+
+Pour utiliser ponctuellement la mise en forme enrichie, il faut ajouter manuellement les marqueurs suivants aux champs de votre bibliothèque Zotero:
+
+  * <nowiki><i></nowiki> et <nowiki></i></nowiki> pour //l'italique//
+  * <nowiki><b></nowiki> et <nowiki></b></nowiki> pour **le gras**
+  * <nowiki><sub></nowiki> et <nowiki></sub></nowiki> pour <sub>l'indice</sub>
+  * <nowiki><sup></nowiki> et <nowiki></sup></nowiki> pour <sup>l'exposant</sup>
+  * <nowiki><span style="font-variant:small-caps;"></nowiki> and <nowiki></span></nowiki> pour <html><span style="font-variant: small-caps;">les petites majuscules</span></html>
+
+Zotero remplacera automatiquement ces marqueurs par la bonne mise en forme, par exemple "<nowiki><i>Escherichia coli</i></nowiki> et les β-lactamases à spectre étendu" s'affichera dans vos notes et bibliographie ainsi: "//Escherichia coli// et les β-lactamases à spectre étendu".\\
+Autre exemple: "<nowiki>La fluidité de l'eau dans nos cellules : H<sub>2</sub>O, la molécule du vivant</nowiki>" s'affichera: "La fluidité de l'eau dans nos cellules : H<sub>2</sub>O, la molécule du vivant".
+
+Attention: si une mise en forme doit s'appliquer à l'intégralité du texte d'un champ (parce qu'une revue exige, par exemple, que les titres apparaissent en italiques), il faut alors modifier le style de citation CSL directement (consultez la [[fr/dev/citation_styles|documentation sur les styles CSL]] et les [[http://citationstyles.org/downloads/specification.html#formatting|options CSL de mise en forme des champs]]). Il serait peu efficace (et absurde) d'ajouter à tous vos champs le marqueur <nowiki><i></i></nowiki>!
+
+{{tag>kb-fr styles-fr}}

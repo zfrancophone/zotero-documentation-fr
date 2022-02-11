@@ -1,0 +1,21 @@
+===Comment puis-je transférer ma bibliothèque Zotero vers un autre ordinateur ?===
+
+==Option A: Copier le répertoire de données Zotero==
+
+La façon la plus fiable de transférer entièrement votre bibliothèque Zotero vers un autre ordinateur est de copier le [[fr/zotero_data| répertoire des données Zotero]] depuis votre premier ordinateur vers votre nouvel ordinateur.
+
+Pour localiser vos données Zotero, ouvrez les [[fr/preferences|préférences]] de Zotero et cliquez sur "Ouvrir le répertoire de données" dans l'onglet Avancées -> Fichiers et dossiers. Reportez-vous à [[fr/zotero_data#emplacements_par_defaut|la rubrique "Emplacements par défaut"]] pour connaître les emplacements par défaut du répertoire de données.
+
+Assurez-vous d'avoir fermé Zotero sur les deux ordinateurs avant de copier les fichiers Zotero.
+
+En plus de la méthode ci-dessus, vous pouvez aussi [[using_multiple_computers|utiliser une clé USB pour synchroniser vos données entre plusieurs ordinateurs]].
+
+==Option B: Activer la synchronisation Zotero==
+
+Vous pouvez également [[fr/sync|synchroniser]] automatiquement votre bibliothèque Zotero entre plusieurs ordinateurs via les serveurs Zotero.
+
+==Avertissement==
+
+Exporter et importer votre bibliothèque (par exemple via Zotero RDF) n'est pas une option recommandée. Aucun des formats d'export disponibles ne permet un transfert complet et sans perte des données de votre bibliothèque. De plus cela brisera les connexions existantes entre votre bibliothèque Zotero et vos fichiers de traitement de texte.
+
+{{tag>kb-fr}}

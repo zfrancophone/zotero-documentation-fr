@@ -1,0 +1,17 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+=== Pourquoi les titres ne s'affichent pas en "sentence case" [sans capitale] dans les bibliographies ? ===
+
+Certains styles de langue anglaise, comme APA, exigent que les titres soient en "//sentence case//" (par ex. "Oxidation and reduction of iron by acidophilic bacteria"). D'autres, comme le style Chicago Manual of Style, exigent qu'ils soient en "//title case//", c'est à dire que la lettre initiale de chaque mot significatif est en capitale (ex: "Oxidation and Reduction of Iron by Acidophilic Bacteria").
+
+La conversion vers la //title case// est beaucoup plus facile à automatiser que l'inverse, et cela est reflété dans les styles CSL que Zotero utilise. Par exemple, alors que le style Chicago Manual of Style convertit les titres en //title case//, le style APA n'essaie pas de forcer la conversion en //sentence case// et affiche les titres exactement comme ils apparaissent dans votre bibliothèque Zotero.
+
+Si vous trouvez qu'un titre est, de manière erronée, rendu en //title case//, assurez-vous qu'il est enregistré en //sentence case// dans votre bibliothèque Zotero.
+
+Voyez aussi cet article sur la manière d'[[preventing_title_casing_for_non-english_titles|éviter ou de forcer un titre à apparaître en "title case"]] en fonction de la langue.
+
+{{tag>kb-fr styles-fr}}

@@ -1,0 +1,29 @@
+
+=====Comment utiliser plusieurs profils Zotero?=====
+
+Zotero vous permet de créer plusieurs profils, chacun avec ses propres paramétrages et son propre [[:zotero_data|répertoire de données Zotero]]. Si vous êtes familier avec l'utilisation de plusieurs profils dans Firefox, Zotero fonctionne de la même manière et supporte les mêmes invites de commande.
+
+Un profil par défaut est créé au premier démarrage de Zotero. Pour créer un nouveau profil, il faut lancer Zotero de la ligne de commande et passer l'invite ''-P'' afin d'ouvrir le gestionnaire de profils. 
+
+==== macOS ====
+  * Ouvrez Terminal via Spotlight //ou// /Applications/Utilities.
+  * Collez ''/Applications/Zotero.app/Contents/MacOS/zotero -P'' dans la fenêtre Terminal.
+  * Appuyez sur Entrée.
+
+==== Windows ====
+  * Ouvrez la boîte de dialogue Exécuter : Recherche/Cortana → tapez “Exécuter” → Exécuter (Windows 10) //ou// Démarrer → Exécuter (Windows 7) //ou// raccourci clavier touche Windows (celle avec le logo en forme de drapeau) + R
+  * Collez ''C:\Program Files (x86)\Zotero\zotero.exe -P ''
+  * Appuyez sur Entrée.
+
+==== Linux ====
+    * Lancez Zotero de la ligne de commande, en ajoutant l'invite ''-P''.
+
+Si vous utilisez le répertoire de données Zotero par défaut ("Zotero" à l'intérieur de votre répertoire de base), le nouveau profil utilisera ce même répertoire de données à sa première ouverture. Vous verrez donc toutes les références de votre autre profil. Il faut créer un nouveau répertoire - par exemple "Zotero au travail" dans votre répertoire de base - puis, dans le nouveau profil, modifier l'emplacement du répertoire de données via les Préférences → Avancées → Fichiers et dossiers → Emplacement du répertoire de données > Personnalisé.
+
+
+Vous pouvez utiliser la ligne de commande pour ouvrir directement un profil en précisant son nom après le ''-p'' (par ex. : ''-p Travail'' où Travail est le nom du  profil), ce qui permet de créer des raccourcis ouvrant un profil en particulier. (Sur Mac, vous pouvez enregistrer [[https://superuser.com/a/116237|un AppleScript intégrant les invites de commandes]] en tant qu'application dans Script Editor).
+
+
+Notez enfin qu'une configuration complémentaire peut être requise pour ([[fr/kb/multiple_instances|utiliser plusieurs instances Zotero en même temps]]).
+
+{{tag>kb-fr}}

@@ -1,0 +1,37 @@
+====== Comment importer depuis BibTeX ou d'autres formats standards? ======
+
+
+Zotero peut importer les données bibliographiques de plusieurs formats de fichier, notamment RIS, Bib(La)Tex, et MODS.
+Si vos données se trouvent dans un fichier d'un de ces formats, par exemple une base BibTeX compilée pour un fichier RIS exporté d'un autre logiciel de gestion bibliographique, vous pouvez les importer dans Zotero en sélectionnant Ficher → “Importer…” puis choisir "Un fichier". 
+
+Voir aussi [[/support/fr/moving_to_zotero|Importer des références depuis d'autres logiciels de gestion bibliographique]].
+
+==== Formats pouvant être importés dans Zotero ====
+
+  * Zotero RDF
+  * CSL JSON
+  * BibTeX
+  * BibLaTeX
+  * RIS
+    * sa structure simple permet des modifications facile entre l'exportation et l'importation des données
+  * Bibliontology RDF
+  * MODS (Metadata Object Description Schema)
+  * Endnote XML
+    * Format à privilégier pour l'importation depuis Endnote
+  * Citavi XML 
+    * Format à privilégier pour l'importation depuis Citavi
+  * MAB2
+  * MARC
+  * MARCXML
+  * MEDLINE/nbib
+  * OVID Tagged
+  * PubMed XML
+  * RefWorks Tagged
+    * Format à privilégier pour l'importation depuis RefWorks
+  * Web of Science Tagged
+  * Refer/BibIX
+    * N'utiliser ce format qu'en dernier recours, si aucun autre format n'est disponible
+  * XML ContextObject
+  * Unqualified Dublin Core RDF
+
+{{tag>kb-fr entry-fr}}

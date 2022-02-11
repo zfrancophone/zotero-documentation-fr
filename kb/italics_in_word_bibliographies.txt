@@ -1,0 +1,15 @@
+======= Il manque l'italique (ou tout est en italique) dans des bibliographies générées avec Word =======
+
+En de rares occasions, vous constaterez que votre bibliographie Zotero dans Word ne comporte pas d'italique, alors que l'italique est requise pour les titres de livres dans le style de citation que vous avez choisi. Parfois, vous constaterez le contraire : toute la bibliographie est en italique.
+
+Vérifiez d'abord qu'il ne s'agit pas d'un problème lié au style bibliographique. La mise en forme correcte de la citation est affichée lorsque vous passez votre souris sur l'intitulé du style dans l'[[https://www.zotero.org/styles |entrepôt des styles Zotero]].
+
+Si l'affichage dans l'entrepôt des styles Zotero est correct, vous êtes très probablement confronté à un [[http://shaunakelly.com/word/styles/stylesoverridedirectformatting.html | problème connu avec Microsoft Word (page en anglais)]], qui modifie la mise en forme de l'ensemble de la bibliographie lorsque plus de la moitié de la première entrée de la bibliographie est en italique.
+
+===== Solution de contournement =====
+
+Insérez une référence "factice" qui apparaîtra au début de la bibliographie et qui contient peu de texte en italique (avec par exemple un titre de livre court). Pour les bibliographies classées par ordre alphabétique du premier auteur, par exemple, insérez une fausse référence ayant pour auteur Abu Aardvark. Vous supprimerez ensuite cette référence après avoir finalisé le document et converti les citations Zotero en texte simple (nous vous recommandons vivement de sauvegarder une copie du document avant de le faire).
+
+Malheureusement, pour les styles bibliographiques numériques, dans lesquels la bibliographie est triée par ordre d'apparition, l'insertion d'une fausse référence modifierait la numérotation de toutes les autres citations. Supprimer la fausse référence ferait alors commencer la numérotation de la bibliographie à partir de 2 plutôt que de 1. La meilleure solution que nous pouvons suggérer dans ce cas est de dupliquer la première référence dans votre bibliothèque Zotero (afin de conserver l'originale intacte), de réduire la longueur du champ en italique (par exemple, en supprimant une partie du titre du livre) et de réinsérer la version abrégée de la référence dans votre document au lieu de l'originale. La référence devra alors être corrigée manuellement dans le document après sa finalisation.
+
+{{tag>kb-fr styles-fr}}

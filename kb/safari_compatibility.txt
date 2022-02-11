@@ -1,0 +1,25 @@
+====== Connecteur Zotero et Safari 13 ======
+
+**Mise à jour, 28 novembre 2019 : Une version bêta du connecteur Zotero pour Safari 13 est [[https://forums.zotero.org/discussion/80255/available-for-beta-testing-zotero-connector-for-safari-13|maintenant disponible]].**
+
+Le connecteur Zotero pour Safari est actuellement indisponible pour téléchargement, et les installations existantes cesseront de fonctionner si vous passez à Safari 13 et/ou MacOS Catalina. Les installations existantes continueront à fonctionner dans Safari 12.
+
+Nous travaillons actuellement sur une nouvelle version du connecteur Zotero pour permettre aux utilisateurs de Safari de continuer avec ce navigateur. Nous espérons que cette nouvelle version sera disponible à l'automne 2019. Suivez [[https://twitter.com/zotero|@zotero sur Twitter]] pour les mises à jour.
+
+En attendant, nous vous suggérons d'enregistrer les documents via le connecteur Zotero pour Chrome ou Firefox, via la fonctionnalité [[:adding_items_to_zotero##ajouter_un_document_par_son_identifiant|Ajouter un document par son identifiant]] intégrée dans Zotero lui-même, ou via votre bibliothèque en ligne sur [[/save|zotero.org/save]].
+
+===== Informations complémentaires =====
+
+Dans Safari 13, Apple cesse de prendre en charge le type d'extension Safari d'origine, ce qui affecte le connecteur Zotero et de nombreuses autres extensions.
+
+Ces extensions Safari, qui fonctionnent de la même manière que les extensions pour Chrome et Firefox, sont progressivement supprimées en faveur des extensions Safari App Extensions, un type d'extension beaucoup plus limité qui doit être distribué dans une application Mac. Les anciennes extensions de Safari ne fonctionneront plus dans Safari 13.
+
+Nous travaillons sur une version Safari App Extension du connecteur Zotero. Malheureusement, malgré leurs fonctionnalités limitées, les extensions Safari App Extensions nécessitent un temps de développement important, qui n'est pas nécessaire pour les navigateurs utilisés par un bien plus grand nombre d'utilisateurs. Nous avons donc dû équilibrer ce développement avec d'autres demandes de développement.
+
+Pour une meilleure expérience Zotero, vous pouvez privilégier le connecteur Zotero pour Chrome ou Firefox. Chrome et Firefox fournissent de puissants cadres d'extension qui nous permettent d'offrir des fonctionnalités avancées telles que la détection automatique de proxy et l'import automatique RIS/BibTeX. Ces fonctionnalités n'étaient pas possibles dans Safari avant même qu'Apple ne restreigne encore plus ce que les extensions Safari peuvent faire.
+
+Notez que Zotero est, à notre connaissance, le seul outil de ce type qui a offert une extension dédiée pour Safari au lieu d'un applisignet beaucoup plus limité. Bien que Zotero offre également un [[/download/bookmarklet|applisignet]], la "prévention intelligente du suivi" dans les dernières versions de Safari peut empêcher cet applisignet de fonctionner correctement comme il le fait dans d'autres navigateurs, aussi l'applisignet ne peut-il pas constituer une alternative appropriée pour le moment.
+
+Consultez [[https://forums.zotero.org/discussion/72255/zotero-safari-extension-not-working-with-safari-12/p1|cette discussion du forum]] pour plus de détails sur cette question.
+
+{{tag>kb-fr basics-fr}}

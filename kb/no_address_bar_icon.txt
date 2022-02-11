@@ -1,0 +1,20 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+===Pourquoi l'icône Zotero n'apparait-elle pas dans la barre d'adresse lorsque je consulte certaines pages web ?===
+
+Zotero repère les informations bibliographiques sur les pages web à l'aide de convertisseurs (//translator//), et une icône Zotero apparaît ainsi seulement si l'un des convertisseurs installés reconnaît la page en question. Il existe des convertisseurs pour la plupart des catalogues de bibliothèques, des sites populaires et des nombreuses bases de données à accès limité.
+
+{{:address-bar-book-icon-in-google-chrome-circled.png?nolink&|}}
+
+
+Si un site n'est pas pris en charge ou un convertisseur ne fonctionne pas, vous pouvez tout de même [[:fr/Archive the Web|enregistrer la page web]], bien qu'il faille alors remplir manuellement les champs du document que Zotero n'a pas pu détecter automatiquement.
+
+Si vous ne voyez pas d'icône Zotero sur des pages de produit Amazon ou les articles du New York Times (pas les pages d'accueil), consultez la documentation relative aux [[:Troubleshooting Translator Issues|problèmes de convertisseur]] (en anglais).
+
+Si vous voyez cette icône sur les pages Amazon et du NY Times mais pas sur d'autres sites pris en charge, vous pouvez le signaler sur le forum Zotero. Assurez-vous de fournir l'adresse %%URL%% de la page non reconnue.
+
+{{tag>kb-fr entry-fr}}

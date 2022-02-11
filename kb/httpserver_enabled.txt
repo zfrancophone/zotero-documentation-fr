@@ -1,0 +1,19 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+===Comment puis-je utiliser les connecteurs Chrome ou Safari avec Zotero pour Firefox?===
+
+Les [[/support/standalone#zotero_connectors|connecteurs Zotero]] vous permettent d'enregistrer des documents dans Zotero depuis des navigateurs autres que Firefox, en utilisant les convertisseurs Zotero. Actuellement, Zotero doit être ouvert pour enregistrer les documents via les connecteurs.
+
+Vous pouvez toutefois utiliser les connecteurs Chrome et Safari sans installer Zotero Standalone et en conservant Zotero pour Firefox: les connecteurs Chrome et Safari peuvent lui envoyer des références à enregistrer.
+
+Pour cela, tapez ''about:config'' dans la barre d'adresse de Firefox et cherchez la chaîne "zotero.httpServer". Il suffit ensuite  de double-cliquer sur l'entrée ''extensions.zotero.httpServer.enabled'' et de redémarrer Firefox. 
+
+Ensuite, installez le connecteur dans l'autre navigateur (Chrome or Safari) et redémarrez le.Désormais, l'icône "Save to Zotero" s'affiche aussi dans ce navigateur, et en cliquant dessus le document sera enregistré dans votre bibliothèque Zotero dans Firefox.
+
+**Note: Cette configuration ne fonctionne pas en même temps que Zotero Standalone.** Ouvrir Zotero Standalone alors que Firefox est ouvert peut entraîner des erreurs inattendues.
+
+{{tag>kb-fr}}

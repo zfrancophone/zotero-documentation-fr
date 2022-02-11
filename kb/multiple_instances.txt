@@ -1,0 +1,9 @@
+====== Comment puis-je ouvrir plusieurs instances de Zotero? Comment puis-je enregistrer dans et citer depuis une instance spéficique ? ======
+
+Vous pouvez lancer plusieurs instances de Zotero en même temps tant qu'elles pointent vers  [[multiple profiles|des profils et des répertoires de données différents]]. Sous Windows, [[http://kb.mozillazine.org/Opening_a_new_instance_of_Firefox_with_another_profile| l'option -no-remote]] est également requise.
+
+Par défaut, lorsque vous exécutez plusieurs instances de Zotero (soit en utilisant plusieurs profils, soit en exécutant Zotero avec des comptes utilisateur distincts), le connecteur Zotero enregistre les éléments dans la première instance ouverte. Pour faire pointer une installation de connecteur Zotero spécifique vers un profil Zotero spécifique, vous pouvez paramétrer [[:hidden_prefs|l'option cachée]] ''extensions.zotero.httpServer.port''  dans Zotero et l'option ''connector.url'' dans le connecteur. Augmenter le numéro de port de 1 pour un couple (profil Zotero + installation de connecteur) est suffisant.
+
+Pour l'instant, il n'est pas possible de faire pointer les extensions de traitement de texte vers une instance spécifique de Zotero.
+
+{{tag>kb-fr}}

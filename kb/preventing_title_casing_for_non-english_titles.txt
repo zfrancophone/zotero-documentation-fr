@@ -1,0 +1,15 @@
+<html><p id="zotero-5-update-warning" style="color: red; font-weight: bold">We’re
+in the process of updating the documentation for
+<a href="https://www.zotero.org/blog/zotero-5-0">Zotero 5.0</a>. Some documentation
+may be outdated in the meantime. Thanks for your understanding.</p></html>
+
+
+=== Comment éviter que chaque mot des titres ne commencent par une lettre capitale ("Title Case") dans les bibliographies? ===
+
+Certains styles de citations, comme le Chicago Manual of Style, convertissent les titres en "//Title Case//", c'est à dire que chaque mot significatif du titre voit sa première lettre capitalisée. Cependant cette casse de titre est spécifique à l'anglais. Pour éviter que des titres non-anglais apparaissent ainsi, il suffit de remplir le champ "Langue" du document correspondant dans votre bibliothèque Zotero.
+
+Utilisez les codes de langue à deux lettres, par exemple "de" pour l'allemand, "fr" for le français, ou "ja" pour le japonais. Mieux encore, les codes à quatre lettres peuvent être utilisés: "fr-FR" pour le français parlé en France, "fr-CA" pour le français du Canada, "fr-CH" pour le français parlé en Suisse; "de-DE", "ja-JP", etc. Voyez https://github.com/citation-style-language/locales/wiki pour une liste partielle des codes de langue. Les documents en anglais peuvent être enregistrés comme tels en utilisant "en" ou en précisant "en-GB" (anglais britannique) ou "en-US" (anglais américain).
+
+Voyez aussi cet article sur les [[sentence_casing|bonnes pratiques en matière de casse]] dans Zotero.
+
+{{tag>kb-fr styles-fr}}
